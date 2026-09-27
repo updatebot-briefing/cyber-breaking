@@ -8,5 +8,21 @@
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/feed.xml" rel="self" type="application/rss+xml"/>
     <lastBuildDate>Tue, 01 Sep 2026 10:02:25 -0700</lastBuildDate>
-  </channel>
+<item>
+      <title>Citrix confirms actively exploited NetScaler RCE zero-days (CVE-2026-88771 / CVE-2026-88772)</title>
+      <link>https://support.citrix.com/external/article/CTX697096/netscaler-adc-and-netscaler-gateway-security-bulletin-for-cve-2026-88771-cve-2026-88772.html</link>
+      <guid isPermaLink="false">citrix-netscaler-cve-2026-88771-88772-20260927110732</guid>
+      <pubDate>Sun, 27 Sep 2026 11:07:32 -0700</pubDate>
+      <description><![CDATA[
+<p><b>Breaking:</b> Citrix confirmed two critical NetScaler ADC/Gateway remote code execution flaws were exploited as zero-days and released patches Sunday, Sep 27, 2026 (PT).</p>
+<ul>
+<li><b>CVE-2026-88771</b> (CVSS 9.5): unauthenticated command execution via improper input validation. <b>All</b> NetScaler ADC and Gateway deployments are affected, including default configuration — no extra features required.</li>
+<li><b>CVE-2026-88772</b> (CVSS 9.5): memory overflow leading to RCE or DoS when DTLS is enabled (DTLS is on by default for VPN virtual servers).</li>
+</ul>
+<p>Vendor: "Exploits of CVE-2026-88771 and CVE-2026-88772 on unmitigated NetScaler deployments have been observed." Dutch NCSC and partners privately warned orgs over the weekend to take appliances offline ahead of disclosure. August builds that fixed CVE-2026-19490 remain vulnerable.</p>
+<p><b>Patch now:</b> 14.1-73.37 / 13.1-64.23 (and matching FIPS/NDcPP builds). Updating does not remove an already-present attacker — check Citrix IoCs / forensics.</p>
+<p>Sources: <a href="https://support.citrix.com/external/article/CTX697096/netscaler-adc-and-netscaler-gateway-security-bulletin-for-cve-2026-88771-cve-2026-88772.html">Citrix CTX697096</a> · <a href="https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/">BleepingComputer</a></p>
+]]></description>
+    </item>
+</channel>
 </rss>
