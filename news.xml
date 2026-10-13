@@ -7,6 +7,48 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 13 Oct 2026 14:18:04 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 15:04:00 -0700</lastBuildDate>
+    <item>
+      <title>Critical Ghostscript flaw CVE-2026-39919 enables RCE via crafted PDF uploads</title>
+      <link>https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads/</link>
+      <guid isPermaLink="false">ghostscript-cve-2026-39919-20261013150400</guid>
+      <pubDate>Tue, 13 Oct 2026 15:04:00 -0700</pubDate>
+      <description><![CDATA[<p>Wordfence disclosed a critical heap buffer overflow in Ghostscript 9.21 through 10.07.1 that can lead to unauthenticated remote code execution when a server renders an attacker-supplied PDF, for example WordPress thumbnail generation via Imagick and ImageMagick. Researchers built proof-of-concept exploits, though success depended heavily on the environment and was not reliable on stock Linux packages. Artifex fixed it in Ghostscript 10.08.0 on September 8, with backports for older versions; no in-the-wild exploitation has been reported.</p><p>Source: <a href="https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads/">BleepingComputer</a></p>]]></description>
+    </item>
+    <item>
+      <title>Microsoft October 2026 Patch Tuesday: record 1,411 flaws, exploited Windows Shell zero-day</title>
+      <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/</link>
+      <guid isPermaLink="false">ms-patch-tuesday-2026-10-20261013150359</guid>
+      <pubDate>Tue, 13 Oct 2026 15:03:59 -0700</pubDate>
+      <description><![CDATA[<p>Microsoft's October 2026 Patch Tuesday fixes a record 1,411 vulnerabilities, including 70 rated Critical and 317 remote code execution bugs. The one actively exploited zero-day, CVE-2026-96951, is a Windows Shell command-injection flaw that bypasses Mark of the Web protections; CISA added it to KEV with an October 16 deadline. Two other zero-days were publicly disclosed, and Windows 11 24H2 Home and Pro reached end of support with this release.</p><p>Source: <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/">BleepingComputer</a></p>]]></description>
+    </item>
+    <item>
+      <title>GitLab patches CVSS 10.0 unauthenticated code execution flaw (CVE-2026-97229)</title>
+      <link>https://thehackernews.com/2026/10/gitlab-patches-cvss-100-flaw-that-could.html</link>
+      <guid isPermaLink="false">gitlab-cve-2026-97229-20261013150358</guid>
+      <pubDate>Tue, 13 Oct 2026 15:03:58 -0700</pubDate>
+      <description><![CDATA[<p>GitLab fixed a maximum-severity integer overflow in CE and EE that, under certain conditions, lets an unauthenticated user run arbitrary code on the server through a crafted regular expression in a CI/CD configuration. Affected versions are 19.2 before 19.2.8, 19.3 before 19.3.5 and 19.4 before 19.4.2. No exploitation has been reported yet, but last month's CVSS 10 GitLab bug drew in-the-wild probes within hours, so self-managed instances should patch quickly.</p><p>Source: <a href="https://thehackernews.com/2026/10/gitlab-patches-cvss-100-flaw-that-could.html">The Hacker News</a></p>]]></description>
+    </item>
+    <item>
+      <title>Docker Hub flaw let attackers push, pull or delete images as other users (CVE-2026-105445)</title>
+      <link>https://thehackernews.com/2026/10/docker-fixes-critical-two-year-old-hub.html</link>
+      <guid isPermaLink="false">docker-hub-cve-2026-105445-20261013150357</guid>
+      <pubDate>Tue, 13 Oct 2026 15:03:57 -0700</pubDate>
+      <description><![CDATA[<p>Docker disclosed a critical Docker Hub bug, open from August 2024 until September 30, 2026, where converting a personal account into an organization silently transferred its access tokens to whichever user was named owner. An attacker could use this to push, pull or delete images in another user's repositories, a real container supply-chain risk. Docker fixed it server-side and says it found no evidence of exploitation; CVSS 4.0 score is 9.4.</p><p>Source: <a href="https://thehackernews.com/2026/10/docker-fixes-critical-two-year-old-hub.html">The Hacker News</a></p>]]></description>
+    </item>
+    <item>
+      <title>Ivanti Connect Secure zero-day chain exploited for root; KEV add, one fix still pending</title>
+      <link>https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html</link>
+      <guid isPermaLink="false">ivanti-ics-cve-2026-104935-20261013150356</guid>
+      <pubDate>Tue, 13 Oct 2026 15:03:56 -0700</pubDate>
+      <description><![CDATA[<p>Volexity found attacker UTA0576 chaining three Ivanti Connect Secure zero-days since October 3 to run commands as root without logging in, even on a fully patched 22.8R2.4 appliance. Ivanti fixed the authentication bypass and RCE pair (CVE-2026-104935) on October 13 and reports limited exploitation; CISA added it to KEV with an October 16 deadline. The privilege-escalation fix is still weeks away, and Ivanti's Integrity Checker misses this in-memory chain, so forensic review is needed to confirm compromise.</p><p>Source: <a href="https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html">The Hacker News</a></p>]]></description>
+    </item>
+    <item>
+      <title>Attackers hijack Danfoss refrigeration controllers at hundreds of French supermarkets</title>
+      <link>https://thehackernews.com/2026/10/attackers-heat-french-supermarket.html</link>
+      <guid isPermaLink="false">danfoss-french-supermarkets-20261013150355</guid>
+      <pubDate>Tue, 13 Oct 2026 15:03:55 -0700</pubDate>
+      <description><![CDATA[<p>On the night of October 11, attackers took remote control of Danfoss AK-SM and AK-SC store refrigeration controllers and forced fridges and freezers into defrost, heating them to as much as 50°C and spoiling food at hundreds of Intermarché, Netto and other stores. CERT-FR reported numerous compromises and told operators to disconnect the controllers or tightly filter access. Danfoss says most affected units were older models it no longer updates; the attacker and entry method are not yet known.</p><p>Source: <a href="https://thehackernews.com/2026/10/attackers-heat-french-supermarket.html">The Hacker News</a></p>]]></description>
+    </item>
   </channel>
 </rss>
