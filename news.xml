@@ -7,7 +7,28 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 13 Oct 2026 15:04:00 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 16:13:44 -0700</lastBuildDate>
+    <item>
+      <title>Ahold Delhaize takes systems offline after cyberattack disrupting grocery brands</title>
+      <link>https://www.securityweek.com/cyberattack-prompts-ahold-delhaize-to-disconnect-systems/</link>
+      <guid isPermaLink="false">ahold-delhaize-cyberattack-20261013161344</guid>
+      <pubDate>Tue, 13 Oct 2026 16:13:44 -0700</pubDate>
+      <description>Dutch-Belgian grocery giant Ahold Delhaize disconnected some systems after detecting a security issue in its network. Local media report delivery and online-order disruption at Albert Heijn and Delhaize in Belgium and the Netherlands, and US stores appear affected too. The company says it has no evidence customer or employee data was stolen and is starting a controlled relaunch of systems. Source: https://www.securityweek.com/cyberattack-prompts-ahold-delhaize-to-disconnect-systems/</description>
+    </item>
+    <item>
+      <title>Meta notifies about 1,500 people after hackers accessed its GitHub repositories</title>
+      <link>https://www.securityweek.com/meta-says-hackers-took-code-personal-data-of-1500-in-github-breach/</link>
+      <guid isPermaLink="false">meta-github-breach-20261013161344</guid>
+      <pubDate>Tue, 13 Oct 2026 16:13:44 -0700</pubDate>
+      <description>An outside group used an employee&#x27;s stolen credentials to access some of Meta&#x27;s GitHub repositories, taking mostly product source code. About 1% of the stolen data was personal information, mostly of US employees, that had been committed to the repos against policy. Meta cut off access, brought in GitHub and law enforcement, and is offering credit and dark web monitoring. Source: https://www.securityweek.com/meta-says-hackers-took-code-personal-data-of-1500-in-github-breach/</description>
+    </item>
+    <item>
+      <title>SAP patches CVSS 10 OAuth2 SSRF in Cloud SDK for Python (CVE-2026-89111)</title>
+      <link>https://www.bleepingcomputer.com/news/security/sap-warns-of-maximum-severity-oauth2-ssrf-security-flaw/</link>
+      <guid isPermaLink="false">sap-cve-2026-89111-20261013161344</guid>
+      <pubDate>Tue, 13 Oct 2026 16:13:44 -0700</pubDate>
+      <description>SAP&#x27;s October 2026 updates fix 20 flaws, led by a maximum-severity SSRF in the Cloud SDK for Python used for BTP apps and AI agents. An unauthenticated attacker who controls the tenant_subdomain parameter can redirect OAuth2 token requests and steal client credentials in multi-tenant apps; an allowlist on tenant_subdomain is the interim mitigation. SAP also fixed critical NetWeaver Visual Composer (CVE-2026-89110) and MII (CVE-2026-89108) bugs. No exploitation reported. Source: https://www.bleepingcomputer.com/news/security/sap-warns-of-maximum-severity-oauth2-ssrf-security-flaw/</description>
+    </item>
     <item>
       <title>Critical Ghostscript flaw CVE-2026-39919 enables RCE via crafted PDF uploads</title>
       <link>https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads/</link>
