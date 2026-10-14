@@ -7,8 +7,22 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Wed, 14 Oct 2026 11:04:18 -0700</lastBuildDate>
-    <item>
+    <lastBuildDate>Wed, 14 Oct 2026 12:11:00 -0700</lastBuildDate>
+      <item>
+    <title>Hackers backdoor Nextcloud servers via Collabora Built-in CODE app (CVE-2026-110447)</title>
+    <link>https://thehackernews.com/2026/10/hackers-backdoor-nextcloud-servers.html</link>
+    <guid isPermaLink="false">nextcloud-collabora-cve-2026-110447-20261014121110</guid>
+    <pubDate>Wed, 14 Oct 2026 12:11:10 -0700</pubDate>
+    <description>Attackers exploited an unauthenticated OS command injection in Nextcloud's optional Collabora Online Built-in CODE Server app (richdocumentscode) before 26.4.303, planting PHP webshells (shx*.php) when the local CODE server was down. Collabora published CVE-2026-110447 on Oct 14 with evidence of in-the-wild exploitation since September; disabling the app is not enough—update to 26.4.303+ or remove it. Standalone Collabora Online and Docker/package CODE setups are not affected. Source: https://thehackernews.com/2026/10/hackers-backdoor-nextcloud-servers.html</description>
+  </item>
+  <item>
+    <title>ICS Patch Tuesday: Siemens 17 advisories; Rockwell ArmorBlock critical takeover flaw</title>
+    <link>https://www.securityweek.com/ics-patch-tuesday-siemens-issues-17-advisories-rockwell-fixes-armorblock-takeover-flaw/</link>
+    <guid isPermaLink="false">ics-patch-tuesday-siemens-rockwell-20261014121105</guid>
+    <pubDate>Wed, 14 Oct 2026 12:11:05 -0700</pubDate>
+    <description>Siemens issued 17 ICS advisories this Patch Tuesday, including critical issues in Simatic S7-1500 CPUs, Industrial Edge, and Ruggedcom Crossbow SAC. Rockwell fixed a critical unauthenticated ArmorBlock web-server password change that can lead to admin takeover, plus a DoS. Schneider published two high-severity advisories; CISA also posted ICS notes on Swann cameras and Inductive Automation Ignition. Source: https://www.securityweek.com/ics-patch-tuesday-siemens-issues-17-advisories-rockwell-fixes-armorblock-takeover-flaw/</description>
+  </item>
+<item>
       <title>Cisco patches second exploited Secure Email Gateway zero-day giving unauthenticated root (CVE-2026-76519)</title>
       <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-afw-zqYJkjxp</link>
       <guid isPermaLink="false">cisco-seg-amp-file-write-zero-day-20261014110418</guid>
