@@ -7,15 +7,36 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Wed, 14 Oct 2026 12:11:00 -0700</lastBuildDate>
-      <item>
+    <lastBuildDate>Wed, 14 Oct 2026 13:11:40 -0700</lastBuildDate>
+        <item>
+    <title>CISA adds Palo Alto PAN-OS authenticated management RCE to KEV (CVE-2026-0322)</title>
+    <link>https://security.paloaltonetworks.com/CVE-2026-0322</link>
+    <guid isPermaLink="false">pan-os-cve-2026-0322-kev-20261014131140</guid>
+    <pubDate>Wed, 14 Oct 2026 13:11:40 -0700</pubDate>
+    <description>CISA's KEV catalog moved to version 2026.10.14 (count 1745) and added CVE-2026-0322, a code-injection bug in the Palo Alto Networks PAN-OS management web UI that lets an authenticated attacker with network access run code as root on PA-Series, VM-Series, and Panorama. Palo Alto rates urgency Highest, says very limited exploitation has been seen, and lists IoCs 66.42.72.14, 208.83.239.114, and 149.248.47.234. Cloud NGFW and Prisma Access are not affected; patch to the listed fixed builds and keep management off the public internet. Sources: https://security.paloaltonetworks.com/CVE-2026-0322 ; https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json</description>
+  </item>
+<item>
+    <title>CISA adds AhsayCBS auth-bypass + unauth RCE chain to KEV (CVE-2026-105133 / CVE-2026-105134)</title>
+    <link>https://www.huntress.com/blog/ahsaycbs-flaws-exploit</link>
+    <guid isPermaLink="false">ahsaycbs-cve-2026-105133-105134-kev-20261014131135</guid>
+    <pubDate>Wed, 14 Oct 2026 13:11:35 -0700</pubDate>
+    <description>CISA added CVE-2026-105133 (improper authentication) and CVE-2026-105134 (command injection) in AhsayCBS backup consoles to KEV on Oct 14, with a federal due date of Oct 17. Huntress saw the chain exploited from Oct 7 for unauthenticated SYSTEM RCE, JSP webshells, and XMRig miners disguised as Edge across at least five organizations; Ahsay's earlier 10.3.4.0 / 9.15.2.59 builds did not fully fix it. Apply hotfixes 10.3.4.45 (v10) or 9.15.2.70 (v7–v9), reboot, and treat exposed management interfaces as compromised until verified. Sources: https://www.huntress.com/blog/ahsaycbs-flaws-exploit ; https://www.ahsay.com/en/company/announcements/patch-cve-105133-105134-update</description>
+  </item>
+<item>
+    <title>CISA adds Cisco Secure Email Gateway exploited zero-day CVE-2026-76519 to KEV</title>
+    <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-afw-zqYJkjxp</link>
+    <guid isPermaLink="false">cisco-seg-cve-2026-76519-kev-20261014131130</guid>
+    <pubDate>Wed, 14 Oct 2026 13:11:30 -0700</pubDate>
+    <description>Material update: CISA listed CVE-2026-76519 in KEV on Oct 14 (catalog 2026.10.14), with remediation due Oct 17 and forensic triage required. Cisco disclosed the CVSS 9.8 relative path traversal the same day as an actively exploited arbitrary file write via AMP File Reputation attachments on Secure Email Gateway; only gateways with File Reputation on and Content Scanner Tools older than 25.3.0.5525 are affected. Update Content Scanner Tools or move to AsyncOS 15.5.5-014 / 16.5.0-780 and hunt system_logs for compromise indicators. Sources: https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-afw-zqYJkjxp ; https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json</description>
+  </item>
+<item>
     <title>Hackers backdoor Nextcloud servers via Collabora Built-in CODE app (CVE-2026-110447)</title>
     <link>https://thehackernews.com/2026/10/hackers-backdoor-nextcloud-servers.html</link>
     <guid isPermaLink="false">nextcloud-collabora-cve-2026-110447-20261014121110</guid>
     <pubDate>Wed, 14 Oct 2026 12:11:10 -0700</pubDate>
     <description>Attackers exploited an unauthenticated OS command injection in Nextcloud's optional Collabora Online Built-in CODE Server app (richdocumentscode) before 26.4.303, planting PHP webshells (shx*.php) when the local CODE server was down. Collabora published CVE-2026-110447 on Oct 14 with evidence of in-the-wild exploitation since September; disabling the app is not enough—update to 26.4.303+ or remove it. Standalone Collabora Online and Docker/package CODE setups are not affected. Source: https://thehackernews.com/2026/10/hackers-backdoor-nextcloud-servers.html</description>
   </item>
-  <item>
+<item>
     <title>ICS Patch Tuesday: Siemens 17 advisories; Rockwell ArmorBlock critical takeover flaw</title>
     <link>https://www.securityweek.com/ics-patch-tuesday-siemens-issues-17-advisories-rockwell-fixes-armorblock-takeover-flaw/</link>
     <guid isPermaLink="false">ics-patch-tuesday-siemens-rockwell-20261014121105</guid>
@@ -29,117 +50,117 @@
       <pubDate>Wed, 14 Oct 2026 11:04:18 -0700</pubDate>
       <description>On Oct 14 Cisco disclosed CVE-2026-76519 (CVSS 9.8), an arbitrary file write in the AMP File Reputation feature of Secure Email Gateway. A crafted email attachment lets an unauthenticated remote attacker write files and run commands as root. Cisco says it learned of active exploitation this month. Only gateways with File Reputation enabled and Content Scanner Tools older than 25.3.0.5525 are affected, and there is no workaround. Update Content Scanner Tools or move to AsyncOS 15.5.5-014 or 16.5.0-780, then check system_logs for "System Security" compromise indicators. This is the second exploited SEG zero-day in a month, after CVE-2026-76461 in September. Sources: https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-afw-zqYJkjxp ; https://www.bleepingcomputer.com/news/security/</description>
     </item>
-    <item>
+<item>
       <title>CISA urges immediate Ivanti Connect Secure patching as exploit attempts spread (CVE-2026-104935)</title>
       <link>https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html</link>
       <guid isPermaLink="false">ivanti-ics-cisa-alert-exploit-attempts-20261014101829</guid>
       <pubDate>Wed, 14 Oct 2026 10:18:29 -0700</pubDate>
       <description>CISA put out an advisory telling all organizations, not just federal agencies, to update Ivanti Connect Secure right away and run network and memory forensics, because Ivanti's Integrity Checker may miss in-memory attacks. Previdian honeypots logged 105 exploit attempts from 50 IPs as of Oct 14. So far they're mostly tests for code execution, and watchTowr expects mass exploitation to follow. Shadowserver tracks about 5,600 internet-exposed ICS hosts. A fix for the third bug in the chain, the privilege escalation, is still pending. Sources: https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html ; https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-immediately-fix-ivanti-flaw-exploited-as-zero-day/</description>
     </item>
-    <item>
+<item>
       <title>Microsoft and Health-ISAC disrupt Chinese-language phishing kits behind 1B+ messages</title>
       <link>https://thehackernews.com/2026/10/microsoft-disrupts-3-phishing-kits.html</link>
       <guid isPermaLink="false">microsoft-disrupts-chinese-phishing-kits-20261014101828</guid>
       <pubDate>Wed, 14 Oct 2026 10:18:28 -0700</pubDate>
       <description>With a federal court order, Microsoft's Digital Crimes Unit, Health-ISAC, Japan's JC3 and partners including Cloudflare, Proofpoint and Resecurity seized domains behind the CoGUI, Haozi and Iron Man System phishing kits. The kits are tied to the YAM Store marketplace and initial access broker. Since January 2026 they have helped send more than a billion phishing emails and SMS messages to over 75,000 organizations in about 150 countries. Source: https://thehackernews.com/2026/10/microsoft-disrupts-3-phishing-kits.html</description>
     </item>
-    <item>
+<item>
       <title>US shuts down 40+ laptop farms and charges 14 in North Korean IT worker scheme</title>
       <link>https://thehackernews.com/2026/10/us-shuts-down-over-40-laptop-farms.html</link>
       <guid isPermaLink="false">doj-dprk-it-worker-laptop-farms-20261014101827</guid>
       <pubDate>Wed, 14 Oct 2026 10:18:27 -0700</pubDate>
       <description>The DOJ charged 14 people, a mix of US citizens and Chinese nationals, and seized about 187 computers in raids on more than 40 laptop farms. The farms let North Korean IT workers pose as US-based remote hires. The scheme reached more than 70 US companies and stole the identities of at least 25 Americans. Two Americans were arrested. Source: https://thehackernews.com/2026/10/us-shuts-down-over-40-laptop-farms.html</description>
     </item>
-    <item>
+<item>
       <title>curl 8.23.0 fixes High-severity HTTP/2 upload use-after-free with code-execution PoC (CVE-2026-92392)</title>
       <link>https://thehackernews.com/2026/10/curl-patches-http2-upload-flaw-after.html</link>
       <guid isPermaLink="false">curl-cve-2026-92392-20261014101826</guid>
       <pubDate>Wed, 14 Oct 2026 10:18:26 -0700</pubDate>
       <description>A use-after-free in curl/libcurl 8.12.0 through 8.22.0 lets a malicious HTTPS server that receives a roughly 135KB HTTP/2 upload corrupt client memory. The reporter's public PoC turns that into code execution. It's curl's first High-severity bug since October 2023, and Anthropic's OSS Scanner found it. curl says a real-world attack would most likely just cause a crash, and no exploitation is reported. Upgrade to 8.23.0 or a fixed branch release (8.14.3, 8.16.2, 8.20.2), or force HTTP/1.1 until you can. Source: https://thehackernews.com/2026/10/curl-patches-http2-upload-flaw-after.html</description>
     </item>
-    <item>
+<item>
       <title>Fortinet fixes critical unauthenticated RCE and auth bypass in FortiSIEM and FortiSandbox</title>
       <link>https://www.securityweek.com/citrix-fortinet-ivanti-patch-29-vulnerabilities-across-their-products/</link>
       <guid isPermaLink="false">fortinet-fortisiem-fortisandbox-critical-20261014101825</guid>
       <pubDate>Wed, 14 Oct 2026 10:18:25 -0700</pubDate>
       <description>Fortinet's October advisories fix 13 bugs. Two are critical: an unauthenticated code execution flaw (CVE-2026-106173) and an authentication bypass (CVE-2026-107656) in FortiSIEM and the FortiSandbox GUI. There are also five high-severity authenticated SQL or command injection bugs across FortiAnalyzer, FortiManager and FortiMail. The same Patch Tuesday round includes Citrix XenServer/Workspace fixes and critical Ivanti Neurons Patch for Intune and Xtraction bugs. No exploitation is mentioned. Source: https://www.securityweek.com/citrix-fortinet-ivanti-patch-29-vulnerabilities-across-their-products/</description>
     </item>
-    <item>
+<item>
       <title>Vghost Linux kernel vhost flaw gives local root and VM-to-host escape (CVE-2026-74580)</title>
       <link>https://thehackernews.com/2026/10/ai-found-linux-kernel-flaw-gives-local.html</link>
       <guid isPermaLink="false">linux-vghost-cve-2026-74580-20261014101824</guid>
       <pubDate>Wed, 14 Oct 2026 10:18:24 -0700</pubDate>
       <description>Tencent Zhuque Lab published working demos of CVE-2026-74580 (Vghost), a vhost subsystem bug present across nearly a decade of Linux kernels. It gives an unprivileged local user reliable kernel read/write and root, and in one virtualization setup it lets an untrusted guest VM write to host memory and hijack the VM process. A fix went upstream on Aug 3, and there's no public sign of exploitation. Check that hosts exposing /dev/vhost-net or /dev/vhost-vsock run patched kernels. Source: https://thehackernews.com/2026/10/ai-found-linux-kernel-flaw-gives-local.html</description>
     </item>
-    <item>
+<item>
       <title>Ledger signers sold via CryptoBilis reseller carried hardware implant tied to $86M crypto theft</title>
       <link>https://www.securityweek.com/86-million-crypto-heist-linked-to-ledger-signer-hardware-implant/</link>
       <guid isPermaLink="false">ledger-signer-hardware-implant-20261013170921</guid>
       <pubDate>Tue, 13 Oct 2026 17:09:21 -0700</pubDate>
       <description>Ledger confirmed on Oct 13 that all confirmed fund losses in its recent theft incident involved signers sold through Southeast Asia reseller CryptoBilis. Someone in the distribution chain soldered a small implant inside the devices that reads the 24-word recovery phrase off the screen during setup and sends it out over LTE using an eSIM. On-chain investigator Specter puts losses above $86 million, though Ledger hasn't confirmed a total, and it advises buyers from that reseller in the last 90 days to move funds to a new signer with a new seed. Source: https://www.securityweek.com/86-million-crypto-heist-linked-to-ledger-signer-hardware-implant/</description>
     </item>
-    <item>
+<item>
       <title>Ahold Delhaize takes systems offline after cyberattack disrupting grocery brands</title>
       <link>https://www.securityweek.com/cyberattack-prompts-ahold-delhaize-to-disconnect-systems/</link>
       <guid isPermaLink="false">ahold-delhaize-cyberattack-20261013161344</guid>
       <pubDate>Tue, 13 Oct 2026 16:13:44 -0700</pubDate>
       <description>Dutch-Belgian grocery giant Ahold Delhaize disconnected some systems after detecting a security issue in its network. Local media report delivery and online-order disruption at Albert Heijn and Delhaize in Belgium and the Netherlands, and US stores appear affected too. The company says it has no evidence customer or employee data was stolen and is starting a controlled relaunch of systems. Source: https://www.securityweek.com/cyberattack-prompts-ahold-delhaize-to-disconnect-systems/</description>
     </item>
-    <item>
+<item>
       <title>Meta notifies about 1,500 people after hackers accessed its GitHub repositories</title>
       <link>https://www.securityweek.com/meta-says-hackers-took-code-personal-data-of-1500-in-github-breach/</link>
       <guid isPermaLink="false">meta-github-breach-20261013161344</guid>
       <pubDate>Tue, 13 Oct 2026 16:13:44 -0700</pubDate>
       <description>An outside group used an employee&#x27;s stolen credentials to access some of Meta&#x27;s GitHub repositories, taking mostly product source code. About 1% of the stolen data was personal information, mostly of US employees, that had been committed to the repos against policy. Meta cut off access, brought in GitHub and law enforcement, and is offering credit and dark web monitoring. Source: https://www.securityweek.com/meta-says-hackers-took-code-personal-data-of-1500-in-github-breach/</description>
     </item>
-    <item>
+<item>
       <title>SAP patches CVSS 10 OAuth2 SSRF in Cloud SDK for Python (CVE-2026-89111)</title>
       <link>https://www.bleepingcomputer.com/news/security/sap-warns-of-maximum-severity-oauth2-ssrf-security-flaw/</link>
       <guid isPermaLink="false">sap-cve-2026-89111-20261013161344</guid>
       <pubDate>Tue, 13 Oct 2026 16:13:44 -0700</pubDate>
       <description>SAP&#x27;s October 2026 updates fix 20 flaws, led by a maximum-severity SSRF in the Cloud SDK for Python used for BTP apps and AI agents. An unauthenticated attacker who controls the tenant_subdomain parameter can redirect OAuth2 token requests and steal client credentials in multi-tenant apps; an allowlist on tenant_subdomain is the interim mitigation. SAP also fixed critical NetWeaver Visual Composer (CVE-2026-89110) and MII (CVE-2026-89108) bugs. No exploitation reported. Source: https://www.bleepingcomputer.com/news/security/sap-warns-of-maximum-severity-oauth2-ssrf-security-flaw/</description>
     </item>
-    <item>
+<item>
       <title>Critical Ghostscript flaw CVE-2026-39919 enables RCE via crafted PDF uploads</title>
       <link>https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads/</link>
       <guid isPermaLink="false">ghostscript-cve-2026-39919-20261013150400</guid>
       <pubDate>Tue, 13 Oct 2026 15:04:00 -0700</pubDate>
       <description><![CDATA[<p>Wordfence disclosed a critical heap buffer overflow in Ghostscript 9.21 through 10.07.1 that can lead to unauthenticated remote code execution when a server renders an attacker-supplied PDF, for example WordPress thumbnail generation via Imagick and ImageMagick. Researchers built proof-of-concept exploits, though success depended heavily on the environment and was not reliable on stock Linux packages. Artifex fixed it in Ghostscript 10.08.0 on September 8, with backports for older versions; no in-the-wild exploitation has been reported.</p><p>Source: <a href="https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads/">BleepingComputer</a></p>]]></description>
     </item>
-    <item>
+<item>
       <title>Microsoft October 2026 Patch Tuesday: record 1,411 flaws, exploited Windows Shell zero-day</title>
       <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/</link>
       <guid isPermaLink="false">ms-patch-tuesday-2026-10-20261013150359</guid>
       <pubDate>Tue, 13 Oct 2026 15:03:59 -0700</pubDate>
       <description><![CDATA[<p>Microsoft's October 2026 Patch Tuesday fixes a record 1,411 vulnerabilities, including 70 rated Critical and 317 remote code execution bugs. The one actively exploited zero-day, CVE-2026-96951, is a Windows Shell command-injection flaw that bypasses Mark of the Web protections; CISA added it to KEV with an October 16 deadline. Two other zero-days were publicly disclosed, and Windows 11 24H2 Home and Pro reached end of support with this release.</p><p>Source: <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/">BleepingComputer</a></p>]]></description>
     </item>
-    <item>
+<item>
       <title>GitLab patches CVSS 10.0 unauthenticated code execution flaw (CVE-2026-97229)</title>
       <link>https://thehackernews.com/2026/10/gitlab-patches-cvss-100-flaw-that-could.html</link>
       <guid isPermaLink="false">gitlab-cve-2026-97229-20261013150358</guid>
       <pubDate>Tue, 13 Oct 2026 15:03:58 -0700</pubDate>
       <description><![CDATA[<p>GitLab fixed a maximum-severity integer overflow in CE and EE that, under certain conditions, lets an unauthenticated user run arbitrary code on the server through a crafted regular expression in a CI/CD configuration. Affected versions are 19.2 before 19.2.8, 19.3 before 19.3.5 and 19.4 before 19.4.2. No exploitation has been reported yet, but last month's CVSS 10 GitLab bug drew in-the-wild probes within hours, so self-managed instances should patch quickly.</p><p>Source: <a href="https://thehackernews.com/2026/10/gitlab-patches-cvss-100-flaw-that-could.html">The Hacker News</a></p>]]></description>
     </item>
-    <item>
+<item>
       <title>Docker Hub flaw let attackers push, pull or delete images as other users (CVE-2026-105445)</title>
       <link>https://thehackernews.com/2026/10/docker-fixes-critical-two-year-old-hub.html</link>
       <guid isPermaLink="false">docker-hub-cve-2026-105445-20261013150357</guid>
       <pubDate>Tue, 13 Oct 2026 15:03:57 -0700</pubDate>
       <description><![CDATA[<p>Docker disclosed a critical Docker Hub bug, open from August 2024 until September 30, 2026, where converting a personal account into an organization silently transferred its access tokens to whichever user was named owner. An attacker could use this to push, pull or delete images in another user's repositories, a real container supply-chain risk. Docker fixed it server-side and says it found no evidence of exploitation; CVSS 4.0 score is 9.4.</p><p>Source: <a href="https://thehackernews.com/2026/10/docker-fixes-critical-two-year-old-hub.html">The Hacker News</a></p>]]></description>
     </item>
-    <item>
+<item>
       <title>Ivanti Connect Secure zero-day chain exploited for root; KEV add, one fix still pending</title>
       <link>https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html</link>
       <guid isPermaLink="false">ivanti-ics-cve-2026-104935-20261013150356</guid>
       <pubDate>Tue, 13 Oct 2026 15:03:56 -0700</pubDate>
       <description><![CDATA[<p>Volexity found attacker UTA0576 chaining three Ivanti Connect Secure zero-days since October 3 to run commands as root without logging in, even on a fully patched 22.8R2.4 appliance. Ivanti fixed the authentication bypass and RCE pair (CVE-2026-104935) on October 13 and reports limited exploitation; CISA added it to KEV with an October 16 deadline. The privilege-escalation fix is still weeks away, and Ivanti's Integrity Checker misses this in-memory chain, so forensic review is needed to confirm compromise.</p><p>Source: <a href="https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html">The Hacker News</a></p>]]></description>
     </item>
-    <item>
+<item>
       <title>Attackers hijack Danfoss refrigeration controllers at hundreds of French supermarkets</title>
       <link>https://thehackernews.com/2026/10/attackers-heat-french-supermarket.html</link>
       <guid isPermaLink="false">danfoss-french-supermarkets-20261013150355</guid>
       <pubDate>Tue, 13 Oct 2026 15:03:55 -0700</pubDate>
       <description><![CDATA[<p>On the night of October 11, attackers took remote control of Danfoss AK-SM and AK-SC store refrigeration controllers and forced fridges and freezers into defrost, heating them to as much as 50°C and spoiling food at hundreds of Intermarché, Netto and other stores. CERT-FR reported numerous compromises and told operators to disconnect the controllers or tightly filter access. Danfoss says most affected units were older models it no longer updates; the attacker and entry method are not yet known.</p><p>Source: <a href="https://thehackernews.com/2026/10/attackers-heat-french-supermarket.html">The Hacker News</a></p>]]></description>
     </item>
-  </channel>
+</channel>
 </rss>
