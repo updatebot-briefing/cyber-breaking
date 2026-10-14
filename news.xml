@@ -7,7 +7,49 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 13 Oct 2026 17:09:21 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 10:18:29 -0700</lastBuildDate>
+    <item>
+      <title>CISA urges immediate Ivanti Connect Secure patching as exploit attempts spread (CVE-2026-104935)</title>
+      <link>https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html</link>
+      <guid isPermaLink="false">ivanti-ics-cisa-alert-exploit-attempts-20261014101829</guid>
+      <pubDate>Wed, 14 Oct 2026 10:18:29 -0700</pubDate>
+      <description>CISA put out an advisory telling all organizations, not just federal agencies, to update Ivanti Connect Secure right away and run network and memory forensics, because Ivanti's Integrity Checker may miss in-memory attacks. Previdian honeypots logged 105 exploit attempts from 50 IPs as of Oct 14. So far they're mostly tests for code execution, and watchTowr expects mass exploitation to follow. Shadowserver tracks about 5,600 internet-exposed ICS hosts. A fix for the third bug in the chain, the privilege escalation, is still pending. Sources: https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html ; https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-immediately-fix-ivanti-flaw-exploited-as-zero-day/</description>
+    </item>
+    <item>
+      <title>Microsoft and Health-ISAC disrupt Chinese-language phishing kits behind 1B+ messages</title>
+      <link>https://thehackernews.com/2026/10/microsoft-disrupts-3-phishing-kits.html</link>
+      <guid isPermaLink="false">microsoft-disrupts-chinese-phishing-kits-20261014101828</guid>
+      <pubDate>Wed, 14 Oct 2026 10:18:28 -0700</pubDate>
+      <description>With a federal court order, Microsoft's Digital Crimes Unit, Health-ISAC, Japan's JC3 and partners including Cloudflare, Proofpoint and Resecurity seized domains behind the CoGUI, Haozi and Iron Man System phishing kits. The kits are tied to the YAM Store marketplace and initial access broker. Since January 2026 they have helped send more than a billion phishing emails and SMS messages to over 75,000 organizations in about 150 countries. Source: https://thehackernews.com/2026/10/microsoft-disrupts-3-phishing-kits.html</description>
+    </item>
+    <item>
+      <title>US shuts down 40+ laptop farms and charges 14 in North Korean IT worker scheme</title>
+      <link>https://thehackernews.com/2026/10/us-shuts-down-over-40-laptop-farms.html</link>
+      <guid isPermaLink="false">doj-dprk-it-worker-laptop-farms-20261014101827</guid>
+      <pubDate>Wed, 14 Oct 2026 10:18:27 -0700</pubDate>
+      <description>The DOJ charged 14 people, a mix of US citizens and Chinese nationals, and seized about 187 computers in raids on more than 40 laptop farms. The farms let North Korean IT workers pose as US-based remote hires. The scheme reached more than 70 US companies and stole the identities of at least 25 Americans. Two Americans were arrested. Source: https://thehackernews.com/2026/10/us-shuts-down-over-40-laptop-farms.html</description>
+    </item>
+    <item>
+      <title>curl 8.23.0 fixes High-severity HTTP/2 upload use-after-free with code-execution PoC (CVE-2026-92392)</title>
+      <link>https://thehackernews.com/2026/10/curl-patches-http2-upload-flaw-after.html</link>
+      <guid isPermaLink="false">curl-cve-2026-92392-20261014101826</guid>
+      <pubDate>Wed, 14 Oct 2026 10:18:26 -0700</pubDate>
+      <description>A use-after-free in curl/libcurl 8.12.0 through 8.22.0 lets a malicious HTTPS server that receives a roughly 135KB HTTP/2 upload corrupt client memory. The reporter's public PoC turns that into code execution. It's curl's first High-severity bug since October 2023, and Anthropic's OSS Scanner found it. curl says a real-world attack would most likely just cause a crash, and no exploitation is reported. Upgrade to 8.23.0 or a fixed branch release (8.14.3, 8.16.2, 8.20.2), or force HTTP/1.1 until you can. Source: https://thehackernews.com/2026/10/curl-patches-http2-upload-flaw-after.html</description>
+    </item>
+    <item>
+      <title>Fortinet fixes critical unauthenticated RCE and auth bypass in FortiSIEM and FortiSandbox</title>
+      <link>https://www.securityweek.com/citrix-fortinet-ivanti-patch-29-vulnerabilities-across-their-products/</link>
+      <guid isPermaLink="false">fortinet-fortisiem-fortisandbox-critical-20261014101825</guid>
+      <pubDate>Wed, 14 Oct 2026 10:18:25 -0700</pubDate>
+      <description>Fortinet's October advisories fix 13 bugs. Two are critical: an unauthenticated code execution flaw (CVE-2026-106173) and an authentication bypass (CVE-2026-107656) in FortiSIEM and the FortiSandbox GUI. There are also five high-severity authenticated SQL or command injection bugs across FortiAnalyzer, FortiManager and FortiMail. The same Patch Tuesday round includes Citrix XenServer/Workspace fixes and critical Ivanti Neurons Patch for Intune and Xtraction bugs. No exploitation is mentioned. Source: https://www.securityweek.com/citrix-fortinet-ivanti-patch-29-vulnerabilities-across-their-products/</description>
+    </item>
+    <item>
+      <title>Vghost Linux kernel vhost flaw gives local root and VM-to-host escape (CVE-2026-74580)</title>
+      <link>https://thehackernews.com/2026/10/ai-found-linux-kernel-flaw-gives-local.html</link>
+      <guid isPermaLink="false">linux-vghost-cve-2026-74580-20261014101824</guid>
+      <pubDate>Wed, 14 Oct 2026 10:18:24 -0700</pubDate>
+      <description>Tencent Zhuque Lab published working demos of CVE-2026-74580 (Vghost), a vhost subsystem bug present across nearly a decade of Linux kernels. It gives an unprivileged local user reliable kernel read/write and root, and in one virtualization setup it lets an untrusted guest VM write to host memory and hijack the VM process. A fix went upstream on Aug 3, and there's no public sign of exploitation. Check that hosts exposing /dev/vhost-net or /dev/vhost-vsock run patched kernels. Source: https://thehackernews.com/2026/10/ai-found-linux-kernel-flaw-gives-local.html</description>
+    </item>
     <item>
       <title>Ledger signers sold via CryptoBilis reseller carried hardware implant tied to $86M crypto theft</title>
       <link>https://www.securityweek.com/86-million-crypto-heist-linked-to-ledger-signer-hardware-implant/</link>
