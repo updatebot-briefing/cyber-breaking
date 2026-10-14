@@ -7,7 +7,14 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 13 Oct 2026 16:13:44 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 17:09:21 -0700</lastBuildDate>
+    <item>
+      <title>Ledger signers sold via CryptoBilis reseller carried hardware implant tied to $86M crypto theft</title>
+      <link>https://www.securityweek.com/86-million-crypto-heist-linked-to-ledger-signer-hardware-implant/</link>
+      <guid isPermaLink="false">ledger-signer-hardware-implant-20261013170921</guid>
+      <pubDate>Tue, 13 Oct 2026 17:09:21 -0700</pubDate>
+      <description>Ledger confirmed on Oct 13 that all confirmed fund losses in its recent theft incident involved signers sold through Southeast Asia reseller CryptoBilis. Someone in the distribution chain soldered a small implant inside the devices that reads the 24-word recovery phrase off the screen during setup and sends it out over LTE using an eSIM. On-chain investigator Specter puts losses above $86 million, though Ledger hasn't confirmed a total, and it advises buyers from that reseller in the last 90 days to move funds to a new signer with a new seed. Source: https://www.securityweek.com/86-million-crypto-heist-linked-to-ledger-signer-hardware-implant/</description>
+    </item>
     <item>
       <title>Ahold Delhaize takes systems offline after cyberattack disrupting grocery brands</title>
       <link>https://www.securityweek.com/cyberattack-prompts-ahold-delhaize-to-disconnect-systems/</link>
