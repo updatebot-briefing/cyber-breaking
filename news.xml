@@ -7,7 +7,14 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Wed, 14 Oct 2026 13:11:40 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 14:09:18 -0700</lastBuildDate>
+    <item>
+    <title>Claude Code Desktop "SneakPeek" preview-pane flaw let poisoned repos silently steal developer secrets (patched)</title>
+    <link>https://noma.security/noma-labs/sneakpeek-how-the-preview-pane-in-claude-code-desktop-can-exfiltrate-your-data</link>
+    <guid isPermaLink="false">claude-code-desktop-sneakpeek-20261014140918</guid>
+    <pubDate>Wed, 14 Oct 2026 14:09:18 -0700</pubDate>
+    <description>Noma Labs disclosed SneakPeek (CVSS 8.7), a zero-click chain in Anthropic's Claude Code Desktop preview pane: HTML files over 256KB were loaded as file:// URLs with no CSP and no active request filter, so a poisoned file in a public repo could run JavaScript and exfiltrate SSH keys, AWS/GitHub credentials, API keys and Claude OAuth tokens when a developer asked Claude to review it. Anthropic's first fix (July 9) was bypassed via a blob: Web Worker; the full fix shipped Aug 17 in Claude Desktop 1.30096.1 and later. No in-the-wild exploitation reported; make sure Claude Desktop is current and keep long-lived credentials off dev machines. Sources: https://noma.security/noma-labs/sneakpeek-how-the-preview-pane-in-claude-code-desktop-can-exfiltrate-your-data ; https://www.darkreading.com/threat-intelligence/new-anthropic-sneakpeek-silent-zero-click-threat</description>
+  </item>
         <item>
     <title>CISA adds Palo Alto PAN-OS authenticated management RCE to KEV (CVE-2026-0322)</title>
     <link>https://security.paloaltonetworks.com/CVE-2026-0322</link>
