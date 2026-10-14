@@ -7,7 +7,14 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Wed, 14 Oct 2026 10:18:29 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 11:04:18 -0700</lastBuildDate>
+    <item>
+      <title>Cisco patches second exploited Secure Email Gateway zero-day giving unauthenticated root (CVE-2026-76519)</title>
+      <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-afw-zqYJkjxp</link>
+      <guid isPermaLink="false">cisco-seg-amp-file-write-zero-day-20261014110418</guid>
+      <pubDate>Wed, 14 Oct 2026 11:04:18 -0700</pubDate>
+      <description>On Oct 14 Cisco disclosed CVE-2026-76519 (CVSS 9.8), an arbitrary file write in the AMP File Reputation feature of Secure Email Gateway. A crafted email attachment lets an unauthenticated remote attacker write files and run commands as root. Cisco says it learned of active exploitation this month. Only gateways with File Reputation enabled and Content Scanner Tools older than 25.3.0.5525 are affected, and there is no workaround. Update Content Scanner Tools or move to AsyncOS 15.5.5-014 or 16.5.0-780, then check system_logs for "System Security" compromise indicators. This is the second exploited SEG zero-day in a month, after CVE-2026-76461 in September. Sources: https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-afw-zqYJkjxp ; https://www.bleepingcomputer.com/news/security/</description>
+    </item>
     <item>
       <title>CISA urges immediate Ivanti Connect Secure patching as exploit attempts spread (CVE-2026-104935)</title>
       <link>https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html</link>
