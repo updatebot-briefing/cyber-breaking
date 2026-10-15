@@ -7,8 +7,22 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 15 Oct 2026 11:08:00 -0700</lastBuildDate>
-    <item>
+    <lastBuildDate>Thu, 15 Oct 2026 14:08:00 -0700</lastBuildDate>
+      <item>
+    <title>Critical PwnEscape Linux kernel flaw lets guest VMs read host memory (CVE-2026-99999); confirmed on Vercel sandboxes</title>
+    <link>https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html</link>
+    <guid isPermaLink="false">pwnescape-cve-2026-99999-20261015140800</guid>
+    <pubDate>Thu, 15 Oct 2026 14:08:00 -0700</pubDate>
+    <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0Y0ZP5acV4vjjJV9at7yMnz0frJTAeLd3nGmqMIcifTwGoe2NsB7pDInUjGa6aocyqoM3o-NyXKpsfyy1LRdkH5UG67UVYC_lNZDYArvg-hkmtifcalWo67Mkl3A4_2qwXomi7iJURUjoiSlBdEWtJL5N63jfuMDjI7ewZHLlTZBXlkc4zqwyxKox7eE/s1600/pwnescape-main.jpg" type="image/jpeg" length="0"/>
+    <description><![CDATA[
+<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0Y0ZP5acV4vjjJV9at7yMnz0frJTAeLd3nGmqMIcifTwGoe2NsB7pDInUjGa6aocyqoM3o-NyXKpsfyy1LRdkH5UG67UVYC_lNZDYArvg-hkmtifcalWo67Mkl3A4_2qwXomi7iJURUjoiSlBdEWtJL5N63jfuMDjI7ewZHLlTZBXlkc4zqwyxKox7eE/s1600/pwnescape-main.jpg" alt=""/></p>
+<p>Paulos Yibelo of pwn.ai disclosed CVE-2026-99999 (PwnEscape), a critical (CVSS 9.3) Linux kernel networking flaw where crafted packets from inside a guest VM can leak host memory (~32 bytes per packet), and in lab setups crash the host or escape to host admin control. Vercel confirmed the memory leak against its production Firecracker sandboxes during an August challenge; crash and code execution were demonstrated only on matching lab hosts, not as production RCE.</p>
+<p>The bug sits in shared host networking code, not a Vercel-specific misconfig, so it matters for multi-tenant clouds that isolate workloads with Linux/KVM. Attack vector is local (attacker must already run code in a guest). No in-the-wild exploitation or KEV listing as of Oct 15. Patch host kernels to fixed stables (e.g. 5.10.272, 5.15.223, 6.1.190, 6.6.159, 6.12.113, 6.18.57, 7.2.11) or your distro backport and reboot; guest-only updates do not help.</p>
+<p>Sources: <a href="https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html">thehackernews.com</a>; <a href="https://pwn.ai/blog/pwnescape">pwn.ai</a>; <a href="https://vercel.com/blog/findings-from-the-1-million-dollar-vercel-sandbox-challenge">vercel.com</a></p>
+]]></description>
+  </item>
+
+<item>
     <title>CISA adds Atlassian pre-auth arbitrary file read across Jira, Confluence, Bitbucket and more to KEV (CVE-2026-21589)</title>
     <link>https://confluence.atlassian.com/security/cve-2026-21589-arbitrary-file-access-vulnerability-impacts-multiple-products-1870495748.html</link>
     <guid isPermaLink="false">atlassian-cve-2026-21589-kev-20261015110800</guid>
