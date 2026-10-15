@@ -7,8 +7,32 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 15 Oct 2026 09:05:00 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 10:10:00 -0700</lastBuildDate>
         <item>
+    <title>GhostAction GitHub supply-chain campaign hijacks about 1,900 accounts, targets 30,000+ repositories</title>
+    <link>https://thehackernews.com/2026/10/ghostaction-compromises-about-1900.html</link>
+    <guid isPermaLink="false">ghostaction-github-1900-accounts-20261015101000</guid>
+    <pubDate>Thu, 15 Oct 2026 10:10:00 -0700</pubDate>
+    <description>GitGuardian says the GhostAction credential-theft campaign spiked on Oct 8-9, compromising about 1,900 GitHub accounts and targeting more than 30,000 repositories across 3,000 users and orgs, attempting to pull 3,174 secrets from CI. Attackers use stolen PATs or infostealer credentials to push malicious workflows disguised as security-audit.yml or github_actions_security.yml that exfiltrate CI/CD, cloud, npm/PyPI/Docker Hub and AI API secrets, with newer payloads also scanning git history. Review recent workflow additions and rotate any CI secrets exposed in affected repos. Source: https://thehackernews.com/2026/10/ghostaction-compromises-about-1900.html</description>
+  </item>
+
+<item>
+    <title>NGINX fixes five flaws, including possible RCE memory bugs and a TLS client-cert bypass</title>
+    <link>https://thehackernews.com/2026/10/nginx-fixes-5-flaws-including-possible.html</link>
+    <guid isPermaLink="false">nginx-five-flaws-1-30-6-20261015101000</guid>
+    <pubDate>Thu, 15 Oct 2026 10:10:00 -0700</pubDate>
+    <description>NGINX 1.30.6 and 1.31.7 (Oct 14) fix five bugs, one present in every release since 2005. Three memory bugs (F5 CVSS v4 9.2) could crash workers or possibly allow code execution, and a session-ticket key rotation bug can let a forged TLS session bypass client-certificate checks when the common shared session cache is used. Each needs a specific config (alias with rewrite, regex map, AIO with SSI, shared TLS session cache, or HTTP/3); no exploitation or KEV listing as of Oct 15. Upgrade NGINX or apply F5's workarounds. Source: https://thehackernews.com/2026/10/nginx-fixes-5-flaws-including-possible.html</description>
+  </item>
+
+<item>
+    <title>UK Legal Aid Agency breach scope widens: stolen records date back to 1978</title>
+    <link>https://www.bleepingcomputer.com/news/security/uk-legal-aid-agency-hackers-stole-records-dating-back-to-1978/</link>
+    <guid isPermaLink="false">uk-legal-aid-agency-1978-records-20261015101000</guid>
+    <pubDate>Thu, 15 Oct 2026 10:10:00 -0700</pubDate>
+    <description>The UK Ministry of Justice's Legal Aid Agency says a forensic review shows attackers who breached its systems in April 2025 stole records going back to 1978, far earlier than the 2010-onward data it previously confirmed. Stolen applicant data includes contact details, dates of birth, national ID numbers, criminal history, employment status and financial details, plus legal aid provider data. The update materially widens one of the UK government's most sensitive breaches. Source: https://www.bleepingcomputer.com/news/security/uk-legal-aid-agency-hackers-stole-records-dating-back-to-1978/</description>
+  </item>
+
+<item>
     <title>Next.js ships out-of-band patches for two critical unauthenticated RCE flaws (CVE-2026-96889)</title>
     <link>https://thehackernews.com/2026/10/nextjs-ships-out-of-band-patch-for-two.html</link>
     <guid isPermaLink="false">nextjs-critical-rce-oob-20261015090500</guid>
