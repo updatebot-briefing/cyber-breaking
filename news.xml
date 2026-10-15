@@ -7,8 +7,21 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 15 Oct 2026 14:08:00 -0700</lastBuildDate>
-      <item>
+    <lastBuildDate>Thu, 15 Oct 2026 15:15:00 -0700</lastBuildDate>
+        <item>
+    <title>China-nexus ARMORY CASTLE exploited BeyondTrust Remote Support zero-day CVE-2026-102764 (BT26-05)</title>
+    <link>https://cloud.google.com/blog/topics/threat-intelligence/armory-castle-exploits-beyondtrust</link>
+    <guid isPermaLink="false">beyondtrust-cve-2026-102764-armory-castle-20261015151500</guid>
+    <pubDate>Thu, 15 Oct 2026 15:15:00 -0700</pubDate>
+    <enclosure url="https://storage.googleapis.com/gweb-cloudblog-publish/images/03_ThreatIntelligenceWebsiteBannerIdeas_BA.max-2600x2600.png" type="image/jpeg" length="0"/>
+    <description><![CDATA[
+<p><img src="https://storage.googleapis.com/gweb-cloudblog-publish/images/03_ThreatIntelligenceWebsiteBannerIdeas_BA.max-2600x2600.png" alt=""/></p>
+<p>BeyondTrust and Mandiant/GTIG disclosed CVE-2026-102764 (BT26-05, CVSS 9.3), a critical Remote Support (formerly Bomgar) flaw that lets a remote attacker perform arbitrary file operations on an affected appliance. Mandiant says suspected China-nexus espionage actor ARMORY CASTLE (formerly UNC5221; CrowdStrike: WARP PANDA) exploited it as a zero-day in late August 2026, then planted the SAWFLY webshell, gained root, and targeted brokered credentials.</p>
+<p>BeyondTrust reports confirmed exploitation of one BeyondTrust-hosted instance and one self-hosted appliance; SaaS was auto-patched October 8, and self-hosted Remote Support (and precautionarily Privileged Remote Access) customers must apply BT26-05 immediately. Technical exploit details are withheld while self-hosted fleets patch. Mandiant warns defenders should expect broader opportunistic scanning after disclosure. Not in CISA KEV as of this check.</p>
+<p>Sources: <a href="https://cloud.google.com/blog/topics/threat-intelligence/armory-castle-exploits-beyondtrust">cloud.google.com</a>; <a href="https://www.beyondtrust.com/blog/entry/bt26-05">beyondtrust.com</a>; <a href="https://www.beyondtrust.com/trust-center/security-advisories">BeyondTrust advisories</a></p>
+]]></description>
+  </item>
+<item>
     <title>Critical PwnEscape Linux kernel flaw lets guest VMs read host memory (CVE-2026-99999); confirmed on Vercel sandboxes</title>
     <link>https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html</link>
     <guid isPermaLink="false">pwnescape-cve-2026-99999-20261015140800</guid>
