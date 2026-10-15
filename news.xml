@@ -7,7 +7,23 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 15 Oct 2026 10:10:00 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 11:08:00 -0700</lastBuildDate>
+    <item>
+    <title>CISA adds Atlassian pre-auth arbitrary file read across Jira, Confluence, Bitbucket and more to KEV (CVE-2026-21589)</title>
+    <link>https://confluence.atlassian.com/security/cve-2026-21589-arbitrary-file-access-vulnerability-impacts-multiple-products-1870495748.html</link>
+    <guid isPermaLink="false">atlassian-cve-2026-21589-kev-20261015110800</guid>
+    <pubDate>Thu, 15 Oct 2026 11:08:00 -0700</pubDate>
+    <description>CISA added CVE-2026-21589 to its Known Exploited Vulnerabilities catalog on Oct 15, confirming in-the-wild exploitation of an unauthenticated file-access flaw in Atlassian Bitbucket, Confluence, Jira Software, Jira Service Management, Bamboo and Crowd Data Center, plus Crucible and Fisheye. It lets an attacker read specific files inside the web application root; watchTowr published technical details on Oct 6. CISA set a short Oct 18 deadline and flagged it for forensic triage, so patch self-hosted Atlassian instances per the vendor advisory and check for signs of access. Source: https://confluence.atlassian.com/security/cve-2026-21589-arbitrary-file-access-vulnerability-impacts-multiple-products-1870495748.html (KEV: https://www.cisa.gov/known-exploited-vulnerabilities-catalog)</description>
+  </item>
+
+    <item>
+    <title>Fake yay and paru AUR packages push malware that runs with root on Arch Linux</title>
+    <link>https://www.bleepingcomputer.com/news/security/fake-arch-linux-packages-push-malware-with-root-privileges/</link>
+    <guid isPermaLink="false">arch-aur-fake-yay-paru-malware-20261015110800</guid>
+    <pubDate>Thu, 15 Oct 2026 11:08:00 -0700</pubDate>
+    <description>A user named marchos1as mass-uploaded typosquatted Arch User Repository packages (such as yyay) impersonating the popular yay and paru AUR helpers, detected Oct 13. The packages bundled legitimate upstream code with an install scriptlet that fetched and ran a remote shell script as root, pulled via a Wayback Machine URL pointing to a GitFlic repo tied to the earlier npm DirtyBlanket campaign. The AUR team banned the account and removed the packages; anyone who installed a misspelled yay/paru package should treat the host as compromised. Source: https://www.bleepingcomputer.com/news/security/fake-arch-linux-packages-push-malware-with-root-privileges/</description>
+  </item>
+
         <item>
     <title>GhostAction GitHub supply-chain campaign hijacks about 1,900 accounts, targets 30,000+ repositories</title>
     <link>https://thehackernews.com/2026/10/ghostaction-compromises-about-1900.html</link>
