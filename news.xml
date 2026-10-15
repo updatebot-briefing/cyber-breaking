@@ -7,8 +7,36 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Wed, 14 Oct 2026 14:09:18 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 09:05:00 -0700</lastBuildDate>
+        <item>
+    <title>Next.js ships out-of-band patches for two critical unauthenticated RCE flaws (CVE-2026-96889)</title>
+    <link>https://thehackernews.com/2026/10/nextjs-ships-out-of-band-patch-for-two.html</link>
+    <guid isPermaLink="false">nextjs-critical-rce-oob-20261015090500</guid>
+    <pubDate>Thu, 15 Oct 2026 09:05:00 -0700</pubDate>
+    <description>Next.js released 16.4.1 and 15.5.28 on Oct 14 to fix two critical unauthenticated remote code execution bugs (Vercel CVSS 9.5 each) plus a high-severity Server Actions DoS. One sits in React Server Components `use cache` (GHSA-673q-mjm6-r5xr) when Cache Components return multiple typed arrays; the other is librsvg CVE-2026-96889 reachable via sharp SVG handling on glibc Linux (and next/og). No in-the-wild exploitation reported as of Oct 15. Upgrade Next.js, confirm sharp is 0.35.5+, then rebuild and redeploy. Source: https://thehackernews.com/2026/10/nextjs-ships-out-of-band-patch-for-two.html</description>
+  </item>
     <item>
+    <title>Drupal patches critical Field UI flaw with unauthenticated RCE path via contributed modules (CVE-2026-108097)</title>
+    <link>https://thehackernews.com/2026/10/drupal-patches-critical-core-rce-flaw.html</link>
+    <guid isPermaLink="false">drupal-field-ui-cve-2026-108097-20261015090500</guid>
+    <pubDate>Thu, 15 Oct 2026 09:05:00 -0700</pubDate>
+    <description>Drupal shipped critical fixes in 11.4.10, 11.3.19, and 10.6.19 on Oct 14 for CVE-2026-108097 in Field UI: a render-callback abuse that can lead to remote code execution. Core alone is not enough to reach it, but several contributed-module paths exist and at least one needs no login. About 28.5% of reporting sites were on affected branches in early October; no public exploit or attacks reported yet. Update ASAP or temporarily uninstall field_ui; Entity List module CVE-2026-108099 needs its own 3.0.10 update. Source: https://thehackernews.com/2026/10/drupal-patches-critical-core-rce-flaw.html</description>
+  </item>
+    <item>
+    <title>CenterPoint Energy breach hits 1.06 million Texans with SSNs and driver's licenses</title>
+    <link>https://www.securityweek.com/centerpoint-energy-data-breach-impacts-1-million-texans/</link>
+    <guid isPermaLink="false">centerpoint-energy-breach-1m-20261015090500</guid>
+    <pubDate>Thu, 15 Oct 2026 09:05:00 -0700</pubDate>
+    <description>Houston utility CenterPoint Energy told the Texas Attorney General that 1,062,060 state residents had names, addresses, Social Security numbers, and driver's license numbers compromised. The notice follows a September SEC filing after a threat actor posted a claim of ~7.5 million records and a 2.5 GB dump. Operations were not disrupted; impact in Indiana, Minnesota, and Ohio is still unclear, and customer notification letters may not have gone out yet. Source: https://www.securityweek.com/centerpoint-energy-data-breach-impacts-1-million-texans/</description>
+  </item>
+    <item>
+    <title>Langflow authenticated RCE CVE-2026-105740 hit with 1,423 honeypot exploit attempts</title>
+    <link>https://thehackernews.com/2026/10/langflows-critical-authenticated-rce.html</link>
+    <guid isPermaLink="false">langflow-cve-2026-105740-exploited-20261015090500</guid>
+    <pubDate>Thu, 15 Oct 2026 09:05:00 -0700</pubDate>
+    <description>Previdian reports 1,423 exploitation attempts since Sep 19 against Langflow CVE-2026-105740 (CVSS 9.9), an authenticated RCE where any logged-in user can inject OS commands via MCP stdio server config (bash -c with no validation). Attackers brute-force or use weak creds, then steal LANGFLOW_SECRET_KEY and related secrets; activity spiked Oct 11 and continues Oct 15. Patch to 1.9.0+, disable auto-login, enforce strong passwords, and review /api/v2/mcp/servers/ logs. Source: https://thehackernews.com/2026/10/langflows-critical-authenticated-rce.html</description>
+  </item>
+<item>
     <title>Claude Code Desktop "SneakPeek" preview-pane flaw let poisoned repos silently steal developer secrets (patched)</title>
     <link>https://noma.security/noma-labs/sneakpeek-how-the-preview-pane-in-claude-code-desktop-can-exfiltrate-your-data</link>
     <guid isPermaLink="false">claude-code-desktop-sneakpeek-20261014140918</guid>
