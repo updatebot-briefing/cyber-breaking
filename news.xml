@@ -7,8 +7,20 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 16 Oct 2026 11:12:00 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 13:05:04 -0700</lastBuildDate>
     <item>
+    <title>Max-severity BlockStrap flaw in Magento and Adobe Commerce lets attackers run PHP code; Sansec expects mass exploitation soon</title>
+    <link>https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/</link>
+    <guid isPermaLink="false">magento-blockstrap-cve-2026-103849-20261016130504</guid>
+    <pubDate>Fri, 16 Oct 2026 13:05:04 -0700</pubDate>
+    <enclosure url="https://www.bleepstatic.com/content/hl-images/2026/10/16/magento.jpg" type="image/jpeg" length="0"/>
+    <description><![CDATA[
+<p><img src="https://www.bleepstatic.com/content/hl-images/2026/10/16/magento.jpg" alt=""/></p>
+<p>CVE-2026-103849, dubbed BlockStrap, is a template-engine injection in Magento Open Source and Adobe Commerce (through 2.4.9, and B2B through 1.5.3) that lets attacker-controlled email template content execute arbitrary PHP code on store servers. Adobe patched it on October 13 but rated it priority 2.</p>
+<p>Sansec says no attacks have been seen yet, but it found four possible attack paths in under a day and expects mass exploitation soon, noting the similar StyleSmuggler flaw went from hotfix to mass attacks in three days. Stores need the October release or Adobe's isolated patch, and should keep the September StyleSmuggler hotfix in place too. Source: <a href="https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/">bleepingcomputer.com</a></p>
+]]></description>
+  </item>
+  <item>
     <title>Attackers tampered with AOMEI Backupper update servers to push a backdoor to Windows machines</title>
     <link>https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html</link>
     <guid isPermaLink="false">aomei-backupper-update-server-backdoor-20261016111200</guid>
