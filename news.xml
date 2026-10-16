@@ -7,8 +7,21 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 16 Oct 2026 09:02:00 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 10:09:00 -0700</lastBuildDate>
     <item>
+    <title>Juniper patches 150+ Junos OS flaws, about two dozen critical; F5 fixes 11 NGINX bugs</title>
+    <link>https://www.securityweek.com/f5-juniper-networks-patch-critical-vulnerabilities/</link>
+    <guid isPermaLink="false">juniper-junos-f5-nginx-patches-20261016100900</guid>
+    <pubDate>Fri, 16 Oct 2026 10:09:00 -0700</pubDate>
+    <enclosure url="https://www.securityweek.com/wp-content/uploads/2025/01/Juniper-Networks.jpeg" type="image/jpeg" length="0"/>
+    <description><![CDATA[
+<p><img src="https://www.securityweek.com/wp-content/uploads/2025/01/Juniper-Networks.jpeg" alt=""/></p>
+<p>Juniper Networks published 17 advisories covering more than 150 vulnerabilities in Junos OS and Junos OS Evolved, plus four in Juniper Cloud-Native Router. Roughly two dozen are rated critical and can lead to code or command execution as root, full device takeover, kernel panics, or Routing Engine reboots.</p>
+<p>F5 separately fixed 11 NGINX flaws, including critical unauthenticated bugs CVE-2026-15176, CVE-2026-93479 and CVE-2026-97205 that can crash workers or reach RCE if ASLR is disabled or bypassed. Neither vendor reports in-the-wild exploitation. Source: <a href="https://www.securityweek.com/f5-juniper-networks-patch-critical-vulnerabilities/">securityweek.com</a></p>
+]]></description>
+  </item>
+
+<item>
     <title>Burger King Japan breach exposes about 11.18 million app member records</title>
     <link>https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/</link>
     <guid isPermaLink="false">burger-king-japan-11m-breach-20261016090200</guid>
