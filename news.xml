@@ -7,7 +7,33 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 15 Oct 2026 18:05:00 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 09:02:00 -0700</lastBuildDate>
+    <item>
+    <title>Burger King Japan breach exposes about 11.18 million app member records</title>
+    <link>https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/</link>
+    <guid isPermaLink="false">burger-king-japan-11m-breach-20261016090200</guid>
+    <pubDate>Fri, 16 Oct 2026 09:02:00 -0700</pubDate>
+    <enclosure url="https://www.bleepstatic.com/content/hl-images/2026/10/16/Burger-King-Japan.jpg" type="image/jpeg" length="0"/>
+    <description><![CDATA[
+<p><img src="https://www.bleepstatic.com/content/hl-images/2026/10/16/Burger-King-Japan.jpg" alt=""/></p>
+<p>Burger King Japan said a follow-up investigation concluded Oct 13 found unauthorized access between Oct 2 and Oct 7 to the server holding official smartphone-app member data, exposing about 11.18 million customer records. Stolen fields include names, dates of birth, gender, email addresses, phone numbers, and order history; the company says the server did not store credit card numbers and it found no evidence that user credentials were accessed.</p>
+<p>Access from the suspicious source was blocked after discovery, the breach was reported to Japan's Personal Information Protection Commission, and no secondary fraudulent use has been confirmed so far. Customers were warned to watch for phishing that impersonates BK Japan. Source: <a href="https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/">bleepingcomputer.com</a></p>
+]]></description>
+  </item>
+    <item>
+    <title>Unit 42 details PEERSTITCH FortiGate implant after FortiManager breach hit 500+ firewalls</title>
+    <link>https://unit42.paloaltonetworks.com/fortimanager-cve-2024-47575-peerstitch-malware/</link>
+    <guid isPermaLink="false">peerstitch-fortigate-implant-20261016090201</guid>
+    <pubDate>Fri, 16 Oct 2026 09:02:00 -0700</pubDate>
+    <enclosure url="https://unit42.paloaltonetworks.com/wp-content/uploads/2026/10/09_Vulnerabilities_1920x900.jpg" type="image/jpeg" length="0"/>
+    <description><![CDATA[
+<p><img src="https://unit42.paloaltonetworks.com/wp-content/uploads/2026/10/09_Vulnerabilities_1920x900.jpg" alt=""/></p>
+<p>Palo Alto Networks Unit 42 disclosed PEERSTITCH, a novel memory-resident ARM64 FortiGate implant used in a September 2024 intrusion (CL-STA-0954 / UNC5820) against a telecommunications MSP. Attackers first exploited FortiJump (CVE-2024-47575) on FortiManager, exfiltrating configs, crypto material, and data covering more than 500 managed FortiGate firewalls, then used FortiOS CLI path-traversal CVE-2025-61624 to escalate to root and inject the implant into miglogd and iked.</p>
+<p>PEERSTITCH leaves no disk binary, opens no listening ports, and builds a covert inter-process bridge so tagged VPN sessions can bypass FortiOS security checks—hard for conventional EDR/network tools to see. FortiJump and the path-traversal flaw are already patched; defenders should hunt edge appliances for auto-script traversal artifacts, rotate FortiManager-held credentials and keys, and review Unit 42 IOCs. Not a new mass internet zero-day today, but a significant edge-malware disclosure.</p>
+<p>Sources: <a href="https://unit42.paloaltonetworks.com/fortimanager-cve-2024-47575-peerstitch-malware/">unit42.paloaltonetworks.com</a>; <a href="https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html">thehackernews.com</a></p>
+]]></description>
+  </item>
+
         <item>
     <title>Central Ohio Primary Care breach hits about 1.4 million after August vishing attack</title>
     <link>https://www.copcp.com/company-news/copc-cybersecurity-information/</link>
