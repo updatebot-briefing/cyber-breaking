@@ -7,7 +7,29 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 15 Oct 2026 15:15:00 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 18:05:00 -0700</lastBuildDate>
+        <item>
+    <title>Central Ohio Primary Care breach hits about 1.4 million after August vishing attack</title>
+    <link>https://www.copcp.com/company-news/copc-cybersecurity-information/</link>
+    <guid isPermaLink="false">copc-1-4m-vishing-breach-20261015180500</guid>
+    <pubDate>Thu, 15 Oct 2026 18:05:00 -0700</pubDate>
+    <enclosure url="https://www.copcp.com/wp-content/uploads/2026/09/Cybersecurity-Information.jpg" type="image/jpeg" length="0"/>
+    <description><![CDATA[
+<p><img src="https://www.copcp.com/wp-content/uploads/2026/09/Cybersecurity-Information.jpg" alt=""/></p>
+<p>Central Ohio Primary Care (COPC) said on Oct 15 that a cybersecurity incident discovered Aug 25, stemming from a social-engineering vishing attack aimed at extortion, may have exposed personal and protected health information for about 1.4 million patients and employees. Potentially affected data can include names, addresses, Social Security numbers, limited patient health data, financial information, and other identifiers; MyChart/Epic was not impacted and COPC says the incident is contained with no known misuse so far.</p>
+<p>COPC is notifying affected people, offering credit and dark-web monitoring, and working with law enforcement. Local reporting has tied the intrusion to ransomware activity, but COPC's public statement focuses on the vishing entry and file access rather than naming a group. Sources: <a href="https://www.copcp.com/company-news/copc-cybersecurity-information/">copcp.com</a>; <a href="https://www.10tv.com/article/news/local/central-ohio-primary-care-cybersecurity-breach-update/530-ae9c9102-fb6b-40ef-a15c-c9dc73c2b356">10tv.com</a></p>
+]]></description>
+  </item>
+        <item>
+    <title>BAE Systems cyber incident disrupts nationwide Bankruptcy Noticing Center</title>
+    <link>https://www.uscourts.gov/data-news/judiciary-news/2026/10/15/cybersecurity-incident-disrupting-bankruptcy-court-operations</link>
+    <guid isPermaLink="false">bae-bnc-bankruptcy-noticing-outage-20261015180400</guid>
+    <pubDate>Thu, 15 Oct 2026 18:04:00 -0700</pubDate>
+    <description><![CDATA[
+<p>The Administrative Office of the U.S. Courts said a cybersecurity incident affecting BAE Systems IT and websites that support the Bankruptcy Noticing Center (BNC) has halted production and delivery of electronic and paper bankruptcy notices for federal bankruptcy courts nationwide. BAE operates BNC systems on behalf of the judiciary; related sites including bnc.uscourts.gov, bankruptcynotices.uscourts.gov, notices.uscourts.gov, and the National Creditor Registration Service are unavailable while BAE investigates and works to restore service.</p>
+<p>CM/ECF Notices of Electronic Filing continue to work, and courts are still accepting filings, but creditor noticing and mailing-label access are disrupted; the outage has been ongoing since about Oct 9. Source: <a href="https://www.uscourts.gov/data-news/judiciary-news/2026/10/15/cybersecurity-incident-disrupting-bankruptcy-court-operations">uscourts.gov</a></p>
+]]></description>
+  </item>
         <item>
     <title>China-nexus ARMORY CASTLE exploited BeyondTrust Remote Support zero-day CVE-2026-102764 (BT26-05)</title>
     <link>https://cloud.google.com/blog/topics/threat-intelligence/armory-castle-exploits-beyondtrust</link>
