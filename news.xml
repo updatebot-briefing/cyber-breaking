@@ -7,7 +7,20 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 16 Oct 2026 13:05:04 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 18:04:33 -0700</lastBuildDate>
+    <item>
+    <title>Florida DMV breach exposed driver license and vehicle records, including document images, statewide</title>
+    <link>https://bocapost.com/boca-raton-news/flhsmv-data-breach-letters-credit-monitoring/</link>
+    <guid isPermaLink="false">florida-flhsmv-dmv-breach-20261016180433</guid>
+    <pubDate>Fri, 16 Oct 2026 18:04:33 -0700</pubDate>
+    <enclosure url="https://bocapost.com/wp-content/uploads/2026/10/FLHSMV-Data-Breach-Letters-Are-Going-Out-What-Florida-Drivers-Should-Do.jpg" type="image/jpeg" length="0"/>
+    <description><![CDATA[
+<p><img src="https://bocapost.com/wp-content/uploads/2026/10/FLHSMV-Data-Breach-Letters-Are-Going-Out-What-Florida-Drivers-Should-Do.jpg" alt=""/></p>
+<p>Florida's Department of Highway Safety and Motor Vehicles (FLHSMV) disclosed on October 16 that an international cybercriminal group got into its driver and vehicle database on September 4 using credentials a Plant City Police Department employee had stored on a personal device. Driver license and motor vehicle data, document images, and other personal information may have been accessed.</p>
+<p>The agency says it contained the access and has seen no misuse, but it has not said how many people are affected. Florida Politics reports the attackers set a September 11 deadline to make a deal before leaking the data. Letters are going out to current license and ID holders with a year of free credit monitoring.</p>
+<p>Sources: <a href="https://bocapost.com/boca-raton-news/flhsmv-data-breach-letters-credit-monitoring/">Boca Post</a>, <a href="https://floridapolitics.com/archives/825421-weeks-after-data-breach-flhsmv-says-it-will-let-drivers-know-if-their-records-were-hacked/">Florida Politics</a>, <a href="https://www.flhsmv.gov/data-breach/">FLHSMV notice</a></p>
+]]></description>
+  </item>
     <item>
     <title>Max-severity BlockStrap flaw in Magento and Adobe Commerce lets attackers run PHP code; Sansec expects mass exploitation soon</title>
     <link>https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/</link>
