@@ -7,8 +7,21 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sat, 17 Oct 2026 12:04:35 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 16:09:48 -0700</lastBuildDate>
     <item>
+    <title>Unpatched Broadcom Wi-Fi WPS bug lets nearby attackers take over millions of ISP routers without the password</title>
+    <link>https://quentinkaiser.be/security/2026/10/16/one-parser-two-bugs/</link>
+    <guid isPermaLink="false">broadcom-wps-wifi-router-rce-20261017160948</guid>
+    <pubDate>Sat, 17 Oct 2026 16:09:48 -0700</pubDate>
+    <description><![CDATA[
+<p><img src="https://quentinkaiser.be/security/2026/10/16/one-parser-two-bugs/hasan-almasi-3DlYPd91ln4-unsplash.jpg" alt=""/></p>
+<p>Researcher Quentin Kaiser disclosed at Hexacon in Paris on Oct 16 a memory-corruption bug in Broadcom's proprietary WPS code, present since at least 2010, that gives unauthenticated remote code execution to anyone within Wi-Fi range, without the network key or a completed WPS pairing. He demonstrated root shells on gateways from Proximus, VOO and Orange Belgium, estimates roughly 1.5 million affected devices in Belgium alone, and says none were patched as of Oct 15. Broadcom says it replaced the old code in 2018 but declined to assign a CVE, so many OEMs and ISPs never shipped fixes, and eCos-based chips may never get one.</p>
+<p>This is a proximity attack with no reported in-the-wild exploitation, but Kaiser published a fingerprinting script and YARA rule to map affected devices. Turning off WPS where possible and pressing ISPs for firmware updates are the practical steps for now.</p>
+<p>Source: <a href="https://quentinkaiser.be/security/2026/10/16/one-parser-two-bugs/">Quentin Kaiser's write-up</a>, <a href="https://quentinkaiser.be/assets/qkaiser-broadcom-wps-hexacon-2026.pdf">Hexacon slides</a></p>
+]]></description>
+    <enclosure url="https://quentinkaiser.be/security/2026/10/16/one-parser-two-bugs/hasan-almasi-3DlYPd91ln4-unsplash.jpg" type="image/jpeg" length="0"/>
+    </item>
+<item>
     <title>OpenCode breach exposes stored OpenAI, Anthropic and Google API keys; users report fraudulent charges</title>
     <link>https://startupfortune.com/opencode-breach-exposes-stored-openai-and-anthropic-keys-prompts-urgent-key-rotation/</link>
     <guid isPermaLink="false">opencode-provider-key-breach-20261017120435</guid>
