@@ -7,7 +7,32 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 16 Oct 2026 18:04:33 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 09:09:14 -0700</lastBuildDate>
+    <item>
+    <title>ConnectWise Cloud Backup (ex-SkyKick) app credential stolen and used to access Microsoft 365 tenants; Huntress confirms 173</title>
+    <link>https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/</link>
+    <guid isPermaLink="false">connectwise-cloud-backup-m365-20261017090914</guid>
+    <pubDate>Sat, 17 Oct 2026 09:09:14 -0700</pubDate>
+    <description><![CDATA[
+<p><img src="https://www.bleepstatic.com/content/hl-images/2026/09/07/ConnectWise.jpg" alt=""/></p>
+<p>Attackers got hold of the Microsoft 365 app credential behind ConnectWise Cloud Backup (formerly SkyKick), a backup service MSPs install with broad access to mailboxes, OneDrive, SharePoint, Teams and directory data. On Oct 15 they scripted Microsoft Graph token grabs across tenants from 144.172.64[.]128, and Huntress has confirmed unauthorized sign-ins in 173 partner and customer tenants. In at least one tenant a separate ConnectWise Teams app gave itself Global Administrator and added credentials to other trusted apps.</p>
+<p>ConnectWise has shut down application access for the service, and Microsoft confirmed the activity. Anyone with the app consented should review service principal sign-ins, OAuth grants and app credentials now.</p>
+<p>Sources: <a href="https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/">BleepingComputer</a>, <a href="https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html">The Hacker News</a></p>
+]]></description>
+    <enclosure url="https://www.bleepstatic.com/content/hl-images/2026/09/07/ConnectWise.jpg" type="image/jpeg" length="0"/>
+    </item>
+    <item>
+    <title>ETS hack exposes data on about 7 million California public school students</title>
+    <link>https://www.latimes.com/california/story/2026-10-16/state-testing-student-data-hack</link>
+    <guid isPermaLink="false">ets-california-students-breach-20261017090914</guid>
+    <pubDate>Sat, 17 Oct 2026 09:09:14 -0700</pubDate>
+    <description><![CDATA[
+<p><img src="https://ca-times.brightspotcdn.com/dims4/default/3695ef8/2147483647/strip/true/crop/3930x2063+0+349/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F8e%2Ffe%2F275b0c954e24829aac312fe6262a%2F1566449-me-lausd-first-day-barack-obama-global-preparation-academy-ajs-03.jpg" alt=""/></p>
+<p>Educational Testing Service, California's statewide testing contractor, says an attacker used a compromised login to copy files from its SFTP site between May 22 and Sept 18, 2026. The data covers all students enrolled in the past three school years, roughly 7 million, including names, birth dates, addresses, disability status, program eligibility and test results. ETS found the activity Sept 25 and began notifying families Oct 16 with two years of Experian identity protection; no SSNs or financial data were involved.</p>
+<p>Sources: <a href="https://www.latimes.com/california/story/2026-10-16/state-testing-student-data-hack">Los Angeles Times</a>, <a href="https://www.politico.com/news/2026/10/16/hack-exposes-data-on-millions-of-california-students-01124018">Politico</a>, <a href="https://www.cde.ca.gov/nr/in/ets-notification.asp">California Department of Education notice</a></p>
+]]></description>
+    <enclosure url="https://ca-times.brightspotcdn.com/dims4/default/3695ef8/2147483647/strip/true/crop/3930x2063+0+349/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F8e%2Ffe%2F275b0c954e24829aac312fe6262a%2F1566449-me-lausd-first-day-barack-obama-global-preparation-academy-ajs-03.jpg" type="image/jpeg" length="0"/>
+    </item>
     <item>
     <title>Florida DMV breach exposed driver license and vehicle records, including document images, statewide</title>
     <link>https://bocapost.com/boca-raton-news/flhsmv-data-breach-letters-credit-monitoring/</link>
