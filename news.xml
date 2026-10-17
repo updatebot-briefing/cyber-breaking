@@ -7,7 +7,20 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sat, 17 Oct 2026 09:09:14 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 12:04:35 -0700</lastBuildDate>
+    <item>
+    <title>OpenCode breach exposes stored OpenAI, Anthropic and Google API keys; users report fraudulent charges</title>
+    <link>https://startupfortune.com/opencode-breach-exposes-stored-openai-and-anthropic-keys-prompts-urgent-key-rotation/</link>
+    <guid isPermaLink="false">opencode-provider-key-breach-20261017120435</guid>
+    <pubDate>Sat, 17 Oct 2026 12:04:35 -0700</pubDate>
+    <description><![CDATA[
+<p><img src="https://startupfortune.com/wp-content/uploads/2026/10/opencode-matt-johansen-anomaly-innovations.jpg" alt=""/></p>
+<p>Anomaly Innovations, the company behind the open-source OpenCode coding agent, emailed affected users on Oct 17 warning that third-party provider keys saved in their workspaces, including OpenAI, Anthropic and Google keys, may have been stolen through a legacy console system it was shutting down. Some users say the keys were already running up unauthorized usage, with reported charges from about $65 to $281, before the warning went out. The company says it hasn't found evidence that other data leaked, and there was no notice on its status page or site at first.</p>
+<p>Anyone who stored provider keys in OpenCode should revoke and reissue them directly in each provider's dashboard, check usage and billing logs back to Oct 17, and set spending limits.</p>
+<p>Source: <a href="https://startupfortune.com/opencode-breach-exposes-stored-openai-and-anthropic-keys-prompts-urgent-key-rotation/">Startup Fortune</a></p>
+]]></description>
+    <enclosure url="https://startupfortune.com/wp-content/uploads/2026/10/opencode-matt-johansen-anomaly-innovations.jpg" type="image/jpeg" length="0"/>
+    </item>
     <item>
     <title>ConnectWise Cloud Backup (ex-SkyKick) app credential stolen and used to access Microsoft 365 tenants; Huntress confirms 173</title>
     <link>https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/</link>
