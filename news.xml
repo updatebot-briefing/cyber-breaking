@@ -7,8 +7,22 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sat, 17 Oct 2026 16:09:48 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 09:10:51 -0700</lastBuildDate>
     <item>
+    <title>Hackers exploit critical SiteGuard Server Edition WAF flaw to run commands as root or SYSTEM (CVE-2026-106931)</title>
+    <link>https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/</link>
+    <guid isPermaLink="false">siteguard-waf-cve-2026-106931-20261018091051</guid>
+    <pubDate>Sun, 18 Oct 2026 09:10:51 -0700</pubDate>
+    <description><![CDATA[
+<p><img src="https://www.bleepstatic.com/content/hl-images/2026/05/05/hacker.jpg" alt=""/></p>
+<p>Japanese WAF vendor SiteGuard and JPCERT/CC warn that a critical OS command-injection bug in the statistics feature of SiteGuard Server Edition, which is on by default, is being exploited in the wild and lets attackers run commands as root or SYSTEM. Affected are the Apache httpd, Nginx and IIS editions from 2.20 up to before 8.00 Update 5 (FreeBSD builds before 7.00 Update 6); the vendor says the product protects more than 1.5 million sites. Attackers, victims and scale have not been disclosed.</p>
+<p>Patch or apply the vendor's file-replacement fix, which also covers end-of-life versions. Download the diagnostic information from the web management screen first, since remediation may erase attack traces.</p>
+<p>Source: <a href="https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/">BleepingComputer</a></p>
+]]></description>
+    <enclosure url="https://www.bleepstatic.com/content/hl-images/2026/05/05/hacker.jpg" type="image/jpeg" length="0"/>
+    </item>
+
+<item>
     <title>Unpatched Broadcom Wi-Fi WPS bug lets nearby attackers take over millions of ISP routers without the password</title>
     <link>https://quentinkaiser.be/security/2026/10/16/one-parser-two-bugs/</link>
     <guid isPermaLink="false">broadcom-wps-wifi-router-rce-20261017160948</guid>
