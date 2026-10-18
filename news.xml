@@ -7,8 +7,22 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sun, 18 Oct 2026 09:10:51 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 15:08:42 -0700</lastBuildDate>
     <item>
+    <title>Plex2Shell: unauthenticated RCE chain in outdated Plex Media Servers reportedly exploited to drop miners and proxies</title>
+    <link>https://mezha.net/eng/news/0e7c09cf_researcher_reports_attacks_on/</link>
+    <guid isPermaLink="false">plex2shell-plex-media-server-20261018150842</guid>
+    <pubDate>Sun, 18 Oct 2026 15:08:42 -0700</pubDate>
+    <description><![CDATA[
+<p><img src="https://mezha.net/eng/wp-content/mezha-og-r205/kd_image_generate/eng/3732148-084745e726a3.jpg" alt=""/></p>
+<p>Plex2Shell chains four Plex Media Server bugs (CVE-2026-96652, -96654, -96655 and -96656) into unauthenticated remote code execution: SSRF steals the owner token, the transcoder writes a payload into the Codecs folder, and the next transcode loads it. Researcher Zach Main published the write-up and proof-of-concept code on October 16, and a honeypot owner reports their internet-facing server was compromised early on October 17 with a crypto miner and a proxy installed. Plex and CISA have not confirmed widespread exploitation.</p>
+<p>Versions before 1.43.3.10861 are vulnerable; Plex shipped the fix in August. Update now (pull a fresh image for Docker, check NAS packages by hand), and check older internet-exposed servers for unknown child processes, high CPU, or new files in the Codecs folder.</p>
+<p>Sources: <a href="https://mezha.net/eng/news/0e7c09cf_researcher_reports_attacks_on/">Mezha</a>, <a href="https://zmain.info/blog/plex2shell">Zach Main's Plex2Shell write-up</a></p>
+]]></description>
+    <enclosure url="https://mezha.net/eng/wp-content/mezha-og-r205/kd_image_generate/eng/3732148-084745e726a3.jpg" type="image/jpeg" length="0"/>
+    </item>
+
+<item>
     <title>Hackers exploit critical SiteGuard Server Edition WAF flaw to run commands as root or SYSTEM (CVE-2026-106931)</title>
     <link>https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/</link>
     <guid isPermaLink="false">siteguard-waf-cve-2026-106931-20261018091051</guid>
