@@ -7,7 +7,21 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Mon, 19 Oct 2026 12:02:53 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 13:08:20 -0700</lastBuildDate>
+    <item>
+      <title><![CDATA[Feds suspect a US ransomware negotiator helped run ShinyHunters' shinywire extortion site]]></title>
+      <link>https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/</link>
+      <guid isPermaLink="false">shinyhunters-negotiator-shinywire-20261019130820</guid>
+      <pubDate>Mon, 19 Oct 2026 13:08:20 -0700</pubDate>
+      <description><![CDATA[<p>KrebsOnSecurity reports that federal investigators suspect an executive at a large US ransomware-negotiation consulting firm took an active role in running shinywire.com, the site ShinyHunters used from about May 3 to October 16, 2026 to pressure nearly 100 victim organizations with private extortion pages. The executive and firm have not been named or charged.</p><p>Signal messages seized when Dutch police arrested suspected member Pepijn van der Stap reportedly show negotiators knew of new victims before some victims did. This is separate from Canadian negotiator Edward Dubrovsky, arrested October 8 on sealed cyber extortion charges.</p><p>Sources: <a href="https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/">KrebsOnSecurity</a>, <a href="https://hackread.com/us-ransomware-negotiator-shinyhunters-extort-victims/">Hackread</a></p>]]></description>
+    </item>
+    <item>
+      <title><![CDATA[AfD confirms hosting provider hack after hundreds of thousands of internal party emails leak online]]></title>
+      <link>https://www.bz-berlin.de/berlin/nach-hackerangriff-afd-daten-im-netz-was-die-partei-jetzt-einraeumt-6ad65af8598b12b947353b1d</link>
+      <guid isPermaLink="false">afd-email-leak-hosting-provider-20261019130819</guid>
+      <pubDate>Mon, 19 Oct 2026 13:08:19 -0700</pubDate>
+      <description><![CDATA[<p>Germany's AfD party told its state branches that a hosting provider was hacked in September 2026 and that content from individual mailboxes was copied, after a site published what it says are hundreds of thousands of internal emails and documents (a roughly 300 GB dump had been advertised for sale in late September). The party says most affected mailboxes had been inactive for years and current federal-party accounts were not hit.</p><p>AfD says it is still checking the authenticity and scope of the published material.</p><p>Source: <a href="https://www.bz-berlin.de/berlin/nach-hackerangriff-afd-daten-im-netz-was-die-partei-jetzt-einraeumt-6ad65af8598b12b947353b1d">B.Z. Berlin</a></p>]]></description>
+    </item>
     <item>
       <title><![CDATA[Bullhorn takes its staffing platform offline to contain a cyberattack; CrowdStrike assisting]]></title>
       <link>https://www.bleepingcomputer.com/news/security/bullhorn-takes-staffing-platform-offline-to-contain-cyberattack/</link>
@@ -559,28 +573,6 @@
 <p>An outside group used an employee's stolen credentials to access some of Meta's GitHub repositories, taking mostly product source code. About 1% of the stolen data was personal information, mostly of US employees, that had been committed to the repos against policy. Meta cut off access, brought in GitHub and law enforcement, and is offering credit and dark web monitoring. Source: <a href="https://www.securityweek.com/meta-says-hackers-took-code-personal-data-of-1500-in-github-breach/">securityweek.com</a></p>
 ]]></description>
     <enclosure url="https://www.securityweek.com/wp-content/uploads/2023/03/Meta-Facebook-e1739539212391.jpg" type="image/jpeg" length="0"/>
-    </item>
-<item>
-      <title>SAP patches CVSS 10 OAuth2 SSRF in Cloud SDK for Python (CVE-2026-89111)</title>
-      <link>https://www.bleepingcomputer.com/news/security/sap-warns-of-maximum-severity-oauth2-ssrf-security-flaw/</link>
-      <guid isPermaLink="false">sap-cve-2026-89111-20261013161344</guid>
-      <pubDate>Tue, 13 Oct 2026 16:13:44 -0700</pubDate>
-      <description><![CDATA[
-<p><img src="https://www.bleepstatic.com/content/hl-images/2026/07/14/SAP.jpg" alt=""/></p>
-<p>SAP's October 2026 updates fix 20 flaws, led by a maximum-severity SSRF in the Cloud SDK for Python used for BTP apps and AI agents. An unauthenticated attacker who controls the tenant_subdomain parameter can redirect OAuth2 token requests and steal client credentials in multi-tenant apps; an allowlist on tenant_subdomain is the interim mitigation. SAP also fixed critical NetWeaver Visual Composer (CVE-2026-89110) and MII (CVE-2026-89108) bugs. No exploitation reported. Source: <a href="https://www.bleepingcomputer.com/news/security/sap-warns-of-maximum-severity-oauth2-ssrf-security-flaw/">bleepingcomputer.com</a></p>
-]]></description>
-    <enclosure url="https://www.bleepstatic.com/content/hl-images/2026/07/14/SAP.jpg" type="image/jpeg" length="0"/>
-    </item>
-<item>
-      <title>Critical Ghostscript flaw CVE-2026-39919 enables RCE via crafted PDF uploads</title>
-      <link>https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads/</link>
-      <guid isPermaLink="false">ghostscript-cve-2026-39919-20261013150400</guid>
-      <pubDate>Tue, 13 Oct 2026 15:04:00 -0700</pubDate>
-      <description><![CDATA[
-<p><img src="https://www.bleepstatic.com/content/hl-images/2026/10/13/ghostscript.jpg" alt=""/></p>
-<p>Wordfence disclosed a critical heap buffer overflow in Ghostscript 9.21 through 10.07.1 that can lead to unauthenticated remote code execution when a server renders an attacker-supplied PDF, for example WordPress thumbnail generation via Imagick and ImageMagick. Researchers built proof-of-concept exploits, though success depended heavily on the environment and was not reliable on stock Linux packages. Artifex fixed it in Ghostscript 10.08.0 on September 8, with backports for older versions; no in-the-wild exploitation has been reported.</p><p>Source: <a href="https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads/">BleepingComputer</a></p>
-]]></description>
-    <enclosure url="https://www.bleepstatic.com/content/hl-images/2026/10/13/ghostscript.jpg" type="image/jpeg" length="0"/>
     </item>
 </channel>
 </rss>
