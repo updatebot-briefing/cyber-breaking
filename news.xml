@@ -7,8 +7,46 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sun, 18 Oct 2026 15:08:42 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 09:30:13 -0700</lastBuildDate>
     <item>
+    <title>One hacker used autonomous AI agents to break into 100+ company websites, including John Deere, SharkNinja and Cummins</title>
+    <link>https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins</link>
+    <guid isPermaLink="false">ai-agents-cairn-100-sites-20261019093013</guid>
+    <pubDate>Mon, 19 Oct 2026 09:30:13 -0700</pubDate>
+    <description><![CDATA[
+<p><img src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKS533_AI_AGENTS_HACKING_A-1.png?quality=90&amp;strip=all&amp;crop=0%2C9.9676601489831%2C100%2C80.064679702034&amp;w=1200" alt=""/></p>
+<p>AI security firm Norforge found a Chinese-speaking attacker using exposed instances of Cairn, an open-source agent orchestration platform, to point autonomous AI agents at more than 1,200 websites, breaching over 100 in the US, Canada, Australia and Japan. Reuters reports the victims include John Deere, SharkNinja and Cummins; successful breaches took about 23 hours each, with the operator giving only short instructions. Deere says there is no sign sensitive data was accessed, SharkNinja says a standalone support site was hit and contained, and Cummins is investigating a third-party vendor site.</p>
+<p>Norforge found more than 20 likely malicious Cairn instances and is working to get them taken down.</p>
+<p>Source: <a href="https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins">The Verge</a> (citing Reuters and Norforge)</p>
+]]></description>
+    <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKS533_AI_AGENTS_HACKING_A-1.png?quality=90&amp;strip=all&amp;crop=0%2C9.9676601489831%2C100%2C80.064679702034&amp;w=1200" type="image/jpeg" length="0"/>
+    </item>
+<item>
+    <title>Rank Math PRO WordPress SEO plugin compromised in supply-chain attack; v3.0.123 shipped a persistent backdoor</title>
+    <link>https://www.securityweek.com/rank-math-pro-wordpress-plugin-compromised-in-supply-chain-attack/</link>
+    <guid isPermaLink="false">rank-math-pro-supply-chain-20261019093012</guid>
+    <pubDate>Mon, 19 Oct 2026 09:30:12 -0700</pubDate>
+    <description><![CDATA[
+<p><img src="https://www.securityweek.com/wp-content/uploads/2024/08/WordPress.jpeg" alt=""/></p>
+<p>Attackers injected malware into some Rank Math PRO 3.0.123 packages distributed between 20:02 UTC on October 15 and 07:12 UTC on October 16 (1:02 PM Oct 15 to 12:12 AM Oct 16 PT). If activated, the malware gives attackers persistent site takeover, recreates a hidden backdoor on each page visit, and can expose credentials, API keys and other secrets. Rank Math pulled the files and released clean version 3.0.124.</p>
+<p>Sites that installed and activated 3.0.123 in that window should be treated as compromised and restored from a clean backup taken before the incident. Otherwise, remove the plugin folder and the malicious database entry, block rank1cdn[.]com, and hunt for rogue PHP or .cache files, .htaccess changes, unknown admins, cron jobs and SSH keys.</p>
+<p>Source: <a href="https://www.securityweek.com/rank-math-pro-wordpress-plugin-compromised-in-supply-chain-attack/">SecurityWeek</a></p>
+]]></description>
+    <enclosure url="https://www.securityweek.com/wp-content/uploads/2024/08/WordPress.jpeg" type="image/jpeg" length="0"/>
+    </item>
+<item>
+    <title>Citizen Lab: University of Belgrade rector hacked with NSO Pegasus; corruption prosecutor got Apple threat notification</title>
+    <link>https://citizenlab.ca/research/pegasus-spyware-serbian-pro-democracy/</link>
+    <guid isPermaLink="false">citizenlab-pegasus-serbia-rector-20261019093011</guid>
+    <pubDate>Mon, 19 Oct 2026 09:30:11 -0700</pubDate>
+    <description><![CDATA[
+<p><img src="https://citizenlab.ca/wp-content/uploads/2026/09/2.png" alt=""/></p>
+<p>Citizen Lab and Serbia&#39;s SHARE Foundation found with high confidence that Vladan Đokić, rector of the University of Belgrade and a prominent supporter of the student protest movement, was hacked with NSO Group&#39;s Pegasus spyware in 2026. Rade Bajić, a prosecutor who investigated official corruption tied to a failed Belgrade development project, received an Apple threat notification, a strong sign of mercenary spyware targeting. The findings land days before Serbia&#39;s October 25 snap election, and the investigations are ongoing.</p>
+<p>Source: <a href="https://citizenlab.ca/research/pegasus-spyware-serbian-pro-democracy/">Citizen Lab report</a></p>
+]]></description>
+    <enclosure url="https://citizenlab.ca/wp-content/uploads/2026/09/2.png" type="image/jpeg" length="0"/>
+    </item>
+<item>
     <title>Plex2Shell: unauthenticated RCE chain in outdated Plex Media Servers reportedly exploited to drop miners and proxies</title>
     <link>https://mezha.net/eng/news/0e7c09cf_researcher_reports_attacks_on/</link>
     <guid isPermaLink="false">plex2shell-plex-media-server-20261018150842</guid>
@@ -552,28 +590,6 @@
 <p>Docker disclosed a critical Docker Hub bug, open from August 2024 until September 30, 2026, where converting a personal account into an organization silently transferred its access tokens to whichever user was named owner. An attacker could use this to push, pull or delete images in another user's repositories, a real container supply-chain risk. Docker fixed it server-side and says it found no evidence of exploitation; CVSS 4.0 score is 9.4.</p><p>Source: <a href="https://thehackernews.com/2026/10/docker-fixes-critical-two-year-old-hub.html">The Hacker News</a></p>
 ]]></description>
     <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEile879Rmv8zAdU5PMclUp5RnNGDb3h1u3aVZ-VigGjnO0RFcyCQ03s7_lIqMGDiow5ilPumq3B2_bsvewqRlepch4lFwLvOUEDQZPYd9Vv8untJVZFmrv5Zhgvj54cs4J_vCYW4GVY-XsQl7SXD-yrXbED6KpiWbTq-kL_0aNwef3xjV3cBGQ3dsodqAM/s1700-nu-rw-lo-l85-e365/dock.jpg" type="image/jpeg" length="0"/>
-    </item>
-<item>
-      <title>Ivanti Connect Secure zero-day chain exploited for root; KEV add, one fix still pending</title>
-      <link>https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html</link>
-      <guid isPermaLink="false">ivanti-ics-cve-2026-104935-20261013150356</guid>
-      <pubDate>Tue, 13 Oct 2026 15:03:56 -0700</pubDate>
-      <description><![CDATA[
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZSH26NsXmSsQGaAbhNyJLMaBQKFCmabIbFZ_yi2sUGXjHQOVztQEQfXLarEAx1Fl9lRwGAryBE4zZEooJ4cochODcB4x8wQnPl3MRWiyBcpyEV6i8VPxvwcLHmShQVZVhuOcTjMXRhHAlx4Y0Uo85c74EVU4cea84YgXju02I9jlNzcGOFtLfa_am82Q/s1700-nu-rw-lo-l85-e365/ivanti-hack.jpg" alt=""/></p>
-<p>Volexity found attacker UTA0576 chaining three Ivanti Connect Secure zero-days since October 3 to run commands as root without logging in, even on a fully patched 22.8R2.4 appliance. Ivanti fixed the authentication bypass and RCE pair (CVE-2026-104935) on October 13 and reports limited exploitation; CISA added it to KEV with an October 16 deadline. The privilege-escalation fix is still weeks away, and Ivanti's Integrity Checker misses this in-memory chain, so forensic review is needed to confirm compromise.</p><p>Source: <a href="https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html">The Hacker News</a></p>
-]]></description>
-    <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZSH26NsXmSsQGaAbhNyJLMaBQKFCmabIbFZ_yi2sUGXjHQOVztQEQfXLarEAx1Fl9lRwGAryBE4zZEooJ4cochODcB4x8wQnPl3MRWiyBcpyEV6i8VPxvwcLHmShQVZVhuOcTjMXRhHAlx4Y0Uo85c74EVU4cea84YgXju02I9jlNzcGOFtLfa_am82Q/s1700-nu-rw-lo-l85-e365/ivanti-hack.jpg" type="image/jpeg" length="0"/>
-    </item>
-<item>
-      <title>Attackers hijack Danfoss refrigeration controllers at hundreds of French supermarkets</title>
-      <link>https://thehackernews.com/2026/10/attackers-heat-french-supermarket.html</link>
-      <guid isPermaLink="false">danfoss-french-supermarkets-20261013150355</guid>
-      <pubDate>Tue, 13 Oct 2026 15:03:55 -0700</pubDate>
-      <description><![CDATA[
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh64tQNgn3aqDhyphenhyphengoK8NxQG3DPvWWi0fP185meJUr14eUmcX18mKJdkUz6QsMU6bTxmwAtHrd8I0J5FQjvTENA1-N1F60zsR1x2iDzaJNhPbg_6iGYTELpBOwiTbBiaMWLmWQ4naaMfCLCcThNEfC302zF-YCjlev6138DvUrXfr5noGCpZaT9JnGd7hUw/s1700-nu-rw-lo-l85-e365/supermarket.jpg" alt=""/></p>
-<p>On the night of October 11, attackers took remote control of Danfoss AK-SM and AK-SC store refrigeration controllers and forced fridges and freezers into defrost, heating them to as much as 50°C and spoiling food at hundreds of Intermarché, Netto and other stores. CERT-FR reported numerous compromises and told operators to disconnect the controllers or tightly filter access. Danfoss says most affected units were older models it no longer updates; the attacker and entry method are not yet known.</p><p>Source: <a href="https://thehackernews.com/2026/10/attackers-heat-french-supermarket.html">The Hacker News</a></p>
-]]></description>
-    <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh64tQNgn3aqDhyphenhyphengoK8NxQG3DPvWWi0fP185meJUr14eUmcX18mKJdkUz6QsMU6bTxmwAtHrd8I0J5FQjvTENA1-N1F60zsR1x2iDzaJNhPbg_6iGYTELpBOwiTbBiaMWLmWQ4naaMfCLCcThNEfC302zF-YCjlev6138DvUrXfr5noGCpZaT9JnGd7hUw/s1700-nu-rw-lo-l85-e365/supermarket.jpg" type="image/jpeg" length="0"/>
     </item>
 </channel>
 </rss>
