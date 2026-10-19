@@ -7,7 +7,23 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Mon, 19 Oct 2026 11:03:17 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 12:02:53 -0700</lastBuildDate>
+    <item>
+      <title><![CDATA[Bullhorn takes its staffing platform offline to contain a cyberattack; CrowdStrike assisting]]></title>
+      <link>https://www.bleepingcomputer.com/news/security/bullhorn-takes-staffing-platform-offline-to-contain-cyberattack/</link>
+      <guid isPermaLink="false">bullhorn-cyberattack-outage-20261019120252</guid>
+      <pubDate>Mon, 19 Oct 2026 12:02:53 -0700</pubDate>
+      <enclosure url="https://www.bleepstatic.com/content/hl-images/2026/10/19/bullhorn.jpg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://www.bleepstatic.com/content/hl-images/2026/10/19/bullhorn.jpg" alt=""/></p><p>Staffing and recruitment software company Bullhorn, which says it serves more than 10,000 customers, disabled access to its platform after detecting a cyber incident that caused a system-wide outage starting Friday. The company says it has isolated the issue and is restoring services after security reviews with CrowdStrike.</p><p>Bullhorn says it has not yet determined whether customer data was exfiltrated. ATS/CRM, automation, back office and talent platform services were still in major outage at the time of reporting.</p><p>Source: <a href="https://www.bleepingcomputer.com/news/security/bullhorn-takes-staffing-platform-offline-to-contain-cyberattack/">BleepingComputer</a></p>]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Siemens Software Center DLL flaw (CVE-2026-110936) exploited in ClickFix malware attacks]]></title>
+      <link>https://www.securityweek.com/siemens-software-center-vulnerability-exploited-in-clickfix-malware-attacks/</link>
+      <guid isPermaLink="false">siemens-software-center-clickfix-20261019120252</guid>
+      <pubDate>Mon, 19 Oct 2026 12:02:52 -0700</pubDate>
+      <enclosure url="https://www.securityweek.com/wp-content/uploads/2024/04/Siemens.jpeg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://www.securityweek.com/wp-content/uploads/2024/04/Siemens.jpeg" alt=""/></p><p>Siemens says attackers exploited CVE-2026-110936, a DLL search-path flaw in Siemens Software Center, by pairing a genuine signed copy of the program with malicious DLLs delivered through ClickFix lures on Windows PCs. Siemens says none of its systems, products or update channels were breached.</p><p>Version 4.0.9.8 fixes the issue and installs automatically the next time the app launches. Because the abused file is legitimate, Siemens advises hunting for suspicious behavior and the malware's folders rather than relying on file hashes, and has published indicators of compromise.</p><p>Source: <a href="https://www.securityweek.com/siemens-software-center-vulnerability-exploited-in-clickfix-malware-attacks/">SecurityWeek</a></p>]]></description>
+    </item>
     <item>
       <title>GhostAction evolves: GitHub 2FA phishing kit and font-disguised credential stealer found in 94 repositories</title>
       <link>https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html</link>
@@ -565,28 +581,6 @@
 <p>Wordfence disclosed a critical heap buffer overflow in Ghostscript 9.21 through 10.07.1 that can lead to unauthenticated remote code execution when a server renders an attacker-supplied PDF, for example WordPress thumbnail generation via Imagick and ImageMagick. Researchers built proof-of-concept exploits, though success depended heavily on the environment and was not reliable on stock Linux packages. Artifex fixed it in Ghostscript 10.08.0 on September 8, with backports for older versions; no in-the-wild exploitation has been reported.</p><p>Source: <a href="https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads/">BleepingComputer</a></p>
 ]]></description>
     <enclosure url="https://www.bleepstatic.com/content/hl-images/2026/10/13/ghostscript.jpg" type="image/jpeg" length="0"/>
-    </item>
-<item>
-      <title>Microsoft October 2026 Patch Tuesday: record 1,411 flaws, exploited Windows Shell zero-day</title>
-      <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/</link>
-      <guid isPermaLink="false">ms-patch-tuesday-2026-10-20261013150359</guid>
-      <pubDate>Tue, 13 Oct 2026 15:03:59 -0700</pubDate>
-      <description><![CDATA[
-<p><img src="https://www.bleepstatic.com/content/hl-images/2024/10/08/patch_tuesday_microsoft.jpg" alt=""/></p>
-<p>Microsoft's October 2026 Patch Tuesday fixes a record 1,411 vulnerabilities, including 70 rated Critical and 317 remote code execution bugs. The one actively exploited zero-day, CVE-2026-96951, is a Windows Shell command-injection flaw that bypasses Mark of the Web protections; CISA added it to KEV with an October 16 deadline. Two other zero-days were publicly disclosed, and Windows 11 24H2 Home and Pro reached end of support with this release.</p><p>Source: <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/">BleepingComputer</a></p>
-]]></description>
-    <enclosure url="https://www.bleepstatic.com/content/hl-images/2024/10/08/patch_tuesday_microsoft.jpg" type="image/jpeg" length="0"/>
-    </item>
-<item>
-      <title>GitLab patches CVSS 10.0 unauthenticated code execution flaw (CVE-2026-97229)</title>
-      <link>https://thehackernews.com/2026/10/gitlab-patches-cvss-100-flaw-that-could.html</link>
-      <guid isPermaLink="false">gitlab-cve-2026-97229-20261013150358</guid>
-      <pubDate>Tue, 13 Oct 2026 15:03:58 -0700</pubDate>
-      <description><![CDATA[
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOWNiMkzMghhERT5BPyrVI9JdCWExRLtDNHIHPjmT_WnGhLHyWhahW3xPurPPQJUn7Yz0_g9Nk0zWinEKh4J71g9viLtNVx2fM2anNzhA514PAgZBxobRfeP1jSsovLI6iVi9HIUXxv_dLvK8DrKy5vZktoxrxyd0riB83XCR2dlne7lEgTqdXW1Rwhekz/s1700-nu-rw-lo-l85-e365/gitlab-exploit.jpg" alt=""/></p>
-<p>GitLab fixed a maximum-severity integer overflow in CE and EE that, under certain conditions, lets an unauthenticated user run arbitrary code on the server through a crafted regular expression in a CI/CD configuration. Affected versions are 19.2 before 19.2.8, 19.3 before 19.3.5 and 19.4 before 19.4.2. No exploitation has been reported yet, but last month's CVSS 10 GitLab bug drew in-the-wild probes within hours, so self-managed instances should patch quickly.</p><p>Source: <a href="https://thehackernews.com/2026/10/gitlab-patches-cvss-100-flaw-that-could.html">The Hacker News</a></p>
-]]></description>
-    <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOWNiMkzMghhERT5BPyrVI9JdCWExRLtDNHIHPjmT_WnGhLHyWhahW3xPurPPQJUn7Yz0_g9Nk0zWinEKh4J71g9viLtNVx2fM2anNzhA514PAgZBxobRfeP1jSsovLI6iVi9HIUXxv_dLvK8DrKy5vZktoxrxyd0riB83XCR2dlne7lEgTqdXW1Rwhekz/s1700-nu-rw-lo-l85-e365/gitlab-exploit.jpg" type="image/jpeg" length="0"/>
     </item>
 </channel>
 </rss>
