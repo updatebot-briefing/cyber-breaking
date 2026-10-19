@@ -7,7 +7,15 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Mon, 19 Oct 2026 13:08:20 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 15:02:44 -0700</lastBuildDate>
+    <item>
+      <title>Nikkei discloses third breach in a month; stolen credentials exposed 1.83M records, about 150K with personal data</title>
+      <link>https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed/</link>
+      <guid isPermaLink="false">nikkei-third-breach-1-8m-records-20261019150244</guid>
+      <pubDate>Mon, 19 Oct 2026 15:02:44 -0700</pubDate>
+      <enclosure url="https://www.bleepstatic.com/content/hl-images/2026/10/19/nikkei.jpg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://www.bleepstatic.com/content/hl-images/2026/10/19/nikkei.jpg" alt=""/></p><p>Nikkei Inc., the Japanese business media group that owns the Financial Times, disclosed its third breach in about a month. Attackers used stolen credentials on October 7 to reach a development system and exposed 1.83 million records stored in the cloud, about 150,000 of which include names, email or physical addresses, phone numbers or birth dates. No card data was exposed, and Nikkei says it has no evidence yet of misuse or leaks.</p><p>Source: <a href="https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed/">BleepingComputer</a></p>]]></description>
+    </item>
     <item>
       <title><![CDATA[Feds suspect a US ransomware negotiator helped run ShinyHunters' shinywire extortion site]]></title>
       <link>https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/</link>
@@ -562,17 +570,6 @@
 <p>Dutch-Belgian grocery giant Ahold Delhaize disconnected some systems after detecting a security issue in its network. Local media report delivery and online-order disruption at Albert Heijn and Delhaize in Belgium and the Netherlands, and US stores appear affected too. The company says it has no evidence customer or employee data was stolen and is starting a controlled relaunch of systems. Source: <a href="https://www.securityweek.com/cyberattack-prompts-ahold-delhaize-to-disconnect-systems/">securityweek.com</a></p>
 ]]></description>
     <enclosure url="https://www.securityweek.com/wp-content/uploads/2024/11/Ahold-Delhaize-cyberattack.jpeg" type="image/jpeg" length="0"/>
-    </item>
-<item>
-      <title>Meta notifies about 1,500 people after hackers accessed its GitHub repositories</title>
-      <link>https://www.securityweek.com/meta-says-hackers-took-code-personal-data-of-1500-in-github-breach/</link>
-      <guid isPermaLink="false">meta-github-breach-20261013161344</guid>
-      <pubDate>Tue, 13 Oct 2026 16:13:44 -0700</pubDate>
-      <description><![CDATA[
-<p><img src="https://www.securityweek.com/wp-content/uploads/2023/03/Meta-Facebook-e1739539212391.jpg" alt=""/></p>
-<p>An outside group used an employee's stolen credentials to access some of Meta's GitHub repositories, taking mostly product source code. About 1% of the stolen data was personal information, mostly of US employees, that had been committed to the repos against policy. Meta cut off access, brought in GitHub and law enforcement, and is offering credit and dark web monitoring. Source: <a href="https://www.securityweek.com/meta-says-hackers-took-code-personal-data-of-1500-in-github-breach/">securityweek.com</a></p>
-]]></description>
-    <enclosure url="https://www.securityweek.com/wp-content/uploads/2023/03/Meta-Facebook-e1739539212391.jpg" type="image/jpeg" length="0"/>
     </item>
 </channel>
 </rss>
