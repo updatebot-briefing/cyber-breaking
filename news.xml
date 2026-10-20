@@ -7,7 +7,46 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 20 Oct 2026 09:06:32 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 10:08:00 -0700</lastBuildDate>
+    <item>
+    <title><![CDATA[Public exploit released for critical unauthenticated FortiSIEM RCE (CVE-2026-106173)]]></title>
+    <link>https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html</link>
+    <guid isPermaLink="false">fortisiem-cve-2026-106173-poc-20261020100800</guid>
+    <pubDate>Tue, 20 Oct 2026 10:08:00 -0700</pubDate>
+    <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3BuJLxcpzxzxwpUcwsPb7L-gNCeXeyuPtNysOMHtf06VmANCx2DR3O52Puw9AQwUu0C8ccQ77MF_l0bAf4zL-hrvYO8jSHs6Km0Xz6-Q4yYm1thRvJ-y59qLRX9Qni0zD161qJ53oCgzEIo3NjOLKtgOrIAbOMsAhITOhL9qoy2v9D6tRU26m0fBoMDhJ/s1600/fort-poc.jpg" type="image/jpeg" length="0"/>
+    <description><![CDATA[
+<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3BuJLxcpzxzxwpUcwsPb7L-gNCeXeyuPtNysOMHtf06VmANCx2DR3O52Puw9AQwUu0C8ccQ77MF_l0bAf4zL-hrvYO8jSHs6Km0Xz6-Q4yYm1thRvJ-y59qLRX9Qni0zD161qJ53oCgzEIo3NjOLKtgOrIAbOMsAhITOhL9qoy2v9D6tRU26m0fBoMDhJ/s1600/fort-poc.jpg" alt=""/></p>
+<p>Horizon3.ai published a proof-of-concept exploit for CVE-2026-106173 (CVSS 9.4), the FortiSIEM path traversal Fortinet patched last week. An unauthenticated attacker who can reach the gRPC service on TCP port 27918 can combine "../" sequences with a null byte to overwrite a Redis health-check script that cron runs every 60 seconds, turning a file write into code execution.</p>
+<p>FortiSIEM 7.5.0 is affected (fixed in 7.5.1 and later) and 7.6 is not. No exploitation has been reported yet, but with a public exploit out, unpatched exposed instances are now at high risk. Source: <a href="https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html">The Hacker News</a></p>
+]]></description>
+  </item>
+
+    <item>
+    <title><![CDATA[Qilin and INC ransomware gangs exploit PAN-OS GlobalProtect auth bypass (CVE-2026-0257), then pivot to vCenter and ESXi]]></title>
+    <link>https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html</link>
+    <guid isPermaLink="false">panos-cve-2026-0257-qilin-inc-20261020100800</guid>
+    <pubDate>Tue, 20 Oct 2026 10:08:00 -0700</pubDate>
+    <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgd71tvun8MRT5muo9ZiruSzkyqhGkeh-_5dP4QardwiC54o4wW3PtC7I1jtP_vVX1rPujN_YdrmILFSZw_Ikl6v8Gn2w75v-90aSHpnngi2WE-Ezv6OAO37YY4pJpNwe_DcGWRMgIOUxAEPyVisI3SxXnV30HejoGfGtlXDfAgGkdqrdFJjAI7x6jjFFj-/s1600/palo-ransomware.jpg" type="image/jpeg" length="0"/>
+    <description><![CDATA[
+<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgd71tvun8MRT5muo9ZiruSzkyqhGkeh-_5dP4QardwiC54o4wW3PtC7I1jtP_vVX1rPujN_YdrmILFSZw_Ikl6v8Gn2w75v-90aSHpnngi2WE-Ezv6OAO37YY4pJpNwe_DcGWRMgIOUxAEPyVisI3SxXnV30HejoGfGtlXDfAgGkdqrdFJjAI7x6jjFFj-/s1600/palo-ransomware.jpg" alt=""/></p>
+<p>Palo Alto Networks' Unit 42 says ransomware crews Qilin (Spikey Scorpius) and INC (Tarnished Scorpius) are still exploiting CVE-2026-0257, a PAN-OS and Prisma Access authentication bypass patched in May and in CISA's KEV catalog since May 13. They use it to set up VPN sessions that skip MFA, then move laterally over RDP and SMB.</p>
+<p>In one case the attackers went from the VPN gateway to vCenter, disabled ESXi protections and dumped domain credentials straight from a domain controller's virtual disk, getting around in-guest EDR. Palo Alto urges patching plus a hunt for suspicious gateway-connected events. Source: <a href="https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html">The Hacker News</a></p>
+]]></description>
+  </item>
+
+    <item>
+    <title><![CDATA[Paradigm Healthcare breach exposed data on 970,000 Medi-Cal members, notified 11 months after intrusion]]></title>
+    <link>https://www.securityweek.com/970000-medi-cal-members-affected-by-paradigm-healthcare-data-breach/</link>
+    <guid isPermaLink="false">paradigm-healthcare-medi-cal-breach-20261020100800</guid>
+    <pubDate>Tue, 20 Oct 2026 10:08:00 -0700</pubDate>
+    <enclosure url="https://www.securityweek.com/wp-content/uploads/2025/07/data-breach-healthcare-medical.jpg" type="image/jpeg" length="0"/>
+    <description><![CDATA[
+<p><img src="https://www.securityweek.com/wp-content/uploads/2025/07/data-breach-healthcare-medical.jpg" alt=""/></p>
+<p>Paradigm Healthcare Services, which handles billing for California's Medi-Cal program, told HHS that an intrusion detected in October 2025 affected more than 970,000 people. Files accessed between Oct 8 and Oct 15, 2025 held names, dates of birth, gender and Medi-Cal member ID numbers.</p>
+<p>Notification letters went out Sept 14, 2026, about 11 months after detection. No group has claimed the attack, and Paradigm hasn't said how attackers got in or whether data was exfiltrated. Source: <a href="https://www.securityweek.com/970000-medi-cal-members-affected-by-paradigm-healthcare-data-breach/">SecurityWeek</a></p>
+]]></description>
+  </item>
+
     <item>
       <title><![CDATA[OVHcloud CLI releases v0.11.0 to v0.15.0 backdoored on GitHub to steal developer secrets]]></title>
       <link>https://www.bleepingcomputer.com/news/security/ovhcloud-cli-releases-backdoored-on-github-to-steal-developer-secrets/</link>
@@ -528,39 +567,6 @@
 <p>With a federal court order, Microsoft's Digital Crimes Unit, Health-ISAC, Japan's JC3 and partners including Cloudflare, Proofpoint and Resecurity seized domains behind the CoGUI, Haozi and Iron Man System phishing kits. The kits are tied to the YAM Store marketplace and initial access broker. Since January 2026 they have helped send more than a billion phishing emails and SMS messages to over 75,000 organizations in about 150 countries. Source: <a href="https://thehackernews.com/2026/10/microsoft-disrupts-3-phishing-kits.html">thehackernews.com</a></p>
 ]]></description>
     <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtmZA0sGFnGRVBoPOHXGNOr-Q1MpdbCUNVrfxBTV6z_URgCka1DOH4xcc_WuismhU3W1BEiostTKZetIhtrFyXrInKdz_jqK6Dtia5TDOqRiu4rkktKmF2Iz1br28coCyU3c5td-yrINUgjYIdwG-7q_n1fEZT_mumUoVBp2HfNPKHnqC3jTryRDL7hxAL/s1700-nu-rw-lo-l85-e365/phish-shop.jpg" type="image/jpeg" length="0"/>
-    </item>
-<item>
-      <title>US shuts down 40+ laptop farms and charges 14 in North Korean IT worker scheme</title>
-      <link>https://thehackernews.com/2026/10/us-shuts-down-over-40-laptop-farms.html</link>
-      <guid isPermaLink="false">doj-dprk-it-worker-laptop-farms-20261014101827</guid>
-      <pubDate>Wed, 14 Oct 2026 10:18:27 -0700</pubDate>
-      <description><![CDATA[
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRRY0Y0x4bBS7xZHNvUUjosK6tuvOhbBbE9XvaoyiONRttpSxhIwBaCgDpNKo9kMR37n1_8wKUXzpzL6KhmNC0OJsGZapzAaAteSFlbasNFzCM6XZXsSU99yOk6e2oR7tzG_3p_1-V04tnDyhhtGaBUJSviR-xaJh6mg4E-KT5gwR7_x3JmO-DDfM6-7ic/s1700-nu-rw-lo-l85-e365/laptop-farm.jpg" alt=""/></p>
-<p>The DOJ charged 14 people, a mix of US citizens and Chinese nationals, and seized about 187 computers in raids on more than 40 laptop farms. The farms let North Korean IT workers pose as US-based remote hires. The scheme reached more than 70 US companies and stole the identities of at least 25 Americans. Two Americans were arrested. Source: <a href="https://thehackernews.com/2026/10/us-shuts-down-over-40-laptop-farms.html">thehackernews.com</a></p>
-]]></description>
-    <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRRY0Y0x4bBS7xZHNvUUjosK6tuvOhbBbE9XvaoyiONRttpSxhIwBaCgDpNKo9kMR37n1_8wKUXzpzL6KhmNC0OJsGZapzAaAteSFlbasNFzCM6XZXsSU99yOk6e2oR7tzG_3p_1-V04tnDyhhtGaBUJSviR-xaJh6mg4E-KT5gwR7_x3JmO-DDfM6-7ic/s1700-nu-rw-lo-l85-e365/laptop-farm.jpg" type="image/jpeg" length="0"/>
-    </item>
-<item>
-      <title>curl 8.23.0 fixes High-severity HTTP/2 upload use-after-free with code-execution PoC (CVE-2026-92392)</title>
-      <link>https://thehackernews.com/2026/10/curl-patches-http2-upload-flaw-after.html</link>
-      <guid isPermaLink="false">curl-cve-2026-92392-20261014101826</guid>
-      <pubDate>Wed, 14 Oct 2026 10:18:26 -0700</pubDate>
-      <description><![CDATA[
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4S_5rQ2kApGYmSMOh6PFsgD3yRugV3_nzSexwBhEe3BoSTQeBfSu2-3JSO4wDCnU2LmVMWtgA6AcBEcf2wOpsL2v22woZ5fel0XaSonlbgDWSXMuV3iu5ewohp9kqgf4OwmCvtnRyyYjFEP6Z3RRLT5sX8g7-xI1robnLmWtqFp6SvrGvpBeXI_D4ICo/s1700-nu-rw-lo-l85-e365/curl.jpg" alt=""/></p>
-<p>A use-after-free in curl/libcurl 8.12.0 through 8.22.0 lets a malicious HTTPS server that receives a roughly 135KB HTTP/2 upload corrupt client memory. The reporter's public PoC turns that into code execution. It's curl's first High-severity bug since October 2023, and Anthropic's OSS Scanner found it. curl says a real-world attack would most likely just cause a crash, and no exploitation is reported. Upgrade to 8.23.0 or a fixed branch release (8.14.3, 8.16.2, 8.20.2), or force HTTP/1.1 until you can. Source: <a href="https://thehackernews.com/2026/10/curl-patches-http2-upload-flaw-after.html">thehackernews.com</a></p>
-]]></description>
-    <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4S_5rQ2kApGYmSMOh6PFsgD3yRugV3_nzSexwBhEe3BoSTQeBfSu2-3JSO4wDCnU2LmVMWtgA6AcBEcf2wOpsL2v22woZ5fel0XaSonlbgDWSXMuV3iu5ewohp9kqgf4OwmCvtnRyyYjFEP6Z3RRLT5sX8g7-xI1robnLmWtqFp6SvrGvpBeXI_D4ICo/s1700-nu-rw-lo-l85-e365/curl.jpg" type="image/jpeg" length="0"/>
-    </item>
-<item>
-      <title>Fortinet fixes critical unauthenticated RCE and auth bypass in FortiSIEM and FortiSandbox</title>
-      <link>https://www.securityweek.com/citrix-fortinet-ivanti-patch-29-vulnerabilities-across-their-products/</link>
-      <guid isPermaLink="false">fortinet-fortisiem-fortisandbox-critical-20261014101825</guid>
-      <pubDate>Wed, 14 Oct 2026 10:18:25 -0700</pubDate>
-      <description><![CDATA[
-<p><img src="https://www.securityweek.com/wp-content/uploads/2025/07/software-vulnerability-patch-update.jpg" alt=""/></p>
-<p>Fortinet's October advisories fix 13 bugs. Two are critical: an unauthenticated code execution flaw (CVE-2026-106173) and an authentication bypass (CVE-2026-107656) in FortiSIEM and the FortiSandbox GUI. There are also five high-severity authenticated SQL or command injection bugs across FortiAnalyzer, FortiManager and FortiMail. The same Patch Tuesday round includes Citrix XenServer/Workspace fixes and critical Ivanti Neurons Patch for Intune and Xtraction bugs. No exploitation is mentioned. Source: <a href="https://www.securityweek.com/citrix-fortinet-ivanti-patch-29-vulnerabilities-across-their-products/">securityweek.com</a></p>
-]]></description>
-    <enclosure url="https://www.securityweek.com/wp-content/uploads/2025/07/software-vulnerability-patch-update.jpg" type="image/jpeg" length="0"/>
     </item>
 </channel>
 </rss>
