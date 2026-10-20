@@ -7,7 +7,22 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 20 Oct 2026 12:10:00 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 13:10:00 -0700</lastBuildDate>
+    <item>
+      <title><![CDATA[Zeabur shutting down after second breach: leaked plaintext admin credentials exposed 3.2M environment-variable records and 321,810 accounts]]></title>
+      <link>https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/</link>
+      <guid isPermaLink="false">zeabur-second-breach-shutdown-20261020131000</guid>
+      <pubDate>Tue, 20 Oct 2026 13:10:00 -0700</pubDate>
+      <enclosure url="https://www.bleepstatic.com/content/hl-images/2026/10/20/zeabur.jpg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://www.bleepstatic.com/content/hl-images/2026/10/20/zeabur.jpg" alt=""/></p><p>Developer hosting platform Zeabur is shutting down after its second breach in two months. On October 14-15 an attacker used leaked internal credentials, stored in plaintext and never rotated after the August breach, to get into shared clusters in nine regions, dedicated servers and the production database, stealing about 3.2 million environment-variable records and data on 321,810 accounts. Zeabur also confirmed root sign-ins on 101 GCP servers, SSH keys added to 50 servers, and 16 customer disk copies attached to attacker machines.</p><p>Anyone who deployed on Zeabur should rotate every secret, API key and database credential that was stored in its environment variables.</p><p>Source: <a href="https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/">BleepingComputer</a></p>]]></description>
+    </item>
+    <item>
+      <title><![CDATA[CISA adds the Plex2Shell chain (four Plex Media Server CVEs) to KEV, confirming exploitation]]></title>
+      <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search=Plex</link>
+      <guid isPermaLink="false">plex2shell-cisa-kev-add-20261020131000</guid>
+      <pubDate>Tue, 20 Oct 2026 13:10:00 -0700</pubDate>
+      <description><![CDATA[<p>CISA added CVE-2026-96652, CVE-2026-96654, CVE-2026-96655 and CVE-2026-96656 in Plex Media Server to its Known Exploited Vulnerabilities catalog on October 20 (catalog version 2026.10.20). These are the four bugs in the Plex2Shell chain, which lets an attacker go from SSRF with any X-Plex-Token to writing files that run on load. This is an update to the October 18 item, where exploitation had only been reported from a honeypot.</p><p>Plex shipped fixes in August; anyone running Plex Media Server older than 1.43.3.10861, especially exposed to the internet, should update now. CISA also added an exploited SiteGuard Server Edition command-injection bug (CVE-2026-106931, covered earlier) and a local Siemens Software Center DLL-loading flaw (CVE-2026-110936) the same day.</p><p>Source: <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search=Plex">CISA Known Exploited Vulnerabilities catalog</a></p>]]></description>
+    </item>
     <item>
       <title><![CDATA[Mozilla and Chrome confirm private keys for eight eMudhra intermediate CAs were compromised; trust stores rush fixes]]></title>
       <link>https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html</link>
@@ -545,25 +560,5 @@
 ]]></description>
     <enclosure url="https://www.securityweek.com/wp-content/uploads/2023/11/ICS_Patches.jpg" type="image/jpeg" length="0"/>
   </item>
-<item>
-      <title>Cisco patches second exploited Secure Email Gateway zero-day giving unauthenticated root (CVE-2026-76519)</title>
-      <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-afw-zqYJkjxp</link>
-      <guid isPermaLink="false">cisco-seg-amp-file-write-zero-day-20261014110418</guid>
-      <pubDate>Wed, 14 Oct 2026 11:04:18 -0700</pubDate>
-      <description><![CDATA[
-<p>On Oct 14 Cisco disclosed CVE-2026-76519 (CVSS 9.8), an arbitrary file write in the AMP File Reputation feature of Secure Email Gateway. A crafted email attachment lets an unauthenticated remote attacker write files and run commands as root. Cisco says it learned of active exploitation this month. Only gateways with File Reputation enabled and Content Scanner Tools older than 25.3.0.5525 are affected, and there is no workaround. Update Content Scanner Tools or move to AsyncOS 15.5.5-014 or 16.5.0-780, then check system_logs for "System Security" compromise indicators. This is the second exploited SEG zero-day in a month, after CVE-2026-76461 in September. Sources: <a href="https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-afw-zqYJkjxp">sec.cloudapps.cisco.com</a> ; <a href="https://www.bleepingcomputer.com/news/security/">bleepingcomputer.com</a></p>
-]]></description>
-    </item>
-<item>
-      <title>CISA urges immediate Ivanti Connect Secure patching as exploit attempts spread (CVE-2026-104935)</title>
-      <link>https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html</link>
-      <guid isPermaLink="false">ivanti-ics-cisa-alert-exploit-attempts-20261014101829</guid>
-      <pubDate>Wed, 14 Oct 2026 10:18:29 -0700</pubDate>
-      <description><![CDATA[
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBUpsAaH4Pe-HlsDhdSH5KK3VgWm9NEXXLNBOpxxp4d8WMZwSNNyPALzuapR_iUlq3-dLDe2bnPJfh42cdfH5m3LQWGKXZvHF3sYacyDbtZacKIIoluyNgP01-6bjjEz-RBhAQqxw-VHGD7gpn3ToRulgeH0ydeWXOucoK4hLBwvXtlCg81tB1scdjPbKN/s1700-nu-rw-lo-l85-e365/i-h.jpg" alt=""/></p>
-<p>CISA put out an advisory telling all organizations, not just federal agencies, to update Ivanti Connect Secure right away and run network and memory forensics, because Ivanti's Integrity Checker may miss in-memory attacks. Previdian honeypots logged 105 exploit attempts from 50 IPs as of Oct 14. So far they're mostly tests for code execution, and watchTowr expects mass exploitation to follow. Shadowserver tracks about 5,600 internet-exposed ICS hosts. A fix for the third bug in the chain, the privilege escalation, is still pending. Sources: <a href="https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html">thehackernews.com</a> ; <a href="https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-immediately-fix-ivanti-flaw-exploited-as-zero-day/">bleepingcomputer.com</a></p>
-]]></description>
-    <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBUpsAaH4Pe-HlsDhdSH5KK3VgWm9NEXXLNBOpxxp4d8WMZwSNNyPALzuapR_iUlq3-dLDe2bnPJfh42cdfH5m3LQWGKXZvHF3sYacyDbtZacKIIoluyNgP01-6bjjEz-RBhAQqxw-VHGD7gpn3ToRulgeH0ydeWXOucoK4hLBwvXtlCg81tB1scdjPbKN/s1700-nu-rw-lo-l85-e365/i-h.jpg" type="image/jpeg" length="0"/>
-    </item>
 </channel>
 </rss>
