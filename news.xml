@@ -7,7 +7,15 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 20 Oct 2026 10:08:00 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 12:10:00 -0700</lastBuildDate>
+    <item>
+      <title><![CDATA[Mozilla and Chrome confirm private keys for eight eMudhra intermediate CAs were compromised; trust stores rush fixes]]></title>
+      <link>https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html</link>
+      <guid isPermaLink="false">emudhra-ca-keys-compromised-confirmed-20261020121000</guid>
+      <pubDate>Tue, 20 Oct 2026 12:10:00 -0700</pubDate>
+      <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJOWLzgriXXM626bAOaX_LEoNH97Ab_XV4oQ0GxBeY3-PqkdXdcae52-wrl8r0LipTFBsvl4R7Y5j6jFsiG_9V8ZAwHOkAlsZaRcOAswStHhAG1FYm9W6kjA4FmOz0bXgVXO6LyEs9Fv75UrRFphZEzhXodKdTlYzfPK8sqW3DpxKBnD7OFQfqJJ_ay2c/s1600/ecert.jpg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJOWLzgriXXM626bAOaX_LEoNH97Ab_XV4oQ0GxBeY3-PqkdXdcae52-wrl8r0LipTFBsvl4R7Y5j6jFsiG_9V8ZAwHOkAlsZaRcOAswStHhAG1FYm9W6kjA4FmOz0bXgVXO6LyEs9Fv75UrRFphZEzhXodKdTlYzfPK8sqW3DpxKBnD7OFQfqJJ_ay2c/s1600/ecert.jpg" alt=""/></p><p>Mozilla and the Chrome Root Program confirmed on October 20 that the private keys of eight eMudhra (emSign) intermediate CAs, six for TLS and two for code signing, are compromised. Anyone holding them could issue certificates any site would trust. A researcher reported it on October 17, and Chrome and Firefox blocked the keys within hours. No certificates from them had appeared in Certificate Transparency logs before the block, and it is still unknown how the keys left eMudhra or who else holds them.</p><p>Mozilla has removed the emSign ECC Root CA - G3 from NSS, and Chrome plans to drop it too. Apple and Microsoft have blocked the certificates, and fixes shipped in Go 1.27.3/1.26.10, Firefox 158.0.1, Python certifi and Rust webpki-roots, while Node.js is still pending. Software that doesn't check revocation needs updating or rebuilding. This confirms the CA behind the urgent Go release reported earlier today.</p><p>Source: <a href="https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html">The Hacker News</a></p>]]></description>
+    </item>
     <item>
     <title><![CDATA[Public exploit released for critical unauthenticated FortiSIEM RCE (CVE-2026-106173)]]></title>
     <link>https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html</link>
@@ -556,17 +564,6 @@
 <p>CISA put out an advisory telling all organizations, not just federal agencies, to update Ivanti Connect Secure right away and run network and memory forensics, because Ivanti's Integrity Checker may miss in-memory attacks. Previdian honeypots logged 105 exploit attempts from 50 IPs as of Oct 14. So far they're mostly tests for code execution, and watchTowr expects mass exploitation to follow. Shadowserver tracks about 5,600 internet-exposed ICS hosts. A fix for the third bug in the chain, the privilege escalation, is still pending. Sources: <a href="https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html">thehackernews.com</a> ; <a href="https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-immediately-fix-ivanti-flaw-exploited-as-zero-day/">bleepingcomputer.com</a></p>
 ]]></description>
     <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBUpsAaH4Pe-HlsDhdSH5KK3VgWm9NEXXLNBOpxxp4d8WMZwSNNyPALzuapR_iUlq3-dLDe2bnPJfh42cdfH5m3LQWGKXZvHF3sYacyDbtZacKIIoluyNgP01-6bjjEz-RBhAQqxw-VHGD7gpn3ToRulgeH0ydeWXOucoK4hLBwvXtlCg81tB1scdjPbKN/s1700-nu-rw-lo-l85-e365/i-h.jpg" type="image/jpeg" length="0"/>
-    </item>
-<item>
-      <title>Microsoft and Health-ISAC disrupt Chinese-language phishing kits behind 1B+ messages</title>
-      <link>https://thehackernews.com/2026/10/microsoft-disrupts-3-phishing-kits.html</link>
-      <guid isPermaLink="false">microsoft-disrupts-chinese-phishing-kits-20261014101828</guid>
-      <pubDate>Wed, 14 Oct 2026 10:18:28 -0700</pubDate>
-      <description><![CDATA[
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtmZA0sGFnGRVBoPOHXGNOr-Q1MpdbCUNVrfxBTV6z_URgCka1DOH4xcc_WuismhU3W1BEiostTKZetIhtrFyXrInKdz_jqK6Dtia5TDOqRiu4rkktKmF2Iz1br28coCyU3c5td-yrINUgjYIdwG-7q_n1fEZT_mumUoVBp2HfNPKHnqC3jTryRDL7hxAL/s1700-nu-rw-lo-l85-e365/phish-shop.jpg" alt=""/></p>
-<p>With a federal court order, Microsoft's Digital Crimes Unit, Health-ISAC, Japan's JC3 and partners including Cloudflare, Proofpoint and Resecurity seized domains behind the CoGUI, Haozi and Iron Man System phishing kits. The kits are tied to the YAM Store marketplace and initial access broker. Since January 2026 they have helped send more than a billion phishing emails and SMS messages to over 75,000 organizations in about 150 countries. Source: <a href="https://thehackernews.com/2026/10/microsoft-disrupts-3-phishing-kits.html">thehackernews.com</a></p>
-]]></description>
-    <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtmZA0sGFnGRVBoPOHXGNOr-Q1MpdbCUNVrfxBTV6z_URgCka1DOH4xcc_WuismhU3W1BEiostTKZetIhtrFyXrInKdz_jqK6Dtia5TDOqRiu4rkktKmF2Iz1br28coCyU3c5td-yrINUgjYIdwG-7q_n1fEZT_mumUoVBp2HfNPKHnqC3jTryRDL7hxAL/s1700-nu-rw-lo-l85-e365/phish-shop.jpg" type="image/jpeg" length="0"/>
     </item>
 </channel>
 </rss>
