@@ -7,7 +7,31 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Mon, 19 Oct 2026 15:02:44 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 09:06:32 -0700</lastBuildDate>
+    <item>
+      <title><![CDATA[OVHcloud CLI releases v0.11.0 to v0.15.0 backdoored on GitHub to steal developer secrets]]></title>
+      <link>https://www.bleepingcomputer.com/news/security/ovhcloud-cli-releases-backdoored-on-github-to-steal-developer-secrets/</link>
+      <guid isPermaLink="false">ovhcloud-cli-backdoored-releases-20261020090632</guid>
+      <pubDate>Tue, 20 Oct 2026 09:06:32 -0700</pubDate>
+      <enclosure url="https://www.bleepstatic.com/content/hl-images/2026/10/20/ovhcloud.jpg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://www.bleepstatic.com/content/hl-images/2026/10/20/ovhcloud.jpg" alt=""/></p><p>An attacker hijacked a developer's GitHub account and swapped in info-stealing builds for OVHcloud CLI versions 0.11.0 through 0.15.0, which were live from 14:47 to 16:21 (Paris time) on October 19 before a customer reported them. The malware's goal was to pull secrets off disk. CEO Octave Klaba said release immutability was turned off, so existing releases could be modified without going through CI. Versions 0.10.0 and 0.16.0 are clean, and anyone who installed a bad build should remove it and rotate credentials.</p><p>Sources: <a href="https://www.bleepingcomputer.com/news/security/ovhcloud-cli-releases-backdoored-on-github-to-steal-developer-secrets/">BleepingComputer</a>, <a href="https://thehackernews.com/2026/10/hackers-hijack-five-ovhcloud-cli.html">The Hacker News</a></p>]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Go ships urgent 1.27.3 and 1.26.10 releases that block eight CA intermediate keys, reportedly eMudhra's]]></title>
+      <link>https://thehackernews.com/2026/10/go-issues-emergency-update-blocking.html</link>
+      <guid isPermaLink="false">go-blocks-eight-ca-keys-20261020090631</guid>
+      <pubDate>Tue, 20 Oct 2026 09:06:31 -0700</pubDate>
+      <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgh12Jum-ReZMOyqaMubiLlMwx4-uDVxEJkD6-CJabWhHfCKV-Csw7P4MoeRX85Ag-3rxZMftHE6KGcdh059DoOPvF1Mirv05BQsflmg8RroWBt_t00BGTHsdhqkmVWVuRHKAs56AhNfdsq_YH0QWrMJ1z4dFT3I3xOK7Dwqu7aPp_P7tFSxQ-bzqyz8e4/s1600/go-certs.jpg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgh12Jum-ReZMOyqaMubiLlMwx4-uDVxEJkD6-CJabWhHfCKV-Csw7P4MoeRX85Ag-3rxZMftHE6KGcdh059DoOPvF1Mirv05BQsflmg8RroWBt_t00BGTHsdhqkmVWVuRHKAs56AhNfdsq_YH0QWrMJ1z4dFT3I3xOK7Dwqu7aPp_P7tFSxQ-bzqyz8e4/s1600/go-certs.jpg" alt=""/></p><p>Go 1.27.3 and 1.26.10, shipped on its URGENT security track on October 20, make Go's certificate verifier reject any chain that passes through eight intermediate CA keys, citing "specific security concerns around their operation." The Go team did not name the CA, but a commenter matched the key hashes to eMudhra emSign intermediates, and Mozilla added six emSign intermediates to its OneCRL blocklist on October 17 through a non-public bug. Go recommends upgrading immediately, and services chained to those keys will fail with an x509 error.</p><p>Source: <a href="https://thehackernews.com/2026/10/go-issues-emergency-update-blocking.html">The Hacker News</a></p>]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Russia's APT28 hacked a naval shipbuilder, an aircraft engine maker and police in two NATO countries]]></title>
+      <link>https://therecord.media/european-defense-contractors-fancy-bear-espionage</link>
+      <guid isPermaLink="false">apt28-nato-defense-contractors-hookedge-20261020090630</guid>
+      <pubDate>Tue, 20 Oct 2026 09:06:30 -0700</pubDate>
+      <enclosure url="https://cms.therecord.media/uploads/nato_flag_4bb3aadd53.jpg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://cms.therecord.media/uploads/nato_flag_4bb3aadd53.jpg" alt=""/></p><p>Symantec attributes a July to September espionage campaign against a naval shipbuilder, a military aircraft engine manufacturer and a law enforcement agency in two unnamed European NATO countries to GRU-linked APT28. The group got in with a malicious Word attachment, used the Hookedge backdoor to steal credentials and map networks, and deployed a new in-memory reflective loader. Researchers couldn't confirm what data was taken, though some intrusions lasted weeks.</p><p>Sources: <a href="https://therecord.media/european-defense-contractors-fancy-bear-espionage">The Record</a>, <a href="https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html">The Hacker News</a></p>]]></description>
+    </item>
     <item>
       <title>Nikkei discloses third breach in a month; stolen credentials exposed 1.83M records, about 150K with personal data</title>
       <link>https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed/</link>
@@ -537,39 +561,6 @@
 <p>Fortinet's October advisories fix 13 bugs. Two are critical: an unauthenticated code execution flaw (CVE-2026-106173) and an authentication bypass (CVE-2026-107656) in FortiSIEM and the FortiSandbox GUI. There are also five high-severity authenticated SQL or command injection bugs across FortiAnalyzer, FortiManager and FortiMail. The same Patch Tuesday round includes Citrix XenServer/Workspace fixes and critical Ivanti Neurons Patch for Intune and Xtraction bugs. No exploitation is mentioned. Source: <a href="https://www.securityweek.com/citrix-fortinet-ivanti-patch-29-vulnerabilities-across-their-products/">securityweek.com</a></p>
 ]]></description>
     <enclosure url="https://www.securityweek.com/wp-content/uploads/2025/07/software-vulnerability-patch-update.jpg" type="image/jpeg" length="0"/>
-    </item>
-<item>
-      <title>Vghost Linux kernel vhost flaw gives local root and VM-to-host escape (CVE-2026-74580)</title>
-      <link>https://thehackernews.com/2026/10/ai-found-linux-kernel-flaw-gives-local.html</link>
-      <guid isPermaLink="false">linux-vghost-cve-2026-74580-20261014101824</guid>
-      <pubDate>Wed, 14 Oct 2026 10:18:24 -0700</pubDate>
-      <description><![CDATA[
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhavZnpNnmOBy6Wnkh7wfYD4-I32k65R7uyhYW32Doh3YVqtfJaagZZ_uo9JN-cixODo6h846eR89Aa55TGuMKfXmpjZEVZQ0ssFoP4-qVX6qrvSoyfRsu_q3MQcLKwolyKeE3Lw3MByz2Su8O0XOdRWNkJmyBdwpxsAtxi5y2goE7RhOSBPOLh4Evb60c/s1700-nu-rw-lo-l85-e365/linux-exploit.jpg" alt=""/></p>
-<p>Tencent Zhuque Lab published working demos of CVE-2026-74580 (Vghost), a vhost subsystem bug present across nearly a decade of Linux kernels. It gives an unprivileged local user reliable kernel read/write and root, and in one virtualization setup it lets an untrusted guest VM write to host memory and hijack the VM process. A fix went upstream on Aug 3, and there's no public sign of exploitation. Check that hosts exposing /dev/vhost-net or /dev/vhost-vsock run patched kernels. Source: <a href="https://thehackernews.com/2026/10/ai-found-linux-kernel-flaw-gives-local.html">thehackernews.com</a></p>
-]]></description>
-    <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhavZnpNnmOBy6Wnkh7wfYD4-I32k65R7uyhYW32Doh3YVqtfJaagZZ_uo9JN-cixODo6h846eR89Aa55TGuMKfXmpjZEVZQ0ssFoP4-qVX6qrvSoyfRsu_q3MQcLKwolyKeE3Lw3MByz2Su8O0XOdRWNkJmyBdwpxsAtxi5y2goE7RhOSBPOLh4Evb60c/s1700-nu-rw-lo-l85-e365/linux-exploit.jpg" type="image/jpeg" length="0"/>
-    </item>
-<item>
-      <title>Ledger signers sold via CryptoBilis reseller carried hardware implant tied to $86M crypto theft</title>
-      <link>https://www.securityweek.com/86-million-crypto-heist-linked-to-ledger-signer-hardware-implant/</link>
-      <guid isPermaLink="false">ledger-signer-hardware-implant-20261013170921</guid>
-      <pubDate>Tue, 13 Oct 2026 17:09:21 -0700</pubDate>
-      <description><![CDATA[
-<p><img src="https://www.securityweek.com/wp-content/uploads/2024/01/cryptocurrency.jpeg" alt=""/></p>
-<p>Ledger confirmed on Oct 13 that all confirmed fund losses in its recent theft incident involved signers sold through Southeast Asia reseller CryptoBilis. Someone in the distribution chain soldered a small implant inside the devices that reads the 24-word recovery phrase off the screen during setup and sends it out over LTE using an eSIM. On-chain investigator Specter puts losses above $86 million, though Ledger hasn't confirmed a total, and it advises buyers from that reseller in the last 90 days to move funds to a new signer with a new seed. Source: <a href="https://www.securityweek.com/86-million-crypto-heist-linked-to-ledger-signer-hardware-implant/">securityweek.com</a></p>
-]]></description>
-    <enclosure url="https://www.securityweek.com/wp-content/uploads/2024/01/cryptocurrency.jpeg" type="image/jpeg" length="0"/>
-    </item>
-<item>
-      <title>Ahold Delhaize takes systems offline after cyberattack disrupting grocery brands</title>
-      <link>https://www.securityweek.com/cyberattack-prompts-ahold-delhaize-to-disconnect-systems/</link>
-      <guid isPermaLink="false">ahold-delhaize-cyberattack-20261013161344</guid>
-      <pubDate>Tue, 13 Oct 2026 16:13:44 -0700</pubDate>
-      <description><![CDATA[
-<p><img src="https://www.securityweek.com/wp-content/uploads/2024/11/Ahold-Delhaize-cyberattack.jpeg" alt=""/></p>
-<p>Dutch-Belgian grocery giant Ahold Delhaize disconnected some systems after detecting a security issue in its network. Local media report delivery and online-order disruption at Albert Heijn and Delhaize in Belgium and the Netherlands, and US stores appear affected too. The company says it has no evidence customer or employee data was stolen and is starting a controlled relaunch of systems. Source: <a href="https://www.securityweek.com/cyberattack-prompts-ahold-delhaize-to-disconnect-systems/">securityweek.com</a></p>
-]]></description>
-    <enclosure url="https://www.securityweek.com/wp-content/uploads/2024/11/Ahold-Delhaize-cyberattack.jpeg" type="image/jpeg" length="0"/>
     </item>
 </channel>
 </rss>
