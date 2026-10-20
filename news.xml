@@ -7,7 +7,15 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 20 Oct 2026 13:10:00 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 14:10:00 -0700</lastBuildDate>
+    <item>
+      <title><![CDATA[PHP readies emergency patches for two leaked critical RCE flaws (CVE-2026-109618, CVE-2026-109619) affecting PHP 5 through 8]]></title>
+      <link>https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/</link>
+      <guid isPermaLink="false">php-two-critical-rce-emergency-patches-20261020141000</guid>
+      <pubDate>Tue, 20 Oct 2026 14:10:00 -0700</pubDate>
+      <enclosure url="https://www.bleepstatic.com/content/hl-images/2021/03/29/PHP-headpic.jpg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://www.bleepstatic.com/content/hl-images/2021/03/29/PHP-headpic.jpg" alt=""/></p><p>The PHP security team says it will ship emergency updates on Wednesday, October 21 at 7:00 AM PT for two critical vulnerabilities rated 9.2 under CVSS v4.0, after details leaked ahead of the planned embargo. watchTowr says both are remote code execution bugs believed to affect PHP 5, 6, 7 and 8, and that it has reproduced one of them. No exploitation in the wild has been observed yet, and PHP says it may release earlier if details go public or attacks start.</p><p>Admins running PHP should be ready to patch as soon as the fixed releases land.</p><p>Source: <a href="https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/">BleepingComputer</a></p>]]></description>
+    </item>
     <item>
       <title><![CDATA[Zeabur shutting down after second breach: leaked plaintext admin credentials exposed 3.2M environment-variable records and 321,810 accounts]]></title>
       <link>https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/</link>
@@ -548,17 +556,6 @@
 <p>Attackers exploited an unauthenticated OS command injection in Nextcloud's optional Collabora Online Built-in CODE Server app (richdocumentscode) before 26.4.303, planting PHP webshells (shx*.php) when the local CODE server was down. Collabora published CVE-2026-110447 on Oct 14 with evidence of in-the-wild exploitation since September; disabling the app is not enough—update to 26.4.303+ or remove it. Standalone Collabora Online and Docker/package CODE setups are not affected. Source: <a href="https://thehackernews.com/2026/10/hackers-backdoor-nextcloud-servers.html">thehackernews.com</a></p>
 ]]></description>
     <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkZLcjmZtzt6NpWa8x4Wz7EdcOQEW6xYv6DA_mBnwy1ctZZeRAyeSYLES-H_mkr1QOBv72WNuGKwKQ-NN179Rw8BRTcYO38sYwxcbDkg1ISW_qWrCRJ9JfUXh3102OmwrF0HQq6dbSc58VXACXoi_EoI8ysPuSlzB_nBcHuFl9r3QakOsGG9GUm6UVOU8/s1700-nu-rw-lo-l85-e365/nextcloud.jpg" type="image/jpeg" length="0"/>
-  </item>
-<item>
-    <title>ICS Patch Tuesday: Siemens 17 advisories; Rockwell ArmorBlock critical takeover flaw</title>
-    <link>https://www.securityweek.com/ics-patch-tuesday-siemens-issues-17-advisories-rockwell-fixes-armorblock-takeover-flaw/</link>
-    <guid isPermaLink="false">ics-patch-tuesday-siemens-rockwell-20261014121105</guid>
-    <pubDate>Wed, 14 Oct 2026 12:11:05 -0700</pubDate>
-    <description><![CDATA[
-<p><img src="https://www.securityweek.com/wp-content/uploads/2023/11/ICS_Patches.jpg" alt=""/></p>
-<p>Siemens issued 17 ICS advisories this Patch Tuesday, including critical issues in Simatic S7-1500 CPUs, Industrial Edge, and Ruggedcom Crossbow SAC. Rockwell fixed a critical unauthenticated ArmorBlock web-server password change that can lead to admin takeover, plus a DoS. Schneider published two high-severity advisories; CISA also posted ICS notes on Swann cameras and Inductive Automation Ignition. Source: <a href="https://www.securityweek.com/ics-patch-tuesday-siemens-issues-17-advisories-rockwell-fixes-armorblock-takeover-flaw/">securityweek.com</a></p>
-]]></description>
-    <enclosure url="https://www.securityweek.com/wp-content/uploads/2023/11/ICS_Patches.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
