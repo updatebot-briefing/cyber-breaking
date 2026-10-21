@@ -7,8 +7,16 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Wed, 21 Oct 2026 12:10:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 13:10:38 -0700</lastBuildDate>
     <item>
+<title>Critical GitLab flaw (CVSS 10.0) allows unauthenticated RCE on self-managed servers back to 7.0</title>
+<link>https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html</link>
+<guid isPermaLink="false">gitlab-cve-2026-110264-20261021131038</guid>
+<pubDate>Wed, 21 Oct 2026 13:10:38 -0700</pubDate>
+<enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEig4Pkd5r0GeWGSaCoHaEsZVVoh5Y6xBkFvMTGYKvD5oONYnczQGAUqpjD6eCiA6sxiiel6Zs0kPiBEWOZJ21URkE59iJm-LDUFPYwPEf8o8d8lnyiMOR53H7IeXGKn3tTG9pusA-HKwYo0n04WQ1m8kg8dxIWEtxFGMDiBzrV-zzqAH2R2OVT2E1ViX_U/s1600/git-rce.jpg" type="image/jpeg" length="0"/>
+<description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEig4Pkd5r0GeWGSaCoHaEsZVVoh5Y6xBkFvMTGYKvD5oONYnczQGAUqpjD6eCiA6sxiiel6Zs0kPiBEWOZJ21URkE59iJm-LDUFPYwPEf8o8d8lnyiMOR53H7IeXGKn3tTG9pusA-HKwYo0n04WQ1m8kg8dxIWEtxFGMDiBzrV-zzqAH2R2OVT2E1ViX_U/s1600/git-rce.jpg" alt=""/></p><p>GitLab patched CVE-2026-110264 on October 21, a CVSS 10.0 integer overflow in the bundled Onigmo regex engine that can let an unauthenticated attacker run code on self-managed GitLab servers. Every version back to 7.0 (2014) is affected, and fixes were backported to 18.11.13, 19.0.10, 19.1.9 and 19.2.9 alongside 19.3.6, 19.4.3 and 19.5.1. Instances patched on October 12 are in range again. GitLab reports no exploitation so far and it is not in CISA KEV; GitLab.com and Dedicated are already fixed.</p><p>Source: <a href="https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html">The Hacker News</a></p>]]></description>
+</item>
+<item>
       <title><![CDATA[Ransomware gangs have been exploiting Palo Alto GlobalProtect auth bypass CVE-2026-0257 since June]]></title>
       <link>https://www.helpnetsecurity.com/2026/10/21/ransomware-groups-exploit-palo-alto-globalprotect-cve-2026-0257/</link>
       <guid isPermaLink="false">globalprotect-cve-2026-0257-ransomware-20261021121000</guid>
@@ -526,16 +534,5 @@
 ]]></description>
     <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9mXutJ2QPpC1NUCUZWdHjUDUGPSD3DaDY4b-T1EXbg07sNWADsV43EvUacKzn4Ohp2bRbD93t8kXBpv513XdMZEnMh8eNkY1bBaSuGICWbituq_jgWNCjQa_Cq6Ur0jInsfEwsHfdInKq4Tcp2kmfuYoCIMrgWcWwtzFlRPePDpW9gwemIkQpJXEVaHU/s1700-nu-rw-lo-l85-e365/nextjs-rce.jpg" type="image/jpeg" length="0"/>
   </item>
-    <item>
-    <title>Drupal patches critical Field UI flaw with unauthenticated RCE path via contributed modules (CVE-2026-108097)</title>
-    <link>https://thehackernews.com/2026/10/drupal-patches-critical-core-rce-flaw.html</link>
-    <guid isPermaLink="false">drupal-field-ui-cve-2026-108097-20261015090500</guid>
-    <pubDate>Thu, 15 Oct 2026 09:05:00 -0700</pubDate>
-    <description><![CDATA[
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWENfwA4xQHfwINduJpVTTiNeAmBkevujxbloFijpq7PQV8xOV-iApTx_f5g9ImW_oKJolO1RuhlNeDc2NwoWKOdPfjfdDzMhCuOsWtdyCZOOs2fTW4vmXYixSIdOCw2CwsvSgvEOPxqHUwSoRpxxoMRKKRqsqezOqVNpF5uQaU3cdI7z9L_Y_2WeTImA/s1700-nu-rw-lo-l85-e365/drupal.jpg" alt=""/></p>
-<p>Drupal shipped critical fixes in 11.4.10, 11.3.19, and 10.6.19 on Oct 14 for CVE-2026-108097 in Field UI: a render-callback abuse that can lead to remote code execution. Core alone is not enough to reach it, but several contributed-module paths exist and at least one needs no login. About 28.5% of reporting sites were on affected branches in early October; no public exploit or attacks reported yet. Update ASAP or temporarily uninstall field_ui; Entity List module CVE-2026-108099 needs its own 3.0.10 update. Source: <a href="https://thehackernews.com/2026/10/drupal-patches-critical-core-rce-flaw.html">thehackernews.com</a></p>
-]]></description>
-    <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWENfwA4xQHfwINduJpVTTiNeAmBkevujxbloFijpq7PQV8xOV-iApTx_f5g9ImW_oKJolO1RuhlNeDc2NwoWKOdPfjfdDzMhCuOsWtdyCZOOs2fTW4vmXYixSIdOCw2CwsvSgvEOPxqHUwSoRpxxoMRKKRqsqezOqVNpF5uQaU3cdI7z9L_Y_2WeTImA/s1700-nu-rw-lo-l85-e365/drupal.jpg" type="image/jpeg" length="0"/>
-  </item>
-</channel>
+    </channel>
 </rss>
