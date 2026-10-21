@@ -7,7 +7,15 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Wed, 21 Oct 2026 13:10:38 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 14:09:31 -0700</lastBuildDate>
+    <item>
+      <title>Lazarus uses post-quantum cryptography to deliver malware in FlashHole campaign</title>
+      <link>https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery/</link>
+      <guid isPermaLink="false">lazarus-flashhole-20261021140931</guid>
+      <pubDate>Wed, 21 Oct 2026 14:09:31 -0700</pubDate>
+      <enclosure url="https://www.bleepstatic.com/content/hl-images/2026/10/21/DPRK.jpg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://www.bleepstatic.com/content/hl-images/2026/10/21/DPRK.jpg" alt=""/></p><p>Kaspersky says North Korea's Lazarus Group is running a campaign it calls FlashHole against South Korean organizations, using the post-quantum ML-KEM-1024 key exchange to protect malware delivery from its command servers. The chain starts with phishing pages pointing to crafted GitHub pages, abuses the INISAFE CrossWeb EX security tool and the Windows fsquirt.exe binary to run shellcode, and pulls more malware from private GitHub repositories. The activity dates back to July 2025.</p><p>Source: <a href="https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery/">BleepingComputer</a></p>]]></description>
+    </item>
     <item>
 <title>Critical GitLab flaw (CVSS 10.0) allows unauthenticated RCE on self-managed servers back to 7.0</title>
 <link>https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html</link>
@@ -523,16 +531,5 @@
     <enclosure url="https://www.bleepstatic.com/content/hl-images/2024/09/02/just-uk.jpg" type="image/jpeg" length="0"/>
   </item>
 
-<item>
-    <title>Next.js ships out-of-band patches for two critical unauthenticated RCE flaws (CVE-2026-96889)</title>
-    <link>https://thehackernews.com/2026/10/nextjs-ships-out-of-band-patch-for-two.html</link>
-    <guid isPermaLink="false">nextjs-critical-rce-oob-20261015090500</guid>
-    <pubDate>Thu, 15 Oct 2026 09:05:00 -0700</pubDate>
-    <description><![CDATA[
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9mXutJ2QPpC1NUCUZWdHjUDUGPSD3DaDY4b-T1EXbg07sNWADsV43EvUacKzn4Ohp2bRbD93t8kXBpv513XdMZEnMh8eNkY1bBaSuGICWbituq_jgWNCjQa_Cq6Ur0jInsfEwsHfdInKq4Tcp2kmfuYoCIMrgWcWwtzFlRPePDpW9gwemIkQpJXEVaHU/s1700-nu-rw-lo-l85-e365/nextjs-rce.jpg" alt=""/></p>
-<p>Next.js released 16.4.1 and 15.5.28 on Oct 14 to fix two critical unauthenticated remote code execution bugs (Vercel CVSS 9.5 each) plus a high-severity Server Actions DoS. One sits in React Server Components `use cache` (GHSA-673q-mjm6-r5xr) when Cache Components return multiple typed arrays; the other is librsvg CVE-2026-96889 reachable via sharp SVG handling on glibc Linux (and next/og). No in-the-wild exploitation reported as of Oct 15. Upgrade Next.js, confirm sharp is 0.35.5+, then rebuild and redeploy. Source: <a href="https://thehackernews.com/2026/10/nextjs-ships-out-of-band-patch-for-two.html">thehackernews.com</a></p>
-]]></description>
-    <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9mXutJ2QPpC1NUCUZWdHjUDUGPSD3DaDY4b-T1EXbg07sNWADsV43EvUacKzn4Ohp2bRbD93t8kXBpv513XdMZEnMh8eNkY1bBaSuGICWbituq_jgWNCjQa_Cq6Ur0jInsfEwsHfdInKq4Tcp2kmfuYoCIMrgWcWwtzFlRPePDpW9gwemIkQpJXEVaHU/s1700-nu-rw-lo-l85-e365/nextjs-rce.jpg" type="image/jpeg" length="0"/>
-  </item>
     </channel>
 </rss>
