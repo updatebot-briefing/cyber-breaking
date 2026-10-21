@@ -7,8 +7,16 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Wed, 21 Oct 2026 14:09:31 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 15:05:46 -0700</lastBuildDate>
     <item>
+  <title>Japan's Onamae Desktop Cloud hacked, malware on up to 27,000 customer servers</title>
+  <link>https://www.bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected/</link>
+  <guid isPermaLink="false">onamae-desktop-cloud-breach-20261021150546</guid>
+  <pubDate>Wed, 21 Oct 2026 15:05:46 -0700</pubDate>
+  <enclosure url="https://www.bleepstatic.com/content/hl-images/2026/10/21/cloud-servers.jpg" type="image/jpeg" length="0"/>
+  <description><![CDATA[<p><img src="https://www.bleepstatic.com/content/hl-images/2026/10/21/cloud-servers.jpg" alt=""/></p><p>Attackers breached the infrastructure of Onamae.com Desktop Cloud, a GMO Internet VPS service popular in Japan for automated FX trading, and installed malware on up to 26,739 customer servers. GMO began shutting down all Desktop Cloud servers at 4 AM local time on October 21 with no restart date, and warns that data on affected servers may be exposed. Customers who stored passwords or other secrets on those servers should rotate them now.</p><p>Source: <a href="https://www.bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected/">BleepingComputer</a></p>]]></description>
+</item>
+<item>
       <title>Lazarus uses post-quantum cryptography to deliver malware in FlashHole campaign</title>
       <link>https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery/</link>
       <guid isPermaLink="false">lazarus-flashhole-20261021140931</guid>
@@ -519,17 +527,5 @@
     <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEionuV8CAd7SP0bgEbHyb-0hp7JWNkWpPjYtkNH9p86nRQrxDN1T97D1cragnVVzAwCEFCuqrwuysgwzxJLfvTXrYhMSGj5rbBzrpjW-VPvAmrc2-9EAR_hBmPigJUOjynvkm0ArpyasyzCOAWUWFYdCqzsbCJVOsxC09LnYwH2dcV4j4Vm9S9VDelXUlc/s1700-nu-rw-lo-l85-e365/tls.jpg" type="image/jpeg" length="0"/>
   </item>
 
-<item>
-    <title>UK Legal Aid Agency breach scope widens: stolen records date back to 1978</title>
-    <link>https://www.bleepingcomputer.com/news/security/uk-legal-aid-agency-hackers-stole-records-dating-back-to-1978/</link>
-    <guid isPermaLink="false">uk-legal-aid-agency-1978-records-20261015101000</guid>
-    <pubDate>Thu, 15 Oct 2026 10:10:00 -0700</pubDate>
-    <description><![CDATA[
-<p><img src="https://www.bleepstatic.com/content/hl-images/2024/09/02/just-uk.jpg" alt=""/></p>
-<p>The UK Ministry of Justice's Legal Aid Agency says a forensic review shows attackers who breached its systems in April 2025 stole records going back to 1978, far earlier than the 2010-onward data it previously confirmed. Stolen applicant data includes contact details, dates of birth, national ID numbers, criminal history, employment status and financial details, plus legal aid provider data. The update materially widens one of the UK government's most sensitive breaches. Source: <a href="https://www.bleepingcomputer.com/news/security/uk-legal-aid-agency-hackers-stole-records-dating-back-to-1978/">bleepingcomputer.com</a></p>
-]]></description>
-    <enclosure url="https://www.bleepstatic.com/content/hl-images/2024/09/02/just-uk.jpg" type="image/jpeg" length="0"/>
-  </item>
-
-    </channel>
+</channel>
 </rss>
