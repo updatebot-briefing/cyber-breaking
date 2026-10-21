@@ -7,8 +7,24 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Wed, 21 Oct 2026 09:12:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 10:10:00 -0700</lastBuildDate>
     <item>
+      <title><![CDATA[LiteLLM 1.107.0 on PyPI and Docker shipped a credential stealer and hourly remote code loader]]></title>
+      <link>https://www.stepsecurity.io/blog/litellm-1-107-0-compromised-pypi-backdoored-wheels-credential-stealer</link>
+      <guid isPermaLink="false">litellm-pypi-compromise-20261021101000</guid>
+      <pubDate>Wed, 21 Oct 2026 10:10:00 -0700</pubDate>
+      <enclosure url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6ad8d084307ad9e4ae727787_6ad8cf2a35cd8522700fd93e_litellm-1-107-0-hero-v2.png" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6ad8d084307ad9e4ae727787_6ad8cf2a35cd8522700fd93e_litellm-1-107-0-hero-v2.png" alt=""/></p><p>All seven wheels of the popular AI gateway library LiteLLM 1.107.0, published to PyPI on October 21, contained malware that runs on every Python start via cook.pth and sitecustomize.py, stealing cloud, SSH, Kubernetes, CI and AI-tool secrets and installing an hourly remote code loader. Docker images tagged v1.107.0, latest, main-latest and main-stable were also affected. PyPI pulled the release; anyone who installed it should treat the host as compromised, rotate every reachable credential and pin to 1.106.2.</p><p>Sources: <a href="https://www.stepsecurity.io/blog/litellm-1-107-0-compromised-pypi-backdoored-wheels-credential-stealer">StepSecurity</a>, <a href="https://aisle.com/blog/litellm-11070-on-pypi-shipped-a-credential-stealer">AISLE</a>, <a href="https://cybersecuritynews.com/litellm-compromised/">Cyber Security News</a></p>]]></description>
+    </item>
+<item>
+      <title><![CDATA[CyberCartel used a multi-model AI agent system to attack 400+ Latin American banks, Straiker reports]]></title>
+      <link>https://www.straiker.ai/blog/inside-carliy0s-how-cybercartel-used-multiple-ai-models-to-attack-latin-american-banks</link>
+      <guid isPermaLink="false">cybercartel-carliy0s-ai-banks-20261021101000</guid>
+      <pubDate>Wed, 21 Oct 2026 10:10:00 -0700</pubDate>
+      <enclosure url="https://cdn.prod.website-files.com/67e35850d44d18d58bb24073/6ad8ca1480e4dbecb98fe5af_carliy0s-opengraph.jpg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://cdn.prod.website-files.com/67e35850d44d18d58bb24073/6ad8ca1480e4dbecb98fe5af_carliy0s-opengraph.jpg" alt=""/></p><p>Straiker documented CARLIY0S, a multi-agent attack system built on the PentAGI framework that the long-running CyberCartel group used against more than 400 Latin American banks and payment providers. It assigned Claude, Grok and Kimi models to reconnaissance, exploit development and target decisions, and Straiker found a stolen-credential database of 4,493 records. It is one of the first detailed looks at criminals running AI-orchestrated intrusions at scale.</p><p>Sources: <a href="https://www.straiker.ai/blog/inside-carliy0s-how-cybercartel-used-multiple-ai-models-to-attack-latin-american-banks">Straiker</a>, <a href="https://www.benzinga.com/content/62494335/hackers-used-claude-and-grok-fully-automate-attacks-banks">Benzinga</a></p>]]></description>
+    </item>
+<item>
       <title><![CDATA[PHP2Shell patches released for critical PHP RCE flaws; exploitation attempts reported in the wild]]></title>
       <link>https://therecord.media/php-script-vulnerabilities-warnings</link>
       <guid isPermaLink="false">php2shell-patched-20261021091200</guid>
@@ -526,28 +542,6 @@
 <p>Previdian reports 1,423 exploitation attempts since Sep 19 against Langflow CVE-2026-105740 (CVSS 9.9), an authenticated RCE where any logged-in user can inject OS commands via MCP stdio server config (bash -c with no validation). Attackers brute-force or use weak creds, then steal LANGFLOW_SECRET_KEY and related secrets; activity spiked Oct 11 and continues Oct 15. Patch to 1.9.0+, disable auto-login, enforce strong passwords, and review /api/v2/mcp/servers/ logs. Source: <a href="https://thehackernews.com/2026/10/langflows-critical-authenticated-rce.html">thehackernews.com</a></p>
 ]]></description>
     <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1tlAL_zc7Hg-gD5PRFa08hoOp2KRDu9kNSJk8nhZ91us8q-K7qGfnoasa6gONBjZoEtGJqPEZY3rKMy4Uqozk89X-L7IQBV8IrDqnJYdtAsCC4d08mmQUI4r_zACmvDVdey82w7FC4lTIoYfqdwYYu2Bp_Ql0AwOB54KRYrHk9ixjo27rKLWEK0dwsfw3/s1700-nu-rw-lo-l85-e365/langflow.jpg" type="image/jpeg" length="0"/>
-  </item>
-<item>
-    <title>Claude Code Desktop "SneakPeek" preview-pane flaw let poisoned repos silently steal developer secrets (patched)</title>
-    <link>https://noma.security/noma-labs/sneakpeek-how-the-preview-pane-in-claude-code-desktop-can-exfiltrate-your-data</link>
-    <guid isPermaLink="false">claude-code-desktop-sneakpeek-20261014140918</guid>
-    <pubDate>Wed, 14 Oct 2026 14:09:18 -0700</pubDate>
-    <description><![CDATA[
-<p><img src="https://cdn.prod.website-files.com/6a2fc1eb62d2fd1e9605374e/6acb5b2b5f514da625afb97e_SneakPeek%20(1).jpg" alt=""/></p>
-<p>Noma Labs disclosed SneakPeek (CVSS 8.7), a zero-click chain in Anthropic's Claude Code Desktop preview pane: HTML files over 256KB were loaded as file:// URLs with no CSP and no active request filter, so a poisoned file in a public repo could run JavaScript and exfiltrate SSH keys, AWS/GitHub credentials, API keys and Claude OAuth tokens when a developer asked Claude to review it. Anthropic's first fix (July 9) was bypassed via a blob: Web Worker; the full fix shipped Aug 17 in Claude Desktop 1.30096.1 and later. No in-the-wild exploitation reported; make sure Claude Desktop is current and keep long-lived credentials off dev machines. Sources: <a href="https://noma.security/noma-labs/sneakpeek-how-the-preview-pane-in-claude-code-desktop-can-exfiltrate-your-data">noma.security</a> ; <a href="https://www.darkreading.com/threat-intelligence/new-anthropic-sneakpeek-silent-zero-click-threat">darkreading.com</a></p>
-]]></description>
-    <enclosure url="https://cdn.prod.website-files.com/6a2fc1eb62d2fd1e9605374e/6acb5b2b5f514da625afb97e_SneakPeek%20(1).jpg" type="image/jpeg" length="0"/>
-  </item>
-        <item>
-    <title>CISA adds Palo Alto PAN-OS authenticated management RCE to KEV (CVE-2026-0322)</title>
-    <link>https://security.paloaltonetworks.com/CVE-2026-0322</link>
-    <guid isPermaLink="false">pan-os-cve-2026-0322-kev-20261014131140</guid>
-    <pubDate>Wed, 14 Oct 2026 13:11:40 -0700</pubDate>
-    <description><![CDATA[
-<p><img src="https://security.paloaltonetworks.com/HIGH.png" alt=""/></p>
-<p>CISA's KEV catalog moved to version 2026.10.14 (count 1745) and added CVE-2026-0322, a code-injection bug in the Palo Alto Networks PAN-OS management web UI that lets an authenticated attacker with network access run code as root on PA-Series, VM-Series, and Panorama. Palo Alto rates urgency Highest, says very limited exploitation has been seen, and lists IoCs 66.42.72.14, 208.83.239.114, and 149.248.47.234. Cloud NGFW and Prisma Access are not affected; patch to the listed fixed builds and keep management off the public internet. Sources: <a href="https://security.paloaltonetworks.com/CVE-2026-0322">security.paloaltonetworks.com</a> ; <a href="https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json">cisa.gov</a></p>
-]]></description>
-    <enclosure url="https://security.paloaltonetworks.com/HIGH.png" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
