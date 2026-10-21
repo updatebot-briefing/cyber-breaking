@@ -7,7 +7,23 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Wed, 21 Oct 2026 10:10:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 12:10:00 -0700</lastBuildDate>
+    <item>
+      <title><![CDATA[Ransomware gangs have been exploiting Palo Alto GlobalProtect auth bypass CVE-2026-0257 since June]]></title>
+      <link>https://www.helpnetsecurity.com/2026/10/21/ransomware-groups-exploit-palo-alto-globalprotect-cve-2026-0257/</link>
+      <guid isPermaLink="false">globalprotect-cve-2026-0257-ransomware-20261021121000</guid>
+      <pubDate>Wed, 21 Oct 2026 12:10:00 -0700</pubDate>
+      <enclosure url="https://img.helpnetsecurity.com/wp-content/uploads/2024/04/17164810/palo_alto_networks-2-1500.webp" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://img.helpnetsecurity.com/wp-content/uploads/2024/04/17164810/palo_alto_networks-2-1500.webp" alt=""/></p><p>Several ransomware groups are exploiting CVE-2026-0257, an authentication bypass in the PAN-OS GlobalProtect portal and gateway (and Prisma Access) that lets remote, unauthenticated attackers set up an unauthorized VPN connection. Palo Alto patched it in May and first rated it medium severity, but victims now span healthcare, education, government and energy. Unpatched GlobalProtect devices should be updated and checked for unexpected VPN sessions.</p><p>Source: <a href="https://www.helpnetsecurity.com/2026/10/21/ransomware-groups-exploit-palo-alto-globalprotect-cve-2026-0257/">Help Net Security</a></p>]]></description>
+    </item>
+    <item>
+      <title><![CDATA[OVHcloud CLI releases v0.11.0 through v0.15.0 on GitHub were tampered with to steal secrets]]></title>
+      <link>https://www.helpnetsecurity.com/2026/10/21/ovhcloud-cli-github-malware/</link>
+      <guid isPermaLink="false">ovhcloud-cli-github-malware-20261021121000</guid>
+      <pubDate>Wed, 21 Oct 2026 12:10:00 -0700</pubDate>
+      <enclosure url="https://img.helpnetsecurity.com/wp-content/uploads/2026/10/21082341/ovhcloud-1500.webp" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://img.helpnetsecurity.com/wp-content/uploads/2026/10/21082341/ovhcloud-1500.webp" alt=""/></p><p>An attacker used a developer's GitHub account to add an info-stealing binary to OVHcloud's open-source command-line tool, affecting versions v0.11.0 through v0.15.0. The tampered releases were live for about 90 minutes on October 19 before a customer reported them. OVHcloud says v0.16.0 is clean and anyone who downloaded an affected release should update or delete it and rotate secrets on that machine.</p><p>Source: <a href="https://www.helpnetsecurity.com/2026/10/21/ovhcloud-cli-github-malware/">Help Net Security</a></p>]]></description>
+    </item>
     <item>
       <title><![CDATA[LiteLLM 1.107.0 on PyPI and Docker shipped a credential stealer and hourly remote code loader]]></title>
       <link>https://www.stepsecurity.io/blog/litellm-1-107-0-compromised-pypi-backdoored-wheels-credential-stealer</link>
@@ -520,28 +536,6 @@
 <p>Drupal shipped critical fixes in 11.4.10, 11.3.19, and 10.6.19 on Oct 14 for CVE-2026-108097 in Field UI: a render-callback abuse that can lead to remote code execution. Core alone is not enough to reach it, but several contributed-module paths exist and at least one needs no login. About 28.5% of reporting sites were on affected branches in early October; no public exploit or attacks reported yet. Update ASAP or temporarily uninstall field_ui; Entity List module CVE-2026-108099 needs its own 3.0.10 update. Source: <a href="https://thehackernews.com/2026/10/drupal-patches-critical-core-rce-flaw.html">thehackernews.com</a></p>
 ]]></description>
     <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWENfwA4xQHfwINduJpVTTiNeAmBkevujxbloFijpq7PQV8xOV-iApTx_f5g9ImW_oKJolO1RuhlNeDc2NwoWKOdPfjfdDzMhCuOsWtdyCZOOs2fTW4vmXYixSIdOCw2CwsvSgvEOPxqHUwSoRpxxoMRKKRqsqezOqVNpF5uQaU3cdI7z9L_Y_2WeTImA/s1700-nu-rw-lo-l85-e365/drupal.jpg" type="image/jpeg" length="0"/>
-  </item>
-    <item>
-    <title>CenterPoint Energy breach hits 1.06 million Texans with SSNs and driver's licenses</title>
-    <link>https://www.securityweek.com/centerpoint-energy-data-breach-impacts-1-million-texans/</link>
-    <guid isPermaLink="false">centerpoint-energy-breach-1m-20261015090500</guid>
-    <pubDate>Thu, 15 Oct 2026 09:05:00 -0700</pubDate>
-    <description><![CDATA[
-<p><img src="https://www.securityweek.com/wp-content/uploads/2026/09/CenterPoint-Energy.jpeg" alt=""/></p>
-<p>Houston utility CenterPoint Energy told the Texas Attorney General that 1,062,060 state residents had names, addresses, Social Security numbers, and driver's license numbers compromised. The notice follows a September SEC filing after a threat actor posted a claim of ~7.5 million records and a 2.5 GB dump. Operations were not disrupted; impact in Indiana, Minnesota, and Ohio is still unclear, and customer notification letters may not have gone out yet. Source: <a href="https://www.securityweek.com/centerpoint-energy-data-breach-impacts-1-million-texans/">securityweek.com</a></p>
-]]></description>
-    <enclosure url="https://www.securityweek.com/wp-content/uploads/2026/09/CenterPoint-Energy.jpeg" type="image/jpeg" length="0"/>
-  </item>
-    <item>
-    <title>Langflow authenticated RCE CVE-2026-105740 hit with 1,423 honeypot exploit attempts</title>
-    <link>https://thehackernews.com/2026/10/langflows-critical-authenticated-rce.html</link>
-    <guid isPermaLink="false">langflow-cve-2026-105740-exploited-20261015090500</guid>
-    <pubDate>Thu, 15 Oct 2026 09:05:00 -0700</pubDate>
-    <description><![CDATA[
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1tlAL_zc7Hg-gD5PRFa08hoOp2KRDu9kNSJk8nhZ91us8q-K7qGfnoasa6gONBjZoEtGJqPEZY3rKMy4Uqozk89X-L7IQBV8IrDqnJYdtAsCC4d08mmQUI4r_zACmvDVdey82w7FC4lTIoYfqdwYYu2Bp_Ql0AwOB54KRYrHk9ixjo27rKLWEK0dwsfw3/s1700-nu-rw-lo-l85-e365/langflow.jpg" alt=""/></p>
-<p>Previdian reports 1,423 exploitation attempts since Sep 19 against Langflow CVE-2026-105740 (CVSS 9.9), an authenticated RCE where any logged-in user can inject OS commands via MCP stdio server config (bash -c with no validation). Attackers brute-force or use weak creds, then steal LANGFLOW_SECRET_KEY and related secrets; activity spiked Oct 11 and continues Oct 15. Patch to 1.9.0+, disable auto-login, enforce strong passwords, and review /api/v2/mcp/servers/ logs. Source: <a href="https://thehackernews.com/2026/10/langflows-critical-authenticated-rce.html">thehackernews.com</a></p>
-]]></description>
-    <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1tlAL_zc7Hg-gD5PRFa08hoOp2KRDu9kNSJk8nhZ91us8q-K7qGfnoasa6gONBjZoEtGJqPEZY3rKMy4Uqozk89X-L7IQBV8IrDqnJYdtAsCC4d08mmQUI4r_zACmvDVdey82w7FC4lTIoYfqdwYYu2Bp_Ql0AwOB54KRYrHk9ixjo27rKLWEK0dwsfw3/s1700-nu-rw-lo-l85-e365/langflow.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
