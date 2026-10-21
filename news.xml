@@ -7,7 +7,15 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 20 Oct 2026 14:10:00 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 18:10:00 -0700</lastBuildDate>
+    <item>
+      <title><![CDATA[Stolen UpdraftCentral connection keys used to backdoor WordPress sites after TeamUpdraft breach; up to ~400K sites exposed]]></title>
+      <link>https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites/</link>
+      <guid isPermaLink="false">updraftcentral-stolen-keys-wordpress-backdoor-20261020181000</guid>
+      <pubDate>Tue, 20 Oct 2026 18:10:00 -0700</pubDate>
+      <enclosure url="https://www.bleepstatic.com/content/hl-images/2026/09/03/wordpress.jpg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://www.bleepstatic.com/content/hl-images/2026/09/03/wordpress.jpg" alt=""/></p><p>TeamUpdraft, maker of UpdraftPlus, says attackers breached teamupdraft.com over the weekend of October 17-18 and likely accessed its customer database, including password hashes, 2FA settings and UpdraftCentral, UpdraftVault and UpdraftClone connection keys. Patchstack says attackers began using the stolen keys on October 18 to push at least 99 disguised backdoor plugins and add admin accounts on connected sites, and estimates around 400,000 sites have an UpdraftCentral or Migrator key. Nethemba confirmed malicious plugins on two of its own fully patched sites.</p><p>Update UpdraftPlus to 1.26.13 (free) or 2.26.13 (Premium) or later, delete existing UpdraftCentral keys on each site, check for indicators of compromise, and restore from clean backups if compromised.</p><p>Source: <a href="https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites/">BleepingComputer</a></p>]]></description>
+    </item>
     <item>
       <title><![CDATA[PHP readies emergency patches for two leaked critical RCE flaws (CVE-2026-109618, CVE-2026-109619) affecting PHP 5 through 8]]></title>
       <link>https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/</link>
