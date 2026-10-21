@@ -7,8 +7,23 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 20 Oct 2026 18:10:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 09:12:00 -0700</lastBuildDate>
     <item>
+      <title><![CDATA[PHP2Shell patches released for critical PHP RCE flaws; exploitation attempts reported in the wild]]></title>
+      <link>https://therecord.media/php-script-vulnerabilities-warnings</link>
+      <guid isPermaLink="false">php2shell-patched-20261021091200</guid>
+      <pubDate>Wed, 21 Oct 2026 09:12:00 -0700</pubDate>
+      <enclosure url="https://cms.therecord.media/uploads/pexels_pixabay_270557_b1a99bb16a.jpg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://cms.therecord.media/uploads/pexels_pixabay_270557_b1a99bb16a.jpg" alt=""/></p><p>PHP shipped emergency fixes (8.5.12, 8.4.27, 8.3.36, 8.2.35) for the PHP2Shell runtime flaws CVE-2026-109618 and CVE-2026-109619, which allow unauthenticated RCE on nearly every PHP version back to 5.4. Cloudflare and watchTowr see exploitation attempts in the wild, and governments worldwide issued urgent warnings. This is a material update to yesterday's pre-patch item and is also posted to the breaking feed.</p><p>Sources: <a href="https://therecord.media/php-script-vulnerabilities-warnings">The Record</a>, <a href="https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html">The Hacker News</a>, <a href="https://www.helpnetsecurity.com/2026/10/21/php2shell-php-vulnerabilities-patched-cve-2026-109618-cve-2026-109619/">Help Net Security</a></p>]]></description>
+    </item>
+<item>
+      <title><![CDATA[Attackers hijacked 300+ Tor exit relays to intercept SSH logins]]></title>
+      <link>https://thehackernews.com/2026/10/attackers-hijacked-over-300-tor-exit.html</link>
+      <guid isPermaLink="false">tor-exit-relays-ssh-hijack-20261021091200</guid>
+      <pubDate>Wed, 21 Oct 2026 09:12:00 -0700</pubDate>
+      <description><![CDATA[<p>Attackers compromised the Linux hosts behind more than 300 Tor exit relays in early October and rewrote their exit policies to redirect SSH traffic to 12 interception servers that harvested passwords. At the Oct 4 peak the relays carried about 7.5% of Tor's exit capacity; the Tor Project had removed them all by Oct 5. Anyone who logged into SSH with a password over Tor between Oct 1 and 5 and accepted a new host key should rotate that password.</p><p>Source: <a href="https://thehackernews.com/2026/10/attackers-hijacked-over-300-tor-exit.html">The Hacker News</a></p>]]></description>
+    </item>
+<item>
       <title><![CDATA[Stolen UpdraftCentral connection keys used to backdoor WordPress sites after TeamUpdraft breach; up to ~400K sites exposed]]></title>
       <link>https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites/</link>
       <guid isPermaLink="false">updraftcentral-stolen-keys-wordpress-backdoor-20261020181000</guid>
@@ -533,37 +548,6 @@
 <p>CISA's KEV catalog moved to version 2026.10.14 (count 1745) and added CVE-2026-0322, a code-injection bug in the Palo Alto Networks PAN-OS management web UI that lets an authenticated attacker with network access run code as root on PA-Series, VM-Series, and Panorama. Palo Alto rates urgency Highest, says very limited exploitation has been seen, and lists IoCs 66.42.72.14, 208.83.239.114, and 149.248.47.234. Cloud NGFW and Prisma Access are not affected; patch to the listed fixed builds and keep management off the public internet. Sources: <a href="https://security.paloaltonetworks.com/CVE-2026-0322">security.paloaltonetworks.com</a> ; <a href="https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json">cisa.gov</a></p>
 ]]></description>
     <enclosure url="https://security.paloaltonetworks.com/HIGH.png" type="image/jpeg" length="0"/>
-  </item>
-<item>
-    <title>CISA adds AhsayCBS auth-bypass + unauth RCE chain to KEV (CVE-2026-105133 / CVE-2026-105134)</title>
-    <link>https://www.huntress.com/blog/ahsaycbs-flaws-exploit</link>
-    <guid isPermaLink="false">ahsaycbs-cve-2026-105133-105134-kev-20261014131135</guid>
-    <pubDate>Wed, 14 Oct 2026 13:11:35 -0700</pubDate>
-    <description><![CDATA[
-<p><img src="https://cdn.builder.io/api/v1/image/assets%2F3eb6f92aedf74f109c7b4b0897ec39a8%2F266936e4b61b4dd6821599adf741b9db" alt=""/></p>
-<p>CISA added CVE-2026-105133 (improper authentication) and CVE-2026-105134 (command injection) in AhsayCBS backup consoles to KEV on Oct 14, with a federal due date of Oct 17. Huntress saw the chain exploited from Oct 7 for unauthenticated SYSTEM RCE, JSP webshells, and XMRig miners disguised as Edge across at least five organizations; Ahsay's earlier 10.3.4.0 / 9.15.2.59 builds did not fully fix it. Apply hotfixes 10.3.4.45 (v10) or 9.15.2.70 (v7–v9), reboot, and treat exposed management interfaces as compromised until verified. Sources: <a href="https://www.huntress.com/blog/ahsaycbs-flaws-exploit">huntress.com</a> ; <a href="https://www.ahsay.com/en/company/announcements/patch-cve-105133-105134-update">ahsay.com</a></p>
-]]></description>
-    <enclosure url="https://cdn.builder.io/api/v1/image/assets%2F3eb6f92aedf74f109c7b4b0897ec39a8%2F266936e4b61b4dd6821599adf741b9db" type="image/jpeg" length="0"/>
-  </item>
-<item>
-    <title>CISA adds Cisco Secure Email Gateway exploited zero-day CVE-2026-76519 to KEV</title>
-    <link>https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-afw-zqYJkjxp</link>
-    <guid isPermaLink="false">cisco-seg-cve-2026-76519-kev-20261014131130</guid>
-    <pubDate>Wed, 14 Oct 2026 13:11:30 -0700</pubDate>
-    <description><![CDATA[
-<p>Material update: CISA listed CVE-2026-76519 in KEV on Oct 14 (catalog 2026.10.14), with remediation due Oct 17 and forensic triage required. Cisco disclosed the CVSS 9.8 relative path traversal the same day as an actively exploited arbitrary file write via AMP File Reputation attachments on Secure Email Gateway; only gateways with File Reputation on and Content Scanner Tools older than 25.3.0.5525 are affected. Update Content Scanner Tools or move to AsyncOS 15.5.5-014 / 16.5.0-780 and hunt system_logs for compromise indicators. Sources: <a href="https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-afw-zqYJkjxp">sec.cloudapps.cisco.com</a> ; <a href="https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json">cisa.gov</a></p>
-]]></description>
-  </item>
-<item>
-    <title>Hackers backdoor Nextcloud servers via Collabora Built-in CODE app (CVE-2026-110447)</title>
-    <link>https://thehackernews.com/2026/10/hackers-backdoor-nextcloud-servers.html</link>
-    <guid isPermaLink="false">nextcloud-collabora-cve-2026-110447-20261014121110</guid>
-    <pubDate>Wed, 14 Oct 2026 12:11:10 -0700</pubDate>
-    <description><![CDATA[
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkZLcjmZtzt6NpWa8x4Wz7EdcOQEW6xYv6DA_mBnwy1ctZZeRAyeSYLES-H_mkr1QOBv72WNuGKwKQ-NN179Rw8BRTcYO38sYwxcbDkg1ISW_qWrCRJ9JfUXh3102OmwrF0HQq6dbSc58VXACXoi_EoI8ysPuSlzB_nBcHuFl9r3QakOsGG9GUm6UVOU8/s1700-nu-rw-lo-l85-e365/nextcloud.jpg" alt=""/></p>
-<p>Attackers exploited an unauthenticated OS command injection in Nextcloud's optional Collabora Online Built-in CODE Server app (richdocumentscode) before 26.4.303, planting PHP webshells (shx*.php) when the local CODE server was down. Collabora published CVE-2026-110447 on Oct 14 with evidence of in-the-wild exploitation since September; disabling the app is not enough—update to 26.4.303+ or remove it. Standalone Collabora Online and Docker/package CODE setups are not affected. Source: <a href="https://thehackernews.com/2026/10/hackers-backdoor-nextcloud-servers.html">thehackernews.com</a></p>
-]]></description>
-    <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkZLcjmZtzt6NpWa8x4Wz7EdcOQEW6xYv6DA_mBnwy1ctZZeRAyeSYLES-H_mkr1QOBv72WNuGKwKQ-NN179Rw8BRTcYO38sYwxcbDkg1ISW_qWrCRJ9JfUXh3102OmwrF0HQq6dbSc58VXACXoi_EoI8ysPuSlzB_nBcHuFl9r3QakOsGG9GUm6UVOU8/s1700-nu-rw-lo-l85-e365/nextcloud.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
