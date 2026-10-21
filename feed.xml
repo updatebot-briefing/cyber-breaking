@@ -7,7 +7,15 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 01 Sep 2026 10:02:25 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 09:12:00 -0700</lastBuildDate>
+<item>
+      <title><![CDATA[PHP2Shell: emergency PHP patches for two critical unauthenticated RCE flaws (CVE-2026-109618/-109619) as exploitation attempts begin]]></title>
+      <link>https://therecord.media/php-script-vulnerabilities-warnings</link>
+      <guid isPermaLink="false">php2shell-breaking-20261021091200</guid>
+      <pubDate>Wed, 21 Oct 2026 09:12:00 -0700</pubDate>
+      <enclosure url="https://cms.therecord.media/uploads/pexels_pixabay_270557_b1a99bb16a.jpg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://cms.therecord.media/uploads/pexels_pixabay_270557_b1a99bb16a.jpg" alt=""/></p><p><b>Breaking:</b> PHP released emergency fixes on Wednesday, Oct 21, 2026, around 7 AM PT for PHP2Shell, two critical (CVSS 9.2) flaws in the PHP runtime itself, CVE-2026-109618 and CVE-2026-109619. They allow unauthenticated remote code execution and worker-memory reads on nearly every PHP version back to 5.4, across mod_php, PHP-FPM, php-cgi, FrankenPHP and LiteSpeed, regardless of the application on top.</p><p>Cloudflare and watchTowr report in-the-wild exploitation attempts already underway (watchTowr says none successful yet), governments in the US, EU, UK and elsewhere issued urgent warnings, and organizations including Nintendo took sites offline. Kevin Beaumont called it one of the biggest vulns in years.</p><p>Patch now to PHP 8.5.12, 8.4.27, 8.3.36 or 8.2.35 (or your distro's backported package), then restart Apache, PHP-FPM and long-running workers. Isolate anything that can't be patched.</p><p>Sources: <a href="https://therecord.media/php-script-vulnerabilities-warnings">The Record</a>, <a href="https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html">The Hacker News</a>, <a href="https://www.helpnetsecurity.com/2026/10/21/php2shell-php-vulnerabilities-patched-cve-2026-109618-cve-2026-109619/">Help Net Security</a>, <a href="https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/">BleepingComputer</a></p>]]></description>
+    </item>
 <item>
       <title>Citrix confirms actively exploited NetScaler RCE zero-days (CVE-2026-88771 / CVE-2026-88772)</title>
       <link>https://support.citrix.com/external/article/CTX697096/netscaler-adc-and-netscaler-gateway-security-bulletin-for-cve-2026-88771-cve-2026-88772.html</link>
