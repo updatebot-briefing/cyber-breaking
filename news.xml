@@ -7,8 +7,16 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 22 Oct 2026 12:10:55 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 14:09:40 -0700</lastBuildDate>
     <item>
+<title>Capcom confirms CAPCOM ID breach exposing 11.7 million accounts</title>
+<link>https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/</link>
+<guid isPermaLink="false">capcom-id-breach-20261022140940</guid>
+<pubDate>Thu, 22 Oct 2026 14:09:40 -0700</pubDate>
+<description><![CDATA[<p><img src="https://www.bleepstatic.com/content/hl-images/2026/10/22/capcom.jpg" alt=""/></p><p>Capcom confirmed hackers breached its CAPCOM ID membership service, exposing more than 11.7 million customer email addresses along with account creation dates, login counts and last-login IP addresses. A small subset of 43 accounts also had birth dates, gender, nicknames and countries exposed, and attackers changed passwords on 196 accounts before Capcom reset them. Capcom says other passwords and credit card data were not exposed; it detected the intrusion on October 19.</p><p>Source: <a href="https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/">BleepingComputer</a></p>]]></description>
+<enclosure url="https://www.bleepstatic.com/content/hl-images/2026/10/22/capcom.jpg" type="image/jpeg" length="0"/>
+</item>
+<item>
 <title>Two CVSS 9.0 Linux KSMBD RCE flaws disclosed before kernel fixes, one pre-auth</title>
 <link>https://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html</link>
 <guid isPermaLink="false">linux-ksmbd-rce-unpatched-20261022121055</guid>
@@ -466,17 +474,6 @@
 <p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhuPumyjeBRpQZo5_3mvqZ2_kXuPiOK02cH-ARofYrny0mQ2-rv55w7yBxMTBe3ymCW7c77quZ4xlkdDG9FcEhBYFr7GWmbyPE_1K1xqU0mvT-h51Z8hLg-LnWl32MeOy-aumsGO9-j8VSOSOfVUDB2k1vWOpEdyGEWV9ipF4kf3HVP1Au2ClbkYtAJrc/s1600/backup-hacked.jpg" alt=""/></p>
 <p>Between May and July 2026, attackers repeatedly altered the update and notification config files on AOMEI's own servers for five-to-ten-minute windows, so any AOMEI Backupper install that checked in during a window downloaded and ran a backdoor. Google Threat Intelligence Group, Mandiant and ManageEngine's Threat Analysis Lab disclosed the campaign this week.</p>
 <p>The software never cryptographically verified those files, and the checksum sat inside the same unsigned file. AOMEI says its servers are fixed, but that does not clean machines already hit. Source: <a href="https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html">thehackernews.com</a></p>
-]]></description>
-  </item>
-
-    <item>
-    <title>CISA adds BeyondTrust Remote Support zero-day and Fortinet PEERSTITCH-linked flaw to KEV with Oct 19 deadline</title>
-    <link>https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-adds-two-known-exploited-vulnerabilities-catalog</link>
-    <guid isPermaLink="false">cisa-kev-beyondtrust-fortinet-20261016111200</guid>
-    <pubDate>Fri, 16 Oct 2026 11:12:00 -0700</pubDate>
-    <description><![CDATA[
-<p>CISA added two exploited flaws to the Known Exploited Vulnerabilities catalog on Oct 16: BeyondTrust Remote Support auth bypass CVE-2026-102764 (BT26-05, exploited by China-nexus actors since August) and Fortinet path traversal CVE-2025-61624 in FortiOS, FortiPAM, FortiProxy and FortiSwitchManager, which surfaced in the PEERSTITCH FortiGate implant campaign.</p>
-<p>Both carry a short Oct 19 remediation deadline and CISA's forensic triage requirement. Sources: <a href="https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-adds-two-known-exploited-vulnerabilities-catalog">CISA alert</a>, <a href="https://www.beyondtrust.com/trust-center/security-advisories/bt26-05">BeyondTrust BT26-05</a>, <a href="https://fortiguard.fortinet.com/psirt/FG-IR-26-122">Fortinet FG-IR-26-122</a></p>
 ]]></description>
   </item>
 
