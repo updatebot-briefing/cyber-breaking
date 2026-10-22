@@ -7,8 +7,16 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 22 Oct 2026 09:04:28 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 11:08:16 -0700</lastBuildDate>
     <item>
+<title>Arista patches VeloCloud Orchestrator zero-day exploited in attacks (CVE-2026-114625)</title>
+<link>https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/</link>
+<guid isPermaLink="false">arista-velocloud-vco-zero-day-20261022110816</guid>
+<pubDate>Thu, 22 Oct 2026 11:08:16 -0700</pubDate>
+<enclosure url="https://www.bleepstatic.com/content/hl-images/2026/10/22/Arista.jpg" type="image/jpeg" length="0"/>
+<description><![CDATA[<p><img src="https://www.bleepstatic.com/content/hl-images/2026/10/22/Arista.jpg" alt=""/></p><p>Arista released fixes for CVE-2026-114625, a critical SQL injection flaw in on-prem VeloCloud Orchestrator, the SD-WAN management portal, that is being exploited in attacks. It needs a valid authenticated session but lets any user escalate to a "superuser operator" and reach internal-only functions on the VCO host. Arista says hosted VCO is already patched and urges on-prem admins to update, restrict the web interface to admin networks, and block two attacker IPs. It's Arista's fourth exploited zero-day this year.</p><p>Source: <a href="https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/">BleepingComputer</a></p>]]></description>
+</item>
+<item>
       <title><![CDATA[Amazon: PHP2Shell exploit attempts started four days before patches shipped]]></title>
       <link>https://www.bleepingcomputer.com/news/security/amazon-says-php2shell-exploitation-began-4-days-before-patches/</link>
       <guid isPermaLink="false">php2shell-preembargo-exploitation-20261022090428</guid>
@@ -481,20 +489,5 @@
 <p>Access from the suspicious source was blocked after discovery, the breach was reported to Japan's Personal Information Protection Commission, and no secondary fraudulent use has been confirmed so far. Customers were warned to watch for phishing that impersonates BK Japan. Source: <a href="https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/">bleepingcomputer.com</a></p>
 ]]></description>
   </item>
-    <item>
-    <title>Unit 42 details PEERSTITCH FortiGate implant after FortiManager breach hit 500+ firewalls</title>
-    <link>https://unit42.paloaltonetworks.com/fortimanager-cve-2024-47575-peerstitch-malware/</link>
-    <guid isPermaLink="false">peerstitch-fortigate-implant-20261016090201</guid>
-    <pubDate>Fri, 16 Oct 2026 09:02:00 -0700</pubDate>
-    <enclosure url="https://unit42.paloaltonetworks.com/wp-content/uploads/2026/10/09_Vulnerabilities_1920x900.jpg" type="image/jpeg" length="0"/>
-    <description><![CDATA[
-<p><img src="https://unit42.paloaltonetworks.com/wp-content/uploads/2026/10/09_Vulnerabilities_1920x900.jpg" alt=""/></p>
-<p>Palo Alto Networks Unit 42 disclosed PEERSTITCH, a novel memory-resident ARM64 FortiGate implant used in a September 2024 intrusion (CL-STA-0954 / UNC5820) against a telecommunications MSP. Attackers first exploited FortiJump (CVE-2024-47575) on FortiManager, exfiltrating configs, crypto material, and data covering more than 500 managed FortiGate firewalls, then used FortiOS CLI path-traversal CVE-2025-61624 to escalate to root and inject the implant into miglogd and iked.</p>
-<p>PEERSTITCH leaves no disk binary, opens no listening ports, and builds a covert inter-process bridge so tagged VPN sessions can bypass FortiOS security checks—hard for conventional EDR/network tools to see. FortiJump and the path-traversal flaw are already patched; defenders should hunt edge appliances for auto-script traversal artifacts, rotate FortiManager-held credentials and keys, and review Unit 42 IOCs. Not a new mass internet zero-day today, but a significant edge-malware disclosure.</p>
-<p>Sources: <a href="https://unit42.paloaltonetworks.com/fortimanager-cve-2024-47575-peerstitch-malware/">unit42.paloaltonetworks.com</a>; <a href="https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html">thehackernews.com</a></p>
-]]></description>
-  </item>
-
-
     </channel>
 </rss>
