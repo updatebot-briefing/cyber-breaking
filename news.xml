@@ -7,8 +7,23 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Wed, 21 Oct 2026 15:05:46 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 17:04:07 -0700</lastBuildDate>
     <item>
+  <title>Railway breach exposes customer environment variables, deployments paused</title>
+  <link>https://blog.railway.com/p/security-disclosure-wednesday-october-21st</link>
+  <guid isPermaLink="false">railway-env-var-breach-20261021170407</guid>
+  <pubDate>Wed, 21 Oct 2026 17:04:07 -0700</pubDate>
+  <enclosure url="https://cms.railway.com/media/cf05de70-b435-4fe9-8d52-540e0b585874-blog-security-disclosure-wednesday-october-21st.png?w=1200&amp;q=90" type="image/jpeg" length="0"/>
+  <description><![CDATA[<p><img src="https://cms.railway.com/media/cf05de70-b435-4fe9-8d52-540e0b585874-blog-security-disclosure-wednesday-october-21st.png?w=1200&amp;q=90" alt=""/></p><p>Cloud deployment platform Railway says an unauthorized party may have accessed encrypted customer environment variables and, for some, the decrypted contents, which can include API keys and database and registry credentials. Railway ties it to a series of attacks on platform companies aimed at AI inference providers, has paused all deployments, and tells every user to rotate all stored secrets and review logs. Customers are already reporting their keys being used by third parties.</p><p>Sources: <a href="https://blog.railway.com/p/security-disclosure-wednesday-october-21st">Railway security disclosure</a>, <a href="http://status.railway.com/incident/QH8L8B3E">Railway status page</a></p>]]></description>
+</item>
+<item>
+  <title>PingCAP TiDB Cloud breach: FulcrumSec leaks control-plane, billing and customer API-key data</title>
+  <link>https://www.darkreading.com/cloud-security/tidb-breach-flawed-cloud-security</link>
+  <guid isPermaLink="false">pingcap-tidb-cloud-breach-20261021170407</guid>
+  <pubDate>Wed, 21 Oct 2026 17:04:07 -0700</pubDate>
+  <description><![CDATA[<p>PingCAP confirmed that an attacker used stolen service-account credentials to access its internal cloud systems from September 9 to October 7, copying source code, account and billing records, SQL editor text, and encrypted TiDB Cloud API keys. Extortion group FulcrumSec claims 10.6 TB stolen, including 115K plaintext customer API keys and 180K tenant orgs, and has released 200 GB; PingCAP says it found no evidence customer databases were touched. TiDB Cloud customers should rotate API keys and review access logs.</p><p>Sources: <a href="https://www.darkreading.com/cloud-security/tidb-breach-flawed-cloud-security">Dark Reading</a>, <a href="https://www.pingcap.com/trust-hub/security/security-update-october-2026/">PingCAP incident report</a></p>]]></description>
+</item>
+<item>
   <title>Japan's Onamae Desktop Cloud hacked, malware on up to 27,000 customer servers</title>
   <link>https://www.bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected/</link>
   <guid isPermaLink="false">onamae-desktop-cloud-breach-20261021150546</guid>
@@ -503,29 +518,5 @@
     <enclosure url="https://www.bleepstatic.com/content/hl-images/2025/07/18/arch-linux-white.jpg" type="image/jpeg" length="0"/>
   </item>
 
-        <item>
-    <title>GhostAction GitHub supply-chain campaign hijacks about 1,900 accounts, targets 30,000+ repositories</title>
-    <link>https://thehackernews.com/2026/10/ghostaction-compromises-about-1900.html</link>
-    <guid isPermaLink="false">ghostaction-github-1900-accounts-20261015101000</guid>
-    <pubDate>Thu, 15 Oct 2026 10:10:00 -0700</pubDate>
-    <description><![CDATA[
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiddFchlm_nV3vywI0BM2-8IaZb-wHXwE8DplGqZYkRmcYkeXiSLfVmnVAU-jM4yikWW7SWokanh_S4hq88cVHjAnaWDGkl3VVAtPdv9SHWp0MNb0CIOAA-I73EuwwUSE-wNMnXEzbIdDYorJn2hIuBZQ5Jh_5I2IntiXuUYZz3sKax-wfRoaxy_pD9kGx0/s1700-nu-rw-lo-l85-e365/ghost-git.jpg" alt=""/></p>
-<p>GitGuardian says the GhostAction credential-theft campaign spiked on Oct 8-9, compromising about 1,900 GitHub accounts and targeting more than 30,000 repositories across 3,000 users and orgs, attempting to pull 3,174 secrets from CI. Attackers use stolen PATs or infostealer credentials to push malicious workflows disguised as security-audit.yml or github_actions_security.yml that exfiltrate CI/CD, cloud, npm/PyPI/Docker Hub and AI API secrets, with newer payloads also scanning git history. Review recent workflow additions and rotate any CI secrets exposed in affected repos. Source: <a href="https://thehackernews.com/2026/10/ghostaction-compromises-about-1900.html">thehackernews.com</a></p>
-]]></description>
-    <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiddFchlm_nV3vywI0BM2-8IaZb-wHXwE8DplGqZYkRmcYkeXiSLfVmnVAU-jM4yikWW7SWokanh_S4hq88cVHjAnaWDGkl3VVAtPdv9SHWp0MNb0CIOAA-I73EuwwUSE-wNMnXEzbIdDYorJn2hIuBZQ5Jh_5I2IntiXuUYZz3sKax-wfRoaxy_pD9kGx0/s1700-nu-rw-lo-l85-e365/ghost-git.jpg" type="image/jpeg" length="0"/>
-  </item>
-
-<item>
-    <title>NGINX fixes five flaws, including possible RCE memory bugs and a TLS client-cert bypass</title>
-    <link>https://thehackernews.com/2026/10/nginx-fixes-5-flaws-including-possible.html</link>
-    <guid isPermaLink="false">nginx-five-flaws-1-30-6-20261015101000</guid>
-    <pubDate>Thu, 15 Oct 2026 10:10:00 -0700</pubDate>
-    <description><![CDATA[
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEionuV8CAd7SP0bgEbHyb-0hp7JWNkWpPjYtkNH9p86nRQrxDN1T97D1cragnVVzAwCEFCuqrwuysgwzxJLfvTXrYhMSGj5rbBzrpjW-VPvAmrc2-9EAR_hBmPigJUOjynvkm0ArpyasyzCOAWUWFYdCqzsbCJVOsxC09LnYwH2dcV4j4Vm9S9VDelXUlc/s1700-nu-rw-lo-l85-e365/tls.jpg" alt=""/></p>
-<p>NGINX 1.30.6 and 1.31.7 (Oct 14) fix five bugs, one present in every release since 2005. Three memory bugs (F5 CVSS v4 9.2) could crash workers or possibly allow code execution, and a session-ticket key rotation bug can let a forged TLS session bypass client-certificate checks when the common shared session cache is used. Each needs a specific config (alias with rewrite, regex map, AIO with SSI, shared TLS session cache, or HTTP/3); no exploitation or KEV listing as of Oct 15. Upgrade NGINX or apply F5's workarounds. Source: <a href="https://thehackernews.com/2026/10/nginx-fixes-5-flaws-including-possible.html">thehackernews.com</a></p>
-]]></description>
-    <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEionuV8CAd7SP0bgEbHyb-0hp7JWNkWpPjYtkNH9p86nRQrxDN1T97D1cragnVVzAwCEFCuqrwuysgwzxJLfvTXrYhMSGj5rbBzrpjW-VPvAmrc2-9EAR_hBmPigJUOjynvkm0ArpyasyzCOAWUWFYdCqzsbCJVOsxC09LnYwH2dcV4j4Vm9S9VDelXUlc/s1700-nu-rw-lo-l85-e365/tls.jpg" type="image/jpeg" length="0"/>
-  </item>
-
-</channel>
+        </channel>
 </rss>
