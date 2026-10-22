@@ -7,7 +7,47 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Wed, 21 Oct 2026 18:02:34 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 09:04:28 -0700</lastBuildDate>
+    <item>
+      <title><![CDATA[Amazon: PHP2Shell exploit attempts started four days before patches shipped]]></title>
+      <link>https://www.bleepingcomputer.com/news/security/amazon-says-php2shell-exploitation-began-4-days-before-patches/</link>
+      <guid isPermaLink="false">php2shell-preembargo-exploitation-20261022090428</guid>
+      <pubDate>Thu, 22 Oct 2026 09:04:28 -0700</pubDate>
+      <enclosure url="https://www.bleepstatic.com/content/hl-images/2026/10/22/PHP-attack.jpg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://www.bleepstatic.com/content/hl-images/2026/10/22/PHP-attack.jpg" alt=""/></p><p>Amazon Threat Intelligence says it caught an attempt to exploit the PHP2Shell flaws (CVE-2026-109618 and CVE-2026-109619) against its MadPot honeypots on October 17, four days before PHP shipped patches on October 21 and while the bugs were still under embargo. The attempt came from an anonymization-network IP, and it is unclear how the attacker got exploit details early. Several security firms have since reported further exploit attempts after the patches came out, so unpatched PHP 7.x and 8.x servers should be treated as at risk.</p><p>Sources: <a href="https://www.bleepingcomputer.com/news/security/amazon-says-php2shell-exploitation-began-4-days-before-patches/">BleepingComputer</a>, <a href="https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html">The Hacker News</a></p>]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Microsoft ties ConnectWise Cloud Backup supply chain attack to China-linked Storm-0940 using ARTEX AI agents]]></title>
+      <link>https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html</link>
+      <guid isPermaLink="false">storm-0940-connectwise-artex-20261022090428</guid>
+      <pubDate>Thu, 22 Oct 2026 09:04:28 -0700</pubDate>
+      <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBGpr0x4Dn4VV8YVCO_s3CzzGvwmVUceHbt0llcvrzvBmWFaJcu9E9v3WntJGdez3PZ-53GAVSRiYc5FdSOgmyeCSXvpL2t5nCjhzJC50kTLhQygW8cCeFHqtZtDYHsG7Vx2uf1vVdobBbKJ5fcCKSNZDKpV00GRQKVlD444srM9L4rcPnTe28nABZ3pon/s1600/chinese-ai.jpg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBGpr0x4Dn4VV8YVCO_s3CzzGvwmVUceHbt0llcvrzvBmWFaJcu9E9v3WntJGdez3PZ-53GAVSRiYc5FdSOgmyeCSXvpL2t5nCjhzJC50kTLhQygW8cCeFHqtZtDYHsG7Vx2uf1vVdobBbKJ5fcCKSNZDKpV00GRQKVlD444srM9L4rcPnTe28nABZ3pon/s1600/chinese-ai.jpg" alt=""/></p><p>Microsoft says the China state-aligned actor Storm-0940 was behind the recent compromise of the ConnectWise Cloud Backup app. The group used ARTEX, an agentic AI penetration-testing framework, to automate reconnaissance, password spraying and abuse of the already-consented OAuth app against hundreds of organizations since September 2026. Targets span defense, government, energy, finance, semiconductors, software and more, and the app access let the attackers authenticate without any interactive user sign-in.</p><p>Source: <a href="https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html">The Hacker News</a></p>]]></description>
+    </item>
+    <item>
+      <title><![CDATA[INTERPOL's Operation Serengeti III arrests 1,462 and disrupts 10,909 cybercrime networks in Africa]]></title>
+      <link>https://thehackernews.com/2026/10/interpol-arrests-1462-suspects-disrupts.html</link>
+      <guid isPermaLink="false">interpol-serengeti-iii-20261022090428</guid>
+      <pubDate>Thu, 22 Oct 2026 09:04:28 -0700</pubDate>
+      <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgztarCkWkHIW3EBCYV1Uaoz1pLURW3sA5E381ALhft79JhEp71NrhOngLJTWtoT1EL-mI7G6sz0geVq0clphhNqFhyphenhyphen6zPdTK1KYcNAPR43HvdicTavSv5eFTsMTVh36gi570aIN265ZJnbfwvMcWSIriWeU_28JWsofVj-9k1qQdKddXoDeh6dNeWy2ViE/s1600/interpol-1.jpg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgztarCkWkHIW3EBCYV1Uaoz1pLURW3sA5E381ALhft79JhEp71NrhOngLJTWtoT1EL-mI7G6sz0geVq0clphhNqFhyphenhyphen6zPdTK1KYcNAPR43HvdicTavSv5eFTsMTVh36gi570aIN265ZJnbfwvMcWSIriWeU_28JWsofVj-9k1qQdKddXoDeh6dNeWy2ViE/s1600/interpol-1.jpg" alt=""/></p><p>INTERPOL says Operation Serengeti III, run from June 29 to August 31, 2026 across 21 countries, disrupted 10,909 malicious networks, arrested 1,462 suspects and recovered more than $105 million. Investigators identified 65,929 victims and linked the activity to losses above $385 million, with private partners such as Group-IB and Team Cymru supplying intelligence on phishing kits and botnets.</p><p>Sources: <a href="https://thehackernews.com/2026/10/interpol-arrests-1462-suspects-disrupts.html">The Hacker News</a>, <a href="https://www.bleepingcomputer.com/news/security/authorities-disrupt-nearly-11-000-cybercrime-networks-in-africa/">BleepingComputer</a></p>]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Oracle's October 2026 Critical Patch Update fixes 1,209 CVEs, 95 of them critical]]></title>
+      <link>https://www.securityweek.com/oracle-patches-over-1200-vulnerabilities-with-october-2026-cpu/</link>
+      <guid isPermaLink="false">oracle-october-2026-cpu-20261022090428</guid>
+      <pubDate>Thu, 22 Oct 2026 09:04:28 -0700</pubDate>
+      <enclosure url="https://www.securityweek.com/wp-content/uploads/2026/10/Oracle.jpeg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://www.securityweek.com/wp-content/uploads/2026/10/Oracle.jpeg" alt=""/></p><p>Oracle's October 2026 CPU ships 1,295 patches for 1,209 unique CVEs, including 95 rated critical and 439 rated high, according to Tenable's analysis. Fusion Middleware got the most fixes (206), and 134 of those can be exploited remotely without authentication. E-Business Suite, Siebel CRM, PeopleSoft, JD Edwards, MySQL and Java SE also received large batches.</p><p>Source: <a href="https://www.securityweek.com/oracle-patches-over-1200-vulnerabilities-with-october-2026-cpu/">SecurityWeek</a></p>]]></description>
+    </item>
+    <item>
+      <title><![CDATA[QPACK flaws let one unauthenticated connection crash many HTTP/3 servers; three stacks still unpatched]]></title>
+      <link>https://thehackernews.com/2026/10/new-qpack-flaws-can-crash-http3-servers.html</link>
+      <guid isPermaLink="false">qpack-http3-dos-20261022090428</guid>
+      <pubDate>Thu, 22 Oct 2026 09:04:28 -0700</pubDate>
+      <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidksxeLP_h5vpqmr62J_72yOAmQIRsZDLE6bpclFaHY1yQX6Dv-omiTvu_j49FuvXUOwxQT8levg89_AGRMiPNidANkEn1PSGSaNFoCVnY_VQ2Ny9D7FhLwtd9VDboOjxPi6Ssg78CdLFUzShhEt8oK6x0obKcHCZbbIMWBylnQCVCbQGUqjfbBJAKCew/s1600/http3.jpg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidksxeLP_h5vpqmr62J_72yOAmQIRsZDLE6bpclFaHY1yQX6Dv-omiTvu_j49FuvXUOwxQT8levg89_AGRMiPNidANkEn1PSGSaNFoCVnY_VQ2Ny9D7FhLwtd9VDboOjxPi6Ssg78CdLFUzShhEt8oK6x0obKcHCZbbIMWBylnQCVCbQGUqjfbBJAKCew/s1600/http3.jpg" alt=""/></p><p>FoxIO found QPACK header-expansion bugs in seven of ten HTTP/3 stacks it tested, letting a remote unauthenticated attacker force up to 4,000-fold memory amplification and knock servers offline, and it released working proof-of-concept code. Fixes are out for quic-go (used by Caddy, Traefik and cloudflared), Cloudflare quiche, lsquic and Wireshark, while Bun, the h3 Rust library and aioquic were unpatched at disclosure. The impact is denial of service only, with no attacks seen in the wild.</p><p>Source: <a href="https://thehackernews.com/2026/10/new-qpack-flaws-can-crash-http3-servers.html">The Hacker News</a></p>]]></description>
+    </item>
     <item>
       <title>CBC: 1.5 million Canadian Crime Stoppers tips exposed in P3 Global Intel hack</title>
       <link>https://www.cbc.ca/news/investigates/canadian-crime-stoppers-tips-leaked-hack-investigation-9.7388820</link>
@@ -455,64 +495,6 @@
 ]]></description>
   </item>
 
-        <item>
-    <title>Central Ohio Primary Care breach hits about 1.4 million after August vishing attack</title>
-    <link>https://www.copcp.com/company-news/copc-cybersecurity-information/</link>
-    <guid isPermaLink="false">copc-1-4m-vishing-breach-20261015180500</guid>
-    <pubDate>Thu, 15 Oct 2026 18:05:00 -0700</pubDate>
-    <enclosure url="https://www.copcp.com/wp-content/uploads/2026/09/Cybersecurity-Information.jpg" type="image/jpeg" length="0"/>
-    <description><![CDATA[
-<p><img src="https://www.copcp.com/wp-content/uploads/2026/09/Cybersecurity-Information.jpg" alt=""/></p>
-<p>Central Ohio Primary Care (COPC) said on Oct 15 that a cybersecurity incident discovered Aug 25, stemming from a social-engineering vishing attack aimed at extortion, may have exposed personal and protected health information for about 1.4 million patients and employees. Potentially affected data can include names, addresses, Social Security numbers, limited patient health data, financial information, and other identifiers; MyChart/Epic was not impacted and COPC says the incident is contained with no known misuse so far.</p>
-<p>COPC is notifying affected people, offering credit and dark-web monitoring, and working with law enforcement. Local reporting has tied the intrusion to ransomware activity, but COPC's public statement focuses on the vishing entry and file access rather than naming a group. Sources: <a href="https://www.copcp.com/company-news/copc-cybersecurity-information/">copcp.com</a>; <a href="https://www.10tv.com/article/news/local/central-ohio-primary-care-cybersecurity-breach-update/530-ae9c9102-fb6b-40ef-a15c-c9dc73c2b356">10tv.com</a></p>
-]]></description>
-  </item>
-        <item>
-    <title>BAE Systems cyber incident disrupts nationwide Bankruptcy Noticing Center</title>
-    <link>https://www.uscourts.gov/data-news/judiciary-news/2026/10/15/cybersecurity-incident-disrupting-bankruptcy-court-operations</link>
-    <guid isPermaLink="false">bae-bnc-bankruptcy-noticing-outage-20261015180400</guid>
-    <pubDate>Thu, 15 Oct 2026 18:04:00 -0700</pubDate>
-    <description><![CDATA[
-<p>The Administrative Office of the U.S. Courts said a cybersecurity incident affecting BAE Systems IT and websites that support the Bankruptcy Noticing Center (BNC) has halted production and delivery of electronic and paper bankruptcy notices for federal bankruptcy courts nationwide. BAE operates BNC systems on behalf of the judiciary; related sites including bnc.uscourts.gov, bankruptcynotices.uscourts.gov, notices.uscourts.gov, and the National Creditor Registration Service are unavailable while BAE investigates and works to restore service.</p>
-<p>CM/ECF Notices of Electronic Filing continue to work, and courts are still accepting filings, but creditor noticing and mailing-label access are disrupted; the outage has been ongoing since about Oct 9. Source: <a href="https://www.uscourts.gov/data-news/judiciary-news/2026/10/15/cybersecurity-incident-disrupting-bankruptcy-court-operations">uscourts.gov</a></p>
-]]></description>
-  </item>
-        <item>
-    <title>China-nexus ARMORY CASTLE exploited BeyondTrust Remote Support zero-day CVE-2026-102764 (BT26-05)</title>
-    <link>https://cloud.google.com/blog/topics/threat-intelligence/armory-castle-exploits-beyondtrust</link>
-    <guid isPermaLink="false">beyondtrust-cve-2026-102764-armory-castle-20261015151500</guid>
-    <pubDate>Thu, 15 Oct 2026 15:15:00 -0700</pubDate>
-    <enclosure url="https://storage.googleapis.com/gweb-cloudblog-publish/images/03_ThreatIntelligenceWebsiteBannerIdeas_BA.max-2600x2600.png" type="image/jpeg" length="0"/>
-    <description><![CDATA[
-<p><img src="https://storage.googleapis.com/gweb-cloudblog-publish/images/03_ThreatIntelligenceWebsiteBannerIdeas_BA.max-2600x2600.png" alt=""/></p>
-<p>BeyondTrust and Mandiant/GTIG disclosed CVE-2026-102764 (BT26-05, CVSS 9.3), a critical Remote Support (formerly Bomgar) flaw that lets a remote attacker perform arbitrary file operations on an affected appliance. Mandiant says suspected China-nexus espionage actor ARMORY CASTLE (formerly UNC5221; CrowdStrike: WARP PANDA) exploited it as a zero-day in late August 2026, then planted the SAWFLY webshell, gained root, and targeted brokered credentials.</p>
-<p>BeyondTrust reports confirmed exploitation of one BeyondTrust-hosted instance and one self-hosted appliance; SaaS was auto-patched October 8, and self-hosted Remote Support (and precautionarily Privileged Remote Access) customers must apply BT26-05 immediately. Technical exploit details are withheld while self-hosted fleets patch. Mandiant warns defenders should expect broader opportunistic scanning after disclosure. Not in CISA KEV as of this check.</p>
-<p>Sources: <a href="https://cloud.google.com/blog/topics/threat-intelligence/armory-castle-exploits-beyondtrust">cloud.google.com</a>; <a href="https://www.beyondtrust.com/blog/entry/bt26-05">beyondtrust.com</a>; <a href="https://www.beyondtrust.com/trust-center/security-advisories">BeyondTrust advisories</a></p>
-]]></description>
-  </item>
-<item>
-    <title>Critical PwnEscape Linux kernel flaw lets guest VMs read host memory (CVE-2026-99999); confirmed on Vercel sandboxes</title>
-    <link>https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html</link>
-    <guid isPermaLink="false">pwnescape-cve-2026-99999-20261015140800</guid>
-    <pubDate>Thu, 15 Oct 2026 14:08:00 -0700</pubDate>
-    <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0Y0ZP5acV4vjjJV9at7yMnz0frJTAeLd3nGmqMIcifTwGoe2NsB7pDInUjGa6aocyqoM3o-NyXKpsfyy1LRdkH5UG67UVYC_lNZDYArvg-hkmtifcalWo67Mkl3A4_2qwXomi7iJURUjoiSlBdEWtJL5N63jfuMDjI7ewZHLlTZBXlkc4zqwyxKox7eE/s1600/pwnescape-main.jpg" type="image/jpeg" length="0"/>
-    <description><![CDATA[
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0Y0ZP5acV4vjjJV9at7yMnz0frJTAeLd3nGmqMIcifTwGoe2NsB7pDInUjGa6aocyqoM3o-NyXKpsfyy1LRdkH5UG67UVYC_lNZDYArvg-hkmtifcalWo67Mkl3A4_2qwXomi7iJURUjoiSlBdEWtJL5N63jfuMDjI7ewZHLlTZBXlkc4zqwyxKox7eE/s1600/pwnescape-main.jpg" alt=""/></p>
-<p>Paulos Yibelo of pwn.ai disclosed CVE-2026-99999 (PwnEscape), a critical (CVSS 9.3) Linux kernel networking flaw where crafted packets from inside a guest VM can leak host memory (~32 bytes per packet), and in lab setups crash the host or escape to host admin control. Vercel confirmed the memory leak against its production Firecracker sandboxes during an August challenge; crash and code execution were demonstrated only on matching lab hosts, not as production RCE.</p>
-<p>The bug sits in shared host networking code, not a Vercel-specific misconfig, so it matters for multi-tenant clouds that isolate workloads with Linux/KVM. Attack vector is local (attacker must already run code in a guest). No in-the-wild exploitation or KEV listing as of Oct 15. Patch host kernels to fixed stables (e.g. 5.10.272, 5.15.223, 6.1.190, 6.6.159, 6.12.113, 6.18.57, 7.2.11) or your distro backport and reboot; guest-only updates do not help.</p>
-<p>Sources: <a href="https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html">thehackernews.com</a>; <a href="https://pwn.ai/blog/pwnescape">pwn.ai</a>; <a href="https://vercel.com/blog/findings-from-the-1-million-dollar-vercel-sandbox-challenge">vercel.com</a></p>
-]]></description>
-  </item>
-
-<item>
-    <title>CISA adds Atlassian pre-auth arbitrary file read across Jira, Confluence, Bitbucket and more to KEV (CVE-2026-21589)</title>
-    <link>https://confluence.atlassian.com/security/cve-2026-21589-arbitrary-file-access-vulnerability-impacts-multiple-products-1870495748.html</link>
-    <guid isPermaLink="false">atlassian-cve-2026-21589-kev-20261015110800</guid>
-    <pubDate>Thu, 15 Oct 2026 11:08:00 -0700</pubDate>
-    <description><![CDATA[
-<p>CISA added CVE-2026-21589 to its Known Exploited Vulnerabilities catalog on Oct 15, confirming in-the-wild exploitation of an unauthenticated file-access flaw in Atlassian Bitbucket, Confluence, Jira Software, Jira Service Management, Bamboo and Crowd Data Center, plus Crucible and Fisheye. It lets an attacker read specific files inside the web application root; watchTowr published technical details on Oct 6. CISA set a short Oct 18 deadline and flagged it for forensic triage, so patch self-hosted Atlassian instances per the vendor advisory and check for signs of access. Source: <a href="https://confluence.atlassian.com/security/cve-2026-21589-arbitrary-file-access-vulnerability-impacts-multiple-products-1870495748.html">confluence.atlassian.com</a> (KEV: <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog">cisa.gov</a>)</p>
-]]></description>
-  </item>
 
     </channel>
 </rss>
