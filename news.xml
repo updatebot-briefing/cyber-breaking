@@ -7,8 +7,24 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 22 Oct 2026 11:08:16 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 12:10:55 -0700</lastBuildDate>
     <item>
+<title>Two CVSS 9.0 Linux KSMBD RCE flaws disclosed before kernel fixes, one pre-auth</title>
+<link>https://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html</link>
+<guid isPermaLink="false">linux-ksmbd-rce-unpatched-20261022121055</guid>
+<pubDate>Thu, 22 Oct 2026 12:10:55 -0700</pubDate>
+<enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdNNyKzD2udgIl0X434MI2ucEwGFB_B-QqyjMnMuvTfwZv7clEo3n0ASA_aEQtUmQ7wqPSREwq1Cvi3iQLtubfUkK7p017Q6SrliTkwHiJyhfDIzahdof71Mxs4LXqJWoLkAnwikxy2KmZ1pkMg5Qto-RwPnvQx71Ol4G7sO20eeVNr_pfstT2WbDg3Nk/s1600/linux-rce.jpg" type="image/jpeg" length="0"/>
+<description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdNNyKzD2udgIl0X434MI2ucEwGFB_B-QqyjMnMuvTfwZv7clEo3n0ASA_aEQtUmQ7wqPSREwq1Cvi3iQLtubfUkK7p017Q6SrliTkwHiJyhfDIzahdof71Mxs4LXqJWoLkAnwikxy2KmZ1pkMg5Qto-RwPnvQx71Ol4G7sO20eeVNr_pfstT2WbDg3Nk/s1600/linux-rce.jpg" alt=""/></p><p>Trend Micro's ZDI publicly reported two remote code execution flaws in KSMBD, the Linux kernel's built-in SMB server, with no fix yet in mainline or linux-next and no CVEs assigned. ZDI-CAN-33774 is a handler-table race reachable before authentication on port 445, while ZDI-CAN-33549 is an integer underflow that needs SMB Direct over an RDMA-capable interface. KSMBD isn't enabled on many distros by default (RHEL doesn't ship it), so exposure is limited to systems running the module; admins can check with lsmod and block port 445 until patches land. No exploitation has been reported.</p><p>Source: <a href="https://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html">The Hacker News</a></p>]]></description>
+</item>
+<item>
+<title>eMudhra to exit global SSL/TLS business after eight intermediate CA keys were exposed</title>
+<link>https://thehackernews.com/2026/10/emudhra-to-exit-global-ssltls-business.html</link>
+<guid isPermaLink="false">emudhra-exits-tls-business-20261022121055</guid>
+<pubDate>Thu, 22 Oct 2026 12:10:55 -0700</pubDate>
+<enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5DGeZCzWnHOoA87UbpfzGUlpU9xBK1x5tJsYlWOoKtyEkTRjaN4cW_lMOKdtiSXVPhVMd6JhOMRhvFOxvn853LcLaCBSNK-_m4CDIDGt048SdHQQqu63ZSZ09Ymc3UhqD_TZoLaCM6eIJL6TSYbBVINceAi4paPvjxJ4i9uN3CKZQ2s5bT4Dc_jAcv8I/s1600/ssl.jpg" type="image/jpeg" length="0"/>
+<description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5DGeZCzWnHOoA87UbpfzGUlpU9xBK1x5tJsYlWOoKtyEkTRjaN4cW_lMOKdtiSXVPhVMd6JhOMRhvFOxvn853LcLaCBSNK-_m4CDIDGt048SdHQQqu63ZSZ09Ymc3UhqD_TZoLaCM6eIJL6TSYbBVINceAi4paPvjxJ4i9uN3CKZQ2s5bT4Dc_jAcv8I/s1600/ssl.jpg" alt=""/></p><p>Indian certificate authority eMudhra's board voted to withdraw from the global SSL/TLS certificate business, five days after a researcher recovered the private keys of eight of its intermediate CAs. Chrome will stop trusting the emSign ECC Root CA - G3 around the morning of October 27 PT, following Mozilla's Firefox decision on October 20. About 30,800 unexpired certificates chain to that root, 99.9% issued through Internet2's InCommon service for higher education, and Google says those site operators must replace them immediately. eMudhra says it will swap affected customers to free certificates from unnamed partners.</p><p>Source: <a href="https://thehackernews.com/2026/10/emudhra-to-exit-global-ssltls-business.html">The Hacker News</a></p>]]></description>
+</item>
+<item>
 <title>Arista patches VeloCloud Orchestrator zero-day exploited in attacks (CVE-2026-114625)</title>
 <link>https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/</link>
 <guid isPermaLink="false">arista-velocloud-vco-zero-day-20261022110816</guid>
@@ -464,30 +480,5 @@
 ]]></description>
   </item>
 
-    <item>
-    <title>Juniper patches 150+ Junos OS flaws, about two dozen critical; F5 fixes 11 NGINX bugs</title>
-    <link>https://www.securityweek.com/f5-juniper-networks-patch-critical-vulnerabilities/</link>
-    <guid isPermaLink="false">juniper-junos-f5-nginx-patches-20261016100900</guid>
-    <pubDate>Fri, 16 Oct 2026 10:09:00 -0700</pubDate>
-    <enclosure url="https://www.securityweek.com/wp-content/uploads/2025/01/Juniper-Networks.jpeg" type="image/jpeg" length="0"/>
-    <description><![CDATA[
-<p><img src="https://www.securityweek.com/wp-content/uploads/2025/01/Juniper-Networks.jpeg" alt=""/></p>
-<p>Juniper Networks published 17 advisories covering more than 150 vulnerabilities in Junos OS and Junos OS Evolved, plus four in Juniper Cloud-Native Router. Roughly two dozen are rated critical and can lead to code or command execution as root, full device takeover, kernel panics, or Routing Engine reboots.</p>
-<p>F5 separately fixed 11 NGINX flaws, including critical unauthenticated bugs CVE-2026-15176, CVE-2026-93479 and CVE-2026-97205 that can crash workers or reach RCE if ASLR is disabled or bypassed. Neither vendor reports in-the-wild exploitation. Source: <a href="https://www.securityweek.com/f5-juniper-networks-patch-critical-vulnerabilities/">securityweek.com</a></p>
-]]></description>
-  </item>
-
-<item>
-    <title>Burger King Japan breach exposes about 11.18 million app member records</title>
-    <link>https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/</link>
-    <guid isPermaLink="false">burger-king-japan-11m-breach-20261016090200</guid>
-    <pubDate>Fri, 16 Oct 2026 09:02:00 -0700</pubDate>
-    <enclosure url="https://www.bleepstatic.com/content/hl-images/2026/10/16/Burger-King-Japan.jpg" type="image/jpeg" length="0"/>
-    <description><![CDATA[
-<p><img src="https://www.bleepstatic.com/content/hl-images/2026/10/16/Burger-King-Japan.jpg" alt=""/></p>
-<p>Burger King Japan said a follow-up investigation concluded Oct 13 found unauthorized access between Oct 2 and Oct 7 to the server holding official smartphone-app member data, exposing about 11.18 million customer records. Stolen fields include names, dates of birth, gender, email addresses, phone numbers, and order history; the company says the server did not store credit card numbers and it found no evidence that user credentials were accessed.</p>
-<p>Access from the suspicious source was blocked after discovery, the breach was reported to Japan's Personal Information Protection Commission, and no secondary fraudulent use has been confirmed so far. Customers were warned to watch for phishing that impersonates BK Japan. Source: <a href="https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/">bleepingcomputer.com</a></p>
-]]></description>
-  </item>
     </channel>
 </rss>
