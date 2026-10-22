@@ -7,7 +7,15 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Wed, 21 Oct 2026 17:04:07 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 18:02:34 -0700</lastBuildDate>
+    <item>
+      <title>CBC: 1.5 million Canadian Crime Stoppers tips exposed in P3 Global Intel hack</title>
+      <link>https://www.cbc.ca/news/investigates/canadian-crime-stoppers-tips-leaked-hack-investigation-9.7388820</link>
+      <guid isPermaLink="false">crime-stoppers-p3-cbc-20261021180234</guid>
+      <pubDate>Wed, 21 Oct 2026 18:02:34 -0700</pubDate>
+      <description><![CDATA[<p><img src="https://i.cbc.ca/ais/391ead06-1b72-4e9e-b15e-0e3f07baf29a,1792523215998/full/max/0/default.jpg?im=Crop%2Crect%3D%281%2C0%2C4238%2C2383%29%3BResize%3D620" alt=""/></p><p>A CBC investigation found that more than 1.5 million tips submitted to Canadian Crime Stoppers programs over 25 years were exposed in the March 2026 hack of P3 Global Intel, the Navigate360-owned tip platform. About 850,000 records contain personal details such as addresses, phone numbers, emails, licence plates and some banking data tied to cash rewards, and CBC was able to contact more than a dozen tipsters from the data.</p><p>The data was stolen by the hacktivist group Internet Yiff Machine as part of a wider leak of more than 8 million P3 records shared with journalists through Distributed Denial of Secrets. Crime Stoppers has not yet detailed the breach scope.</p><p>Sources: <a href="https://www.cbc.ca/news/investigates/canadian-crime-stoppers-tips-leaked-hack-investigation-9.7388820">CBC News</a>, <a href="https://www.reuters.com/legal/government/hacker-says-they-compromised-millions-confidential-police-tips-held-by-us-2026-03-18/">Reuters (March)</a></p>]]></description>
+      <enclosure url="https://i.cbc.ca/ais/391ead06-1b72-4e9e-b15e-0e3f07baf29a,1792523215998/full/max/0/default.jpg?im=Crop%2Crect%3D%281%2C0%2C4238%2C2383%29%3BResize%3D620" type="image/jpeg" length="0"/>
+    </item>
     <item>
   <title>Railway breach exposes customer environment variables, deployments paused</title>
   <link>https://blog.railway.com/p/security-disclosure-wednesday-october-21st</link>
@@ -506,17 +514,5 @@
 ]]></description>
   </item>
 
-    <item>
-    <title>Fake yay and paru AUR packages push malware that runs with root on Arch Linux</title>
-    <link>https://www.bleepingcomputer.com/news/security/fake-arch-linux-packages-push-malware-with-root-privileges/</link>
-    <guid isPermaLink="false">arch-aur-fake-yay-paru-malware-20261015110800</guid>
-    <pubDate>Thu, 15 Oct 2026 11:08:00 -0700</pubDate>
-    <description><![CDATA[
-<p><img src="https://www.bleepstatic.com/content/hl-images/2025/07/18/arch-linux-white.jpg" alt=""/></p>
-<p>A user named marchos1as mass-uploaded typosquatted Arch User Repository packages (such as yyay) impersonating the popular yay and paru AUR helpers, detected Oct 13. The packages bundled legitimate upstream code with an install scriptlet that fetched and ran a remote shell script as root, pulled via a Wayback Machine URL pointing to a GitFlic repo tied to the earlier npm DirtyBlanket campaign. The AUR team banned the account and removed the packages; anyone who installed a misspelled yay/paru package should treat the host as compromised. Source: <a href="https://www.bleepingcomputer.com/news/security/fake-arch-linux-packages-push-malware-with-root-privileges/">bleepingcomputer.com</a></p>
-]]></description>
-    <enclosure url="https://www.bleepstatic.com/content/hl-images/2025/07/18/arch-linux-white.jpg" type="image/jpeg" length="0"/>
-  </item>
-
-        </channel>
+    </channel>
 </rss>
