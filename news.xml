@@ -7,8 +7,16 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 22 Oct 2026 14:09:40 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 15:06:00 -0700</lastBuildDate>
     <item>
+<title>BIND 9 flaw CVE-2026-94300 lets replayed GSS-TSIG messages corrupt memory, possible RCE</title>
+<link>https://kb.isc.org/docs/cve-2026-94300</link>
+<guid isPermaLink="false">bind9-gss-tsig-cve-2026-94300-20261022150600</guid>
+<pubDate>Thu, 22 Oct 2026 15:06:00 -0700</pubDate>
+<enclosure url="https://cdn.document360.io/956e37e2-5ec0-4942-8b27-35533899f099/Images/Documentation/ISC-logo-rgb-2048x1149.png" type="image/jpeg" length="0"/>
+<description><![CDATA[<p><img src="https://cdn.document360.io/956e37e2-5ec0-4942-8b27-35533899f099/Images/Documentation/ISC-logo-rgb-2048x1149.png" alt=""/></p><p>ISC disclosed a high-severity BIND 9 bug (CVSS 8.1) where replaying captured GSS-TSIG signed UDP messages, combined with crafted queries to an attacker-controlled zone, can corrupt memory in named and potentially lead to remote code execution. It affects BIND 9.11.0 through 9.18.50, 9.20.0 through 9.20.29, and 9.21.0 through 9.21.26; fixes are in 9.20.30 and 9.21.27, with no workaround.</p><p>ISC says it is not aware of active exploitation, and the risk is mainly for servers using GSS-TSIG with Kerberos. Dave Aitel of OpenAI independently reported it.</p><p>Source: <a href="https://kb.isc.org/docs/cve-2026-94300">ISC security advisory</a></p>]]></description>
+</item>
+<item>
 <title>Capcom confirms CAPCOM ID breach exposing 11.7 million accounts</title>
 <link>https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/</link>
 <guid isPermaLink="false">capcom-id-breach-20261022140940</guid>
@@ -464,18 +472,5 @@
 <p>Sansec says no attacks have been seen yet, but it found four possible attack paths in under a day and expects mass exploitation soon, noting the similar StyleSmuggler flaw went from hotfix to mass attacks in three days. Stores need the October release or Adobe's isolated patch, and should keep the September StyleSmuggler hotfix in place too. Source: <a href="https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/">bleepingcomputer.com</a></p>
 ]]></description>
   </item>
-  <item>
-    <title>Attackers tampered with AOMEI Backupper update servers to push a backdoor to Windows machines</title>
-    <link>https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html</link>
-    <guid isPermaLink="false">aomei-backupper-update-server-backdoor-20261016111200</guid>
-    <pubDate>Fri, 16 Oct 2026 11:12:00 -0700</pubDate>
-    <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhuPumyjeBRpQZo5_3mvqZ2_kXuPiOK02cH-ARofYrny0mQ2-rv55w7yBxMTBe3ymCW7c77quZ4xlkdDG9FcEhBYFr7GWmbyPE_1K1xqU0mvT-h51Z8hLg-LnWl32MeOy-aumsGO9-j8VSOSOfVUDB2k1vWOpEdyGEWV9ipF4kf3HVP1Au2ClbkYtAJrc/s1600/backup-hacked.jpg" type="image/jpeg" length="0"/>
-    <description><![CDATA[
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhuPumyjeBRpQZo5_3mvqZ2_kXuPiOK02cH-ARofYrny0mQ2-rv55w7yBxMTBe3ymCW7c77quZ4xlkdDG9FcEhBYFr7GWmbyPE_1K1xqU0mvT-h51Z8hLg-LnWl32MeOy-aumsGO9-j8VSOSOfVUDB2k1vWOpEdyGEWV9ipF4kf3HVP1Au2ClbkYtAJrc/s1600/backup-hacked.jpg" alt=""/></p>
-<p>Between May and July 2026, attackers repeatedly altered the update and notification config files on AOMEI's own servers for five-to-ten-minute windows, so any AOMEI Backupper install that checked in during a window downloaded and ran a backdoor. Google Threat Intelligence Group, Mandiant and ManageEngine's Threat Analysis Lab disclosed the campaign this week.</p>
-<p>The software never cryptographically verified those files, and the checksum sat inside the same unsigned file. AOMEI says its servers are fixed, but that does not clean machines already hit. Source: <a href="https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html">thehackernews.com</a></p>
-]]></description>
-  </item>
-
-    </channel>
+  </channel>
 </rss>
