@@ -7,8 +7,16 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 23 Oct 2026 12:07:18 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 13:05:21 -0700</lastBuildDate>
     <item>
+      <title>CISA adds exploited Collabora Online built-in CODE server command injection CVE-2026-110447 to KEV</title>
+      <link>https://help.nextcloud.com/t/to-collabora-built-in-user-update-asap/250516</link>
+      <guid isPermaLink="false">cisa-kev-collabora-code-cve-2026-110447-20261023130521</guid>
+      <pubDate>Fri, 23 Oct 2026 13:05:21 -0700</pubDate>
+      <enclosure url="https://help.nextcloud.com/uploads/default/original/2X/a/ac4bed144350975da430e98e1b9561230119318f.png" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://help.nextcloud.com/uploads/default/original/2X/a/ac4bed144350975da430e98e1b9561230119318f.png" alt=""/></p><p>CISA added CVE-2026-110447, an unauthenticated OS command injection in the Collabora Online Built-in CODE Server app for Nextcloud, to its Known Exploited Vulnerabilities catalog on October 23 with an October 26 deadline and forensic triage required. The bug in the app's proxy.php runs commands as the web server user, but only while the built-in CODE server isn't running, such as after a restart, upgrade or crash. Disabling the app isn't enough: upgrade it to 26.4.303 or later or remove it. Standalone Collabora Online servers aren't affected.</p><p>Sources: <a href="https://help.nextcloud.com/t/to-collabora-built-in-user-update-asap/250516">Nextcloud forum</a>, <a href="https://github.com/CollaboraOnline/online/security/advisories/GHSA-g3vx-3m76-fghh">Collabora advisory</a>, <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog">CISA KEV</a></p>]]></description>
+    </item>
+<item>
       <title>Kaspersky: APT41-linked BlackX UEFI bootkit bypasses Secure Boot on patched Windows PCs missing revocations</title>
       <link>https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html</link>
       <guid isPermaLink="false">blackx-uefi-bootkit-apt41-20261023120718</guid>
@@ -420,18 +428,6 @@
 <p>Source: <a href="https://www.securityweek.com/rank-math-pro-wordpress-plugin-compromised-in-supply-chain-attack/">SecurityWeek</a></p>
 ]]></description>
     <enclosure url="https://www.securityweek.com/wp-content/uploads/2024/08/WordPress.jpeg" type="image/jpeg" length="0"/>
-    </item>
-<item>
-    <title>Citizen Lab: University of Belgrade rector hacked with NSO Pegasus; corruption prosecutor got Apple threat notification</title>
-    <link>https://citizenlab.ca/research/pegasus-spyware-serbian-pro-democracy/</link>
-    <guid isPermaLink="false">citizenlab-pegasus-serbia-rector-20261019093011</guid>
-    <pubDate>Mon, 19 Oct 2026 09:30:11 -0700</pubDate>
-    <description><![CDATA[
-<p><img src="https://citizenlab.ca/wp-content/uploads/2026/09/2.png" alt=""/></p>
-<p>Citizen Lab and Serbia&#39;s SHARE Foundation found with high confidence that Vladan Đokić, rector of the University of Belgrade and a prominent supporter of the student protest movement, was hacked with NSO Group&#39;s Pegasus spyware in 2026. Rade Bajić, a prosecutor who investigated official corruption tied to a failed Belgrade development project, received an Apple threat notification, a strong sign of mercenary spyware targeting. The findings land days before Serbia&#39;s October 25 snap election, and the investigations are ongoing.</p>
-<p>Source: <a href="https://citizenlab.ca/research/pegasus-spyware-serbian-pro-democracy/">Citizen Lab report</a></p>
-]]></description>
-    <enclosure url="https://citizenlab.ca/wp-content/uploads/2026/09/2.png" type="image/jpeg" length="0"/>
     </item>
 </channel>
 </rss>
