@@ -7,8 +7,17 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 23 Oct 2026 11:09:07 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 12:07:18 -0700</lastBuildDate>
     <item>
+      <title>Kaspersky: APT41-linked BlackX UEFI bootkit bypasses Secure Boot on patched Windows PCs missing revocations</title>
+      <link>https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html</link>
+      <guid isPermaLink="false">blackx-uefi-bootkit-apt41-20261023120718</guid>
+      <pubDate>Fri, 23 Oct 2026 12:07:18 -0700</pubDate>
+      <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0cTK7D5hQFR-3qGTicTlfi6_CbnMIgCJWIojDeXmZr91hrIPqhhxZ72mAsnB6kBOcCdscZOL_VN8RhAdYIxq3d128rkaDweIApSaV5w3IzB1YGN3XNnlarG0IKN5VuDJy_RnPBxXZoKQ1Yh950YFNz-b_pbvEY_QlQa5Tr-BP4366UgkGIg968J-QEN1M/s1600/uefi.jpg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0cTK7D5hQFR-3qGTicTlfi6_CbnMIgCJWIojDeXmZr91hrIPqhhxZ72mAsnB6kBOcCdscZOL_VN8RhAdYIxq3d128rkaDweIApSaV5w3IzB1YGN3XNnlarG0IKN5VuDJy_RnPBxXZoKQ1Yh950YFNz-b_pbvEY_QlQa5Tr-BP4366UgkGIg968J-QEN1M/s1600/uefi.jpg" alt=""/></p><p>Kaspersky says a new UEFI bootkit called BlackX, an updated BlackLotus, hit diplomatic organizations in Tajikistan, Uzbekistan and Turkmenistan in early 2026, and it suspects China-linked APT41. BlackX loads before Windows to undermine startup and third-party security defenses and keep long-term covert access. It works on fully patched systems where Microsoft's manual Secure Boot revocation mitigations were never applied, though attackers first need admin or physical access.</p><p>Source: <a href="https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html">The Hacker News</a></p>]]></description>
+    </item>
+
+<item>
       <title>Ruby patches three Onigmo regex engine bugs behind four critical GitLab RCE flaws</title>
       <link>https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html</link>
       <guid isPermaLink="false">ruby-onigmo-gitlab-rce-20261023110907</guid>
@@ -423,19 +432,6 @@
 <p>Source: <a href="https://citizenlab.ca/research/pegasus-spyware-serbian-pro-democracy/">Citizen Lab report</a></p>
 ]]></description>
     <enclosure url="https://citizenlab.ca/wp-content/uploads/2026/09/2.png" type="image/jpeg" length="0"/>
-    </item>
-<item>
-    <title>Plex2Shell: unauthenticated RCE chain in outdated Plex Media Servers reportedly exploited to drop miners and proxies</title>
-    <link>https://mezha.net/eng/news/0e7c09cf_researcher_reports_attacks_on/</link>
-    <guid isPermaLink="false">plex2shell-plex-media-server-20261018150842</guid>
-    <pubDate>Sun, 18 Oct 2026 15:08:42 -0700</pubDate>
-    <description><![CDATA[
-<p><img src="https://mezha.net/eng/wp-content/mezha-og-r205/kd_image_generate/eng/3732148-084745e726a3.jpg" alt=""/></p>
-<p>Plex2Shell chains four Plex Media Server bugs (CVE-2026-96652, -96654, -96655 and -96656) into unauthenticated remote code execution: SSRF steals the owner token, the transcoder writes a payload into the Codecs folder, and the next transcode loads it. Researcher Zach Main published the write-up and proof-of-concept code on October 16, and a honeypot owner reports their internet-facing server was compromised early on October 17 with a crypto miner and a proxy installed. Plex and CISA have not confirmed widespread exploitation.</p>
-<p>Versions before 1.43.3.10861 are vulnerable; Plex shipped the fix in August. Update now (pull a fresh image for Docker, check NAS packages by hand), and check older internet-exposed servers for unknown child processes, high CPU, or new files in the Codecs folder.</p>
-<p>Sources: <a href="https://mezha.net/eng/news/0e7c09cf_researcher_reports_attacks_on/">Mezha</a>, <a href="https://zmain.info/blog/plex2shell">Zach Main's Plex2Shell write-up</a></p>
-]]></description>
-    <enclosure url="https://mezha.net/eng/wp-content/mezha-og-r205/kd_image_generate/eng/3732148-084745e726a3.jpg" type="image/jpeg" length="0"/>
     </item>
 </channel>
 </rss>
