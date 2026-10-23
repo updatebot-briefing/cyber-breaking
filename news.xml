@@ -7,7 +7,23 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 23 Oct 2026 10:12:18 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 11:09:07 -0700</lastBuildDate>
+    <item>
+      <title>Ruby patches three Onigmo regex engine bugs behind four critical GitLab RCE flaws</title>
+      <link>https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html</link>
+      <guid isPermaLink="false">ruby-onigmo-gitlab-rce-20261023110907</guid>
+      <pubDate>Fri, 23 Oct 2026 11:09:07 -0700</pubDate>
+      <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjA5n8ST_yuElQgTwbfq1oFnVAoiTvZCW_Ct1b8lT_OQ9dnyeXfocrqzTUJJ1t920YaEa-7Sonxl9KlthV4x7lXI3dmJxc9_S11NjWRJ6dcgfsX4UGhv0KFWZsZrzXKpjh92JPyDdHPlCPQh1AHd0YKM44sVcc9d-57r8_BdrIb3V06MWfk8bRAy4kDU6I/s1600/ruby-rce.jpg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjA5n8ST_yuElQgTwbfq1oFnVAoiTvZCW_Ct1b8lT_OQ9dnyeXfocrqzTUJJ1t920YaEa-7Sonxl9KlthV4x7lXI3dmJxc9_S11NjWRJ6dcgfsX4UGhv0KFWZsZrzXKpjh92JPyDdHPlCPQh1AHd0YKM44sVcc9d-57r8_BdrIb3V06MWfk8bRAy4kDU6I/s1600/ruby-rce.jpg" alt=""/></p><p>Ruby released 4.0.9, 3.4.12 and 3.3.13 to fix three memory-corruption bugs in Onigmo, its built-in regular expression engine, which can lead to code execution when an app compiles a regex from attacker-controlled text. The bugs sit behind four critical GitLab CVEs patched between September 23 and October 21, including two from October (CVE-2026-97229 and CVE-2026-110264) that need no account. Regexp.timeout and pattern-length caps do not help, Ruby 4.0.8 misses one fix, and Ruby 3.2 and earlier get no patch. No in-the-wild exploitation has been reported.</p><p>Source: <a href="https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html">The Hacker News</a></p>]]></description>
+    </item>
+    <item>
+      <title>INC and The Gentlemen ransomware affiliates ran AI-agent intrusions against edge devices, exposed server shows</title>
+      <link>https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html</link>
+      <guid isPermaLink="false">phantom-ai-ransomware-affiliates-20261023110907</guid>
+      <pubDate>Fri, 23 Oct 2026 11:09:07 -0700</pubDate>
+      <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6gkXKzxUypnUKbTuo7Xq-8TSUpDD8TNF5XEG-bV6zcA7V3z_cO2pJeTiX1KIFi-rFNX5SOlMY93oGQpfQUuWOl0RJ35nM1XeIqu2ZV4aAIZXEd9RXQVQk0rMmeI67ysGsTJ1OXLIQg2LvGjMLHCQQ8dgqalHaBE9yCZKwIOVjHCD_lOTlsP1HdBziZ3Sb/s1600/ai-hacker-kimi.jpg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6gkXKzxUypnUKbTuo7Xq-8TSUpDD8TNF5XEG-bV6zcA7V3z_cO2pJeTiX1KIFi-rFNX5SOlMY93oGQpfQUuWOl0RJ35nM1XeIqu2ZV4aAIZXEd9RXQVQk0rMmeI67ysGsTJ1OXLIQg2LvGjMLHCQQ8dgqalHaBE9yCZKwIOVjHCD_lOTlsP1HdBziZ3Sb/s1600/ai-hacker-kimi.jpg" alt=""/></p><p>SOCRadar found an exposed server belonging to a Russian-speaking operator serving INC and The Gentlemen ransomware affiliates, running an AI framework called Phantom that executed intrusions through OpenCode and commercial models while a human approved each step. Logs covered 8,257 messages across 133 sessions. Initial access came from exploiting edge and remote-access systems at scale, including SimpleHelp CVE-2024-57727, FortiClient EMS CVE-2026-35616 and cPanel/WHM CVE-2026-41940, followed by credential theft, lateral movement and ransomware staging.</p><p>Source: <a href="https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html">The Hacker News</a></p>]]></description>
+    </item>
     <item>
 <title>CISA adds exploited Arista VeloCloud Orchestrator flaw CVE-2026-114625 to KEV with a three-day deadline</title>
 <link>https://www.securityweek.com/attackers-exploit-third-velocloud-orchestrator-zero-day-in-four-months/</link>
@@ -420,34 +436,6 @@
 <p>Sources: <a href="https://mezha.net/eng/news/0e7c09cf_researcher_reports_attacks_on/">Mezha</a>, <a href="https://zmain.info/blog/plex2shell">Zach Main's Plex2Shell write-up</a></p>
 ]]></description>
     <enclosure url="https://mezha.net/eng/wp-content/mezha-og-r205/kd_image_generate/eng/3732148-084745e726a3.jpg" type="image/jpeg" length="0"/>
-    </item>
-
-<item>
-    <title>Hackers exploit critical SiteGuard Server Edition WAF flaw to run commands as root or SYSTEM (CVE-2026-106931)</title>
-    <link>https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/</link>
-    <guid isPermaLink="false">siteguard-waf-cve-2026-106931-20261018091051</guid>
-    <pubDate>Sun, 18 Oct 2026 09:10:51 -0700</pubDate>
-    <description><![CDATA[
-<p><img src="https://www.bleepstatic.com/content/hl-images/2026/05/05/hacker.jpg" alt=""/></p>
-<p>Japanese WAF vendor SiteGuard and JPCERT/CC warn that a critical OS command-injection bug in the statistics feature of SiteGuard Server Edition, which is on by default, is being exploited in the wild and lets attackers run commands as root or SYSTEM. Affected are the Apache httpd, Nginx and IIS editions from 2.20 up to before 8.00 Update 5 (FreeBSD builds before 7.00 Update 6); the vendor says the product protects more than 1.5 million sites. Attackers, victims and scale have not been disclosed.</p>
-<p>Patch or apply the vendor's file-replacement fix, which also covers end-of-life versions. Download the diagnostic information from the web management screen first, since remediation may erase attack traces.</p>
-<p>Source: <a href="https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/">BleepingComputer</a></p>
-]]></description>
-    <enclosure url="https://www.bleepstatic.com/content/hl-images/2026/05/05/hacker.jpg" type="image/jpeg" length="0"/>
-    </item>
-
-<item>
-    <title>Unpatched Broadcom Wi-Fi WPS bug lets nearby attackers take over millions of ISP routers without the password</title>
-    <link>https://quentinkaiser.be/security/2026/10/16/one-parser-two-bugs/</link>
-    <guid isPermaLink="false">broadcom-wps-wifi-router-rce-20261017160948</guid>
-    <pubDate>Sat, 17 Oct 2026 16:09:48 -0700</pubDate>
-    <description><![CDATA[
-<p><img src="https://quentinkaiser.be/security/2026/10/16/one-parser-two-bugs/hasan-almasi-3DlYPd91ln4-unsplash.jpg" alt=""/></p>
-<p>Researcher Quentin Kaiser disclosed at Hexacon in Paris on Oct 16 a memory-corruption bug in Broadcom's proprietary WPS code, present since at least 2010, that gives unauthenticated remote code execution to anyone within Wi-Fi range, without the network key or a completed WPS pairing. He demonstrated root shells on gateways from Proximus, VOO and Orange Belgium, estimates roughly 1.5 million affected devices in Belgium alone, and says none were patched as of Oct 15. Broadcom says it replaced the old code in 2018 but declined to assign a CVE, so many OEMs and ISPs never shipped fixes, and eCos-based chips may never get one.</p>
-<p>This is a proximity attack with no reported in-the-wild exploitation, but Kaiser published a fingerprinting script and YARA rule to map affected devices. Turning off WPS where possible and pressing ISPs for firmware updates are the practical steps for now.</p>
-<p>Source: <a href="https://quentinkaiser.be/security/2026/10/16/one-parser-two-bugs/">Quentin Kaiser's write-up</a>, <a href="https://quentinkaiser.be/assets/qkaiser-broadcom-wps-hexacon-2026.pdf">Hexacon slides</a></p>
-]]></description>
-    <enclosure url="https://quentinkaiser.be/security/2026/10/16/one-parser-two-bugs/hasan-almasi-3DlYPd91ln4-unsplash.jpg" type="image/jpeg" length="0"/>
     </item>
 </channel>
 </rss>
