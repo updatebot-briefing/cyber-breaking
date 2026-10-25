@@ -7,8 +7,16 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sat, 24 Oct 2026 09:10:48 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 12:11:39 -0700</lastBuildDate>
     <item>
+<title>Unpatched Tailscale SSH flaws let one compromised device reach root on other servers ("Tailworm")</title>
+<link>https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html</link>
+<guid isPermaLink="false">tailscale-ssh-tailworm-20261025121139</guid>
+<pubDate>Sun, 25 Oct 2026 12:11:39 -0700</pubDate>
+<enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbGR63RmXInXPwCVFZlGJSiGv5WQfLTWymToOPIYbKXfXniB7X4YDbTVK-28G4r3WfdelCr_2TRzhoYrIogcG_C9WjXEHaLhURIh_v5RyO5sBY8UKwQWbKUBrv_H5n5K7N4mz2WG3d5dldw_re-M5CgDDbVi_EhTqvB9P87fZJlODojj8ivvj-RwLUhpg/s1600/tailscale.jpg" type="image/jpeg" length="0"/>
+<description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbGR63RmXInXPwCVFZlGJSiGv5WQfLTWymToOPIYbKXfXniB7X4YDbTVK-28G4r3WfdelCr_2TRzhoYrIogcG_C9WjXEHaLhURIh_v5RyO5sBY8UKwQWbKUBrv_H5n5K7N4mz2WG3d5dldw_re-M5CgDDbVi_EhTqvB9P87fZJlODojj8ivvj-RwLUhpg/s1600/tailscale.jpg" alt=""/></p><p>Researcher Erica Windisch of Cyberdione Labs published "Tailworm," showing that an attacker who already controls one device on a Tailscale network can use Tailscale SSH port forwarding to get root on other servers that the access rules let that device reach, with no stolen passwords or keys. The lab tests covered Tailscale 1.104.2 and headscale 0.29.5; on headscale, forwarding cannot be disabled, so every SSH grant should be treated as root on the target.</p><p>As of publication there is no Tailscale security bulletin, CVE, or fixed version. Tailscale says it is working on fixes and is not recommending everyone disable Tailscale SSH; hosted-service admins can turn off forwarding per rule.</p><p>Sources: <a href="https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html">The Hacker News</a>, <a href="https://tailworm.com/">Tailworm report</a>, <a href="https://www.reddit.com/r/Tailscale/comments/1xeoj1l/recent_tailscale_vulnerability_reports/">Tailscale statement on Reddit</a></p>]]></description>
+</item>
+<item>
       <title>PHP2Shell: Palo Alto Networks and Trail of Bits report first confirmed compromises and post-exploit activity</title>
       <link>https://techcrunch.com/2026/10/24/php-ocalypse-how-two-critical-web-bugs-almost-broke-the-internet/</link>
       <guid isPermaLink="false">php2shell-confirmed-compromises-20261024091048</guid>
@@ -411,13 +419,5 @@
       <enclosure url="https://www.securityweek.com/wp-content/uploads/2024/04/Siemens.jpeg" type="image/jpeg" length="0"/>
       <description><![CDATA[<p><img src="https://www.securityweek.com/wp-content/uploads/2024/04/Siemens.jpeg" alt=""/></p><p>Siemens says attackers exploited CVE-2026-110936, a DLL search-path flaw in Siemens Software Center, by pairing a genuine signed copy of the program with malicious DLLs delivered through ClickFix lures on Windows PCs. Siemens says none of its systems, products or update channels were breached.</p><p>Version 4.0.9.8 fixes the issue and installs automatically the next time the app launches. Because the abused file is legitimate, Siemens advises hunting for suspicious behavior and the malware's folders rather than relying on file hashes, and has published indicators of compromise.</p><p>Source: <a href="https://www.securityweek.com/siemens-software-center-vulnerability-exploited-in-clickfix-malware-attacks/">SecurityWeek</a></p>]]></description>
     </item>
-    <item>
-      <title>GhostAction evolves: GitHub 2FA phishing kit and font-disguised credential stealer found in 94 repositories</title>
-      <link>https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html</link>
-      <guid isPermaLink="false">ghostaction-font-stealer-94-repos-20261019110317</guid>
-      <pubDate>Mon, 19 Oct 2026 11:03:17 -0700</pubDate>
-      <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtAKfaW5dHhlv9lpzzAju1Cm_EjO4wOkhGQEMspSKCVFUCA_eaanAXGHkb-Dv3c9zSXWHW45I50Fp_bqX6ydaNlPWixkd39bl4IOeYv8xQ0oviE4d6SZcQmQ27ztf-tVV7BozEDeFYi2Fde0LpJAJ9gTHUGSOvc46MtgawesAd5-wljApeBpLyUYnczZnR/s1600/git-font.jpg" type="image/jpeg" length="0"/>
-      <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtAKfaW5dHhlv9lpzzAju1Cm_EjO4wOkhGQEMspSKCVFUCA_eaanAXGHkb-Dv3c9zSXWHW45I50Fp_bqX6ydaNlPWixkd39bl4IOeYv8xQ0oviE4d6SZcQmQ27ztf-tVV7BozEDeFYi2Fde0LpJAJ9gTHUGSOvc46MtgawesAd5-wljApeBpLyUYnczZnR/s1600/git-font.jpg" alt=""/></p><p>The GhostAction GitHub supply-chain crew has moved beyond malicious Actions workflows. OpenSourceMalware found a fake GitHub security-alert phishing kit on my-github[.]com that reverse-proxies the login, captures passwords and 2FA codes, and silently authorizes an OAuth device flow with repo and workflow scopes.</p><p>The campaign also plants a second-stage credential stealer disguised as a font file that VS Code auto-runs on developer machines and keeps alive with a five-minute cron job, even after the malicious workflow is removed. Researchers found it in 94 repositories belonging to 66 owners, most of them long-abandoned projects.</p><p>Source: <a href="https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html">The Hacker News</a></p>]]></description>
-    </item>
-      </channel>
+    </channel>
 </rss>
