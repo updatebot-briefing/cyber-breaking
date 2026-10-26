@@ -419,21 +419,5 @@
 ]]></description>
   </item>
 
-    <item>
-      <title><![CDATA[OVHcloud CLI releases v0.11.0 to v0.15.0 backdoored on GitHub to steal developer secrets]]></title>
-      <link>https://www.bleepingcomputer.com/news/security/ovhcloud-cli-releases-backdoored-on-github-to-steal-developer-secrets/</link>
-      <guid isPermaLink="false">ovhcloud-cli-backdoored-releases-20261020090632</guid>
-      <pubDate>Tue, 20 Oct 2026 09:06:32 -0700</pubDate>
-      <enclosure url="https://www.bleepstatic.com/content/hl-images/2026/10/20/ovhcloud.jpg" type="image/jpeg" length="0"/>
-      <description><![CDATA[<p><img src="https://www.bleepstatic.com/content/hl-images/2026/10/20/ovhcloud.jpg" alt=""/></p><p>An attacker hijacked a developer's GitHub account and swapped in info-stealing builds for OVHcloud CLI versions 0.11.0 through 0.15.0, which were live from 14:47 to 16:21 (Paris time) on October 19 before a customer reported them. The malware's goal was to pull secrets off disk. CEO Octave Klaba said release immutability was turned off, so existing releases could be modified without going through CI. Versions 0.10.0 and 0.16.0 are clean, and anyone who installed a bad build should remove it and rotate credentials.</p><p>Sources: <a href="https://www.bleepingcomputer.com/news/security/ovhcloud-cli-releases-backdoored-on-github-to-steal-developer-secrets/">BleepingComputer</a>, <a href="https://thehackernews.com/2026/10/hackers-hijack-five-ovhcloud-cli.html">The Hacker News</a></p>]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Go ships urgent 1.27.3 and 1.26.10 releases that block eight CA intermediate keys, reportedly eMudhra's]]></title>
-      <link>https://thehackernews.com/2026/10/go-issues-emergency-update-blocking.html</link>
-      <guid isPermaLink="false">go-blocks-eight-ca-keys-20261020090631</guid>
-      <pubDate>Tue, 20 Oct 2026 09:06:31 -0700</pubDate>
-      <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgh12Jum-ReZMOyqaMubiLlMwx4-uDVxEJkD6-CJabWhHfCKV-Csw7P4MoeRX85Ag-3rxZMftHE6KGcdh059DoOPvF1Mirv05BQsflmg8RroWBt_t00BGTHsdhqkmVWVuRHKAs56AhNfdsq_YH0QWrMJ1z4dFT3I3xOK7Dwqu7aPp_P7tFSxQ-bzqyz8e4/s1600/go-certs.jpg" type="image/jpeg" length="0"/>
-      <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgh12Jum-ReZMOyqaMubiLlMwx4-uDVxEJkD6-CJabWhHfCKV-Csw7P4MoeRX85Ag-3rxZMftHE6KGcdh059DoOPvF1Mirv05BQsflmg8RroWBt_t00BGTHsdhqkmVWVuRHKAs56AhNfdsq_YH0QWrMJ1z4dFT3I3xOK7Dwqu7aPp_P7tFSxQ-bzqyz8e4/s1600/go-certs.jpg" alt=""/></p><p>Go 1.27.3 and 1.26.10, shipped on its URGENT security track on October 20, make Go's certificate verifier reject any chain that passes through eight intermediate CA keys, citing "specific security concerns around their operation." The Go team did not name the CA, but a commenter matched the key hashes to eMudhra emSign intermediates, and Mozilla added six emSign intermediates to its OneCRL blocklist on October 17 through a non-public bug. Go recommends upgrading immediately, and services chained to those keys will fail with an x509 error.</p><p>Source: <a href="https://thehackernews.com/2026/10/go-issues-emergency-update-blocking.html">The Hacker News</a></p>]]></description>
-    </item>
     </channel>
 </rss>
