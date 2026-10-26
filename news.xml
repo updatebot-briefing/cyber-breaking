@@ -7,7 +7,54 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sun, 25 Oct 2026 12:11:39 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 09:09:51 -0700</lastBuildDate>
+    <item>
+      <title>PHP2Shell now confirmed exploited in the wild: honeypots log working shells via public PoC</title>
+      <link>https://www.securityweek.com/php2shell-exploitation-moves-from-probes-to-working-shells/</link>
+      <guid isPermaLink="false">php2shell-itw-rce-20261026090951</guid>
+      <pubDate>Mon, 26 Oct 2026 09:09:51 -0700</pubDate>
+      <description><![CDATA[<p>Perplexity researcher Adel Karimi reports confirmed remote code execution of the PHP2Shell flaws (CVE-2026-109618/-109619) against his honeypots, with 35 shells launched from two IP addresses on October 24 using a four-stage chain that closely matches a public proof-of-concept.</p><p>Expel's Marcus Hutchins called it the highest-quality confirmation of in-the-wild exploitation so far. Karimi cautions the honeypots used a favorable single-worker Apache mod_php setup, and no second-stage payload was seen. CISA has published a Sigma detection rule but has not yet added the flaws to KEV. Patch to PHP 8.5.12, 8.4.27, 8.3.36 or 8.2.35.</p><p>Sources: <a href="https://www.securityweek.com/php2shell-exploitation-moves-from-probes-to-working-shells/">SecurityWeek</a>, <a href="https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/">BleepingComputer</a></p>]]></description>
+    </item>
+    <item>
+      <title>Siemens, Schneider Electric, ABB and other industrial vendors confirm OT products affected by PHP2Shell</title>
+      <link>https://www.securityweek.com/industrial-vendors-check-products-for-php2shell-vulnerabilities/</link>
+      <guid isPermaLink="false">php2shell-ics-vendors-20261026090951</guid>
+      <pubDate>Mon, 26 Oct 2026 09:09:51 -0700</pubDate>
+      <enclosure url="https://www.securityweek.com/wp-content/uploads/2024/06/PLC-HMI-SCADA-ICS-industrial.jpeg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://www.securityweek.com/wp-content/uploads/2024/06/PLC-HMI-SCADA-ICS-industrial.jpeg" alt=""/></p><p>Siemens, Schneider Electric, ABB, Rockwell Automation and Johnson Controls have published advisories on the PHP2Shell flaws, and several confirm some industrial and OT products are affected.</p><p>Schneider lists EcoStruxure Security Expert (fixed in 1.48.4.0), ProLeiT LINEoptimize and EcoStruxure Control Engineering, the last with mitigations only for now. Other vendors are still assessing exposure.</p><p>Sources: <a href="https://www.securityweek.com/industrial-vendors-check-products-for-php2shell-vulnerabilities/">SecurityWeek</a></p>]]></description>
+    </item>
+    <item>
+      <title>Gheist campaign uses stolen GitHub tokens to dump Actions secrets from 850+ accounts' repos</title>
+      <link>https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html</link>
+      <guid isPermaLink="false">gheist-github-tokens-20261026090951</guid>
+      <pubDate>Mon, 26 Oct 2026 09:09:51 -0700</pubDate>
+      <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipCbP2hnS9ddXqMz9cNIAMEQZWy2qX45MZnYfIuO_Zszamhl_FS7ViRp4CZcjHS6uu6A4jR_S4vBzHzoMNtAb0CbaGxHxj2F07wuKWHfSbsFUov-4dsQWUNJZwfGbnfThW1sAQZ61y5ibqyhlW1iBmbWeSwE1gKHsigRRXaql9P96aFANb3al6vno7fuA/s1600/github-secrets.jpg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipCbP2hnS9ddXqMz9cNIAMEQZWy2qX45MZnYfIuO_Zszamhl_FS7ViRp4CZcjHS6uu6A4jR_S4vBzHzoMNtAb0CbaGxHxj2F07wuKWHfSbsFUov-4dsQWUNJZwfGbnfThW1sAQZ61y5ibqyhlW1iBmbWeSwE1gKHsigRRXaql9P96aFANb3al6vno7fuA/s1600/github-secrets.jpg" alt=""/></p><p>Wiz reports an automated campaign, active since September 15, that uses stolen GitHub tokens to push ci-sync-* branches with workflows that print repository secrets into Actions logs, then downloads the logs and deletes the runs. Wiz recovered more than 13,500 planted branches from more than 850 compromised accounts, including private enterprise repositories.</p><p>GitHub's safeguard for suspicious runs blocked public-repo attempts but does not cover private repositories or GitHub Enterprise Server. Affected orgs should rotate every secret the repo could read and revoke the token that pushed the branch.</p><p>Sources: <a href="https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html">The Hacker News</a></p>]]></description>
+    </item>
+    <item>
+      <title>Two CVSS 9.9 Wasmtime flaws let malicious WebAssembly modules escape the sandbox</title>
+      <link>https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html</link>
+      <guid isPermaLink="false">wasmtime-sandbox-escape-20261026090951</guid>
+      <pubDate>Mon, 26 Oct 2026 09:09:51 -0700</pubDate>
+      <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5xq9w5oCep_lu7UpdVExPO7yRQ1tMz0YkxljYR_LmwG3WKowZ2CtLPh4F6kASJ7Xu0xJKy4uVzlwj7fPEO3fgKUELS4BqUtDZvGh1P-iqRslXNCLdkcJMCBGSKvJeqrrkeZdfPO9Wmv_v2VqdYEZVavTHw-QHUhli9QYGVhASuSRt3DETy8JMBz1D-kE/s1600/wasm.jpg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5xq9w5oCep_lu7UpdVExPO7yRQ1tMz0YkxljYR_LmwG3WKowZ2CtLPh4F6kASJ7Xu0xJKy4uVzlwj7fPEO3fgKUELS4BqUtDZvGh1P-iqRslXNCLdkcJMCBGSKvJeqrrkeZdfPO9Wmv_v2VqdYEZVavTHw-QHUhli9QYGVhASuSRt3DETy8JMBz1D-kE/s1600/wasm.jpg" alt=""/></p><p>The Bytecode Alliance fixed two critical bugs in Wasmtime's Cranelift compiler (one ARM64-only, CVE-2026-115893) that let an attacker-supplied WebAssembly module escape its sandbox. Risk is highest for platforms that compile other people's modules, such as Fastly Compute.</p><p>No attacks are reported. Update to 36.0.19, 48.0.7, 49.0.4 or 50.0.0; unsupported lines, including 24.x LTS, get no fix.</p><p>Sources: <a href="https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html">The Hacker News</a></p>]]></description>
+    </item>
+    <item>
+      <title>Fortinet ships fixes for critical AI-found FortiOS flaws, withholding details until November 10</title>
+      <link>https://www.helpnetsecurity.com/2026/10/26/fortinet-patches-critical-fortios-flaws-found-with-ai-help/</link>
+      <guid isPermaLink="false">fortinet-fortios-ai-flaws-20261026090951</guid>
+      <pubDate>Mon, 26 Oct 2026 09:09:51 -0700</pubDate>
+      <enclosure url="https://img.helpnetsecurity.com/wp-content/uploads/2026/01/21163736/fortinet-man-1500.webp" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://img.helpnetsecurity.com/wp-content/uploads/2026/01/21163736/fortinet-man-1500.webp" alt=""/></p><p>Fortinet released security hardening updates last week for FortiOS, FortiManager, FortiAnalyzer, FortiMail and FortiAuthenticator, fixing critical vulnerabilities found with AI models and validated by humans.</p><p>Details stay embargoed until November 10, 2026. CISO Carl Windsor warned that attackers can use AI to find and weaponize bugs, so admins should update now rather than wait for the disclosure.</p><p>Sources: <a href="https://www.helpnetsecurity.com/2026/10/26/fortinet-patches-critical-fortios-flaws-found-with-ai-help/">Help Net Security</a></p>]]></description>
+    </item>
+    <item>
+      <title>Microsoft ships out-of-band .NET updates for Brotli decoder flaw CVE-2026-111497</title>
+      <link>https://devblogs.microsoft.com/dotnet/dotnet-october-2026-oob-security-updates/</link>
+      <guid isPermaLink="false">dotnet-oob-brotli-20261026090951</guid>
+      <pubDate>Mon, 26 Oct 2026 09:09:51 -0700</pubDate>
+      <enclosure url="https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2026/10/net-october-2026.webp" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2026/10/net-october-2026.webp" alt=""/></p><p>Microsoft released out-of-band .NET 8.0.33, 9.0.22 and 10.0.14 on October 25 to fix the Brotli decoder out-of-bounds write (CVE-2026-111497) behind the Node.js "Node2Shell" research, plus other fixes including a Blazor WebAssembly debugger RCE in .NET 10.</p><p>Apps are exposed only if they decompress attacker-controlled Brotli data; ASP.NET Core and HttpClient automatic decompression are off by default. Self-contained and NativeAOT apps must be rebuilt and redeployed.</p><p>Sources: <a href="https://devblogs.microsoft.com/dotnet/dotnet-october-2026-oob-security-updates/">.NET Blog</a>, <a href="https://github.com/dotnet/runtime/security/advisories/GHSA-p3jp-9v83-76w9">Microsoft advisory</a></p>]]></description>
+    </item>
     <item>
 <title>Unpatched Tailscale SSH flaws let one compromised device reach root on other servers ("Tailworm")</title>
 <link>https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html</link>
@@ -372,52 +419,6 @@
       <pubDate>Tue, 20 Oct 2026 09:06:31 -0700</pubDate>
       <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgh12Jum-ReZMOyqaMubiLlMwx4-uDVxEJkD6-CJabWhHfCKV-Csw7P4MoeRX85Ag-3rxZMftHE6KGcdh059DoOPvF1Mirv05BQsflmg8RroWBt_t00BGTHsdhqkmVWVuRHKAs56AhNfdsq_YH0QWrMJ1z4dFT3I3xOK7Dwqu7aPp_P7tFSxQ-bzqyz8e4/s1600/go-certs.jpg" type="image/jpeg" length="0"/>
       <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgh12Jum-ReZMOyqaMubiLlMwx4-uDVxEJkD6-CJabWhHfCKV-Csw7P4MoeRX85Ag-3rxZMftHE6KGcdh059DoOPvF1Mirv05BQsflmg8RroWBt_t00BGTHsdhqkmVWVuRHKAs56AhNfdsq_YH0QWrMJ1z4dFT3I3xOK7Dwqu7aPp_P7tFSxQ-bzqyz8e4/s1600/go-certs.jpg" alt=""/></p><p>Go 1.27.3 and 1.26.10, shipped on its URGENT security track on October 20, make Go's certificate verifier reject any chain that passes through eight intermediate CA keys, citing "specific security concerns around their operation." The Go team did not name the CA, but a commenter matched the key hashes to eMudhra emSign intermediates, and Mozilla added six emSign intermediates to its OneCRL blocklist on October 17 through a non-public bug. Go recommends upgrading immediately, and services chained to those keys will fail with an x509 error.</p><p>Source: <a href="https://thehackernews.com/2026/10/go-issues-emergency-update-blocking.html">The Hacker News</a></p>]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Russia's APT28 hacked a naval shipbuilder, an aircraft engine maker and police in two NATO countries]]></title>
-      <link>https://therecord.media/european-defense-contractors-fancy-bear-espionage</link>
-      <guid isPermaLink="false">apt28-nato-defense-contractors-hookedge-20261020090630</guid>
-      <pubDate>Tue, 20 Oct 2026 09:06:30 -0700</pubDate>
-      <enclosure url="https://cms.therecord.media/uploads/nato_flag_4bb3aadd53.jpg" type="image/jpeg" length="0"/>
-      <description><![CDATA[<p><img src="https://cms.therecord.media/uploads/nato_flag_4bb3aadd53.jpg" alt=""/></p><p>Symantec attributes a July to September espionage campaign against a naval shipbuilder, a military aircraft engine manufacturer and a law enforcement agency in two unnamed European NATO countries to GRU-linked APT28. The group got in with a malicious Word attachment, used the Hookedge backdoor to steal credentials and map networks, and deployed a new in-memory reflective loader. Researchers couldn't confirm what data was taken, though some intrusions lasted weeks.</p><p>Sources: <a href="https://therecord.media/european-defense-contractors-fancy-bear-espionage">The Record</a>, <a href="https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html">The Hacker News</a></p>]]></description>
-    </item>
-    <item>
-      <title>Nikkei discloses third breach in a month; stolen credentials exposed 1.83M records, about 150K with personal data</title>
-      <link>https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed/</link>
-      <guid isPermaLink="false">nikkei-third-breach-1-8m-records-20261019150244</guid>
-      <pubDate>Mon, 19 Oct 2026 15:02:44 -0700</pubDate>
-      <enclosure url="https://www.bleepstatic.com/content/hl-images/2026/10/19/nikkei.jpg" type="image/jpeg" length="0"/>
-      <description><![CDATA[<p><img src="https://www.bleepstatic.com/content/hl-images/2026/10/19/nikkei.jpg" alt=""/></p><p>Nikkei Inc., the Japanese business media group that owns the Financial Times, disclosed its third breach in about a month. Attackers used stolen credentials on October 7 to reach a development system and exposed 1.83 million records stored in the cloud, about 150,000 of which include names, email or physical addresses, phone numbers or birth dates. No card data was exposed, and Nikkei says it has no evidence yet of misuse or leaks.</p><p>Source: <a href="https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed/">BleepingComputer</a></p>]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Feds suspect a US ransomware negotiator helped run ShinyHunters' shinywire extortion site]]></title>
-      <link>https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/</link>
-      <guid isPermaLink="false">shinyhunters-negotiator-shinywire-20261019130820</guid>
-      <pubDate>Mon, 19 Oct 2026 13:08:20 -0700</pubDate>
-      <description><![CDATA[<p>KrebsOnSecurity reports that federal investigators suspect an executive at a large US ransomware-negotiation consulting firm took an active role in running shinywire.com, the site ShinyHunters used from about May 3 to October 16, 2026 to pressure nearly 100 victim organizations with private extortion pages. The executive and firm have not been named or charged.</p><p>Signal messages seized when Dutch police arrested suspected member Pepijn van der Stap reportedly show negotiators knew of new victims before some victims did. This is separate from Canadian negotiator Edward Dubrovsky, arrested October 8 on sealed cyber extortion charges.</p><p>Sources: <a href="https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/">KrebsOnSecurity</a>, <a href="https://hackread.com/us-ransomware-negotiator-shinyhunters-extort-victims/">Hackread</a></p>]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AfD confirms hosting provider hack after hundreds of thousands of internal party emails leak online]]></title>
-      <link>https://www.bz-berlin.de/berlin/nach-hackerangriff-afd-daten-im-netz-was-die-partei-jetzt-einraeumt-6ad65af8598b12b947353b1d</link>
-      <guid isPermaLink="false">afd-email-leak-hosting-provider-20261019130819</guid>
-      <pubDate>Mon, 19 Oct 2026 13:08:19 -0700</pubDate>
-      <description><![CDATA[<p>Germany's AfD party told its state branches that a hosting provider was hacked in September 2026 and that content from individual mailboxes was copied, after a site published what it says are hundreds of thousands of internal emails and documents (a roughly 300 GB dump had been advertised for sale in late September). The party says most affected mailboxes had been inactive for years and current federal-party accounts were not hit.</p><p>AfD says it is still checking the authenticity and scope of the published material.</p><p>Source: <a href="https://www.bz-berlin.de/berlin/nach-hackerangriff-afd-daten-im-netz-was-die-partei-jetzt-einraeumt-6ad65af8598b12b947353b1d">B.Z. Berlin</a></p>]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Bullhorn takes its staffing platform offline to contain a cyberattack; CrowdStrike assisting]]></title>
-      <link>https://www.bleepingcomputer.com/news/security/bullhorn-takes-staffing-platform-offline-to-contain-cyberattack/</link>
-      <guid isPermaLink="false">bullhorn-cyberattack-outage-20261019120252</guid>
-      <pubDate>Mon, 19 Oct 2026 12:02:53 -0700</pubDate>
-      <enclosure url="https://www.bleepstatic.com/content/hl-images/2026/10/19/bullhorn.jpg" type="image/jpeg" length="0"/>
-      <description><![CDATA[<p><img src="https://www.bleepstatic.com/content/hl-images/2026/10/19/bullhorn.jpg" alt=""/></p><p>Staffing and recruitment software company Bullhorn, which says it serves more than 10,000 customers, disabled access to its platform after detecting a cyber incident that caused a system-wide outage starting Friday. The company says it has isolated the issue and is restoring services after security reviews with CrowdStrike.</p><p>Bullhorn says it has not yet determined whether customer data was exfiltrated. ATS/CRM, automation, back office and talent platform services were still in major outage at the time of reporting.</p><p>Source: <a href="https://www.bleepingcomputer.com/news/security/bullhorn-takes-staffing-platform-offline-to-contain-cyberattack/">BleepingComputer</a></p>]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Siemens Software Center DLL flaw (CVE-2026-110936) exploited in ClickFix malware attacks]]></title>
-      <link>https://www.securityweek.com/siemens-software-center-vulnerability-exploited-in-clickfix-malware-attacks/</link>
-      <guid isPermaLink="false">siemens-software-center-clickfix-20261019120252</guid>
-      <pubDate>Mon, 19 Oct 2026 12:02:52 -0700</pubDate>
-      <enclosure url="https://www.securityweek.com/wp-content/uploads/2024/04/Siemens.jpeg" type="image/jpeg" length="0"/>
-      <description><![CDATA[<p><img src="https://www.securityweek.com/wp-content/uploads/2024/04/Siemens.jpeg" alt=""/></p><p>Siemens says attackers exploited CVE-2026-110936, a DLL search-path flaw in Siemens Software Center, by pairing a genuine signed copy of the program with malicious DLLs delivered through ClickFix lures on Windows PCs. Siemens says none of its systems, products or update channels were breached.</p><p>Version 4.0.9.8 fixes the issue and installs automatically the next time the app launches. Because the abused file is legitimate, Siemens advises hunting for suspicious behavior and the malware's folders rather than relying on file hashes, and has published indicators of compromise.</p><p>Source: <a href="https://www.securityweek.com/siemens-software-center-vulnerability-exploited-in-clickfix-malware-attacks/">SecurityWeek</a></p>]]></description>
     </item>
     </channel>
 </rss>
