@@ -7,7 +7,22 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Mon, 26 Oct 2026 09:09:51 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 11:13:10 -0700</lastBuildDate>
+    <item>
+      <title>PHP rebuilds Windows packages for 8.2 to 8.5 to fix Brotli code-execution flaw CVE-2026-111497</title>
+      <link>https://thehackernews.com/2026/10/php-issues-second-windows-security.html</link>
+      <guid isPermaLink="false">php-windows-brotli-rebuild-20261026111310</guid>
+      <pubDate>Mon, 26 Oct 2026 11:13:10 -0700</pubDate>
+      <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWGYEqFaRxRywsWzBt-2T2G_Jpdp4zy3iV7qI1alNGRaBf_8TMdzRQQb335GhASkVoXD3q9mGkiLjAog4ez9d7DHhl88lkNVvuhI74KiKZP0zZpb2O8yyqyDw12WoYTiGaq1AVfG9TfGcdNhP-DmRwuKJ4Pj4mr9rEo-TVLYxYSpmUogJUSFZFL_VaduQ/s1600/php-windows.jpg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWGYEqFaRxRywsWzBt-2T2G_Jpdp4zy3iV7qI1alNGRaBf_8TMdzRQQb335GhASkVoXD3q9mGkiLjAog4ez9d7DHhl88lkNVvuhI74KiKZP0zZpb2O8yyqyDw12WoYTiGaq1AVfG9TfGcdNhP-DmRwuKJ4Pj4mr9rEo-TVLYxYSpmUogJUSFZFL_VaduQ/s1600/php-windows.jpg" alt=""/></p><p>PHP has rebuilt its official Windows packages for PHP 8.2 through 8.5 (builds 8.5.12-1, 8.4.27-1, 8.3.36-1 and 8.2.35-1) to bundle Brotli 1.2.1, fixing CVE-2026-111497, the Brotli memory-corruption flaw behind the Node2Shell research. It is the second Windows update in five days, after the October 21 PHP2Shell fixes.</p><p>The flaw is reachable through the cURL extension when automatic decompression is on, which Guzzle enables by default. The PHP version number does not change, so admins should check the -1 build suffix or SHA-256 hash. No attacks are reported and the flaw is not in CISA KEV.</p><p>Source: <a href="https://thehackernews.com/2026/10/php-issues-second-windows-security.html">The Hacker News</a></p>]]></description>
+    </item>
+    <item>
+      <title>Genesys confirms hackers took customer contact and account data from internal CRM and LMS</title>
+      <link>https://www.securityweek.com/genesys-hack-exposes-customer-data-from-internal-systems/</link>
+      <guid isPermaLink="false">genesys-crm-lms-breach-20261026111310</guid>
+      <pubDate>Mon, 26 Oct 2026 11:13:10 -0700</pubDate>
+      <description><![CDATA[<p>Contact-center vendor Genesys says an intruder accessed internal business systems, including its CRM and learning management system, and accessed or downloaded customer and prospect data such as names, business emails, phone numbers, job titles and account details. Genesys says the incident was fully contained on October 23 and that Genesys Cloud, Engage and Engage Cloud, plus customer data and call recordings in them, were not affected.</p><p>A new group called ScarlettGroup has claimed the attack. Customers should expect targeted phishing that references Genesys.</p><p>Sources: <a href="https://www.securityweek.com/genesys-hack-exposes-customer-data-from-internal-systems/">SecurityWeek</a>, <a href="https://www.genesys.com/blog/post/security-update-incident-affecting-certain-genesys-internal-business-systems">Genesys security update</a></p>]]></description>
+    </item>
     <item>
       <title>PHP2Shell now confirmed exploited in the wild: honeypots log working shells via public PoC</title>
       <link>https://www.securityweek.com/php2shell-exploitation-moves-from-probes-to-working-shells/</link>
