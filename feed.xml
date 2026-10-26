@@ -7,7 +7,14 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Wed, 21 Oct 2026 09:12:00 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 16:10:00 -0700</lastBuildDate>
+<item>
+      <title><![CDATA[PHP2Shell update: CISA adds CVE-2026-109618/-109619 to KEV with an Oct 29 deadline after confirmed in-the-wild RCE]]></title>
+      <link>https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching</link>
+      <guid isPermaLink="false">php2shell-kev-add-20261026161000</guid>
+      <pubDate>Mon, 26 Oct 2026 16:10:00 -0700</pubDate>
+      <description><![CDATA[<p><b>Breaking update:</b> CISA added both PHP2Shell flaws (CVE-2026-109618 and CVE-2026-109619, unauthenticated RCE in PHP core) to its Known Exploited Vulnerabilities catalog on Monday, Oct 26, 2026, with a remediation deadline of Thursday, Oct 29 and mandatory forensic triage under BOD 26-04.</p><p>The listing follows the first confirmed successful exploitation: honeypots running PHP 8.4.26 under Apache mod_php logged 35 shells from two IPs on Oct 24 using a chain matching the public proof of concept. Check Point reports attack traffic in the millions, with roughly 97.5% of visible PHP installs still unpatched as of Oct 23.</p><p>Patch to PHP 8.5.12, 8.4.27, 8.3.36 or 8.2.35, restart Apache, PHP-FPM and workers, take unpatchable systems offline, and hunt for PHP workers spawning shells.</p><p>Sources: <a href="https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching">CISA alert</a>, <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog">CISA KEV catalog</a>, <a href="https://www.securityweek.com/php2shell-exploitation-moves-from-probes-to-working-shells/">SecurityWeek</a>, <a href="https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/">BleepingComputer</a></p>]]></description>
+    </item>
 <item>
       <title><![CDATA[PHP2Shell: emergency PHP patches for two critical unauthenticated RCE flaws (CVE-2026-109618/-109619) as exploitation attempts begin]]></title>
       <link>https://therecord.media/php-script-vulnerabilities-warnings</link>
@@ -32,5 +39,5 @@
 <p>Sources: <a href="https://support.citrix.com/external/article/CTX697096/netscaler-adc-and-netscaler-gateway-security-bulletin-for-cve-2026-88771-cve-2026-88772.html">Citrix CTX697096</a> · <a href="https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/">BleepingComputer</a></p>
 ]]></description>
     </item>
-</channel>
+  </channel>
 </rss>
