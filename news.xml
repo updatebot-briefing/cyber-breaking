@@ -7,8 +7,16 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Mon, 26 Oct 2026 11:13:10 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 16:10:00 -0700</lastBuildDate>
     <item>
+      <title><![CDATA[Bubble says attacker stole users' third-party API keys and tokens; platform partly offline during containment]]></title>
+      <link>https://status.bubble.io/incidents/01M5WJ5HV7RWPN15GFDHZMCSSS</link>
+      <guid isPermaLink="false">bubble-incident-api-keys-20261026161000</guid>
+      <pubDate>Mon, 26 Oct 2026 16:10:00 -0700</pubDate>
+      <enclosure url="https://status.bubble.io/og-image.png" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://status.bubble.io/og-image.png" alt=""/></p><p>No-code platform Bubble disclosed an active security incident on Oct 26, 2026, confirming an attacker accessed third-party tokens and credentials, such as API Connector and plugin keys, belonging to a subset of users. Bubble says the attacker now appears contained, but forensics continues and the editor, live apps, file access and some plugins remain disrupted by containment steps.</p><p>Bubble users should review activity on connected third-party accounts and be ready to rotate keys when told; official notices come only from bubble.io.</p><p>Source: <a href="https://status.bubble.io/incidents/01M5WJ5HV7RWPN15GFDHZMCSSS">Bubble status page</a></p>]]></description>
+    </item>
+<item>
       <title>PHP rebuilds Windows packages for 8.2 to 8.5 to fix Brotli code-execution flaw CVE-2026-111497</title>
       <link>https://thehackernews.com/2026/10/php-issues-second-windows-security.html</link>
       <guid isPermaLink="false">php-windows-brotli-rebuild-20261026111310</guid>
@@ -405,19 +413,5 @@
 <p>In one case the attackers went from the VPN gateway to vCenter, disabled ESXi protections and dumped domain credentials straight from a domain controller's virtual disk, getting around in-guest EDR. Palo Alto urges patching plus a hunt for suspicious gateway-connected events. Source: <a href="https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html">The Hacker News</a></p>
 ]]></description>
   </item>
-
-    <item>
-    <title><![CDATA[Paradigm Healthcare breach exposed data on 970,000 Medi-Cal members, notified 11 months after intrusion]]></title>
-    <link>https://www.securityweek.com/970000-medi-cal-members-affected-by-paradigm-healthcare-data-breach/</link>
-    <guid isPermaLink="false">paradigm-healthcare-medi-cal-breach-20261020100800</guid>
-    <pubDate>Tue, 20 Oct 2026 10:08:00 -0700</pubDate>
-    <enclosure url="https://www.securityweek.com/wp-content/uploads/2025/07/data-breach-healthcare-medical.jpg" type="image/jpeg" length="0"/>
-    <description><![CDATA[
-<p><img src="https://www.securityweek.com/wp-content/uploads/2025/07/data-breach-healthcare-medical.jpg" alt=""/></p>
-<p>Paradigm Healthcare Services, which handles billing for California's Medi-Cal program, told HHS that an intrusion detected in October 2025 affected more than 970,000 people. Files accessed between Oct 8 and Oct 15, 2025 held names, dates of birth, gender and Medi-Cal member ID numbers.</p>
-<p>Notification letters went out Sept 14, 2026, about 11 months after detection. No group has claimed the attack, and Paradigm hasn't said how attackers got in or whether data was exfiltrated. Source: <a href="https://www.securityweek.com/970000-medi-cal-members-affected-by-paradigm-healthcare-data-breach/">SecurityWeek</a></p>
-]]></description>
-  </item>
-
-    </channel>
+  </channel>
 </rss>
