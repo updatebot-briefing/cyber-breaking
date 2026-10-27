@@ -7,8 +7,16 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 27 Oct 2026 11:07:37 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 12:14:48 -0700</lastBuildDate>
     <item>
+<title>TrendAI exposes AI-driven attacks on Japan, including a CyberStrikeAI setup running 44 agents against 19 organizations</title>
+<link>https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html</link>
+<guid isPermaLink="false">cyberstrikeai-japan-ai-attacks-20261027121448</guid>
+<pubDate>Tue, 27 Oct 2026 12:14:48 -0700</pubDate>
+<enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiniSfVwM2b4RVouLhc_nIvm2CdQCg9jtQDBVQP6BjvEC2NBaLFqU0A8RyC_GA3PkI4jF87W3h0GJ4xzycp6LAd4I3eRh3JnhnM9yi7CZ9dX2Pfe3MdDaaUSyrDUy1ksA-fdq0bUVzWcFRmS-JWOy3z7xiWB70DzgXLst_YspRqbGIAyv85_D4H9sPT7Sq3/s1600/cyberstrikeai.jpg" type="image/jpeg" length="0"/>
+<description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiniSfVwM2b4RVouLhc_nIvm2CdQCg9jtQDBVQP6BjvEC2NBaLFqU0A8RyC_GA3PkI4jF87W3h0GJ4xzycp6LAd4I3eRh3JnhnM9yi7CZ9dX2Pfe3MdDaaUSyrDUy1ksA-fdq0bUVzWcFRmS-JWOy3z7xiWB70DzgXLst_YspRqbGIAyv85_D4H9sPT7Sq3/s1600/cyberstrikeai.jpg" alt=""/></p><p>Trend Micro's TrendAI analyzed three exposed attacker servers used against organizations in Japan, with AI playing roles from full automation to tool-building help. In the first case, the open-source CyberStrikeAI pentest framework split recon, exploitation, C2, persistence, exfiltration and reporting across 44 agents, hitting at least 19 organizations (16 in Japan) in a short October 2026 window.</p><p>The other two cases were a human-led, LLM-assisted campaign that stole GIS and email data and sought cheap inference capacity, and a long-running operator hitting Cisco, Citrix, F5, Yamaha edge devices and WebLogic servers since January. Targets also spanned Taiwan, Hong Kong, the UK, France, Italy, Qatar and Colombia.</p><p>Source: <a href="https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html">The Hacker News</a></p>]]></description>
+</item>
+<item>
 <title>HPE patches 72 Aruba AOS-8 and AOS-10 flaws, including eight max-severity unauthenticated RCE and auth-bypass bugs</title>
 <link>https://www.securityweek.com/hpe-patches-dozens-of-critical-flaws-in-networking-products/</link>
 <guid isPermaLink="false">hpe-aruba-aos-patches-20261027110700</guid>
@@ -396,14 +404,6 @@
       <pubDate>Wed, 21 Oct 2026 10:10:00 -0700</pubDate>
       <enclosure url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6ad8d084307ad9e4ae727787_6ad8cf2a35cd8522700fd93e_litellm-1-107-0-hero-v2.png" type="image/jpeg" length="0"/>
       <description><![CDATA[<p><img src="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6ad8d084307ad9e4ae727787_6ad8cf2a35cd8522700fd93e_litellm-1-107-0-hero-v2.png" alt=""/></p><p>All seven wheels of the popular AI gateway library LiteLLM 1.107.0, published to PyPI on October 21, contained malware that runs on every Python start via cook.pth and sitecustomize.py, stealing cloud, SSH, Kubernetes, CI and AI-tool secrets and installing an hourly remote code loader. Docker images tagged v1.107.0, latest, main-latest and main-stable were also affected. PyPI pulled the release; anyone who installed it should treat the host as compromised, rotate every reachable credential and pin to 1.106.2.</p><p>Sources: <a href="https://www.stepsecurity.io/blog/litellm-1-107-0-compromised-pypi-backdoored-wheels-credential-stealer">StepSecurity</a>, <a href="https://aisle.com/blog/litellm-11070-on-pypi-shipped-a-credential-stealer">AISLE</a>, <a href="https://cybersecuritynews.com/litellm-compromised/">Cyber Security News</a></p>]]></description>
-    </item>
-<item>
-      <title><![CDATA[CyberCartel used a multi-model AI agent system to attack 400+ Latin American banks, Straiker reports]]></title>
-      <link>https://www.straiker.ai/blog/inside-carliy0s-how-cybercartel-used-multiple-ai-models-to-attack-latin-american-banks</link>
-      <guid isPermaLink="false">cybercartel-carliy0s-ai-banks-20261021101000</guid>
-      <pubDate>Wed, 21 Oct 2026 10:10:00 -0700</pubDate>
-      <enclosure url="https://cdn.prod.website-files.com/67e35850d44d18d58bb24073/6ad8ca1480e4dbecb98fe5af_carliy0s-opengraph.jpg" type="image/jpeg" length="0"/>
-      <description><![CDATA[<p><img src="https://cdn.prod.website-files.com/67e35850d44d18d58bb24073/6ad8ca1480e4dbecb98fe5af_carliy0s-opengraph.jpg" alt=""/></p><p>Straiker documented CARLIY0S, a multi-agent attack system built on the PentAGI framework that the long-running CyberCartel group used against more than 400 Latin American banks and payment providers. It assigned Claude, Grok and Kimi models to reconnaissance, exploit development and target decisions, and Straiker found a stolen-credential database of 4,493 records. It is one of the first detailed looks at criminals running AI-orchestrated intrusions at scale.</p><p>Sources: <a href="https://www.straiker.ai/blog/inside-carliy0s-how-cybercartel-used-multiple-ai-models-to-attack-latin-american-banks">Straiker</a>, <a href="https://www.benzinga.com/content/62494335/hackers-used-claude-and-grok-fully-automate-attacks-banks">Benzinga</a></p>]]></description>
     </item>
 </channel>
 </rss>
