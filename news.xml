@@ -7,8 +7,10 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 27 Oct 2026 12:14:48 -0700</lastBuildDate>
-    <item>
+    <lastBuildDate>Tue, 27 Oct 2026 13:08:00 -0700</lastBuildDate>
+    <item><title>CISA adds Brotli decoder flaw CVE-2026-111497 (Node2Shell / HTTP2Shell) to KEV as exploited</title><link>https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/</link><guid isPermaLink="false">brotli-kev-add-20261027130800</guid><pubDate>Tue, 27 Oct 2026 13:08:00 -0700</pubDate><description><![CDATA[<p>CISA added the Google Brotli decoder bug CVE-2026-111497, also called Node2Shell, HTTP2Shell or Broccoli2Shell, to its Known Exploited Vulnerabilities catalog on October 27, with a November 10 federal deadline. A crafted Brotli stream lets an unauthenticated remote attacker corrupt decoder memory, leak data, crash the process or potentially run code. It reaches Node.js, Bun, Envoy and Istio with Brotli decompression, Python Brotli, brotli4j and .NET apps; fixed versions include Brotli 1.0.10, 1.1.1 and 1.2.1 and Node.js 22.23.4, 24.22.1 and 26.12.1.</p><p>Sources: <a href="https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/">BleepingComputer</a>, <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog">CISA KEV catalog</a>, <a href="https://www.cisecurity.org/advisory/a-vulnerability-in-brotli-library-could-allow-for-remote-code-execution_2026-120">CIS advisory</a></p>]]></description></item>
+<item><title>CISA adds Adobe Commerce and Magento file-upload flaw CVE-2026-48356 to KEV</title><link>https://www.adobe.com/trust/security/products/commerce/apsb26-73.html</link><guid isPermaLink="false">adobe-commerce-kev-add-20261027130801</guid><pubDate>Tue, 27 Oct 2026 13:08:00 -0700</pubDate><description><![CDATA[<p>CISA added Adobe Commerce and Magento Open Source CVE-2026-48356, a critical unrestricted file-upload flaw (CVSS 9.6, no authentication required) that can lead to code execution or account takeover, to the KEV catalog on October 27, with a November 10 deadline. Adobe fixed it in its July 2026 APSB26-73 update, so stores still on 2.4.9, 2.4.8-p5 or older unpatched builds should update now.</p><p>Sources: <a href="https://www.adobe.com/trust/security/products/commerce/apsb26-73.html">Adobe APSB26-73</a>, <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog">CISA KEV catalog</a></p>]]></description></item>
+<item>
 <title>TrendAI exposes AI-driven attacks on Japan, including a CyberStrikeAI setup running 44 agents against 19 organizations</title>
 <link>https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html</link>
 <guid isPermaLink="false">cyberstrikeai-japan-ai-attacks-20261027121448</guid>
@@ -389,21 +391,5 @@
       <enclosure url="https://img.helpnetsecurity.com/wp-content/uploads/2024/04/17164810/palo_alto_networks-2-1500.webp" type="image/jpeg" length="0"/>
       <description><![CDATA[<p><img src="https://img.helpnetsecurity.com/wp-content/uploads/2024/04/17164810/palo_alto_networks-2-1500.webp" alt=""/></p><p>Several ransomware groups are exploiting CVE-2026-0257, an authentication bypass in the PAN-OS GlobalProtect portal and gateway (and Prisma Access) that lets remote, unauthenticated attackers set up an unauthorized VPN connection. Palo Alto patched it in May and first rated it medium severity, but victims now span healthcare, education, government and energy. Unpatched GlobalProtect devices should be updated and checked for unexpected VPN sessions.</p><p>Source: <a href="https://www.helpnetsecurity.com/2026/10/21/ransomware-groups-exploit-palo-alto-globalprotect-cve-2026-0257/">Help Net Security</a></p>]]></description>
     </item>
-    <item>
-      <title><![CDATA[OVHcloud CLI releases v0.11.0 through v0.15.0 on GitHub were tampered with to steal secrets]]></title>
-      <link>https://www.helpnetsecurity.com/2026/10/21/ovhcloud-cli-github-malware/</link>
-      <guid isPermaLink="false">ovhcloud-cli-github-malware-20261021121000</guid>
-      <pubDate>Wed, 21 Oct 2026 12:10:00 -0700</pubDate>
-      <enclosure url="https://img.helpnetsecurity.com/wp-content/uploads/2026/10/21082341/ovhcloud-1500.webp" type="image/jpeg" length="0"/>
-      <description><![CDATA[<p><img src="https://img.helpnetsecurity.com/wp-content/uploads/2026/10/21082341/ovhcloud-1500.webp" alt=""/></p><p>An attacker used a developer's GitHub account to add an info-stealing binary to OVHcloud's open-source command-line tool, affecting versions v0.11.0 through v0.15.0. The tampered releases were live for about 90 minutes on October 19 before a customer reported them. OVHcloud says v0.16.0 is clean and anyone who downloaded an affected release should update or delete it and rotate secrets on that machine.</p><p>Source: <a href="https://www.helpnetsecurity.com/2026/10/21/ovhcloud-cli-github-malware/">Help Net Security</a></p>]]></description>
-    </item>
-    <item>
-      <title><![CDATA[LiteLLM 1.107.0 on PyPI and Docker shipped a credential stealer and hourly remote code loader]]></title>
-      <link>https://www.stepsecurity.io/blog/litellm-1-107-0-compromised-pypi-backdoored-wheels-credential-stealer</link>
-      <guid isPermaLink="false">litellm-pypi-compromise-20261021101000</guid>
-      <pubDate>Wed, 21 Oct 2026 10:10:00 -0700</pubDate>
-      <enclosure url="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6ad8d084307ad9e4ae727787_6ad8cf2a35cd8522700fd93e_litellm-1-107-0-hero-v2.png" type="image/jpeg" length="0"/>
-      <description><![CDATA[<p><img src="https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6ad8d084307ad9e4ae727787_6ad8cf2a35cd8522700fd93e_litellm-1-107-0-hero-v2.png" alt=""/></p><p>All seven wheels of the popular AI gateway library LiteLLM 1.107.0, published to PyPI on October 21, contained malware that runs on every Python start via cook.pth and sitecustomize.py, stealing cloud, SSH, Kubernetes, CI and AI-tool secrets and installing an hourly remote code loader. Docker images tagged v1.107.0, latest, main-latest and main-stable were also affected. PyPI pulled the release; anyone who installed it should treat the host as compromised, rotate every reachable credential and pin to 1.106.2.</p><p>Sources: <a href="https://www.stepsecurity.io/blog/litellm-1-107-0-compromised-pypi-backdoored-wheels-credential-stealer">StepSecurity</a>, <a href="https://aisle.com/blog/litellm-11070-on-pypi-shipped-a-credential-stealer">AISLE</a>, <a href="https://cybersecuritynews.com/litellm-compromised/">Cyber Security News</a></p>]]></description>
-    </item>
-</channel>
+    </channel>
 </rss>
