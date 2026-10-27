@@ -7,7 +7,39 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Mon, 26 Oct 2026 19:12:00 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 09:17:50 -0700</lastBuildDate>
+    <item>
+      <title>Microsoft fixes Authenticator for Android flaw that let permissionless apps steal work-account tokens</title>
+      <link>https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html</link>
+      <guid isPermaLink="false">ms-authenticator-android-token-theft-20261027091750</guid>
+      <pubDate>Tue, 27 Oct 2026 09:17:50 -0700</pubDate>
+      <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqk63DF3MJCMgQqpg91UsWY7mjACbBgPl50GfKwDPi7v3md6sP5l8a2BUqHABjgMN_6BzgcMx4vVKW4hR9B9pz8_XHqp5ctKqQQLw-RJwuKmVWm2MaSzEMkHIsV-Yi0V6Mq_gUYYuzTpi-BzV2-8dRVYBjtuW4nb9TbobkPwvOGTkIFTpr334JB_LZIkw/s1600/msms.jpg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqk63DF3MJCMgQqpg91UsWY7mjACbBgPl50GfKwDPi7v3md6sP5l8a2BUqHABjgMN_6BzgcMx4vVKW4hR9B9pz8_XHqp5ctKqQQLw-RJwuKmVWm2MaSzEMkHIsV-Yi0V6Mq_gUYYuzTpi-BzV2-8dRVYBjtuW4nb9TbobkPwvOGTkIFTpr334JB_LZIkw/s1600/msms.jpg" alt=""/></p><p>Microsoft fixed CVE-2026-80097 (CVSS 8.6) in Authenticator for Android version 6.2606.4246. A malicious app with no permissions could pose as a trusted Microsoft app such as Teams and collect sign-in tokens giving full access to a victim's work email, files, and calendar. Microsoft says exploitation needs the victim to complete a sign-in step and that it has not been used in attacks; update the app.</p><p>Source: <a href="https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html">The Hacker News</a></p>]]></description>
+    </item>
+    <item>
+      <title>Keystone to destroy 18,835 hardware wallets after attacker steals device-verification key</title>
+      <link>https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html</link>
+      <guid isPermaLink="false">keystone-wallet-key-theft-20261027091650</guid>
+      <pubDate>Tue, 27 Oct 2026 09:16:50 -0700</pubDate>
+      <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkvGXPUhZZjWBsYYBAx8KeJ8WilsBMLE-JhqfNAEyCOPuxs6-4VIF1e77IHR5zVdGfRsjJkSOfUVE1JaEmKe0mSAVM-ha4SeROxEGAdkLY5n5rBqx1LBSm6UVxA167sJYZEJTRra7BSipFtdlw2S-kFCUOSa9n70NbfSka3zRNVHd0D69qbVpSGIOnuAU/s1600/keystone.jpg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkvGXPUhZZjWBsYYBAx8KeJ8WilsBMLE-JhqfNAEyCOPuxs6-4VIF1e77IHR5zVdGfRsjJkSOfUVE1JaEmKe0mSAVM-ha4SeROxEGAdkLY5n5rBqx1LBSm6UVxA167sJYZEJTRra7BSipFtdlw2S-kFCUOSa9n70NbfSka3zRNVHd0D69qbVpSGIOnuAU/s1600/keystone.jpg" alt=""/></p><p>An attacker who got into Keystone's website obtained the key its hardware wallets use to prove they are genuine, which could let counterfeit devices pass the online authenticity check. Keystone found the access on October 20, will destroy 18,835 unsold devices carrying the key, and says recovery phrases and wallet keys were not involved. Owners who received a device after October 20 should contact support before using it.</p><p>Source: <a href="https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html">The Hacker News</a></p>]]></description>
+    </item>
+    <item>
+      <title>Australia's ASD breaks into Amadey malware backend, cutting off 180,000 infected computers</title>
+      <link>https://thehackernews.com/2026/10/australia-gets-into-amadey-malware.html</link>
+      <guid isPermaLink="false">asd-amadey-disruption-20261027091550</guid>
+      <pubDate>Tue, 27 Oct 2026 09:15:50 -0700</pubDate>
+      <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinCXm9nOGLf3YFKOH7D87d6Wau4yc3WG_4nSANlzh0oVcI9dUXg07hiHfBkDONqewGH90O6qN1cv9B1vPKGeXr7dhwAjpJ9pHCZKv2MOU9WYesukNBqS55LiPg0ytVl8JonI32qTVei_L25bCcUsPTl2PZsxYhvx0nDsxwqy3RgKE1_iRRuSbAoaH8OcY/s1600/aus.jpg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinCXm9nOGLf3YFKOH7D87d6Wau4yc3WG_4nSANlzh0oVcI9dUXg07hiHfBkDONqewGH90O6qN1cv9B1vPKGeXr7dhwAjpJ9pHCZKv2MOU9WYesukNBqS55LiPg0ytVl8JonI32qTVei_L25bCcUsPTl2PZsxYhvx0nDsxwqy3RgKE1_iRRuSbAoaH8OcY/s1600/aus.jpg" alt=""/></p><p>The Australian Signals Directorate gained access to a criminal's Amadey malware control backend and disconnected it from about 180,000 infected computers worldwide, including some in Australia. Amadey is a malware-as-a-service loader used mainly to install further payloads such as the StealC infostealer.</p><p>Source: <a href="https://thehackernews.com/2026/10/australia-gets-into-amadey-malware.html">The Hacker News</a></p>]]></description>
+    </item>
+    <item>
+      <title>University of Copenhagen systems stay down after breach exposing data of 525,000 people</title>
+      <link>https://www.helpnetsecurity.com/2026/10/27/university-of-copenhagen-cyberattack-data-breach/</link>
+      <guid isPermaLink="false">ucph-breach-525k-20261027091450</guid>
+      <pubDate>Tue, 27 Oct 2026 09:14:50 -0700</pubDate>
+      <enclosure url="https://img.helpnetsecurity.com/wp-content/uploads/2026/05/28101246/data-breach-red.webp" type="image/webp" length="0"/>
+      <description><![CDATA[<p><img src="https://img.helpnetsecurity.com/wp-content/uploads/2026/05/28101246/data-breach-red.webp" alt=""/></p><p>The University of Copenhagen took Workzone, Nimbus and other administrative systems offline on Monday after activity first thought to be a new attack. It now says the activity is tied to the breach disclosed last week, which exposed personal data, including national ID numbers, of about 525,000 people.</p><p>Source: <a href="https://www.helpnetsecurity.com/2026/10/27/university-of-copenhagen-cyberattack-data-breach/">Help Net Security</a></p>]]></description>
+    </item>
     <item>
       <title>University of New Mexico Health diverts patients and closes 30+ clinics over cybersecurity issue</title>
       <link>https://www.securityweek.com/cybersecurity-issue-forces-a-major-new-mexico-hospital-to-divert-patients-and-close-clinics/</link>
@@ -372,41 +404,6 @@
       <enclosure url="https://www.bleepstatic.com/content/hl-images/2021/03/29/PHP-headpic.jpg" type="image/jpeg" length="0"/>
       <description><![CDATA[<p><img src="https://www.bleepstatic.com/content/hl-images/2021/03/29/PHP-headpic.jpg" alt=""/></p><p>The PHP security team says it will ship emergency updates on Wednesday, October 21 at 7:00 AM PT for two critical vulnerabilities rated 9.2 under CVSS v4.0, after details leaked ahead of the planned embargo. watchTowr says both are remote code execution bugs believed to affect PHP 5, 6, 7 and 8, and that it has reproduced one of them. No exploitation in the wild has been observed yet, and PHP says it may release earlier if details go public or attacks start.</p><p>Admins running PHP should be ready to patch as soon as the fixed releases land.</p><p>Source: <a href="https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/">BleepingComputer</a></p>]]></description>
     </item>
-    <item>
-      <title><![CDATA[Zeabur shutting down after second breach: leaked plaintext admin credentials exposed 3.2M environment-variable records and 321,810 accounts]]></title>
-      <link>https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/</link>
-      <guid isPermaLink="false">zeabur-second-breach-shutdown-20261020131000</guid>
-      <pubDate>Tue, 20 Oct 2026 13:10:00 -0700</pubDate>
-      <enclosure url="https://www.bleepstatic.com/content/hl-images/2026/10/20/zeabur.jpg" type="image/jpeg" length="0"/>
-      <description><![CDATA[<p><img src="https://www.bleepstatic.com/content/hl-images/2026/10/20/zeabur.jpg" alt=""/></p><p>Developer hosting platform Zeabur is shutting down after its second breach in two months. On October 14-15 an attacker used leaked internal credentials, stored in plaintext and never rotated after the August breach, to get into shared clusters in nine regions, dedicated servers and the production database, stealing about 3.2 million environment-variable records and data on 321,810 accounts. Zeabur also confirmed root sign-ins on 101 GCP servers, SSH keys added to 50 servers, and 16 customer disk copies attached to attacker machines.</p><p>Anyone who deployed on Zeabur should rotate every secret, API key and database credential that was stored in its environment variables.</p><p>Source: <a href="https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/">BleepingComputer</a></p>]]></description>
-    </item>
-    <item>
-      <title><![CDATA[CISA adds the Plex2Shell chain (four Plex Media Server CVEs) to KEV, confirming exploitation]]></title>
-      <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search=Plex</link>
-      <guid isPermaLink="false">plex2shell-cisa-kev-add-20261020131000</guid>
-      <pubDate>Tue, 20 Oct 2026 13:10:00 -0700</pubDate>
-      <description><![CDATA[<p>CISA added CVE-2026-96652, CVE-2026-96654, CVE-2026-96655 and CVE-2026-96656 in Plex Media Server to its Known Exploited Vulnerabilities catalog on October 20 (catalog version 2026.10.20). These are the four bugs in the Plex2Shell chain, which lets an attacker go from SSRF with any X-Plex-Token to writing files that run on load. This is an update to the October 18 item, where exploitation had only been reported from a honeypot.</p><p>Plex shipped fixes in August; anyone running Plex Media Server older than 1.43.3.10861, especially exposed to the internet, should update now. CISA also added an exploited SiteGuard Server Edition command-injection bug (CVE-2026-106931, covered earlier) and a local Siemens Software Center DLL-loading flaw (CVE-2026-110936) the same day.</p><p>Source: <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search=Plex">CISA Known Exploited Vulnerabilities catalog</a></p>]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Mozilla and Chrome confirm private keys for eight eMudhra intermediate CAs were compromised; trust stores rush fixes]]></title>
-      <link>https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html</link>
-      <guid isPermaLink="false">emudhra-ca-keys-compromised-confirmed-20261020121000</guid>
-      <pubDate>Tue, 20 Oct 2026 12:10:00 -0700</pubDate>
-      <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJOWLzgriXXM626bAOaX_LEoNH97Ab_XV4oQ0GxBeY3-PqkdXdcae52-wrl8r0LipTFBsvl4R7Y5j6jFsiG_9V8ZAwHOkAlsZaRcOAswStHhAG1FYm9W6kjA4FmOz0bXgVXO6LyEs9Fv75UrRFphZEzhXodKdTlYzfPK8sqW3DpxKBnD7OFQfqJJ_ay2c/s1600/ecert.jpg" type="image/jpeg" length="0"/>
-      <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJOWLzgriXXM626bAOaX_LEoNH97Ab_XV4oQ0GxBeY3-PqkdXdcae52-wrl8r0LipTFBsvl4R7Y5j6jFsiG_9V8ZAwHOkAlsZaRcOAswStHhAG1FYm9W6kjA4FmOz0bXgVXO6LyEs9Fv75UrRFphZEzhXodKdTlYzfPK8sqW3DpxKBnD7OFQfqJJ_ay2c/s1600/ecert.jpg" alt=""/></p><p>Mozilla and the Chrome Root Program confirmed on October 20 that the private keys of eight eMudhra (emSign) intermediate CAs, six for TLS and two for code signing, are compromised. Anyone holding them could issue certificates any site would trust. A researcher reported it on October 17, and Chrome and Firefox blocked the keys within hours. No certificates from them had appeared in Certificate Transparency logs before the block, and it is still unknown how the keys left eMudhra or who else holds them.</p><p>Mozilla has removed the emSign ECC Root CA - G3 from NSS, and Chrome plans to drop it too. Apple and Microsoft have blocked the certificates, and fixes shipped in Go 1.27.3/1.26.10, Firefox 158.0.1, Python certifi and Rust webpki-roots, while Node.js is still pending. Software that doesn't check revocation needs updating or rebuilding. This confirms the CA behind the urgent Go release reported earlier today.</p><p>Source: <a href="https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html">The Hacker News</a></p>]]></description>
-    </item>
-    <item>
-    <title><![CDATA[Public exploit released for critical unauthenticated FortiSIEM RCE (CVE-2026-106173)]]></title>
-    <link>https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html</link>
-    <guid isPermaLink="false">fortisiem-cve-2026-106173-poc-20261020100800</guid>
-    <pubDate>Tue, 20 Oct 2026 10:08:00 -0700</pubDate>
-    <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3BuJLxcpzxzxwpUcwsPb7L-gNCeXeyuPtNysOMHtf06VmANCx2DR3O52Puw9AQwUu0C8ccQ77MF_l0bAf4zL-hrvYO8jSHs6Km0Xz6-Q4yYm1thRvJ-y59qLRX9Qni0zD161qJ53oCgzEIo3NjOLKtgOrIAbOMsAhITOhL9qoy2v9D6tRU26m0fBoMDhJ/s1600/fort-poc.jpg" type="image/jpeg" length="0"/>
-    <description><![CDATA[
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3BuJLxcpzxzxwpUcwsPb7L-gNCeXeyuPtNysOMHtf06VmANCx2DR3O52Puw9AQwUu0C8ccQ77MF_l0bAf4zL-hrvYO8jSHs6Km0Xz6-Q4yYm1thRvJ-y59qLRX9Qni0zD161qJ53oCgzEIo3NjOLKtgOrIAbOMsAhITOhL9qoy2v9D6tRU26m0fBoMDhJ/s1600/fort-poc.jpg" alt=""/></p>
-<p>Horizon3.ai published a proof-of-concept exploit for CVE-2026-106173 (CVSS 9.4), the FortiSIEM path traversal Fortinet patched last week. An unauthenticated attacker who can reach the gRPC service on TCP port 27918 can combine "../" sequences with a null byte to overwrite a Redis health-check script that cron runs every 60 seconds, turning a file write into code execution.</p>
-<p>FortiSIEM 7.5.0 is affected (fixed in 7.5.1 and later) and 7.6 is not. No exploitation has been reported yet, but with a public exploit out, unpatched exposed instances are now at high risk. Source: <a href="https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html">The Hacker News</a></p>
-]]></description>
-  </item>
 
     </channel>
 </rss>
