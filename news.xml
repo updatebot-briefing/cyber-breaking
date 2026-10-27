@@ -7,8 +7,32 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 27 Oct 2026 10:04:25 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 11:07:37 -0700</lastBuildDate>
     <item>
+<title>HPE patches 72 Aruba AOS-8 and AOS-10 flaws, including eight max-severity unauthenticated RCE and auth-bypass bugs</title>
+<link>https://www.securityweek.com/hpe-patches-dozens-of-critical-flaws-in-networking-products/</link>
+<guid isPermaLink="false">hpe-aruba-aos-patches-20261027110700</guid>
+<pubDate>Tue, 27 Oct 2026 11:07:37 -0700</pubDate>
+<enclosure url="https://www.securityweek.com/wp-content/uploads/2026/10/HPE-Aruba.jpeg" type="image/jpeg" length="0"/>
+<description><![CDATA[<p><img src="https://www.securityweek.com/wp-content/uploads/2026/10/HPE-Aruba.jpeg" alt=""/></p><p>HPE released fixes for 72 vulnerabilities in the AOS-8 and AOS-10 operating systems behind its Aruba wireless products, 33 of them rated critical. Eight max-severity bugs (CVE-2026-79844 through CVE-2026-79851) could let unauthenticated attackers run code remotely or gain admin access. Fixed builds are AOS 8.10.0.24, 8.13.3.1, 10.4.1.14, 10.7.2.7 and 10.8.1.2 across conductors, controllers, gateways and access points.</p><p>Source: <a href="https://www.securityweek.com/hpe-patches-dozens-of-critical-flaws-in-networking-products/">SecurityWeek</a></p>]]></description>
+</item>
+<item>
+<title>Denver Health Medical Plan notifies 238,000 members after vendor SquareML leaked a database access key</title>
+<link>https://www.securityweek.com/vendor-key-leak-puts-data-of-238000-denver-health-plan-members-at-risk/</link>
+<guid isPermaLink="false">denver-health-squareml-leak-20261027110701</guid>
+<pubDate>Tue, 27 Oct 2026 11:07:37 -0700</pubDate>
+<enclosure url="https://www.securityweek.com/wp-content/uploads/2025/10/bank-finance-lender-credit-union-hack.jpeg" type="image/jpeg" length="0"/>
+<description><![CDATA[<p><img src="https://www.securityweek.com/wp-content/uploads/2025/10/bank-finance-lender-credit-union-hack.jpeg" alt=""/></p><p>Denver Health Medical Plan, which administers Medicaid benefits in the Denver area, is notifying 238,083 members that their personal and health information may have been exposed. Its analytics vendor SquareML says an access key to a database holding member data was published on a public website on June 27, 2025, and was not revoked until August 18, 2026. The compromised account was read-only.</p><p>Source: <a href="https://www.securityweek.com/vendor-key-leak-puts-data-of-238000-denver-health-plan-members-at-risk/">SecurityWeek</a></p>]]></description>
+</item>
+<item>
+<title>DreamHost suspends File Manager and resets some email and FTP passwords over an unexplained incident</title>
+<link>https://www.securityweek.com/unexplained-dreamhost-incident-prompts-email-ftp-password-resets/</link>
+<guid isPermaLink="false">dreamhost-incident-resets-20261027110702</guid>
+<pubDate>Tue, 27 Oct 2026 11:07:37 -0700</pubDate>
+<enclosure url="https://www.securityweek.com/wp-content/uploads/2025/08/password-manager.jpeg" type="image/jpeg" length="0"/>
+<description><![CDATA[<p><img src="https://www.securityweek.com/wp-content/uploads/2025/08/password-manager.jpeg" alt=""/></p><p>Web host DreamHost suspended its File Manager service and reset passwords for some email and FTP/SFTP users after what it calls an issue affecting several systems, including webmail. Account owners must set new passwords for affected mailbox and FTP users and tell them to change any reused passwords elsewhere. Customers have criticized the lack of detail about whether passwords were exposed.</p><p>Source: <a href="https://www.securityweek.com/unexplained-dreamhost-incident-prompts-email-ftp-password-resets/">SecurityWeek</a></p>]]></description>
+</item>
+<item>
 <title>Apple backports fix for exploited CoreGraphics flaw CVE-2026-86950 to older iPhones and iPads</title>
 <link>https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html</link>
 <guid isPermaLink="false">apple-coregraphics-backport-20261027100425</guid>
@@ -381,28 +405,5 @@
       <enclosure url="https://cdn.prod.website-files.com/67e35850d44d18d58bb24073/6ad8ca1480e4dbecb98fe5af_carliy0s-opengraph.jpg" type="image/jpeg" length="0"/>
       <description><![CDATA[<p><img src="https://cdn.prod.website-files.com/67e35850d44d18d58bb24073/6ad8ca1480e4dbecb98fe5af_carliy0s-opengraph.jpg" alt=""/></p><p>Straiker documented CARLIY0S, a multi-agent attack system built on the PentAGI framework that the long-running CyberCartel group used against more than 400 Latin American banks and payment providers. It assigned Claude, Grok and Kimi models to reconnaissance, exploit development and target decisions, and Straiker found a stolen-credential database of 4,493 records. It is one of the first detailed looks at criminals running AI-orchestrated intrusions at scale.</p><p>Sources: <a href="https://www.straiker.ai/blog/inside-carliy0s-how-cybercartel-used-multiple-ai-models-to-attack-latin-american-banks">Straiker</a>, <a href="https://www.benzinga.com/content/62494335/hackers-used-claude-and-grok-fully-automate-attacks-banks">Benzinga</a></p>]]></description>
     </item>
-<item>
-      <title><![CDATA[PHP2Shell patches released for critical PHP RCE flaws; exploitation attempts reported in the wild]]></title>
-      <link>https://therecord.media/php-script-vulnerabilities-warnings</link>
-      <guid isPermaLink="false">php2shell-patched-20261021091200</guid>
-      <pubDate>Wed, 21 Oct 2026 09:12:00 -0700</pubDate>
-      <enclosure url="https://cms.therecord.media/uploads/pexels_pixabay_270557_b1a99bb16a.jpg" type="image/jpeg" length="0"/>
-      <description><![CDATA[<p><img src="https://cms.therecord.media/uploads/pexels_pixabay_270557_b1a99bb16a.jpg" alt=""/></p><p>PHP shipped emergency fixes (8.5.12, 8.4.27, 8.3.36, 8.2.35) for the PHP2Shell runtime flaws CVE-2026-109618 and CVE-2026-109619, which allow unauthenticated RCE on nearly every PHP version back to 5.4. Cloudflare and watchTowr see exploitation attempts in the wild, and governments worldwide issued urgent warnings. This is a material update to yesterday's pre-patch item and is also posted to the breaking feed.</p><p>Sources: <a href="https://therecord.media/php-script-vulnerabilities-warnings">The Record</a>, <a href="https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html">The Hacker News</a>, <a href="https://www.helpnetsecurity.com/2026/10/21/php2shell-php-vulnerabilities-patched-cve-2026-109618-cve-2026-109619/">Help Net Security</a></p>]]></description>
-    </item>
-<item>
-      <title><![CDATA[Attackers hijacked 300+ Tor exit relays to intercept SSH logins]]></title>
-      <link>https://thehackernews.com/2026/10/attackers-hijacked-over-300-tor-exit.html</link>
-      <guid isPermaLink="false">tor-exit-relays-ssh-hijack-20261021091200</guid>
-      <pubDate>Wed, 21 Oct 2026 09:12:00 -0700</pubDate>
-      <description><![CDATA[<p>Attackers compromised the Linux hosts behind more than 300 Tor exit relays in early October and rewrote their exit policies to redirect SSH traffic to 12 interception servers that harvested passwords. At the Oct 4 peak the relays carried about 7.5% of Tor's exit capacity; the Tor Project had removed them all by Oct 5. Anyone who logged into SSH with a password over Tor between Oct 1 and 5 and accepted a new host key should rotate that password.</p><p>Source: <a href="https://thehackernews.com/2026/10/attackers-hijacked-over-300-tor-exit.html">The Hacker News</a></p>]]></description>
-    </item>
-<item>
-      <title><![CDATA[Stolen UpdraftCentral connection keys used to backdoor WordPress sites after TeamUpdraft breach; up to ~400K sites exposed]]></title>
-      <link>https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites/</link>
-      <guid isPermaLink="false">updraftcentral-stolen-keys-wordpress-backdoor-20261020181000</guid>
-      <pubDate>Tue, 20 Oct 2026 18:10:00 -0700</pubDate>
-      <enclosure url="https://www.bleepstatic.com/content/hl-images/2026/09/03/wordpress.jpg" type="image/jpeg" length="0"/>
-      <description><![CDATA[<p><img src="https://www.bleepstatic.com/content/hl-images/2026/09/03/wordpress.jpg" alt=""/></p><p>TeamUpdraft, maker of UpdraftPlus, says attackers breached teamupdraft.com over the weekend of October 17-18 and likely accessed its customer database, including password hashes, 2FA settings and UpdraftCentral, UpdraftVault and UpdraftClone connection keys. Patchstack says attackers began using the stolen keys on October 18 to push at least 99 disguised backdoor plugins and add admin accounts on connected sites, and estimates around 400,000 sites have an UpdraftCentral or Migrator key. Nethemba confirmed malicious plugins on two of its own fully patched sites.</p><p>Update UpdraftPlus to 1.26.13 (free) or 2.26.13 (Premium) or later, delete existing UpdraftCentral keys on each site, check for indicators of compromise, and restore from clean backups if compromised.</p><p>Source: <a href="https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites/">BleepingComputer</a></p>]]></description>
-    </item>
-    </channel>
+</channel>
 </rss>
