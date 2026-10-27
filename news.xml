@@ -7,8 +7,16 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 27 Oct 2026 09:17:50 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 10:04:25 -0700</lastBuildDate>
     <item>
+<title>Apple backports fix for exploited CoreGraphics flaw CVE-2026-86950 to older iPhones and iPads</title>
+<link>https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html</link>
+<guid isPermaLink="false">apple-coregraphics-backport-20261027100425</guid>
+<pubDate>Tue, 27 Oct 2026 10:04:25 -0700</pubDate>
+<enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqZx9ghfLBFufN5Q4s1dq2U1rXwenlfzU7UsqQfLWn3AEUe5CX3krGuvC6DM4mF2T9MmscvntBNxmgU7UjNOnfJQteKvuAs-4Nq0vJ3TnTkuFy1TRO3ibdh2Ekqi_WqiInvPkXjYlnvrCuYb5mb8neOOqBbmf_034wh8MPOLPKW2Nvvezpb2LFNXPbeUa6/s1600/apple-patch.jpg" type="image/jpeg" length="0"/>
+<description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqZx9ghfLBFufN5Q4s1dq2U1rXwenlfzU7UsqQfLWn3AEUe5CX3krGuvC6DM4mF2T9MmscvntBNxmgU7UjNOnfJQteKvuAs-4Nq0vJ3TnTkuFy1TRO3ibdh2Ekqi_WqiInvPkXjYlnvrCuYb5mb8neOOqBbmf_034wh8MPOLPKW2Nvvezpb2LFNXPbeUa6/s1600/apple-patch.jpg" alt=""/></p><p>Apple released iOS 18.7.11 and iPadOS 18.7.11, extending last month's fix for CVE-2026-86950 (CVSS 8.8), an out-of-bounds write in CoreGraphics that can lead to code execution when a crafted file is processed. Apple says the flaw may have been exploited in an extremely sophisticated attack against specific targeted individuals. The update covers older devices such as the iPhone XS, XS Max and XR, and also fixes an Audio logic issue, CVE-2026-65339.</p><p>Source: <a href="https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html">The Hacker News</a></p>]]></description>
+</item>
+<item>
       <title>Microsoft fixes Authenticator for Android flaw that let permissionless apps steal work-account tokens</title>
       <link>https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html</link>
       <guid isPermaLink="false">ms-authenticator-android-token-theft-20261027091750</guid>
@@ -396,14 +404,5 @@
       <enclosure url="https://www.bleepstatic.com/content/hl-images/2026/09/03/wordpress.jpg" type="image/jpeg" length="0"/>
       <description><![CDATA[<p><img src="https://www.bleepstatic.com/content/hl-images/2026/09/03/wordpress.jpg" alt=""/></p><p>TeamUpdraft, maker of UpdraftPlus, says attackers breached teamupdraft.com over the weekend of October 17-18 and likely accessed its customer database, including password hashes, 2FA settings and UpdraftCentral, UpdraftVault and UpdraftClone connection keys. Patchstack says attackers began using the stolen keys on October 18 to push at least 99 disguised backdoor plugins and add admin accounts on connected sites, and estimates around 400,000 sites have an UpdraftCentral or Migrator key. Nethemba confirmed malicious plugins on two of its own fully patched sites.</p><p>Update UpdraftPlus to 1.26.13 (free) or 2.26.13 (Premium) or later, delete existing UpdraftCentral keys on each site, check for indicators of compromise, and restore from clean backups if compromised.</p><p>Source: <a href="https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites/">BleepingComputer</a></p>]]></description>
     </item>
-    <item>
-      <title><![CDATA[PHP readies emergency patches for two leaked critical RCE flaws (CVE-2026-109618, CVE-2026-109619) affecting PHP 5 through 8]]></title>
-      <link>https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/</link>
-      <guid isPermaLink="false">php-two-critical-rce-emergency-patches-20261020141000</guid>
-      <pubDate>Tue, 20 Oct 2026 14:10:00 -0700</pubDate>
-      <enclosure url="https://www.bleepstatic.com/content/hl-images/2021/03/29/PHP-headpic.jpg" type="image/jpeg" length="0"/>
-      <description><![CDATA[<p><img src="https://www.bleepstatic.com/content/hl-images/2021/03/29/PHP-headpic.jpg" alt=""/></p><p>The PHP security team says it will ship emergency updates on Wednesday, October 21 at 7:00 AM PT for two critical vulnerabilities rated 9.2 under CVSS v4.0, after details leaked ahead of the planned embargo. watchTowr says both are remote code execution bugs believed to affect PHP 5, 6, 7 and 8, and that it has reproduced one of them. No exploitation in the wild has been observed yet, and PHP says it may release earlier if details go public or attacks start.</p><p>Admins running PHP should be ready to patch as soon as the fixed releases land.</p><p>Source: <a href="https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/">BleepingComputer</a></p>]]></description>
-    </item>
-
     </channel>
 </rss>
