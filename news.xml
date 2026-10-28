@@ -7,8 +7,22 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Wed, 28 Oct 2026 12:08:15 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 13:07:35 -0700</lastBuildDate>
     <item>
+<title>CISA adds Fragnesia Linux kernel flaw CVE-2026-46300 to KEV with a three-day deadline after PHP2Shell root chain</title>
+<link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-46300</link>
+<guid isPermaLink="false">cisa-kev-fragnesia-cve-2026-46300-20261028130735</guid>
+<pubDate>Wed, 28 Oct 2026 13:07:35 -0700</pubDate>
+<description><![CDATA[<p>CISA added the Linux kernel privilege-escalation flaw CVE-2026-46300, known as Fragnesia, to its Known Exploited Vulnerabilities catalog on October 28 and gave federal agencies until October 31 to fix it, with forensic triage required. CISA says attackers chain it with the PHP2Shell bugs CVE-2026-109618 and CVE-2026-109619 to plant PHP webshells and run commands as root, the same chain Dream reported against 25 internet-facing firewall servers.</p><p>Sources: <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-46300">CISA KEV entry</a>, <a href="https://www.securityweek.com/china-linked-hackers-exploit-php2shell-to-root-firewalls/">SecurityWeek</a></p>]]></description>
+</item>
+<item>
+<title>CISA flags VMware ESX audit-logging gap CVE-2026-41709 as actively exploited</title>
+<link>https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/38017</link>
+<guid isPermaLink="false">cisa-kev-vmware-esx-cve-2026-41709-20261028130735</guid>
+<pubDate>Wed, 28 Oct 2026 13:07:35 -0700</pubDate>
+<description><![CDATA[<p>CISA added CVE-2026-41709 in VMware ESX to its Known Exploited Vulnerabilities catalog on October 28, with a November 11 federal deadline. The bug is rated low severity (CVSS 2.7) because it needs ESX admin access, but it lets an attacker with that access perform some operations without leaving audit-log entries, which matters for hypervisor intrusions. Broadcom fixed it in VMSA-2026-0006 for ESXi 8.0, 9.0 and 9.1 and Cloud Foundation 5.2.4; CrowdStrike reported the issue.</p><p>Sources: <a href="https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/38017">Broadcom advisory</a>, <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-41709">CISA KEV entry</a></p>]]></description>
+</item>
+<item>
 <title>Volt Typhoon tied to "Silent Train" covert network used in four zero-day campaigns against SD-WAN and management platforms</title>
 <link>https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html</link>
 <guid isPermaLink="false">volt-typhoon-silent-train-zero-days-20261028120815</guid>
@@ -375,22 +389,6 @@
       <pubDate>Thu, 22 Oct 2026 09:04:28 -0700</pubDate>
       <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBGpr0x4Dn4VV8YVCO_s3CzzGvwmVUceHbt0llcvrzvBmWFaJcu9E9v3WntJGdez3PZ-53GAVSRiYc5FdSOgmyeCSXvpL2t5nCjhzJC50kTLhQygW8cCeFHqtZtDYHsG7Vx2uf1vVdobBbKJ5fcCKSNZDKpV00GRQKVlD444srM9L4rcPnTe28nABZ3pon/s1600/chinese-ai.jpg" type="image/jpeg" length="0"/>
       <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBGpr0x4Dn4VV8YVCO_s3CzzGvwmVUceHbt0llcvrzvBmWFaJcu9E9v3WntJGdez3PZ-53GAVSRiYc5FdSOgmyeCSXvpL2t5nCjhzJC50kTLhQygW8cCeFHqtZtDYHsG7Vx2uf1vVdobBbKJ5fcCKSNZDKpV00GRQKVlD444srM9L4rcPnTe28nABZ3pon/s1600/chinese-ai.jpg" alt=""/></p><p>Microsoft says the China state-aligned actor Storm-0940 was behind the recent compromise of the ConnectWise Cloud Backup app. The group used ARTEX, an agentic AI penetration-testing framework, to automate reconnaissance, password spraying and abuse of the already-consented OAuth app against hundreds of organizations since September 2026. Targets span defense, government, energy, finance, semiconductors, software and more, and the app access let the attackers authenticate without any interactive user sign-in.</p><p>Source: <a href="https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html">The Hacker News</a></p>]]></description>
-    </item>
-    <item>
-      <title><![CDATA[INTERPOL's Operation Serengeti III arrests 1,462 and disrupts 10,909 cybercrime networks in Africa]]></title>
-      <link>https://thehackernews.com/2026/10/interpol-arrests-1462-suspects-disrupts.html</link>
-      <guid isPermaLink="false">interpol-serengeti-iii-20261022090428</guid>
-      <pubDate>Thu, 22 Oct 2026 09:04:28 -0700</pubDate>
-      <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgztarCkWkHIW3EBCYV1Uaoz1pLURW3sA5E381ALhft79JhEp71NrhOngLJTWtoT1EL-mI7G6sz0geVq0clphhNqFhyphenhyphen6zPdTK1KYcNAPR43HvdicTavSv5eFTsMTVh36gi570aIN265ZJnbfwvMcWSIriWeU_28JWsofVj-9k1qQdKddXoDeh6dNeWy2ViE/s1600/interpol-1.jpg" type="image/jpeg" length="0"/>
-      <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgztarCkWkHIW3EBCYV1Uaoz1pLURW3sA5E381ALhft79JhEp71NrhOngLJTWtoT1EL-mI7G6sz0geVq0clphhNqFhyphenhyphen6zPdTK1KYcNAPR43HvdicTavSv5eFTsMTVh36gi570aIN265ZJnbfwvMcWSIriWeU_28JWsofVj-9k1qQdKddXoDeh6dNeWy2ViE/s1600/interpol-1.jpg" alt=""/></p><p>INTERPOL says Operation Serengeti III, run from June 29 to August 31, 2026 across 21 countries, disrupted 10,909 malicious networks, arrested 1,462 suspects and recovered more than $105 million. Investigators identified 65,929 victims and linked the activity to losses above $385 million, with private partners such as Group-IB and Team Cymru supplying intelligence on phishing kits and botnets.</p><p>Sources: <a href="https://thehackernews.com/2026/10/interpol-arrests-1462-suspects-disrupts.html">The Hacker News</a>, <a href="https://www.bleepingcomputer.com/news/security/authorities-disrupt-nearly-11-000-cybercrime-networks-in-africa/">BleepingComputer</a></p>]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Oracle's October 2026 Critical Patch Update fixes 1,209 CVEs, 95 of them critical]]></title>
-      <link>https://www.securityweek.com/oracle-patches-over-1200-vulnerabilities-with-october-2026-cpu/</link>
-      <guid isPermaLink="false">oracle-october-2026-cpu-20261022090428</guid>
-      <pubDate>Thu, 22 Oct 2026 09:04:28 -0700</pubDate>
-      <enclosure url="https://www.securityweek.com/wp-content/uploads/2026/10/Oracle.jpeg" type="image/jpeg" length="0"/>
-      <description><![CDATA[<p><img src="https://www.securityweek.com/wp-content/uploads/2026/10/Oracle.jpeg" alt=""/></p><p>Oracle's October 2026 CPU ships 1,295 patches for 1,209 unique CVEs, including 95 rated critical and 439 rated high, according to Tenable's analysis. Fusion Middleware got the most fixes (206), and 134 of those can be exploited remotely without authentication. E-Business Suite, Siebel CRM, PeopleSoft, JD Edwards, MySQL and Java SE also received large batches.</p><p>Source: <a href="https://www.securityweek.com/oracle-patches-over-1200-vulnerabilities-with-october-2026-cpu/">SecurityWeek</a></p>]]></description>
     </item>
     </channel>
 </rss>
