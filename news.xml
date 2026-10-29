@@ -7,8 +7,32 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 29 Oct 2026 09:06:41 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 10:07:09 -0700</lastBuildDate>
     <item>
+      <title>Linux kernel TCP flaw CVE-2026-98432 rated 9.8 by kernel team; Ubuntu and RHEL still lack fixed kernels</title>
+      <link>https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html</link>
+      <guid isPermaLink="false">linux-tcp-cve-2026-98432-20261029100709</guid>
+      <pubDate>Thu, 29 Oct 2026 10:07:09 -0700</pubDate>
+      <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcSWXTg8eHlxb0m5-m8xCEly9KQO-0qKV9c7QD7fF51aCb4HUEucmb657vogvKmlA8ra_4kMI6i_w11eYPIVvPSEBnuKnPg9E_HpEw0H1czq883zm_NaUEzarlfXlLd2OKd4b2jbPmMDXvWloR9iNa748-3xhEjD5wNuIznKGTmNwIV3CSeoBkt61zN5o/s1600/linux-dos.png" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcSWXTg8eHlxb0m5-m8xCEly9KQO-0qKV9c7QD7fF51aCb4HUEucmb657vogvKmlA8ra_4kMI6i_w11eYPIVvPSEBnuKnPg9E_HpEw0H1czq883zm_NaUEzarlfXlLd2OKd4b2jbPmMDXvWloR9iNa748-3xhEjD5wNuIznKGTmNwIV3CSeoBkt61zN5o/s1600/linux-dos.png" alt=""/></p><p>CVE-2026-98432 is a use-after-free race in the Linux kernel's IPv4 TCP handshake code, present since Linux 4.4, which the kernel CVE team scores 9.8. Anthropic says its AI model built an exploit giving an unauthenticated remote attacker root on servers with a multipath TCP listener, though Red Hat and others score it between 5.9 and 8.1 because the race is hard to win. Debian, SUSE, Oracle Linux and Amazon Linux have shipped fixes, but Ubuntu and RHEL have no fixed kernel yet, and no in-the-wild exploitation has been reported.</p><p>Source: <a href="https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html">The Hacker News</a></p>]]></description>
+    </item>
+<item>
+      <title>319 Chrome extensions with 13.4 million installs caught hijacking searches for ad revenue</title>
+      <link>https://www.bleepingcomputer.com/news/security/chrome-extensions-with-134-million-installs-caught-hijacking-searches/</link>
+      <guid isPermaLink="false">chrome-extensions-search-hijack-20261029100709</guid>
+      <pubDate>Thu, 29 Oct 2026 10:07:09 -0700</pubDate>
+      <enclosure url="https://www.bleepstatic.com/content/hl-images/2026/10/29/Chrome.jpg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://www.bleepstatic.com/content/hl-images/2026/10/29/Chrome.jpg" alt=""/></p><p>Socket researcher John Tuckner found 319 Chrome extensions, with about 13.4 million combined installs, that quietly redirected users' searches through tracking servers to earn Bing and Yahoo advertising revenue. The new report adds 264 extensions and 8.7 million users to a campaign he first exposed in April 2025, and attributes them to a handful of organized operators.</p><p>Source: <a href="https://www.bleepingcomputer.com/news/security/chrome-extensions-with-134-million-installs-caught-hijacking-searches/">BleepingComputer</a></p>]]></description>
+    </item>
+<item>
+      <title>Sony Network Communications breach exposes about 2.5 million customer records</title>
+      <link>https://www.bleepingcomputer.com/news/security/sony-isp-subsidiary-data-breach-exposes-25-million-customer-records/</link>
+      <guid isPermaLink="false">sony-network-communications-breach-20261029100709</guid>
+      <pubDate>Thu, 29 Oct 2026 10:07:09 -0700</pubDate>
+      <enclosure url="https://www.bleepstatic.com/content/hl-images/2026/10/28/sony.jpg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://www.bleepstatic.com/content/hl-images/2026/10/28/sony.jpg" alt=""/></p><p>Sony Network Communications, the Sony Group subsidiary that runs an internet service provider in Japan, confirmed a breach of roughly 2.5 million records with current and former customers' personal information. The intrusion happened on October 19 and was detected four days later, when the company shut down the affected servers and blocked external communication.</p><p>Source: <a href="https://www.bleepingcomputer.com/news/security/sony-isp-subsidiary-data-breach-exposes-25-million-customer-records/">BleepingComputer</a></p>]]></description>
+    </item>
+<item>
       <title>Cisco patches actively exploited ASA and FTD VPN flaw CVE-2026-76418 that lets unauthenticated attackers crash firewalls</title>
       <link>https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html</link>
       <guid isPermaLink="false">cisco-asa-ftd-exploited-20261029090641</guid>
@@ -366,29 +390,5 @@
 <enclosure url="https://cdn.document360.io/956e37e2-5ec0-4942-8b27-35533899f099/Images/Documentation/ISC-logo-rgb-2048x1149.png" type="image/jpeg" length="0"/>
 <description><![CDATA[<p><img src="https://cdn.document360.io/956e37e2-5ec0-4942-8b27-35533899f099/Images/Documentation/ISC-logo-rgb-2048x1149.png" alt=""/></p><p>ISC disclosed a high-severity BIND 9 bug (CVSS 8.1) where replaying captured GSS-TSIG signed UDP messages, combined with crafted queries to an attacker-controlled zone, can corrupt memory in named and potentially lead to remote code execution. It affects BIND 9.11.0 through 9.18.50, 9.20.0 through 9.20.29, and 9.21.0 through 9.21.26; fixes are in 9.20.30 and 9.21.27, with no workaround.</p><p>ISC says it is not aware of active exploitation, and the risk is mainly for servers using GSS-TSIG with Kerberos. Dave Aitel of OpenAI independently reported it.</p><p>Source: <a href="https://kb.isc.org/docs/cve-2026-94300">ISC security advisory</a></p>]]></description>
 </item>
-<item>
-<title>Capcom confirms CAPCOM ID breach exposing 11.7 million accounts</title>
-<link>https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/</link>
-<guid isPermaLink="false">capcom-id-breach-20261022140940</guid>
-<pubDate>Thu, 22 Oct 2026 14:09:40 -0700</pubDate>
-<description><![CDATA[<p><img src="https://www.bleepstatic.com/content/hl-images/2026/10/22/capcom.jpg" alt=""/></p><p>Capcom confirmed hackers breached its CAPCOM ID membership service, exposing more than 11.7 million customer email addresses along with account creation dates, login counts and last-login IP addresses. A small subset of 43 accounts also had birth dates, gender, nicknames and countries exposed, and attackers changed passwords on 196 accounts before Capcom reset them. Capcom says other passwords and credit card data were not exposed; it detected the intrusion on October 19.</p><p>Source: <a href="https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/">BleepingComputer</a></p>]]></description>
-<enclosure url="https://www.bleepstatic.com/content/hl-images/2026/10/22/capcom.jpg" type="image/jpeg" length="0"/>
-</item>
-<item>
-<title>Two CVSS 9.0 Linux KSMBD RCE flaws disclosed before kernel fixes, one pre-auth</title>
-<link>https://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html</link>
-<guid isPermaLink="false">linux-ksmbd-rce-unpatched-20261022121055</guid>
-<pubDate>Thu, 22 Oct 2026 12:10:55 -0700</pubDate>
-<enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdNNyKzD2udgIl0X434MI2ucEwGFB_B-QqyjMnMuvTfwZv7clEo3n0ASA_aEQtUmQ7wqPSREwq1Cvi3iQLtubfUkK7p017Q6SrliTkwHiJyhfDIzahdof71Mxs4LXqJWoLkAnwikxy2KmZ1pkMg5Qto-RwPnvQx71Ol4G7sO20eeVNr_pfstT2WbDg3Nk/s1600/linux-rce.jpg" type="image/jpeg" length="0"/>
-<description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdNNyKzD2udgIl0X434MI2ucEwGFB_B-QqyjMnMuvTfwZv7clEo3n0ASA_aEQtUmQ7wqPSREwq1Cvi3iQLtubfUkK7p017Q6SrliTkwHiJyhfDIzahdof71Mxs4LXqJWoLkAnwikxy2KmZ1pkMg5Qto-RwPnvQx71Ol4G7sO20eeVNr_pfstT2WbDg3Nk/s1600/linux-rce.jpg" alt=""/></p><p>Trend Micro's ZDI publicly reported two remote code execution flaws in KSMBD, the Linux kernel's built-in SMB server, with no fix yet in mainline or linux-next and no CVEs assigned. ZDI-CAN-33774 is a handler-table race reachable before authentication on port 445, while ZDI-CAN-33549 is an integer underflow that needs SMB Direct over an RDMA-capable interface. KSMBD isn't enabled on many distros by default (RHEL doesn't ship it), so exposure is limited to systems running the module; admins can check with lsmod and block port 445 until patches land. No exploitation has been reported.</p><p>Source: <a href="https://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html">The Hacker News</a></p>]]></description>
-</item>
-<item>
-<title>eMudhra to exit global SSL/TLS business after eight intermediate CA keys were exposed</title>
-<link>https://thehackernews.com/2026/10/emudhra-to-exit-global-ssltls-business.html</link>
-<guid isPermaLink="false">emudhra-exits-tls-business-20261022121055</guid>
-<pubDate>Thu, 22 Oct 2026 12:10:55 -0700</pubDate>
-<enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5DGeZCzWnHOoA87UbpfzGUlpU9xBK1x5tJsYlWOoKtyEkTRjaN4cW_lMOKdtiSXVPhVMd6JhOMRhvFOxvn853LcLaCBSNK-_m4CDIDGt048SdHQQqu63ZSZ09Ymc3UhqD_TZoLaCM6eIJL6TSYbBVINceAi4paPvjxJ4i9uN3CKZQ2s5bT4Dc_jAcv8I/s1600/ssl.jpg" type="image/jpeg" length="0"/>
-<description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5DGeZCzWnHOoA87UbpfzGUlpU9xBK1x5tJsYlWOoKtyEkTRjaN4cW_lMOKdtiSXVPhVMd6JhOMRhvFOxvn853LcLaCBSNK-_m4CDIDGt048SdHQQqu63ZSZ09Ymc3UhqD_TZoLaCM6eIJL6TSYbBVINceAi4paPvjxJ4i9uN3CKZQ2s5bT4Dc_jAcv8I/s1600/ssl.jpg" alt=""/></p><p>Indian certificate authority eMudhra's board voted to withdraw from the global SSL/TLS certificate business, five days after a researcher recovered the private keys of eight of its intermediate CAs. Chrome will stop trusting the emSign ECC Root CA - G3 around the morning of October 27 PT, following Mozilla's Firefox decision on October 20. About 30,800 unexpired certificates chain to that root, 99.9% issued through Internet2's InCommon service for higher education, and Google says those site operators must replace them immediately. eMudhra says it will swap affected customers to free certificates from unnamed partners.</p><p>Source: <a href="https://thehackernews.com/2026/10/emudhra-to-exit-global-ssltls-business.html">The Hacker News</a></p>]]></description>
-</item>
-    </channel>
+</channel>
 </rss>
