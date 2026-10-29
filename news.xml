@@ -7,7 +7,31 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Wed, 28 Oct 2026 13:07:35 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 09:06:41 -0700</lastBuildDate>
+    <item>
+      <title>Cisco patches actively exploited ASA and FTD VPN flaw CVE-2026-76418 that lets unauthenticated attackers crash firewalls</title>
+      <link>https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html</link>
+      <guid isPermaLink="false">cisco-asa-ftd-exploited-20261029090641</guid>
+      <pubDate>Thu, 29 Oct 2026 09:06:41 -0700</pubDate>
+      <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKqTkl_DfXdrvaLinBOu5OU0NISVo_mPJfqRmnHL-m8efFXEijbxOVsFgrSPparCspKfoUtxDtfA7gu8myFTfvWCFJfse3BQakKGOZCA54pWh371KyXdluHyqjckIBFjZ36Ogv1EI42yDCO2dt02noigEyL2RKJ8lEivH3PCWJURryc1JtNO9djpeW88tJ/s1600/cisco-flaws.jpg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKqTkl_DfXdrvaLinBOu5OU0NISVo_mPJfqRmnHL-m8efFXEijbxOVsFgrSPparCspKfoUtxDtfA7gu8myFTfvWCFJfse3BQakKGOZCA54pWh371KyXdluHyqjckIBFjZ36Ogv1EI42yDCO2dt02noigEyL2RKJ8lEivH3PCWJURryc1JtNO9djpeW88tJ/s1600/cisco-flaws.jpg" alt=""/></p><p>Cisco released fixes for CVE-2026-76418 (CVSS 8.6), a flaw in Secure Firewall ASA and FTD software that lets an unauthenticated remote attacker trigger a denial of service, and says it has been exploited in the wild. Organizations running ASA or FTD VPN services should patch promptly, since a crash takes down the perimeter firewall.</p><p>Source: <a href="https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html">The Hacker News</a></p>]]></description>
+    </item>
+    <item>
+      <title>Talos: attackers exploited Cisco Catalyst SD-WAN flaw to plant KeyDrift malware that steals inter-site encryption keys</title>
+      <link>https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html</link>
+      <guid isPermaLink="false">cisco-sdwan-keydrift-20261029090641</guid>
+      <pubDate>Thu, 29 Oct 2026 09:06:41 -0700</pubDate>
+      <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDuVB5nQJHwAnAATDQxAqD8KtWk7IpNvBqXQq6RPkqJ72joLVDp5dUDDdYmRHlrbUhJQpaQQ59p245XjotvW2DNx_fKk7cPp0wJUsK0z5IQY2jXA1oP-YcYKLtSdBXnZJDNECWOzX9tP3-12cKXJm2A1KKoBsu9CEiOYKbgJDVqvQt7YRF8Fzd706YumA/s1600/cisco-sdwan.jpg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDuVB5nQJHwAnAATDQxAqD8KtWk7IpNvBqXQq6RPkqJ72joLVDp5dUDDdYmRHlrbUhJQpaQQ59p245XjotvW2DNx_fKk7cPp0wJUsK0z5IQY2jXA1oP-YcYKLtSdBXnZJDNECWOzX9tP3-12cKXJm2A1KKoBsu9CEiOYKbgJDVqvQt7YRF8Fzd706YumA/s1600/cisco-sdwan.jpg" alt=""/></p><p>Cisco Talos said on October 28 that attackers exploited a critical Catalyst SD-WAN flaw fixed in February to plant custom malware called KeyDrift inside SD-WAN controllers. KeyDrift copies the keys that encrypt traffic between sites and stores them for later use. Talos describes the attacks as historical but did not say when they happened.</p><p>Source: <a href="https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html">The Hacker News</a></p>]]></description>
+    </item>
+    <item>
+      <title>Palo Alto Networks warns PHP2Shell flaws are being exploited against internet-exposed firewall management interfaces</title>
+      <link>https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html</link>
+      <guid isPermaLink="false">php2shell-palo-alto-mgmt-20261029090641</guid>
+      <pubDate>Thu, 29 Oct 2026 09:06:41 -0700</pubDate>
+      <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9wRucatO6j8IYS9drMJNn_BtgvNwY739pg33a6-50h33cCXnqi4unW5RppMfzO6TLjMdDQ-XICWN6uKTU6ai_SyLBeD8k4SdO7Kx2-QJeMbz0LSEMZkuKZls2dMSNoJmkY5nSc2SOduiSkVpKY9uFjCG0gU73hMvSyyqMANymiqb012-Z_rVUUUJtQQ5C/s1600/php-palo.jpg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9wRucatO6j8IYS9drMJNn_BtgvNwY739pg33a6-50h33cCXnqi4unW5RppMfzO6TLjMdDQ-XICWN6uKTU6ai_SyLBeD8k4SdO7Kx2-QJeMbz0LSEMZkuKZls2dMSNoJmkY5nSc2SOduiSkVpKY9uFjCG0gU73hMvSyyqMANymiqb012-Z_rVUUUJtQQ5C/s1600/php-palo.jpg" alt=""/></p><p>Palo Alto Networks updated its advisory on October 28 to say attackers are actively exploiting the recently patched PHP2Shell vulnerabilities against management interfaces exposed to the internet. Customers should patch and restrict management access to trusted internal networks.</p><p>Source: <a href="https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html">The Hacker News</a></p>]]></description>
+    </item>
     <item>
 <title>CISA adds Fragnesia Linux kernel flaw CVE-2026-46300 to KEV with a three-day deadline after PHP2Shell root chain</title>
 <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-46300</link>
@@ -366,29 +390,5 @@
 <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5DGeZCzWnHOoA87UbpfzGUlpU9xBK1x5tJsYlWOoKtyEkTRjaN4cW_lMOKdtiSXVPhVMd6JhOMRhvFOxvn853LcLaCBSNK-_m4CDIDGt048SdHQQqu63ZSZ09Ymc3UhqD_TZoLaCM6eIJL6TSYbBVINceAi4paPvjxJ4i9uN3CKZQ2s5bT4Dc_jAcv8I/s1600/ssl.jpg" type="image/jpeg" length="0"/>
 <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5DGeZCzWnHOoA87UbpfzGUlpU9xBK1x5tJsYlWOoKtyEkTRjaN4cW_lMOKdtiSXVPhVMd6JhOMRhvFOxvn853LcLaCBSNK-_m4CDIDGt048SdHQQqu63ZSZ09Ymc3UhqD_TZoLaCM6eIJL6TSYbBVINceAi4paPvjxJ4i9uN3CKZQ2s5bT4Dc_jAcv8I/s1600/ssl.jpg" alt=""/></p><p>Indian certificate authority eMudhra's board voted to withdraw from the global SSL/TLS certificate business, five days after a researcher recovered the private keys of eight of its intermediate CAs. Chrome will stop trusting the emSign ECC Root CA - G3 around the morning of October 27 PT, following Mozilla's Firefox decision on October 20. About 30,800 unexpired certificates chain to that root, 99.9% issued through Internet2's InCommon service for higher education, and Google says those site operators must replace them immediately. eMudhra says it will swap affected customers to free certificates from unnamed partners.</p><p>Source: <a href="https://thehackernews.com/2026/10/emudhra-to-exit-global-ssltls-business.html">The Hacker News</a></p>]]></description>
 </item>
-<item>
-<title>Arista patches VeloCloud Orchestrator zero-day exploited in attacks (CVE-2026-114625)</title>
-<link>https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/</link>
-<guid isPermaLink="false">arista-velocloud-vco-zero-day-20261022110816</guid>
-<pubDate>Thu, 22 Oct 2026 11:08:16 -0700</pubDate>
-<enclosure url="https://www.bleepstatic.com/content/hl-images/2026/10/22/Arista.jpg" type="image/jpeg" length="0"/>
-<description><![CDATA[<p><img src="https://www.bleepstatic.com/content/hl-images/2026/10/22/Arista.jpg" alt=""/></p><p>Arista released fixes for CVE-2026-114625, a critical SQL injection flaw in on-prem VeloCloud Orchestrator, the SD-WAN management portal, that is being exploited in attacks. It needs a valid authenticated session but lets any user escalate to a "superuser operator" and reach internal-only functions on the VCO host. Arista says hosted VCO is already patched and urges on-prem admins to update, restrict the web interface to admin networks, and block two attacker IPs. It's Arista's fourth exploited zero-day this year.</p><p>Source: <a href="https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/">BleepingComputer</a></p>]]></description>
-</item>
-<item>
-      <title><![CDATA[Amazon: PHP2Shell exploit attempts started four days before patches shipped]]></title>
-      <link>https://www.bleepingcomputer.com/news/security/amazon-says-php2shell-exploitation-began-4-days-before-patches/</link>
-      <guid isPermaLink="false">php2shell-preembargo-exploitation-20261022090428</guid>
-      <pubDate>Thu, 22 Oct 2026 09:04:28 -0700</pubDate>
-      <enclosure url="https://www.bleepstatic.com/content/hl-images/2026/10/22/PHP-attack.jpg" type="image/jpeg" length="0"/>
-      <description><![CDATA[<p><img src="https://www.bleepstatic.com/content/hl-images/2026/10/22/PHP-attack.jpg" alt=""/></p><p>Amazon Threat Intelligence says it caught an attempt to exploit the PHP2Shell flaws (CVE-2026-109618 and CVE-2026-109619) against its MadPot honeypots on October 17, four days before PHP shipped patches on October 21 and while the bugs were still under embargo. The attempt came from an anonymization-network IP, and it is unclear how the attacker got exploit details early. Several security firms have since reported further exploit attempts after the patches came out, so unpatched PHP 7.x and 8.x servers should be treated as at risk.</p><p>Sources: <a href="https://www.bleepingcomputer.com/news/security/amazon-says-php2shell-exploitation-began-4-days-before-patches/">BleepingComputer</a>, <a href="https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html">The Hacker News</a></p>]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Microsoft ties ConnectWise Cloud Backup supply chain attack to China-linked Storm-0940 using ARTEX AI agents]]></title>
-      <link>https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html</link>
-      <guid isPermaLink="false">storm-0940-connectwise-artex-20261022090428</guid>
-      <pubDate>Thu, 22 Oct 2026 09:04:28 -0700</pubDate>
-      <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBGpr0x4Dn4VV8YVCO_s3CzzGvwmVUceHbt0llcvrzvBmWFaJcu9E9v3WntJGdez3PZ-53GAVSRiYc5FdSOgmyeCSXvpL2t5nCjhzJC50kTLhQygW8cCeFHqtZtDYHsG7Vx2uf1vVdobBbKJ5fcCKSNZDKpV00GRQKVlD444srM9L4rcPnTe28nABZ3pon/s1600/chinese-ai.jpg" type="image/jpeg" length="0"/>
-      <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBGpr0x4Dn4VV8YVCO_s3CzzGvwmVUceHbt0llcvrzvBmWFaJcu9E9v3WntJGdez3PZ-53GAVSRiYc5FdSOgmyeCSXvpL2t5nCjhzJC50kTLhQygW8cCeFHqtZtDYHsG7Vx2uf1vVdobBbKJ5fcCKSNZDKpV00GRQKVlD444srM9L4rcPnTe28nABZ3pon/s1600/chinese-ai.jpg" alt=""/></p><p>Microsoft says the China state-aligned actor Storm-0940 was behind the recent compromise of the ConnectWise Cloud Backup app. The group used ARTEX, an agentic AI penetration-testing framework, to automate reconnaissance, password spraying and abuse of the already-consented OAuth app against hundreds of organizations since September 2026. Targets span defense, government, energy, finance, semiconductors, software and more, and the app access let the attackers authenticate without any interactive user sign-in.</p><p>Source: <a href="https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html">The Hacker News</a></p>]]></description>
-    </item>
     </channel>
 </rss>
