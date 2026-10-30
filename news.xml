@@ -7,8 +7,16 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 30 Oct 2026 11:09:07 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 12:04:08 -0700</lastBuildDate>
     <item>
+<title>China-linked Vapor Panda used the AI agent framework ARTEX to target more than 200 organizations, with nine confirmed breaches</title>
+<link>https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html</link>
+<guid isPermaLink="false">vapor-panda-artex-ai-intrusions-20261030120408</guid>
+<pubDate>Fri, 30 Oct 2026 12:04:08 -0700</pubDate>
+<enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiP1M46Z4Xs0qNHz9xzhTea14XsqTHvNhAfnGb4Ni9goHQR2ypz3BLKRgu-WxWD8VSUNMB3YAP7UhcCAK1AweCc3lC-7VlJ-OqNniD4FvZdE_R-XJkkRadhl2tp3-PqbKPWmQTeJ3a3gvd1kHH_zaW06tCf9cH-7k5feNqHrqbChMAsc5K3hruiX9BDROAe/s1600/CS.jpg" type="image/jpeg" length="0"/>
+<description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiP1M46Z4Xs0qNHz9xzhTea14XsqTHvNhAfnGb4Ni9goHQR2ypz3BLKRgu-WxWD8VSUNMB3YAP7UhcCAK1AweCc3lC-7VlJ-OqNniD4FvZdE_R-XJkkRadhl2tp3-PqbKPWmQTeJ3a3gvd1kHH_zaW06tCf9cH-7k5feNqHrqbChMAsc5K3hruiX9BDROAe/s1600/CS.jpg" alt=""/></p><p>CrowdStrike says the China-based group Vapor Panda (overlapping with Earth Estries) has used ARTEX, a Go-based AI penetration-testing framework of coordinating planner and worker agents running on DeepSeek and a commercial LLM, against more than 200 organizations since October 17. Targets include foreign ministries, U.S. semiconductor, defense and think-tank organizations, and telecom providers in several regions.</p><p>Post-exploitation was confirmed at nine organizations, where the attackers deployed the ShadowPad derivative BLOODALCHEMY and ran credential spraying and network reconnaissance.</p><p>Source: <a href="https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html">The Hacker News</a></p>]]></description>
+</item>
+<item>
 <title>CISA adds two more Ivanti Connect Secure flaws to KEV, completing an exploited chain that gives attackers unauthenticated root</title>
 <link>https://www.thestack.technology/ivanti-patches-two-more-cves-amid-highly-unusual-connect-secure-exploitation/</link>
 <guid isPermaLink="false">ivanti-connect-secure-kev-chain-20261030110907</guid>
@@ -382,13 +390,5 @@
       <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0cTK7D5hQFR-3qGTicTlfi6_CbnMIgCJWIojDeXmZr91hrIPqhhxZ72mAsnB6kBOcCdscZOL_VN8RhAdYIxq3d128rkaDweIApSaV5w3IzB1YGN3XNnlarG0IKN5VuDJy_RnPBxXZoKQ1Yh950YFNz-b_pbvEY_QlQa5Tr-BP4366UgkGIg968J-QEN1M/s1600/uefi.jpg" alt=""/></p><p>Kaspersky says a new UEFI bootkit called BlackX, an updated BlackLotus, hit diplomatic organizations in Tajikistan, Uzbekistan and Turkmenistan in early 2026, and it suspects China-linked APT41. BlackX loads before Windows to undermine startup and third-party security defenses and keep long-term covert access. It works on fully patched systems where Microsoft's manual Secure Boot revocation mitigations were never applied, though attackers first need admin or physical access.</p><p>Source: <a href="https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html">The Hacker News</a></p>]]></description>
     </item>
 
-<item>
-      <title>Ruby patches three Onigmo regex engine bugs behind four critical GitLab RCE flaws</title>
-      <link>https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html</link>
-      <guid isPermaLink="false">ruby-onigmo-gitlab-rce-20261023110907</guid>
-      <pubDate>Fri, 23 Oct 2026 11:09:07 -0700</pubDate>
-      <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjA5n8ST_yuElQgTwbfq1oFnVAoiTvZCW_Ct1b8lT_OQ9dnyeXfocrqzTUJJ1t920YaEa-7Sonxl9KlthV4x7lXI3dmJxc9_S11NjWRJ6dcgfsX4UGhv0KFWZsZrzXKpjh92JPyDdHPlCPQh1AHd0YKM44sVcc9d-57r8_BdrIb3V06MWfk8bRAy4kDU6I/s1600/ruby-rce.jpg" type="image/jpeg" length="0"/>
-      <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjA5n8ST_yuElQgTwbfq1oFnVAoiTvZCW_Ct1b8lT_OQ9dnyeXfocrqzTUJJ1t920YaEa-7Sonxl9KlthV4x7lXI3dmJxc9_S11NjWRJ6dcgfsX4UGhv0KFWZsZrzXKpjh92JPyDdHPlCPQh1AHd0YKM44sVcc9d-57r8_BdrIb3V06MWfk8bRAy4kDU6I/s1600/ruby-rce.jpg" alt=""/></p><p>Ruby released 4.0.9, 3.4.12 and 3.3.13 to fix three memory-corruption bugs in Onigmo, its built-in regular expression engine, which can lead to code execution when an app compiles a regex from attacker-controlled text. The bugs sit behind four critical GitLab CVEs patched between September 23 and October 21, including two from October (CVE-2026-97229 and CVE-2026-110264) that need no account. Regexp.timeout and pattern-length caps do not help, Ruby 4.0.8 misses one fix, and Ruby 3.2 and earlier get no patch. No in-the-wild exploitation has been reported.</p><p>Source: <a href="https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html">The Hacker News</a></p>]]></description>
-    </item>
-    </channel>
+</channel>
 </rss>
