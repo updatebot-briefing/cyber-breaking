@@ -7,8 +7,16 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 29 Oct 2026 13:02:16 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 18:06:26 -0700</lastBuildDate>
     <item>
+<title>Hacktivists leak names and assignments of 41,000 DHS staff, including undercover ICE agents</title>
+<link>https://www.helpnetsecurity.com/2026/10/29/icepick-dhs-leak-ice-undercover-agents/</link>
+<guid isPermaLink="false">dhs-icepick-leak-20261029180626</guid>
+<pubDate>Thu, 29 Oct 2026 18:06:26 -0700</pubDate>
+<enclosure url="https://img.helpnetsecurity.com/wp-content/uploads/2026/09/02152933/data_leak-1500.webp" type="image/jpeg" length="0"/>
+<description><![CDATA[<p><img src="https://img.helpnetsecurity.com/wp-content/uploads/2026/09/02152933/data_leak-1500.webp" alt=""/></p><p>A hacktivist group calling itself the Department of Peace leaked names, offices, contact details and assignments of more than 41,000 U.S. Department of Homeland Security employees, published by DDoSecrets on October 28 as the "Icepick" dataset. The group says the records came from an Okta single sign-on service used by DHS; Okta says it has no evidence its systems were compromised, and Reuters verified details for several named employees. CBP staff make up about 21,300 entries and ICE about 6,600, and DHS says it is aware of a potential breach.</p><p>Source: <a href="https://www.helpnetsecurity.com/2026/10/29/icepick-dhs-leak-ice-undercover-agents/">Help Net Security</a></p>]]></description>
+</item>
+<item>
       <title>CISA adds CVSS 10 GitLab RCE flaw CVE-2026-97229 to KEV with a November 1 deadline after an attack on Alpine Linux's server</title>
       <link>https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html</link>
       <guid isPermaLink="false">cisa-kev-gitlab-cve-2026-97229-20261029130216</guid>
@@ -381,14 +389,6 @@
 <pubDate>Fri, 23 Oct 2026 02:36:00 -0700</pubDate>
 <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGp9s38cCmrESabSZezAPkJaYoavpBM8Ehckei0ZrhKfBSoSXMyrWkzooakGExz1GBYVgi0izvW8wyKH2CEX7vpzLExRkK7uNW8wDdMzJ_k7NR8u6q-WA9e8Aoc19LNfJbFKgB6GkbAKbXW69_lOdM4sz4t5fmpKsLxHWKJPOugq5g_45Q5_WmCm_vA6U/s1600/python-image.jpg" type="image/jpeg" length="0"/>
 <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGp9s38cCmrESabSZezAPkJaYoavpBM8Ehckei0ZrhKfBSoSXMyrWkzooakGExz1GBYVgi0izvW8wyKH2CEX7vpzLExRkK7uNW8wDdMzJ_k7NR8u6q-WA9e8Aoc19LNfJbFKgB6GkbAKbXW69_lOdM4sz4t5fmpKsLxHWKJPOugq5g_45Q5_WmCm_vA6U/s1600/python-image.jpg" alt=""/></p><p>Pillow, Python's most widely used image library (about 436 million downloads a month), passes EPS filenames to Ghostscript unchecked, so an attacker who controls the filename can get OS commands run on hosts with Ghostscript installed. The bug, CVE-2026-112900 (rated 9.2 in the GitHub CVE record), affects versions 2.6.0 through 12.3.0 and is fixed in Pillow 13.0.0, a large security release. No exploitation is known.</p><p>Source: <a href="https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html">The Hacker News</a></p>]]></description>
-</item>
-<item>
-<title>Imperva's Node2Shell demo turns Node.js Brotli bug CVE-2026-111497 into code execution on an official build</title>
-<link>https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html</link>
-<guid isPermaLink="false">node2shell-cve-2026-111497-20261023014043</guid>
-<pubDate>Fri, 23 Oct 2026 01:40:43 -0700</pubDate>
-<enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDudJHAM27KiE-F4E5vX1WOgITTdawUaZrFoXUIrf7lscEHIl7fgGQY5Qo60bRxr-o7UKloYK1sp23i5cvWPpc6XXttZa8GFvYxqSV7pp0B6vdBTp0sIBCX8r8oC5CAXO1mdJfshaIpLFyrFDCm9HPiYyBZMECEcSHKzbVzOk_VpGL2kEQDjB1rNk21Y8/s1600/node2shell.gif" type="image/jpeg" length="0"/>
-<description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDudJHAM27KiE-F4E5vX1WOgITTdawUaZrFoXUIrf7lscEHIl7fgGQY5Qo60bRxr-o7UKloYK1sp23i5cvWPpc6XXttZa8GFvYxqSV7pp0B6vdBTp0sIBCX8r8oC5CAXO1mdJfshaIpLFyrFDCm9HPiYyBZMECEcSHKzbVzOk_VpGL2kEQDjB1rNk21Y8/s1600/node2shell.gif" alt=""/></p><p>Imperva showed crafted Brotli data running attacker code on the official Node.js 24.22.0 Linux arm64 build via the bundled Brotli decoder (CVE-2026-111497), going beyond the earlier crash-only proof of concept. The flaw affects the 22.x, 24.x and 26.x lines and is reachable through built-in fetch() responses or Express 5 body parsers decoding Brotli request bodies. Node.js shipped fixes on October 21 (24.22.1 rejects the data), and no in-the-wild exploitation has been reported.</p><p>Source: <a href="https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html">The Hacker News</a></p>]]></description>
 </item>
 </channel>
 </rss>
