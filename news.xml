@@ -7,8 +7,32 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 29 Oct 2026 18:06:26 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 09:14:30 -0700</lastBuildDate>
     <item>
+<title>Trojanized Claude Code extension pushed through the Cursor Marketplace tried to plant a persistent SSH backdoor</title>
+<link>https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html</link>
+<guid isPermaLink="false">claude-code-cursor-marketplace-backdoor-20261030091430</guid>
+<pubDate>Fri, 30 Oct 2026 09:14:30 -0700</pubDate>
+<enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMAV00lkxu7R724ItLdgrRsnEYHR_d2eUSdcen_KymGeBY1tCo8SRVz6w_XiNzzYgwpcl0Me3JCJz8DeieRM_0jb8aL4VkHAAIeXrqNf8oQkmzKahqMHOGvhkFK32HOasHZht8BwtI1NxEZ-_nIwmQY_8fxpGbbl3csC6oZKCVnIRk3iYTRhH975dyxsWS/s1600/cursor-vscode.jpg" type="image/jpeg" length="0"/>
+<description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMAV00lkxu7R724ItLdgrRsnEYHR_d2eUSdcen_KymGeBY1tCo8SRVz6w_XiNzzYgwpcl0Me3JCJz8DeieRM_0jb8aL4VkHAAIeXrqNf8oQkmzKahqMHOGvhkFK32HOasHZht8BwtI1NxEZ-_nIwmQY_8fxpGbbl3csC6oZKCVnIRk3iYTRhH975dyxsWS/s1600/cursor-vscode.jpg" alt=""/></p><p>A malicious version 2.1.313 of the Claude Code extension was published on the Cursor Marketplace under the legitimate anthropic.claude-code extension ID and delivered as a normal update, with a loader that tries to install a persistent SSH backdoor. Cursor says at most 5,000 users were affected and temporarily shut down its marketplace to pull the package; how attackers got the update published is still unclear. Anyone who updated the extension in Cursor recently should check the installed version and look for unexpected SSH keys or services.</p><p>Source: <a href="https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html">The Hacker News</a></p>]]></description>
+</item>
+<item>
+<title>Drupal warns its Commerce Core module has a "highly critical" access bypass, CVE-2026-118539, under active exploitation</title>
+<link>https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html</link>
+<guid isPermaLink="false">drupal-commerce-cve-2026-118539-20261030091430</guid>
+<pubDate>Fri, 30 Oct 2026 09:14:30 -0700</pubDate>
+<enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitgPkf4uToEgXwcfmDEKipEveRL2l0PEz6WIegAc2uWyf5_khO7Scgu6MpWHRovED7S-4sKJb4o88JsJT8NI8zB8WCBo04Q9TrEVNJa-08EbxP_zdPkaA7wsBEPIjXbApW1StdY8JunSewAi9TNrAcMwYZjqSsVktddqQ0uIi8-rUzXq1LMMLBHBdccapz/s1600/drupal-rce.jpg" type="image/jpeg" length="0"/>
+<description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitgPkf4uToEgXwcfmDEKipEveRL2l0PEz6WIegAc2uWyf5_khO7Scgu6MpWHRovED7S-4sKJb4o88JsJT8NI8zB8WCBo04Q9TrEVNJa-08EbxP_zdPkaA7wsBEPIjXbApW1StdY8JunSewAi9TNrAcMwYZjqSsVktddqQ0uIi8-rUzXq1LMMLBHBdccapz/s1600/drupal-rce.jpg" alt=""/></p><p>Drupal says attackers are exploiting a missing-authorization flaw in the Commerce Core shopping-cart module (versions through 2.41 and 3.0.0 through 3.3.13) that leaves certain routes and entity fields unprotected and can financially hit store owners. Drupal gave no details on the scale of the activity and advises updating to the latest release right away.</p><p>Source: <a href="https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html">The Hacker News</a></p>]]></description>
+</item>
+<item>
+<title>Binance loses about $6.3 billion in the largest crypto heist on record, traced to a compromised DevOps laptop</title>
+<link>https://thehackernews.com/2026/10/binance-suffers-security-breach.html</link>
+<guid isPermaLink="false">binance-6-3b-breach-20261030091430</guid>
+<pubDate>Fri, 30 Oct 2026 09:14:30 -0700</pubDate>
+<enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjmTtJggkBbk2ERH6bhZMSPnb_E1aQ44w4EpzkwAt1tqp45sGvG7jeAg2QvmbWQsBy5hyphenhyphen7ur18XQ1Uax7D9XRg-CZpQpMAByXt37Fn1loBClsu49KlBEsnxRCfy7vSuI-5yrpHB4JLWc1vtw0aITnhbFXDb4CosJzm07My3Lw6p3fOLTfcaxJLBR-Pdi2A6/s1600/Binance.jpg" type="image/jpeg" length="0"/>
+<description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjmTtJggkBbk2ERH6bhZMSPnb_E1aQ44w4EpzkwAt1tqp45sGvG7jeAg2QvmbWQsBy5hyphenhyphen7ur18XQ1Uax7D9XRg-CZpQpMAByXt37Fn1loBClsu49KlBEsnxRCfy7vSuI-5yrpHB4JLWc1vtw0aITnhbFXDb4CosJzm07My3Lw6p3fOLTfcaxJLBR-Pdi2A6/s1600/Binance.jpg" alt=""/></p><p>Binance says a security incident disclosed Thursday affected about $6.3 billion in assets, with nearly $3 billion frozen on-chain so far, including over 1.5 billion USDT frozen by Tether and 800 million USDC by Circle. Its early investigation points to a compromised DevOps engineer's laptop that gave the attacker access to a service container to submit unauthorized withdrawals; it reports no private-key leak and says it will cover losses. Withdrawals are expected to resume in about 48 hours, and the theft surpasses the roughly $1.5 billion Bybit heist of February 2025.</p><p>Source: <a href="https://thehackernews.com/2026/10/binance-suffers-security-breach.html">The Hacker News</a></p>]]></description>
+</item>
+<item>
 <title>Hacktivists leak names and assignments of 41,000 DHS staff, including undercover ICE agents</title>
 <link>https://www.helpnetsecurity.com/2026/10/29/icepick-dhs-leak-ice-undercover-agents/</link>
 <guid isPermaLink="false">dhs-icepick-leak-20261029180626</guid>
@@ -365,30 +389,6 @@
 <pubDate>Fri, 23 Oct 2026 10:12:18 -0700</pubDate>
 <enclosure url="https://www.securityweek.com/wp-content/uploads/2026/09/arista.jpeg" type="image/jpeg" length="0"/>
 <description><![CDATA[<p><img src="https://www.securityweek.com/wp-content/uploads/2026/09/arista.jpeg" alt=""/></p><p>CISA added Arista VeloCloud Orchestrator SQL injection flaw CVE-2026-114625 (CVSS 9.9) to its Known Exploited Vulnerabilities catalog on October 23, with an unusually short federal deadline of October 26 and forensic triage required. Any authenticated VCO user, even with the lowest tenant role, can gain superuser operator privileges on on-prem deployments, which Arista says are exposed by default.</p><p>It is the third exploited VCO zero-day in four months. Fixed releases are 5.2.3.18, 6.1.3.10 and 6.4.2.12; Arista also lists two attacker IPs to block and hunt for in logs.</p><p>Sources: <a href="https://www.securityweek.com/attackers-exploit-third-velocloud-orchestrator-zero-day-in-four-months/">SecurityWeek</a>, <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog">CISA KEV catalog</a>, <a href="https://www.arista.com/en/support/advisories-notices/security-advisory/24838-security-advisory-0199">Arista advisory</a></p>]]></description>
-</item>
-<item>
-<title>k0t campaign breached FortiGate and GlobalProtect edge devices worldwide, exposing 70,000+ credentials</title>
-<link>https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html</link>
-<guid isPermaLink="false">k0t-edge-device-campaign-20261023065056</guid>
-<pubDate>Fri, 23 Oct 2026 06:50:56 -0700</pubDate>
-<enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSk-Q06Dd5YyYmXWMt9b860DzGRKbTae_QwvoZDKNICaEznAj2AUurJmv6vPnpcH7qqDjauFZWWx7GX1RN93BLaU9Rqgiqe9j1iQRg2Vqcz3HpSqgesA6oS-GrMTyx4CTzwOD7C_z205k57ZpT70Gv4RXi-65X-nyI04wpA3raJ5nh46pN5ox42cyLnHjv/s1600/1000117358.jpg" type="image/jpeg" length="0"/>
-<description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSk-Q06Dd5YyYmXWMt9b860DzGRKbTae_QwvoZDKNICaEznAj2AUurJmv6vPnpcH7qqDjauFZWWx7GX1RN93BLaU9Rqgiqe9j1iQRg2Vqcz3HpSqgesA6oS-GrMTyx4CTzwOD7C_z205k57ZpT70Gv4RXi-65X-nyI04wpA3raJ5nh46pN5ox42cyLnHjv/s1600/1000117358.jpg" alt=""/></p><p>Group-IB and NyxLab detailed a large campaign by an initial access broker tracked as k0t that indiscriminately hit exposed Fortinet FortiGate and Palo Alto GlobalProtect devices, exposing more than 70,000 credentials. Most compromises happened between February and June 2026, overlapping the FortiBleed credential-harvesting wave, and some victims saw persistent access and data theft. The actor is linked to the Qilin and The Gentlemen ransomware operations.</p><p>Source: <a href="https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html">The Hacker News</a></p>]]></description>
-</item>
-<item>
-<title>Huntress: token-spraying campaign hijacked Microsoft 365 mailboxes at 79 organizations without passwords</title>
-<link>https://www.helpnetsecurity.com/2026/10/23/microsoft-365-accounts-stolen-sessions/</link>
-<guid isPermaLink="false">m365-token-spraying-79-orgs-20261023044512</guid>
-<pubDate>Fri, 23 Oct 2026 04:45:12 -0700</pubDate>
-<enclosure url="https://img.helpnetsecurity.com/wp-content/uploads/2024/03/25130053/email-2-1500.webp" type="image/jpeg" length="0"/>
-<description><![CDATA[<p><img src="https://img.helpnetsecurity.com/wp-content/uploads/2024/03/25130053/email-2-1500.webp" alt=""/></p><p>Huntress tracked an attacker who, from July 14 to September 22, replayed stolen Microsoft 365 session tokens (gathered via adversary-in-the-middle phishing and device-code phishing) to break into email accounts at 79 organizations, bypassing MFA. The attacker registered at least 48 rogue devices in victims' Entra directories and used hidden inbox rules to hide mail from victims. Sign-ins came from a handful of addresses in 193.26.115.0/24 hosted by 1337 Services GmbH.</p><p>Source: <a href="https://www.helpnetsecurity.com/2026/10/23/microsoft-365-accounts-stolen-sessions/">Help Net Security</a></p>]]></description>
-</item>
-<item>
-<title>Critical Pillow flaw CVE-2026-112900 allows command execution via a crafted EPS filename; fixed in 13.0.0</title>
-<link>https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html</link>
-<guid isPermaLink="false">pillow-cve-2026-112900-20261023023600</guid>
-<pubDate>Fri, 23 Oct 2026 02:36:00 -0700</pubDate>
-<enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGp9s38cCmrESabSZezAPkJaYoavpBM8Ehckei0ZrhKfBSoSXMyrWkzooakGExz1GBYVgi0izvW8wyKH2CEX7vpzLExRkK7uNW8wDdMzJ_k7NR8u6q-WA9e8Aoc19LNfJbFKgB6GkbAKbXW69_lOdM4sz4t5fmpKsLxHWKJPOugq5g_45Q5_WmCm_vA6U/s1600/python-image.jpg" type="image/jpeg" length="0"/>
-<description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGp9s38cCmrESabSZezAPkJaYoavpBM8Ehckei0ZrhKfBSoSXMyrWkzooakGExz1GBYVgi0izvW8wyKH2CEX7vpzLExRkK7uNW8wDdMzJ_k7NR8u6q-WA9e8Aoc19LNfJbFKgB6GkbAKbXW69_lOdM4sz4t5fmpKsLxHWKJPOugq5g_45Q5_WmCm_vA6U/s1600/python-image.jpg" alt=""/></p><p>Pillow, Python's most widely used image library (about 436 million downloads a month), passes EPS filenames to Ghostscript unchecked, so an attacker who controls the filename can get OS commands run on hosts with Ghostscript installed. The bug, CVE-2026-112900 (rated 9.2 in the GitHub CVE record), affects versions 2.6.0 through 12.3.0 and is fixed in Pillow 13.0.0, a large security release. No exploitation is known.</p><p>Source: <a href="https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html">The Hacker News</a></p>]]></description>
 </item>
 </channel>
 </rss>
