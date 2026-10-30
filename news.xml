@@ -7,8 +7,16 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 30 Oct 2026 12:04:08 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 14:06:26 -0700</lastBuildDate>
     <item>
+<title>Polymarket traders drained of $2 million+ after DebugBear monitoring script was compromised in a supply chain attack</title>
+<link>https://www.securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack/</link>
+<guid isPermaLink="false">polymarket-debugbear-supply-chain-20261030140626</guid>
+<pubDate>Fri, 30 Oct 2026 14:06:26 -0700</pubDate>
+<enclosure url="https://www.securityweek.com/wp-content/uploads/2026/06/Polymarket.webp" type="image/jpeg" length="0"/>
+<description><![CDATA[<p><img src="https://www.securityweek.com/wp-content/uploads/2026/06/Polymarket.webp" alt=""/></p><p>Polymarket halted trading on its international platform on October 29 after users reported unauthorized withdrawals, saying one of its third-party providers had been compromised and that affected traders will be made whole. Researchers tied the theft, reported at more than $2 million, to malicious code served from DebugBear's real user monitoring snippet, which hijacked logged-in sessions to siphon funds. DebugBear confirmed an ongoing security incident and told customers to pull its RUM snippet from their sites.</p><p>Source: <a href="https://www.securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack/">SecurityWeek</a></p>]]></description>
+</item>
+<item>
 <title>China-linked Vapor Panda used the AI agent framework ARTEX to target more than 200 organizations, with nine confirmed breaches</title>
 <link>https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html</link>
 <guid isPermaLink="false">vapor-panda-artex-ai-intrusions-20261030120408</guid>
@@ -381,14 +389,5 @@
       <enclosure url="https://help.nextcloud.com/uploads/default/original/2X/a/ac4bed144350975da430e98e1b9561230119318f.png" type="image/jpeg" length="0"/>
       <description><![CDATA[<p><img src="https://help.nextcloud.com/uploads/default/original/2X/a/ac4bed144350975da430e98e1b9561230119318f.png" alt=""/></p><p>CISA added CVE-2026-110447, an unauthenticated OS command injection in the Collabora Online Built-in CODE Server app for Nextcloud, to its Known Exploited Vulnerabilities catalog on October 23 with an October 26 deadline and forensic triage required. The bug in the app's proxy.php runs commands as the web server user, but only while the built-in CODE server isn't running, such as after a restart, upgrade or crash. Disabling the app isn't enough: upgrade it to 26.4.303 or later or remove it. Standalone Collabora Online servers aren't affected.</p><p>Sources: <a href="https://help.nextcloud.com/t/to-collabora-built-in-user-update-asap/250516">Nextcloud forum</a>, <a href="https://github.com/CollaboraOnline/online/security/advisories/GHSA-g3vx-3m76-fghh">Collabora advisory</a>, <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog">CISA KEV</a></p>]]></description>
     </item>
-<item>
-      <title>Kaspersky: APT41-linked BlackX UEFI bootkit bypasses Secure Boot on patched Windows PCs missing revocations</title>
-      <link>https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html</link>
-      <guid isPermaLink="false">blackx-uefi-bootkit-apt41-20261023120718</guid>
-      <pubDate>Fri, 23 Oct 2026 12:07:18 -0700</pubDate>
-      <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0cTK7D5hQFR-3qGTicTlfi6_CbnMIgCJWIojDeXmZr91hrIPqhhxZ72mAsnB6kBOcCdscZOL_VN8RhAdYIxq3d128rkaDweIApSaV5w3IzB1YGN3XNnlarG0IKN5VuDJy_RnPBxXZoKQ1Yh950YFNz-b_pbvEY_QlQa5Tr-BP4366UgkGIg968J-QEN1M/s1600/uefi.jpg" type="image/jpeg" length="0"/>
-      <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0cTK7D5hQFR-3qGTicTlfi6_CbnMIgCJWIojDeXmZr91hrIPqhhxZ72mAsnB6kBOcCdscZOL_VN8RhAdYIxq3d128rkaDweIApSaV5w3IzB1YGN3XNnlarG0IKN5VuDJy_RnPBxXZoKQ1Yh950YFNz-b_pbvEY_QlQa5Tr-BP4366UgkGIg968J-QEN1M/s1600/uefi.jpg" alt=""/></p><p>Kaspersky says a new UEFI bootkit called BlackX, an updated BlackLotus, hit diplomatic organizations in Tajikistan, Uzbekistan and Turkmenistan in early 2026, and it suspects China-linked APT41. BlackX loads before Windows to undermine startup and third-party security defenses and keep long-term covert access. It works on fully patched systems where Microsoft's manual Secure Boot revocation mitigations were never applied, though attackers first need admin or physical access.</p><p>Source: <a href="https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html">The Hacker News</a></p>]]></description>
-    </item>
-
 </channel>
 </rss>
