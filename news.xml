@@ -7,8 +7,16 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 30 Oct 2026 09:14:30 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 10:04:29 -0700</lastBuildDate>
     <item>
+<title>Attackers are already probing a WordPress Core update-race RCE, with nearly 63,000 attempts in 24 hours</title>
+<link>https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html</link>
+<guid isPermaLink="false">wordpress-core-update-race-rce-20261030100429</guid>
+<pubDate>Fri, 30 Oct 2026 10:04:29 -0700</pubDate>
+<enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhf-pzflJO9HQoCdvBvYNtS12gwwEjAbM4dQ30ak7UYaIPzsVPN9MlFwvIDEFkbe9cWg4wQRFPbGfJ0YXjzGcBS6mUTwttwkQ8IR7OoHyTz3owZkVzYQOAObyJUqfjsC-PqMw2pv41_m68hb6ZkwJb56kGx-Ypv7GWZBtDzjyTTQ8L8i9NxA8_MDVoJSEba/s1600/wp-hack.jpg" type="image/jpeg" length="0"/>
+<description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhf-pzflJO9HQoCdvBvYNtS12gwwEjAbM4dQ30ak7UYaIPzsVPN9MlFwvIDEFkbe9cWg4wQRFPbGfJ0YXjzGcBS6mUTwttwkQ8IR7OoHyTz3owZkVzYQOAObyJUqfjsC-PqMw2pv41_m68hb6ZkwJb56kGx-Ypv7GWZBtDzjyTTQ8L8i9NxA8_MDVoJSEba/s1600/wp-hack.jpg" alt=""/></p><p>Wordfence says attackers began hammering a WordPress Core remote code execution flaw (no CVE yet, CVSS 8.1) right after the October 28 patch, logging nearly 63,000 attempts in 24 hours. It affects Core 4.7 through 7.1.3: during a full-package core update, files are staged in a predictable, web-accessible folder under wp-content/upgrade, and an unauthenticated attacker who hits the installer in that brief window can reach PHP code execution. Success needs a tight race, so it's below the breaking bar, but admins should make sure sites are on the patched release.</p><p>Source: <a href="https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html">The Hacker News</a></p>]]></description>
+</item>
+<item>
 <title>Trojanized Claude Code extension pushed through the Cursor Marketplace tried to plant a persistent SSH backdoor</title>
 <link>https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html</link>
 <guid isPermaLink="false">claude-code-cursor-marketplace-backdoor-20261030091430</guid>
@@ -382,13 +390,5 @@
       <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6gkXKzxUypnUKbTuo7Xq-8TSUpDD8TNF5XEG-bV6zcA7V3z_cO2pJeTiX1KIFi-rFNX5SOlMY93oGQpfQUuWOl0RJ35nM1XeIqu2ZV4aAIZXEd9RXQVQk0rMmeI67ysGsTJ1OXLIQg2LvGjMLHCQQ8dgqalHaBE9yCZKwIOVjHCD_lOTlsP1HdBziZ3Sb/s1600/ai-hacker-kimi.jpg" type="image/jpeg" length="0"/>
       <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6gkXKzxUypnUKbTuo7Xq-8TSUpDD8TNF5XEG-bV6zcA7V3z_cO2pJeTiX1KIFi-rFNX5SOlMY93oGQpfQUuWOl0RJ35nM1XeIqu2ZV4aAIZXEd9RXQVQk0rMmeI67ysGsTJ1OXLIQg2LvGjMLHCQQ8dgqalHaBE9yCZKwIOVjHCD_lOTlsP1HdBziZ3Sb/s1600/ai-hacker-kimi.jpg" alt=""/></p><p>SOCRadar found an exposed server belonging to a Russian-speaking operator serving INC and The Gentlemen ransomware affiliates, running an AI framework called Phantom that executed intrusions through OpenCode and commercial models while a human approved each step. Logs covered 8,257 messages across 133 sessions. Initial access came from exploiting edge and remote-access systems at scale, including SimpleHelp CVE-2024-57727, FortiClient EMS CVE-2026-35616 and cPanel/WHM CVE-2026-41940, followed by credential theft, lateral movement and ransomware staging.</p><p>Source: <a href="https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html">The Hacker News</a></p>]]></description>
     </item>
-    <item>
-<title>CISA adds exploited Arista VeloCloud Orchestrator flaw CVE-2026-114625 to KEV with a three-day deadline</title>
-<link>https://www.securityweek.com/attackers-exploit-third-velocloud-orchestrator-zero-day-in-four-months/</link>
-<guid isPermaLink="false">arista-vco-cve-2026-114625-kev-20261023101218</guid>
-<pubDate>Fri, 23 Oct 2026 10:12:18 -0700</pubDate>
-<enclosure url="https://www.securityweek.com/wp-content/uploads/2026/09/arista.jpeg" type="image/jpeg" length="0"/>
-<description><![CDATA[<p><img src="https://www.securityweek.com/wp-content/uploads/2026/09/arista.jpeg" alt=""/></p><p>CISA added Arista VeloCloud Orchestrator SQL injection flaw CVE-2026-114625 (CVSS 9.9) to its Known Exploited Vulnerabilities catalog on October 23, with an unusually short federal deadline of October 26 and forensic triage required. Any authenticated VCO user, even with the lowest tenant role, can gain superuser operator privileges on on-prem deployments, which Arista says are exposed by default.</p><p>It is the third exploited VCO zero-day in four months. Fixed releases are 5.2.3.18, 6.1.3.10 and 6.4.2.12; Arista also lists two attacker IPs to block and hunt for in logs.</p><p>Sources: <a href="https://www.securityweek.com/attackers-exploit-third-velocloud-orchestrator-zero-day-in-four-months/">SecurityWeek</a>, <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog">CISA KEV catalog</a>, <a href="https://www.arista.com/en/support/advisories-notices/security-advisory/24838-security-advisory-0199">Arista advisory</a></p>]]></description>
-</item>
-</channel>
+    </channel>
 </rss>
