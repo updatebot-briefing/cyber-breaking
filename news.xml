@@ -7,7 +7,15 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sun, 01 Nov 2026 09:04:05 -0800</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 13:07:31 -0800</lastBuildDate>
+    <item>
+      <title>Attackers probe MLflow servers for file-read flaw as PoCs go public for it and a critical RCE bug</title>
+      <link>https://securityonline.info/mlflow-vulnerability-exploited-poc/</link>
+      <guid isPermaLink="false">mlflow-cve-2026-116690-20261101130731</guid>
+      <pubDate>Sun, 01 Nov 2026 13:07:31 -0800</pubDate>
+      <enclosure url="https://securityonline.info/wp-content/uploads/2026/10/Screenshot_20261028_230548_Chrome-scaled.webp" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://securityonline.info/wp-content/uploads/2026/10/Screenshot_20261028_230548_Chrome-scaled.webp" alt=""/></p><p>Honeypots caught exploitation attempts against MLflow CVE-2026-116690 (CVSS 7.5) within a day of its October 27 CVE publication. The bug lets unauthenticated users of default MLflow servers read arbitrary files, including auth databases with admin password hashes. A companion bug, CVE-2026-116692 (CVSS 9.8), allows unauthenticated RCE and also has a public PoC, though no in-the-wild exploitation is confirmed. MLflow 3.17.0 fixes both, and about 18,000 MLflow instances are internet-indexed.</p><p>Sources: <a href="https://securityonline.info/mlflow-vulnerability-exploited-poc/">SecurityOnline</a>, <a href="https://github.com/advisories/GHSA-m65p-9j7q-6w33">GitHub advisory</a></p>]]></description>
+    </item>
     <item>
       <title>CVSS 10 flaw in Canonical LXD and MicroCloud lets attackers impersonate trusted clients without a private key</title>
       <link>https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html</link>
