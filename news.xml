@@ -7,7 +7,23 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sun, 01 Nov 2026 13:07:31 -0800</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 17:08:26 -0800</lastBuildDate>
+    <item>
+      <title>Exploited BeyondTrust Remote Support flaw gets full write-up and public Metasploit module</title>
+      <link>https://securityonline.info/beyondtrust-remote-support-cve-2026-102764-metasploit/</link>
+      <guid isPermaLink="false">beyondtrust-rs-cve-2026-102764-20261101170826</guid>
+      <pubDate>Sun, 01 Nov 2026 17:08:26 -0800</pubDate>
+      <enclosure url="https://securityonline.info/wp-content/uploads/2026/11/Exploiting-the-anonymous-file-transfer-service-with-Metasploit.webp" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://securityonline.info/wp-content/uploads/2026/11/Exploiting-the-anonymous-file-transfer-service-with-Metasploit.webp" alt=""/></p><p>Rapid7 published a full technical analysis and a working Metasploit module for CVE-2026-102764 (CVSS v4 9.3), a BeyondTrust Remote Support bug that lets an unauthenticated attacker write files and run code on the appliance. It was exploited as a zero-day from August 2026, attributed by Mandiant to the suspected PRC-nexus actor ARMORY CASTLE (formerly UNC5221), and CISA added it to KEV on October 16. With the exploit chain now public, unpatched servers face much wider attack; apply BT26-05-RS.</p><p>Sources: <a href="https://securityonline.info/beyondtrust-remote-support-cve-2026-102764-metasploit/">SecurityOnline</a></p>]]></description>
+    </item>
+    <item>
+      <title>Ransomware wave hits internet-exposed Synology NAS devices running outdated DSM</title>
+      <link>https://securityonline.info/synology-nas-ransomware-attacks/</link>
+      <guid isPermaLink="false">synology-nas-ransomware-20261101170826</guid>
+      <pubDate>Sun, 01 Nov 2026 17:08:26 -0800</pubDate>
+      <enclosure url="https://securityonline.info/wp-content/uploads/2026/06/ransome.jpg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://securityonline.info/wp-content/uploads/2026/06/ransome.jpg" alt=""/></p><p>A widespread ransomware campaign is encrypting volumes on internet-exposed Synology NAS appliances running outdated software. Synology says attackers are exploiting already-patched bugs, chiefly CVE-2024-10441 (CVSS 9.8 unauthenticated RCE, advisory SA-24:20), and Qihoo 360 also saw exploitation of flaws patched in September 2026; no zero-day is involved. Owners should update DSM now, and end-of-life DSM 6.x units get no fixes.</p><p>Sources: <a href="https://securityonline.info/synology-nas-ransomware-attacks/">SecurityOnline</a></p>]]></description>
+    </item>
     <item>
       <title>Attackers probe MLflow servers for file-read flaw as PoCs go public for it and a critical RCE bug</title>
       <link>https://securityonline.info/mlflow-vulnerability-exploited-poc/</link>
