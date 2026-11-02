@@ -7,7 +7,31 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sun, 01 Nov 2026 17:08:26 -0800</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 09:14:13 -0800</lastBuildDate>
+    <item>
+      <title>Google takes down 1.3 million-device Android TV box botnet, says maker Videostrong sold backdoor access</title>
+      <link>https://thehackernews.com/2026/11/google-disrupts-13-million-device.html</link>
+      <guid isPermaLink="false">google-xcpe-botnet-20261102091413</guid>
+      <pubDate>Mon, 02 Nov 2026 09:14:13 -0800</pubDate>
+      <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkbU6vLZjF0nlz7vqN6UVf3kN1IcdUfIpAmVWlh2II4gGbMMmSuiE1S8HLzP4JV-ImeCa64hU-cEaa-yGXWqUO_XHOurKtEw61DFvjGOJhM7gHpRPpegBcCFYrXkd59wGX-PoV6zm7z7uq6PpXjc4GLhDRzcinR5IIjcOVZEVl8FMQ0v0Dt3CV9sRxZNk/s1600/android-tv-botnet.jpg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkbU6vLZjF0nlz7vqN6UVf3kN1IcdUfIpAmVWlh2II4gGbMMmSuiE1S8HLzP4JV-ImeCa64hU-cEaa-yGXWqUO_XHOurKtEw61DFvjGOJhM7gHpRPpegBcCFYrXkd59wGX-PoV6zm7z7uq6PpXjc4GLhDRzcinR5IIjcOVZEVl8FMQ0v0Dt3CV9sRxZNk/s1600/android-tv-botnet.jpg" alt=""/></p><p>Google led a late-October legal takedown of the control servers for the XCPE botnet, more than 1.3 million Android devices, mostly TV set-top boxes. Google says Shenzhen maker Videostrong deliberately built the x.cpe backdoor into its boxes and sold access to criminals for ad fraud and residential proxying; Google has banned the company. The backdoor stays on the devices and owners cannot remove it, and Google expects the action to cut criminals off from at least 10 million more infected devices.</p><p>Sources: <a href="https://thehackernews.com/2026/11/google-disrupts-13-million-device.html">The Hacker News</a>, <a href="https://www.helpnetsecurity.com/2026/11/02/xcpe-botnet-android-backdoor/">Help Net Security</a></p>]]></description>
+    </item>
+    <item>
+      <title>Critical Langflow flaws allow unauthenticated code execution; fix is version 1.13.0</title>
+      <link>https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html</link>
+      <guid isPermaLink="false">langflow-unauth-rce-20261102091413</guid>
+      <pubDate>Mon, 02 Nov 2026 09:14:13 -0800</pubDate>
+      <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_FF2_yXQrxnB1ymo-GsohY6t0INslV7mps2DVMnYa_dD_RpZu7uz9HwNrux1gxieMF4hnc_84KMpOyhroj0EDx0Vwv0QljdhTehvJINIsr-Sjyw4CaMiLO3fFWGl-8LhLWgOtC4DRU2X5e46s3Rxghu3KLUMsyHfpxFyKogIs34Q2fm2RYpAMI_Jt_9A/s1600/langflow-rce.jpg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_FF2_yXQrxnB1ymo-GsohY6t0INslV7mps2DVMnYa_dD_RpZu7uz9HwNrux1gxieMF4hnc_84KMpOyhroj0EDx0Vwv0QljdhTehvJINIsr-Sjyw4CaMiLO3fFWGl-8LhLWgOtC4DRU2X5e46s3Rxghu3KLUMsyHfpxFyKogIs34Q2fm2RYpAMI_Jt_9A/s1600/langflow-rce.jpg" alt=""/></p><p>IBM disclosed critical flaws in the open-source AI workflow builder Langflow, including an authentication bypass (CVE-2026-93680) and unauthenticated remote code execution through MCP tool enumeration. Every release from 1.0.0 through 1.12.8 is affected and only 1.13.0 fixes them. A public Metasploit module already uses the auth bypass to list a server's MCP tools without credentials; the flaws are not yet in CISA KEV, though six earlier Langflow bugs are.</p><p>Sources: <a href="https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html">The Hacker News</a></p>]]></description>
+    </item>
+    <item>
+      <title>Amadeus breach exposes passenger booking records across multiple airlines</title>
+      <link>https://securityonline.info/amadeus-airline-data-breach/</link>
+      <guid isPermaLink="false">amadeus-airline-breach-20261102091413</guid>
+      <pubDate>Mon, 02 Nov 2026 09:14:13 -0800</pubDate>
+      <enclosure url="https://securityonline.info/wp-content/uploads/2026/11/hacked.webp" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://securityonline.info/wp-content/uploads/2026/11/hacked.webp" alt=""/></p><p>Intruders used valid credentials to get into a distribution hub at Amadeus, the travel tech firm that runs booking and passenger service systems for hundreds of airlines, exposing traveler records for several carriers at once. Malaysia Airlines is the latest to warn customers; exposed bookings span August 2023 to September 2026. Amadeus revoked the affected tokens, reset admin passwords and added monitoring.</p><p>Sources: <a href="https://securityonline.info/amadeus-airline-data-breach/">SecurityOnline</a></p>]]></description>
+    </item>
     <item>
       <title>Exploited BeyondTrust Remote Support flaw gets full write-up and public Metasploit module</title>
       <link>https://securityonline.info/beyondtrust-remote-support-cve-2026-102764-metasploit/</link>
