@@ -7,8 +7,16 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 03 Nov 2026 12:11:59 -0800</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 13:05:00 -0800</lastBuildDate>
     <item>
+<title>CISA adds WordPress Core upgrade-window RCE (CVE-2026-119977) to exploited list, due Nov 6</title>
+<link>https://severitydaily.com/wordpress-core-cve-2026-119977-8-1-upgrade-window-rce-7-1-4-october-28-62969-blocked-counts-12-18-22/</link>
+<guid isPermaLink="false">wordpress-cve-2026-119977-kev-20261103130500</guid>
+<pubDate>Tue, 03 Nov 2026 13:05:00 -0800</pubDate>
+<enclosure url="https://severitydaily.com/wp-content/uploads/2026/10/wordpress-cve-2026-119977-card.png" type="image/jpeg" length="0"/>
+<description><![CDATA[<p><img src="https://severitydaily.com/wp-content/uploads/2026/10/wordpress-cve-2026-119977-card.png" alt=""/></p><p>CISA added the WordPress Core upgrade-window race condition (CVE-2026-119977) to its Known Exploited Vulnerabilities catalog on November 3, with a short November 6 federal due date and forensic triage required. The flaw lets an unauthenticated attacker run code on the server if they hit the predictable staging folder during a full core upgrade, and it affects WordPress 4.7 through 7.1.3. Wordfence saw tens of thousands of polling attempts after the October 28 fix; update to 7.1.4 or your branch's backport and block web access to wp-content/upgrade before updating.</p><p>Sources: <a href="https://severitydaily.com/wordpress-core-cve-2026-119977-8-1-upgrade-window-rce-7-1-4-october-28-62969-blocked-counts-12-18-22/">Severity Daily</a>, <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog">CISA KEV catalog</a>, <a href="https://wordpress.org/news/2026/10/wordpress-7-1-4">WordPress 7.1.4 release</a>.</p>]]></description>
+</item>
+<item>
 <title>mSecure password manager warns users to change passwords, reset 2FA and remove passkeys after "suspicious activity"</title>
 <link>https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html</link>
 <guid isPermaLink="false">msecure-suspicious-activity-20261103121159</guid>
@@ -370,13 +378,5 @@
 <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqZx9ghfLBFufN5Q4s1dq2U1rXwenlfzU7UsqQfLWn3AEUe5CX3krGuvC6DM4mF2T9MmscvntBNxmgU7UjNOnfJQteKvuAs-4Nq0vJ3TnTkuFy1TRO3ibdh2Ekqi_WqiInvPkXjYlnvrCuYb5mb8neOOqBbmf_034wh8MPOLPKW2Nvvezpb2LFNXPbeUa6/s1600/apple-patch.jpg" type="image/jpeg" length="0"/>
 <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqZx9ghfLBFufN5Q4s1dq2U1rXwenlfzU7UsqQfLWn3AEUe5CX3krGuvC6DM4mF2T9MmscvntBNxmgU7UjNOnfJQteKvuAs-4Nq0vJ3TnTkuFy1TRO3ibdh2Ekqi_WqiInvPkXjYlnvrCuYb5mb8neOOqBbmf_034wh8MPOLPKW2Nvvezpb2LFNXPbeUa6/s1600/apple-patch.jpg" alt=""/></p><p>Apple released iOS 18.7.11 and iPadOS 18.7.11, extending last month's fix for CVE-2026-86950 (CVSS 8.8), an out-of-bounds write in CoreGraphics that can lead to code execution when a crafted file is processed. Apple says the flaw may have been exploited in an extremely sophisticated attack against specific targeted individuals. The update covers older devices such as the iPhone XS, XS Max and XR, and also fixes an Audio logic issue, CVE-2026-65339.</p><p>Source: <a href="https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html">The Hacker News</a></p>]]></description>
 </item>
-<item>
-      <title>Microsoft fixes Authenticator for Android flaw that let permissionless apps steal work-account tokens</title>
-      <link>https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html</link>
-      <guid isPermaLink="false">ms-authenticator-android-token-theft-20261027091750</guid>
-      <pubDate>Tue, 27 Oct 2026 09:17:50 -0700</pubDate>
-      <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqk63DF3MJCMgQqpg91UsWY7mjACbBgPl50GfKwDPi7v3md6sP5l8a2BUqHABjgMN_6BzgcMx4vVKW4hR9B9pz8_XHqp5ctKqQQLw-RJwuKmVWm2MaSzEMkHIsV-Yi0V6Mq_gUYYuzTpi-BzV2-8dRVYBjtuW4nb9TbobkPwvOGTkIFTpr334JB_LZIkw/s1600/msms.jpg" type="image/jpeg" length="0"/>
-      <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqk63DF3MJCMgQqpg91UsWY7mjACbBgPl50GfKwDPi7v3md6sP5l8a2BUqHABjgMN_6BzgcMx4vVKW4hR9B9pz8_XHqp5ctKqQQLw-RJwuKmVWm2MaSzEMkHIsV-Yi0V6Mq_gUYYuzTpi-BzV2-8dRVYBjtuW4nb9TbobkPwvOGTkIFTpr334JB_LZIkw/s1600/msms.jpg" alt=""/></p><p>Microsoft fixed CVE-2026-80097 (CVSS 8.6) in Authenticator for Android version 6.2606.4246. A malicious app with no permissions could pose as a trusted Microsoft app such as Teams and collect sign-in tokens giving full access to a victim's work email, files, and calendar. Microsoft says exploitation needs the victim to complete a sign-in step and that it has not been used in attacks; update the app.</p><p>Source: <a href="https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html">The Hacker News</a></p>]]></description>
-    </item>
-    </channel>
+</channel>
 </rss>
