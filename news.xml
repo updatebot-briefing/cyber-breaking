@@ -7,8 +7,16 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 03 Nov 2026 10:05:58 -0800</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 12:11:59 -0800</lastBuildDate>
     <item>
+<title>mSecure password manager warns users to change passwords, reset 2FA and remove passkeys after "suspicious activity"</title>
+<link>https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html</link>
+<guid isPermaLink="false">msecure-suspicious-activity-20261103121159</guid>
+<pubDate>Tue, 03 Nov 2026 12:11:59 -0800</pubDate>
+<enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtvbYhodewxI1TOMjVp0GKUmMdudVKH27My8auvMEvDbCkd_JBzdJjjBb99j2a2a9R1wgkOaTdLcM_9FEmpyweVquFetLeyfzSC5UgpukK8Ukw7keJb5HwmTnPP1qWT2QzVX3FKLtBKLDFnuMrzmfgW5dwYf6SJHZHqSDj_eYGdap3ECOMMI1Em6_oS_0/s1600/msecure.jpg" type="image/jpeg" length="0"/>
+<description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtvbYhodewxI1TOMjVp0GKUmMdudVKH27My8auvMEvDbCkd_JBzdJjjBb99j2a2a9R1wgkOaTdLcM_9FEmpyweVquFetLeyfzSC5UgpukK8Ukw7keJb5HwmTnPP1qWT2QzVX3FKLtBKLDFnuMrzmfgW5dwYf6SJHZHqSDj_eYGdap3ECOMMI1Em6_oS_0/s1600/msecure.jpg" alt=""/></p><p>mSeven Software emailed current and former mSecure password manager customers on November 3 urging them to change stored passwords, reset two-factor authentication and remove passkeys after it learned of suspicious activity linked to the app. The email doesn't say what happened, which systems were involved, or whether vault data was exposed, and the company hadn't posted publicly about it as of midday. mSecure users should rotate their most important credentials now rather than wait for details.</p><p>Source: <a href="https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html">The Hacker News</a></p>]]></description>
+</item>
+<item>
 <title>Barracuda patches flaw chain that can give attackers root on Email Security Gateway and other appliances</title>
 <link>https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html</link>
 <guid isPermaLink="false">barracuda-esg-auth-bypass-root-chain-20261103100558</guid>
@@ -369,14 +377,6 @@
       <pubDate>Tue, 27 Oct 2026 09:17:50 -0700</pubDate>
       <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqk63DF3MJCMgQqpg91UsWY7mjACbBgPl50GfKwDPi7v3md6sP5l8a2BUqHABjgMN_6BzgcMx4vVKW4hR9B9pz8_XHqp5ctKqQQLw-RJwuKmVWm2MaSzEMkHIsV-Yi0V6Mq_gUYYuzTpi-BzV2-8dRVYBjtuW4nb9TbobkPwvOGTkIFTpr334JB_LZIkw/s1600/msms.jpg" type="image/jpeg" length="0"/>
       <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqk63DF3MJCMgQqpg91UsWY7mjACbBgPl50GfKwDPi7v3md6sP5l8a2BUqHABjgMN_6BzgcMx4vVKW4hR9B9pz8_XHqp5ctKqQQLw-RJwuKmVWm2MaSzEMkHIsV-Yi0V6Mq_gUYYuzTpi-BzV2-8dRVYBjtuW4nb9TbobkPwvOGTkIFTpr334JB_LZIkw/s1600/msms.jpg" alt=""/></p><p>Microsoft fixed CVE-2026-80097 (CVSS 8.6) in Authenticator for Android version 6.2606.4246. A malicious app with no permissions could pose as a trusted Microsoft app such as Teams and collect sign-in tokens giving full access to a victim's work email, files, and calendar. Microsoft says exploitation needs the victim to complete a sign-in step and that it has not been used in attacks; update the app.</p><p>Source: <a href="https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html">The Hacker News</a></p>]]></description>
-    </item>
-    <item>
-      <title>Keystone to destroy 18,835 hardware wallets after attacker steals device-verification key</title>
-      <link>https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html</link>
-      <guid isPermaLink="false">keystone-wallet-key-theft-20261027091650</guid>
-      <pubDate>Tue, 27 Oct 2026 09:16:50 -0700</pubDate>
-      <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkvGXPUhZZjWBsYYBAx8KeJ8WilsBMLE-JhqfNAEyCOPuxs6-4VIF1e77IHR5zVdGfRsjJkSOfUVE1JaEmKe0mSAVM-ha4SeROxEGAdkLY5n5rBqx1LBSm6UVxA167sJYZEJTRra7BSipFtdlw2S-kFCUOSa9n70NbfSka3zRNVHd0D69qbVpSGIOnuAU/s1600/keystone.jpg" type="image/jpeg" length="0"/>
-      <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkvGXPUhZZjWBsYYBAx8KeJ8WilsBMLE-JhqfNAEyCOPuxs6-4VIF1e77IHR5zVdGfRsjJkSOfUVE1JaEmKe0mSAVM-ha4SeROxEGAdkLY5n5rBqx1LBSm6UVxA167sJYZEJTRra7BSipFtdlw2S-kFCUOSa9n70NbfSka3zRNVHd0D69qbVpSGIOnuAU/s1600/keystone.jpg" alt=""/></p><p>An attacker who got into Keystone's website obtained the key its hardware wallets use to prove they are genuine, which could let counterfeit devices pass the online authenticity check. Keystone found the access on October 20, will destroy 18,835 unsold devices carrying the key, and says recovery phrases and wallet keys were not involved. Owners who received a device after October 20 should contact support before using it.</p><p>Source: <a href="https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html">The Hacker News</a></p>]]></description>
     </item>
     </channel>
 </rss>
