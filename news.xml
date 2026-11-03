@@ -7,8 +7,24 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 03 Nov 2026 09:12:36 -0800</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 10:05:58 -0800</lastBuildDate>
     <item>
+<title>Barracuda patches flaw chain that can give attackers root on Email Security Gateway and other appliances</title>
+<link>https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html</link>
+<guid isPermaLink="false">barracuda-esg-auth-bypass-root-chain-20261103100558</guid>
+<pubDate>Tue, 03 Nov 2026 10:05:58 -0800</pubDate>
+<enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCvGJCkYjldhAvsjMo47UqxGOTfVY1zCcjZQzgebkO8j1__fa0cFOn3CAV1jPTUpzwDDISQKPQP5eVGOl9BzRLBX7KlWuU2HMpzuHRWV2wyaItDwYgPu0X7m3qE5V1kgFzKZ1QYcRBcZyDqkUTFberiOWXBfV_-suYC1QQWq_TwBMeyme4F0FsOZnpijhC/s1600/barracuda.png" type="image/jpeg" length="0"/>
+<description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCvGJCkYjldhAvsjMo47UqxGOTfVY1zCcjZQzgebkO8j1__fa0cFOn3CAV1jPTUpzwDDISQKPQP5eVGOl9BzRLBX7KlWuU2HMpzuHRWV2wyaItDwYgPu0X7m3qE5V1kgFzKZ1QYcRBcZyDqkUTFberiOWXBfV_-suYC1QQWq_TwBMeyme4F0FsOZnpijhC/s1600/barracuda.png" alt=""/></p><p>Barracuda disclosed a pre-authentication authorization bypass in Email Security Gateway (CVE-2026-116606, CVSS 9.3) and a command injection bug affecting several of its products (CVE-2026-111560, CVSS 8.6). Chained together, they let an attacker who can reach the admin interface bypass authorization and get root on the device.</p><p>No in-the-wild exploitation has been reported yet. Barracuda says devices that keep admin interfaces off the internet are less exposed, and customers should confirm they are on the latest firmware, which may take several updates on older devices.</p><p>Source: <a href="https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html">The Hacker News</a></p>]]></description>
+</item>
+<item>
+<title>Brazil's largest crypto exchange, Mercado Bitcoin, loses about $38-46 million in hot-wallet hack</title>
+<link>https://therecord.media/mercado-bitcoin-brazil-cryptocurrency-heist</link>
+<guid isPermaLink="false">mercado-bitcoin-hot-wallet-hack-20261103100558</guid>
+<pubDate>Tue, 03 Nov 2026 10:05:58 -0800</pubDate>
+<enclosure url="https://cms.therecord.media/uploads/mercado_bitcoin_92ae590f6f.jpg" type="image/jpeg" length="0"/>
+<description><![CDATA[<p><img src="https://cms.therecord.media/uploads/mercado_bitcoin_92ae590f6f.jpg" alt=""/></p><p>Mercado Bitcoin suspended deposits and withdrawals after attackers drained its hot wallets across about 10 blockchains late Sunday into Monday (Nov 1-2). Blockchain analysts put outflows above $46 million; the exchange says about $38 million was lost and roughly $11 million has been frozen with help from Tether, Circle, Paxos, BRL1 and Chainalysis.</p><p>The exchange says it will cover all customer losses and that no customer data leaked, though some researchers point to on-chain evidence that customer deposit addresses were swept too. The attack has not been attributed.</p><p>Sources: <a href="https://therecord.media/mercado-bitcoin-brazil-cryptocurrency-heist">The Record</a>, <a href="https://www.coindesk.com/business/2026/11/03/mercado-bitcoin-pledges-to-cover-all-user-losses-after-near-usd40-million-hack">CoinDesk</a>, <a href="https://cointelegraph.com/news/mercado-bitcoin-hack">Cointelegraph</a></p>]]></description>
+</item>
+<item>
       <title>Attackers hijack cPGuard's update channel to push a backdoor to customers' Linux servers</title>
       <link>https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html</link>
       <guid isPermaLink="false">cpguard-update-hijack-20261103091236</guid>
@@ -362,21 +378,5 @@
       <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkvGXPUhZZjWBsYYBAx8KeJ8WilsBMLE-JhqfNAEyCOPuxs6-4VIF1e77IHR5zVdGfRsjJkSOfUVE1JaEmKe0mSAVM-ha4SeROxEGAdkLY5n5rBqx1LBSm6UVxA167sJYZEJTRra7BSipFtdlw2S-kFCUOSa9n70NbfSka3zRNVHd0D69qbVpSGIOnuAU/s1600/keystone.jpg" type="image/jpeg" length="0"/>
       <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkvGXPUhZZjWBsYYBAx8KeJ8WilsBMLE-JhqfNAEyCOPuxs6-4VIF1e77IHR5zVdGfRsjJkSOfUVE1JaEmKe0mSAVM-ha4SeROxEGAdkLY5n5rBqx1LBSm6UVxA167sJYZEJTRra7BSipFtdlw2S-kFCUOSa9n70NbfSka3zRNVHd0D69qbVpSGIOnuAU/s1600/keystone.jpg" alt=""/></p><p>An attacker who got into Keystone's website obtained the key its hardware wallets use to prove they are genuine, which could let counterfeit devices pass the online authenticity check. Keystone found the access on October 20, will destroy 18,835 unsold devices carrying the key, and says recovery phrases and wallet keys were not involved. Owners who received a device after October 20 should contact support before using it.</p><p>Source: <a href="https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html">The Hacker News</a></p>]]></description>
     </item>
-    <item>
-      <title>Australia's ASD breaks into Amadey malware backend, cutting off 180,000 infected computers</title>
-      <link>https://thehackernews.com/2026/10/australia-gets-into-amadey-malware.html</link>
-      <guid isPermaLink="false">asd-amadey-disruption-20261027091550</guid>
-      <pubDate>Tue, 27 Oct 2026 09:15:50 -0700</pubDate>
-      <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinCXm9nOGLf3YFKOH7D87d6Wau4yc3WG_4nSANlzh0oVcI9dUXg07hiHfBkDONqewGH90O6qN1cv9B1vPKGeXr7dhwAjpJ9pHCZKv2MOU9WYesukNBqS55LiPg0ytVl8JonI32qTVei_L25bCcUsPTl2PZsxYhvx0nDsxwqy3RgKE1_iRRuSbAoaH8OcY/s1600/aus.jpg" type="image/jpeg" length="0"/>
-      <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinCXm9nOGLf3YFKOH7D87d6Wau4yc3WG_4nSANlzh0oVcI9dUXg07hiHfBkDONqewGH90O6qN1cv9B1vPKGeXr7dhwAjpJ9pHCZKv2MOU9WYesukNBqS55LiPg0ytVl8JonI32qTVei_L25bCcUsPTl2PZsxYhvx0nDsxwqy3RgKE1_iRRuSbAoaH8OcY/s1600/aus.jpg" alt=""/></p><p>The Australian Signals Directorate gained access to a criminal's Amadey malware control backend and disconnected it from about 180,000 infected computers worldwide, including some in Australia. Amadey is a malware-as-a-service loader used mainly to install further payloads such as the StealC infostealer.</p><p>Source: <a href="https://thehackernews.com/2026/10/australia-gets-into-amadey-malware.html">The Hacker News</a></p>]]></description>
-    </item>
-    <item>
-      <title>University of Copenhagen systems stay down after breach exposing data of 525,000 people</title>
-      <link>https://www.helpnetsecurity.com/2026/10/27/university-of-copenhagen-cyberattack-data-breach/</link>
-      <guid isPermaLink="false">ucph-breach-525k-20261027091450</guid>
-      <pubDate>Tue, 27 Oct 2026 09:14:50 -0700</pubDate>
-      <enclosure url="https://img.helpnetsecurity.com/wp-content/uploads/2026/05/28101246/data-breach-red.webp" type="image/webp" length="0"/>
-      <description><![CDATA[<p><img src="https://img.helpnetsecurity.com/wp-content/uploads/2026/05/28101246/data-breach-red.webp" alt=""/></p><p>The University of Copenhagen took Workzone, Nimbus and other administrative systems offline on Monday after activity first thought to be a new attack. It now says the activity is tied to the breach disclosed last week, which exposed personal data, including national ID numbers, of about 525,000 people.</p><p>Source: <a href="https://www.helpnetsecurity.com/2026/10/27/university-of-copenhagen-cyberattack-data-breach/">Help Net Security</a></p>]]></description>
-    </item>
-  </channel>
+    </channel>
 </rss>
