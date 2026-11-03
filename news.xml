@@ -7,7 +7,31 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Mon, 02 Nov 2026 09:14:13 -0800</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 09:12:36 -0800</lastBuildDate>
+    <item>
+      <title>Attackers hijack cPGuard's update channel to push a backdoor to customers' Linux servers</title>
+      <link>https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html</link>
+      <guid isPermaLink="false">cpguard-update-hijack-20261103091236</guid>
+      <pubDate>Tue, 03 Nov 2026 09:12:36 -0800</pubDate>
+      <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtc3HOtWwxZPk7V8yva9o6Oe5lWAPX8KZsWHG27ohycqrb04wAKSDSSdk6ta6y284N9gT6Ab6QKIWwTPss2bBK4PtS3Fm7gSI9QG5kec2AvEgQPjQnc0YlhlUQx0uZKt2ygn576BQ3aburL-IhrMRFVm1vEpTR5ol06R0BtjySvifD05Q_dQGUPvyPLxs/s1600/cpgaurd.png" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtc3HOtWwxZPk7V8yva9o6Oe5lWAPX8KZsWHG27ohycqrb04wAKSDSSdk6ta6y284N9gT6Ab6QKIWwTPss2bBK4PtS3Fm7gSI9QG5kec2AvEgQPjQnc0YlhlUQx0uZKt2ygn576BQ3aburL-IhrMRFVm1vEpTR5ol06R0BtjySvifD05Q_dQGUPvyPLxs/s1600/cpgaurd.png" alt=""/></p><p>An attacker broke into the update system of cPGuard, a security tool for Linux web servers, on November 2 and used it to ship a malicious script to customers. Maker OPSSHIELD says the script installed a backdoor and collected password hashes and other sensitive files from servers that ran it, and some of that data has already been taken. Admins running cPGuard should check the vendor advisory and treat affected servers as compromised.</p><p>Source: <a href="https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html">The Hacker News</a></p>]]></description>
+    </item>
+    <item>
+      <title>Critical Node-RED auth flaw CVE-2026-58115 exploited, including on Siemens SIMATIC IoT2050 devices</title>
+      <link>https://www.helpnetsecurity.com/2026/11/03/node-red-cve-2026-58115-exploitation/</link>
+      <guid isPermaLink="false">node-red-iot2050-exploited-20261103091236</guid>
+      <pubDate>Tue, 03 Nov 2026 09:12:36 -0800</pubDate>
+      <enclosure url="https://img.helpnetsecurity.com/wp-content/uploads/2026/11/03134721/node-red-1500.webp" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://img.helpnetsecurity.com/wp-content/uploads/2026/11/03134721/node-red-1500.webp" alt=""/></p><p>VulnCheck reports active exploitation of CVE-2026-58115 (CVSS 10), a missing-authentication flaw in Node-RED that lets an unauthenticated remote attacker run code. Attackers are using it to drop a Linux bot and backdoors on exposed servers, and Siemens SIMATIC IoT2050 Advanced industrial devices, which ship Node-RED, are among the targets. Node-RED is common in manufacturing, healthcare and home automation, so exposed instances should be patched or taken off the internet.</p><p>Sources: <a href="https://www.helpnetsecurity.com/2026/11/03/node-red-cve-2026-58115-exploitation/">Help Net Security</a>, <a href="https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html">The Hacker News</a></p>]]></description>
+    </item>
+    <item>
+      <title>Attackers exploit BTCPay Server flaw to drain Bitcoin and Litecoin hot wallets</title>
+      <link>https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html</link>
+      <guid isPermaLink="false">btcpay-hot-wallet-theft-20261103091236</guid>
+      <pubDate>Tue, 03 Nov 2026 09:12:36 -0800</pubDate>
+      <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrr1rJlr2nztz8jEunAWtVXHyOHkJY2_KdeweNWBqwF18rmhPiFItEQ-yCex1vVsps856ArIDl7unaWJNiribZ9DgkmQ3o4pLa1BKQrjKEeFR63z4csXnBHah5wIp7H5xuUB7b1UIp06nk6BzLuxFW5aWh2g-PoLoZ74RjMOEUX7XdrDsHM1yFbjGHBzK8/s1600/btcpay.jpg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrr1rJlr2nztz8jEunAWtVXHyOHkJY2_KdeweNWBqwF18rmhPiFItEQ-yCex1vVsps856ArIDl7unaWJNiribZ9DgkmQ3o4pLa1BKQrjKEeFR63z4csXnBHah5wIp7H5xuUB7b1UIp06nk6BzLuxFW5aWh2g-PoLoZ74RjMOEUX7XdrDsHM1yFbjGHBzK8/s1600/btcpay.jpg" alt=""/></p><p>BTCPay Server, the self-hosted open-source crypto payment processor, is urging users to update after Bitcoin and Litecoin were stolen from hot wallets on instances running older versions. The project says the attacks targeted servers on version 2.4.1 (released July 23, 2026) or earlier.</p><p>Source: <a href="https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html">The Hacker News</a></p>]]></description>
+    </item>
     <item>
       <title>Google takes down 1.3 million-device Android TV box botnet, says maker Videostrong sold backdoor access</title>
       <link>https://thehackernews.com/2026/11/google-disrupts-13-million-device.html</link>
@@ -353,75 +377,6 @@
       <pubDate>Tue, 27 Oct 2026 09:14:50 -0700</pubDate>
       <enclosure url="https://img.helpnetsecurity.com/wp-content/uploads/2026/05/28101246/data-breach-red.webp" type="image/webp" length="0"/>
       <description><![CDATA[<p><img src="https://img.helpnetsecurity.com/wp-content/uploads/2026/05/28101246/data-breach-red.webp" alt=""/></p><p>The University of Copenhagen took Workzone, Nimbus and other administrative systems offline on Monday after activity first thought to be a new attack. It now says the activity is tied to the breach disclosed last week, which exposed personal data, including national ID numbers, of about 525,000 people.</p><p>Source: <a href="https://www.helpnetsecurity.com/2026/10/27/university-of-copenhagen-cyberattack-data-breach/">Help Net Security</a></p>]]></description>
-    </item>
-    <item>
-      <title>University of New Mexico Health diverts patients and closes 30+ clinics over cybersecurity issue</title>
-      <link>https://www.securityweek.com/cybersecurity-issue-forces-a-major-new-mexico-hospital-to-divert-patients-and-close-clinics/</link>
-      <guid isPermaLink="false">unm-health-cyber-diversion-20261026191200</guid>
-      <pubDate>Mon, 26 Oct 2026 19:12:00 -0700</pubDate>
-      <description><![CDATA[<p>The University of New Mexico Health System told people not to come to its main hospital in Albuquerque, diverted patients, and canceled appointments at more than 30 clinics because of a cybersecurity issue. Details on the cause and scope haven't been released yet.</p><p>Source: <a href="https://www.securityweek.com/cybersecurity-issue-forces-a-major-new-mexico-hospital-to-divert-patients-and-close-clinics/">SecurityWeek</a></p>]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Bubble says attacker stole users' third-party API keys and tokens; platform partly offline during containment]]></title>
-      <link>https://status.bubble.io/incidents/01M5WJ5HV7RWPN15GFDHZMCSSS</link>
-      <guid isPermaLink="false">bubble-incident-api-keys-20261026161000</guid>
-      <pubDate>Mon, 26 Oct 2026 16:10:00 -0700</pubDate>
-      <enclosure url="https://status.bubble.io/og-image.png" type="image/jpeg" length="0"/>
-      <description><![CDATA[<p><img src="https://status.bubble.io/og-image.png" alt=""/></p><p>No-code platform Bubble disclosed an active security incident on Oct 26, 2026, confirming an attacker accessed third-party tokens and credentials, such as API Connector and plugin keys, belonging to a subset of users. Bubble says the attacker now appears contained, but forensics continues and the editor, live apps, file access and some plugins remain disrupted by containment steps.</p><p>Bubble users should review activity on connected third-party accounts and be ready to rotate keys when told; official notices come only from bubble.io.</p><p>Source: <a href="https://status.bubble.io/incidents/01M5WJ5HV7RWPN15GFDHZMCSSS">Bubble status page</a></p>]]></description>
-    </item>
-<item>
-      <title>PHP rebuilds Windows packages for 8.2 to 8.5 to fix Brotli code-execution flaw CVE-2026-111497</title>
-      <link>https://thehackernews.com/2026/10/php-issues-second-windows-security.html</link>
-      <guid isPermaLink="false">php-windows-brotli-rebuild-20261026111310</guid>
-      <pubDate>Mon, 26 Oct 2026 11:13:10 -0700</pubDate>
-      <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWGYEqFaRxRywsWzBt-2T2G_Jpdp4zy3iV7qI1alNGRaBf_8TMdzRQQb335GhASkVoXD3q9mGkiLjAog4ez9d7DHhl88lkNVvuhI74KiKZP0zZpb2O8yyqyDw12WoYTiGaq1AVfG9TfGcdNhP-DmRwuKJ4Pj4mr9rEo-TVLYxYSpmUogJUSFZFL_VaduQ/s1600/php-windows.jpg" type="image/jpeg" length="0"/>
-      <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWGYEqFaRxRywsWzBt-2T2G_Jpdp4zy3iV7qI1alNGRaBf_8TMdzRQQb335GhASkVoXD3q9mGkiLjAog4ez9d7DHhl88lkNVvuhI74KiKZP0zZpb2O8yyqyDw12WoYTiGaq1AVfG9TfGcdNhP-DmRwuKJ4Pj4mr9rEo-TVLYxYSpmUogJUSFZFL_VaduQ/s1600/php-windows.jpg" alt=""/></p><p>PHP has rebuilt its official Windows packages for PHP 8.2 through 8.5 (builds 8.5.12-1, 8.4.27-1, 8.3.36-1 and 8.2.35-1) to bundle Brotli 1.2.1, fixing CVE-2026-111497, the Brotli memory-corruption flaw behind the Node2Shell research. It is the second Windows update in five days, after the October 21 PHP2Shell fixes.</p><p>The flaw is reachable through the cURL extension when automatic decompression is on, which Guzzle enables by default. The PHP version number does not change, so admins should check the -1 build suffix or SHA-256 hash. No attacks are reported and the flaw is not in CISA KEV.</p><p>Source: <a href="https://thehackernews.com/2026/10/php-issues-second-windows-security.html">The Hacker News</a></p>]]></description>
-    </item>
-    <item>
-      <title>Genesys confirms hackers took customer contact and account data from internal CRM and LMS</title>
-      <link>https://www.securityweek.com/genesys-hack-exposes-customer-data-from-internal-systems/</link>
-      <guid isPermaLink="false">genesys-crm-lms-breach-20261026111310</guid>
-      <pubDate>Mon, 26 Oct 2026 11:13:10 -0700</pubDate>
-      <description><![CDATA[<p>Contact-center vendor Genesys says an intruder accessed internal business systems, including its CRM and learning management system, and accessed or downloaded customer and prospect data such as names, business emails, phone numbers, job titles and account details. Genesys says the incident was fully contained on October 23 and that Genesys Cloud, Engage and Engage Cloud, plus customer data and call recordings in them, were not affected.</p><p>A new group called ScarlettGroup has claimed the attack. Customers should expect targeted phishing that references Genesys.</p><p>Sources: <a href="https://www.securityweek.com/genesys-hack-exposes-customer-data-from-internal-systems/">SecurityWeek</a>, <a href="https://www.genesys.com/blog/post/security-update-incident-affecting-certain-genesys-internal-business-systems">Genesys security update</a></p>]]></description>
-    </item>
-    <item>
-      <title>PHP2Shell now confirmed exploited in the wild: honeypots log working shells via public PoC</title>
-      <link>https://www.securityweek.com/php2shell-exploitation-moves-from-probes-to-working-shells/</link>
-      <guid isPermaLink="false">php2shell-itw-rce-20261026090951</guid>
-      <pubDate>Mon, 26 Oct 2026 09:09:51 -0700</pubDate>
-      <description><![CDATA[<p>Perplexity researcher Adel Karimi reports confirmed remote code execution of the PHP2Shell flaws (CVE-2026-109618/-109619) against his honeypots, with 35 shells launched from two IP addresses on October 24 using a four-stage chain that closely matches a public proof-of-concept.</p><p>Expel's Marcus Hutchins called it the highest-quality confirmation of in-the-wild exploitation so far. Karimi cautions the honeypots used a favorable single-worker Apache mod_php setup, and no second-stage payload was seen. CISA has published a Sigma detection rule but has not yet added the flaws to KEV. Patch to PHP 8.5.12, 8.4.27, 8.3.36 or 8.2.35.</p><p>Sources: <a href="https://www.securityweek.com/php2shell-exploitation-moves-from-probes-to-working-shells/">SecurityWeek</a>, <a href="https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/">BleepingComputer</a></p>]]></description>
-    </item>
-    <item>
-      <title>Siemens, Schneider Electric, ABB and other industrial vendors confirm OT products affected by PHP2Shell</title>
-      <link>https://www.securityweek.com/industrial-vendors-check-products-for-php2shell-vulnerabilities/</link>
-      <guid isPermaLink="false">php2shell-ics-vendors-20261026090951</guid>
-      <pubDate>Mon, 26 Oct 2026 09:09:51 -0700</pubDate>
-      <enclosure url="https://www.securityweek.com/wp-content/uploads/2024/06/PLC-HMI-SCADA-ICS-industrial.jpeg" type="image/jpeg" length="0"/>
-      <description><![CDATA[<p><img src="https://www.securityweek.com/wp-content/uploads/2024/06/PLC-HMI-SCADA-ICS-industrial.jpeg" alt=""/></p><p>Siemens, Schneider Electric, ABB, Rockwell Automation and Johnson Controls have published advisories on the PHP2Shell flaws, and several confirm some industrial and OT products are affected.</p><p>Schneider lists EcoStruxure Security Expert (fixed in 1.48.4.0), ProLeiT LINEoptimize and EcoStruxure Control Engineering, the last with mitigations only for now. Other vendors are still assessing exposure.</p><p>Sources: <a href="https://www.securityweek.com/industrial-vendors-check-products-for-php2shell-vulnerabilities/">SecurityWeek</a></p>]]></description>
-    </item>
-    <item>
-      <title>Gheist campaign uses stolen GitHub tokens to dump Actions secrets from 850+ accounts' repos</title>
-      <link>https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html</link>
-      <guid isPermaLink="false">gheist-github-tokens-20261026090951</guid>
-      <pubDate>Mon, 26 Oct 2026 09:09:51 -0700</pubDate>
-      <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipCbP2hnS9ddXqMz9cNIAMEQZWy2qX45MZnYfIuO_Zszamhl_FS7ViRp4CZcjHS6uu6A4jR_S4vBzHzoMNtAb0CbaGxHxj2F07wuKWHfSbsFUov-4dsQWUNJZwfGbnfThW1sAQZ61y5ibqyhlW1iBmbWeSwE1gKHsigRRXaql9P96aFANb3al6vno7fuA/s1600/github-secrets.jpg" type="image/jpeg" length="0"/>
-      <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipCbP2hnS9ddXqMz9cNIAMEQZWy2qX45MZnYfIuO_Zszamhl_FS7ViRp4CZcjHS6uu6A4jR_S4vBzHzoMNtAb0CbaGxHxj2F07wuKWHfSbsFUov-4dsQWUNJZwfGbnfThW1sAQZ61y5ibqyhlW1iBmbWeSwE1gKHsigRRXaql9P96aFANb3al6vno7fuA/s1600/github-secrets.jpg" alt=""/></p><p>Wiz reports an automated campaign, active since September 15, that uses stolen GitHub tokens to push ci-sync-* branches with workflows that print repository secrets into Actions logs, then downloads the logs and deletes the runs. Wiz recovered more than 13,500 planted branches from more than 850 compromised accounts, including private enterprise repositories.</p><p>GitHub's safeguard for suspicious runs blocked public-repo attempts but does not cover private repositories or GitHub Enterprise Server. Affected orgs should rotate every secret the repo could read and revoke the token that pushed the branch.</p><p>Sources: <a href="https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html">The Hacker News</a></p>]]></description>
-    </item>
-    <item>
-      <title>Two CVSS 9.9 Wasmtime flaws let malicious WebAssembly modules escape the sandbox</title>
-      <link>https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html</link>
-      <guid isPermaLink="false">wasmtime-sandbox-escape-20261026090951</guid>
-      <pubDate>Mon, 26 Oct 2026 09:09:51 -0700</pubDate>
-      <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5xq9w5oCep_lu7UpdVExPO7yRQ1tMz0YkxljYR_LmwG3WKowZ2CtLPh4F6kASJ7Xu0xJKy4uVzlwj7fPEO3fgKUELS4BqUtDZvGh1P-iqRslXNCLdkcJMCBGSKvJeqrrkeZdfPO9Wmv_v2VqdYEZVavTHw-QHUhli9QYGVhASuSRt3DETy8JMBz1D-kE/s1600/wasm.jpg" type="image/jpeg" length="0"/>
-      <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5xq9w5oCep_lu7UpdVExPO7yRQ1tMz0YkxljYR_LmwG3WKowZ2CtLPh4F6kASJ7Xu0xJKy4uVzlwj7fPEO3fgKUELS4BqUtDZvGh1P-iqRslXNCLdkcJMCBGSKvJeqrrkeZdfPO9Wmv_v2VqdYEZVavTHw-QHUhli9QYGVhASuSRt3DETy8JMBz1D-kE/s1600/wasm.jpg" alt=""/></p><p>The Bytecode Alliance fixed two critical bugs in Wasmtime's Cranelift compiler (one ARM64-only, CVE-2026-115893) that let an attacker-supplied WebAssembly module escape its sandbox. Risk is highest for platforms that compile other people's modules, such as Fastly Compute.</p><p>No attacks are reported. Update to 36.0.19, 48.0.7, 49.0.4 or 50.0.0; unsupported lines, including 24.x LTS, get no fix.</p><p>Sources: <a href="https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html">The Hacker News</a></p>]]></description>
-    </item>
-    <item>
-      <title>Fortinet ships fixes for critical AI-found FortiOS flaws, withholding details until November 10</title>
-      <link>https://www.helpnetsecurity.com/2026/10/26/fortinet-patches-critical-fortios-flaws-found-with-ai-help/</link>
-      <guid isPermaLink="false">fortinet-fortios-ai-flaws-20261026090951</guid>
-      <pubDate>Mon, 26 Oct 2026 09:09:51 -0700</pubDate>
-      <enclosure url="https://img.helpnetsecurity.com/wp-content/uploads/2026/01/21163736/fortinet-man-1500.webp" type="image/jpeg" length="0"/>
-      <description><![CDATA[<p><img src="https://img.helpnetsecurity.com/wp-content/uploads/2026/01/21163736/fortinet-man-1500.webp" alt=""/></p><p>Fortinet released security hardening updates last week for FortiOS, FortiManager, FortiAnalyzer, FortiMail and FortiAuthenticator, fixing critical vulnerabilities found with AI models and validated by humans.</p><p>Details stay embargoed until November 10, 2026. CISO Carl Windsor warned that attackers can use AI to find and weaponize bugs, so admins should update now rather than wait for the disclosure.</p><p>Sources: <a href="https://www.helpnetsecurity.com/2026/10/26/fortinet-patches-critical-fortios-flaws-found-with-ai-help/">Help Net Security</a></p>]]></description>
     </item>
   </channel>
 </rss>
