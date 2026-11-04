@@ -7,8 +7,15 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Wed, 04 Nov 2026 12:05:45 -0800</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 13:10:52 -0800</lastBuildDate>
     <item>
+<title>Zyxel patches GS1900 switch zero-day CVE-2026-107441 exploited to hijack nearly 1,000 devices</title>
+<link>https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/</link>
+<guid isPermaLink="false">zyxel-gs1900-zero-day-cve-2026-107441-20261104131052</guid>
+<pubDate>Wed, 04 Nov 2026 13:10:52 -0800</pubDate>
+<description><![CDATA[<p>Zyxel has fixed CVE-2026-107441, an unauthenticated out-of-bounds write in the web management interface of ten GS1900 switch models that lets attackers run OS commands. GreyNoise saw a suspected Chinese-speaking actor, Kapibala, compromise 996 switches in 48 countries since mid-August, stealing configs and hashed root credentials.</p><p>Binarly found the exploit bypassed Zyxel's earlier CVE-2026-7273 patch; fixed firmware shipped October 22 and the advisory went out November 3. Admins should update GS1900 firmware and keep management interfaces off the internet.</p><p>Source: <a href="https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/">BleepingComputer</a></p>]]></description>
+</item>
+<item>
 <title>CISA adds Apple pointer-authentication bypass CVE-2024-27834 to exploited list after APT29 iOS watering-hole chain</title>
 <link>https://www.bleepingcomputer.com/news/security/hackers-use-n-day-exploits-in-zero-click-attacks-on-ios-android-devices/</link>
 <guid isPermaLink="false">cisa-kev-apple-cve-2024-27834-20261104120545</guid>
@@ -382,14 +389,6 @@
 <pubDate>Tue, 27 Oct 2026 19:11:56 -0700</pubDate>
 <enclosure url="https://www.bleepstatic.com/content/hl-images/2026/10/27/gmo.jpg" type="image/jpeg" length="0"/>
 <description><![CDATA[<p><img src="https://www.bleepstatic.com/content/hl-images/2026/10/27/gmo.jpg" alt=""/></p><p>GMO Internet told customers of its Onamae Desktop Cloud VPS service to disconnect from the internet and shut down after the attacker behind an October 20 intrusion threatened to trigger ransomware planted on customer servers. The breach may have put malware on up to 26,739 customer servers, and GMO has confirmed company and customer data was published online.</p><p>The attacker demanded ¥8 billion (about $50 million), which GMO says it won't pay. MetaTrader 4 and 5 trading credentials may be exposed, so customers are being told to reset passwords and end active sessions.</p><p>Source: <a href="https://www.bleepingcomputer.com/news/security/japans-gmo-urges-customers-to-shut-down-pcs-amid-ransomware-threat/">BleepingComputer</a></p>]]></description>
-</item>
-<item>
-<title>Skimmer gang hijacks Convertr's shared Plausible analytics script to steal card data across Brazilian fashion stores</title>
-<link>https://www.bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data/</link>
-<guid isPermaLink="false">convertr-plausible-skimmer-20261027191156</guid>
-<pubDate>Tue, 27 Oct 2026 19:11:56 -0700</pubDate>
-<enclosure url="https://www.bleepstatic.com/content/hl-images/2026/10/27/cart.jpg" type="image/jpeg" length="0"/>
-<description><![CDATA[<p><img src="https://www.bleepstatic.com/content/hl-images/2026/10/27/cart.jpg" alt=""/></p><p>Sansec found that a Brazilian card-skimming group modified a self-hosted Plausible analytics tracker run by e-commerce platform Convertr, which loads on the checkout pages of every merchant on the platform. Convertr powers checkout for dozens of major Brazilian fashion brands handling about $370 million in sales.</p><p>Sansec suspects initial access came through CVE-2026-8467, an unauthenticated command-execution flaw in Convertr's outdated Plausible Community Edition, though that is unconfirmed. By October 26 the skimmer had been refined to target Convertr's exact payment API fields.</p><p>Source: <a href="https://www.bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data/">BleepingComputer</a></p>]]></description>
 </item>
 </channel>
 </rss>
