@@ -7,7 +7,39 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 03 Nov 2026 13:05:00 -0800</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 09:12:00 -0800</lastBuildDate>
+    <item>
+<title>Critical Rails Active Storage flaw lets unauthenticated uploads write server files via ImageMagick</title>
+<link>https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html</link>
+<guid isPermaLink="false">rails-activestorage-imagemagick-20261104091200</guid>
+<pubDate>Wed, 04 Nov 2026 09:12:00 -0800</pubDate>
+<enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaJWnScdkMx0R5_Zt00NtYVNjNavBR7IMrLzJM_tZGMTpZtAvV7uNWt6BQbBrlUzH-aBoj_ZmMEOG__aTA8VmfTeiHUR9gfqNe2eYf9fSM-sYQkmCOg10qZ3ZaKyM_RS1QUQhm8s5NMw-xnYaWMDgDakmFyp9tbJgQ4hOZTf0cxe9E6x7uWt3JeN6bS3k/s1600/ruby-rails.jpg" type="image/jpeg" length="0"/>
+<description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaJWnScdkMx0R5_Zt00NtYVNjNavBR7IMrLzJM_tZGMTpZtAvV7uNWt6BQbBrlUzH-aBoj_ZmMEOG__aTA8VmfTeiHUR9gfqNe2eYf9fSM-sYQkmCOg10qZ3ZaKyM_RS1QUQhm8s5NMw-xnYaWMDgDakmFyp9tbJgQ4hOZTf0cxe9E6x7uWt3JeN6bS3k/s1600/ruby-rails.jpg" alt=""/></p><p>Ruby on Rails fixed a 9.8-rated flaw (GHSA-f3w6-w445-fwh9) in Active Storage that lets an unauthenticated attacker write arbitrary files on the server by uploading a crafted file, such as an SVG reaching ImageMagick's MSL coder, when the app processes uploads with ImageMagick. Apps using the Disk storage service can also leak readable files like secret_key_base and credentials, which can lead to code execution. Simply attaching the upload triggers it. Fixed in Rails 8.1.4.1 and 8.0.5.2; no exploitation reported yet.</p><p>Source: <a href="https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html">The Hacker News</a></p>]]></description>
+</item>
+    <item>
+<title>Xen hypervisor flaws (XSA-523) let a malicious guest VM read and write other VMs' memory, including dom0</title>
+<link>https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html</link>
+<guid isPermaLink="false">xen-xsa-523-guest-escape-20261104091100</guid>
+<pubDate>Wed, 04 Nov 2026 09:11:00 -0800</pubDate>
+<enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAVPXiuTBfhBnpwaZHMfSDWymKJrXbS88kOEO1Xuh5t11qAnwSKeFTHGQy6ZG9Sr2N-wRYrJg58x3lKFbybvU9p1a85lxaCHfBa61vO1DfjEhUi5Yzf6bQS1eN7Mu-s_sUwkE-JGc-UznJ1p0qfmwMDusXFzWawXKXMt6jj-vENxyQG12uAUDUe0p0gtg/s1600/xen.jpg" type="image/jpeg" length="0"/>
+<description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAVPXiuTBfhBnpwaZHMfSDWymKJrXbS88kOEO1Xuh5t11qAnwSKeFTHGQy6ZG9Sr2N-wRYrJg58x3lKFbybvU9p1a85lxaCHfBa61vO1DfjEhUi5Yzf6bQS1eN7Mu-s_sUwkE-JGc-UznJ1p0qfmwMDusXFzWawXKXMt6jj-vENxyQG12uAUDUe0p0gtg/s1600/xen.jpg" alt=""/></p><p>Two grant-copy flaws in Xen 4.6 and later (CVE-2026-102703 and CVE-2026-102704) let a malicious guest VM read and write the memory of other VMs on the same host, including the privileged dom0, effectively a full host takeover. Patches are out and there is no mitigation. The bugs were found by Anthropic using Claude and independently reported by CodeAnt AI; no attacks are known.</p><p>Source: <a href="https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html">The Hacker News</a></p>]]></description>
+</item>
+    <item>
+<title>Google's November Android bulletin fixes critical zero-click RCE CVE-2026-58868 in Android 14-17</title>
+<link>https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html</link>
+<guid isPermaLink="false">android-cve-2026-58868-nov-bulletin-20261104091000</guid>
+<pubDate>Wed, 04 Nov 2026 09:10:00 -0800</pubDate>
+<enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgm9fDI_lHL64S1r-eoB5-99WagZJBIjKDF-bEJ9egJw_EiLUomXSakGnV0vdq9Fqu2j6KVWM4upLmOwweDCKQ32f21W8CTsQHnoGMhFm-ISPNQEg1Jq5WbDujqLHVkGSEsox0Xd3Yc5Dd-v4-6rdzU4akd97y7cBhRYFO2ofmxpf3HYspJ6MkJs2RtfC4/s1600/android-patch.jpg" type="image/jpeg" length="0"/>
+<description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgm9fDI_lHL64S1r-eoB5-99WagZJBIjKDF-bEJ9egJw_EiLUomXSakGnV0vdq9Fqu2j6KVWM4upLmOwweDCKQ32f21W8CTsQHnoGMhFm-ISPNQEg1Jq5WbDujqLHVkGSEsox0Xd3Yc5Dd-v4-6rdzU4akd97y7cBhRYFO2ofmxpf3HYspJ6MkJs2RtfC4/s1600/android-patch.jpg" alt=""/></p><p>Google's November 2026 Android security bulletin fixes CVE-2026-58868, a critical heap overflow in FrameDecoder.cpp that could allow remote code execution without user interaction on Android 14 through 17. Phones need patch level 2026-11-01 or later for this flaw and 2026-11-05 for the full bulletin. Google reports no exploitation so far.</p><p>Source: <a href="https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html">The Hacker News</a></p>]]></description>
+</item>
+    <item>
+<title>APT29-linked 'Poisoned Source' watering hole hijacks Plerdy analytics script to hit iOS and Android with n-day exploit chains</title>
+<link>https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html</link>
+<guid isPermaLink="false">apt29-poisoned-source-plerdy-20261104090900</guid>
+<pubDate>Wed, 04 Nov 2026 09:09:00 -0800</pubDate>
+<enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhx1cus2o8fkYGLhQu9BfPgGtAUwnmTAMucLagfAodBuRoYnyxGIJKgpqtKFyCSV-WSG3pDqmPujhj-iwoOZB-zF8JjbQMrLzDHYtdTPA3hD3Kc3rqYQM4CQwkICwZkh8K6O8ZSt-WAA_PBoUA6lHwh_55dbDlKizsjzcTN847c9BSHsWHmrAP42JHRHIYS/s1600/ios-exploit.jpg" type="image/jpeg" length="0"/>
+<description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhx1cus2o8fkYGLhQu9BfPgGtAUwnmTAMucLagfAodBuRoYnyxGIJKgpqtKFyCSV-WSG3pDqmPujhj-iwoOZB-zF8JjbQMrLzDHYtdTPA3hD3Kc3rqYQM4CQwkICwZkh8K6O8ZSt-WAA_PBoUA6lHwh_55dbDlKizsjzcTN847c9BSHsWHmrAP42JHRHIYS/s1600/ios-exploit.jpg" alt=""/></p><p>Sekoia attributes a watering-hole campaign it found in mid-October to Russia's APT29, using compromised sites, fake domains and a supply-chain compromise of the Ukrainian Plerdy SEO Tracker analytics script. Injected JavaScript fingerprints visitors and serves platform-specific n-day exploit chains for iOS or Android that steal cookies and sometimes Wi-Fi passwords or full device data. Victim sites include a US chemical-industry trade group and a Bulgarian military-related site; keeping phones updated blocks these chains.</p><p>Source: <a href="https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html">The Hacker News</a></p>]]></description>
+</item>
     <item>
 <title>CISA adds WordPress Core upgrade-window RCE (CVE-2026-119977) to exploited list, due Nov 6</title>
 <link>https://severitydaily.com/wordpress-core-cve-2026-119977-8-1-upgrade-window-rce-7-1-4-october-28-62969-blocked-counts-12-18-22/</link>
@@ -345,38 +377,6 @@
 <pubDate>Tue, 27 Oct 2026 12:14:48 -0700</pubDate>
 <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiniSfVwM2b4RVouLhc_nIvm2CdQCg9jtQDBVQP6BjvEC2NBaLFqU0A8RyC_GA3PkI4jF87W3h0GJ4xzycp6LAd4I3eRh3JnhnM9yi7CZ9dX2Pfe3MdDaaUSyrDUy1ksA-fdq0bUVzWcFRmS-JWOy3z7xiWB70DzgXLst_YspRqbGIAyv85_D4H9sPT7Sq3/s1600/cyberstrikeai.jpg" type="image/jpeg" length="0"/>
 <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiniSfVwM2b4RVouLhc_nIvm2CdQCg9jtQDBVQP6BjvEC2NBaLFqU0A8RyC_GA3PkI4jF87W3h0GJ4xzycp6LAd4I3eRh3JnhnM9yi7CZ9dX2Pfe3MdDaaUSyrDUy1ksA-fdq0bUVzWcFRmS-JWOy3z7xiWB70DzgXLst_YspRqbGIAyv85_D4H9sPT7Sq3/s1600/cyberstrikeai.jpg" alt=""/></p><p>Trend Micro's TrendAI analyzed three exposed attacker servers used against organizations in Japan, with AI playing roles from full automation to tool-building help. In the first case, the open-source CyberStrikeAI pentest framework split recon, exploitation, C2, persistence, exfiltration and reporting across 44 agents, hitting at least 19 organizations (16 in Japan) in a short October 2026 window.</p><p>The other two cases were a human-led, LLM-assisted campaign that stole GIS and email data and sought cheap inference capacity, and a long-running operator hitting Cisco, Citrix, F5, Yamaha edge devices and WebLogic servers since January. Targets also spanned Taiwan, Hong Kong, the UK, France, Italy, Qatar and Colombia.</p><p>Source: <a href="https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html">The Hacker News</a></p>]]></description>
-</item>
-<item>
-<title>HPE patches 72 Aruba AOS-8 and AOS-10 flaws, including eight max-severity unauthenticated RCE and auth-bypass bugs</title>
-<link>https://www.securityweek.com/hpe-patches-dozens-of-critical-flaws-in-networking-products/</link>
-<guid isPermaLink="false">hpe-aruba-aos-patches-20261027110700</guid>
-<pubDate>Tue, 27 Oct 2026 11:07:37 -0700</pubDate>
-<enclosure url="https://www.securityweek.com/wp-content/uploads/2026/10/HPE-Aruba.jpeg" type="image/jpeg" length="0"/>
-<description><![CDATA[<p><img src="https://www.securityweek.com/wp-content/uploads/2026/10/HPE-Aruba.jpeg" alt=""/></p><p>HPE released fixes for 72 vulnerabilities in the AOS-8 and AOS-10 operating systems behind its Aruba wireless products, 33 of them rated critical. Eight max-severity bugs (CVE-2026-79844 through CVE-2026-79851) could let unauthenticated attackers run code remotely or gain admin access. Fixed builds are AOS 8.10.0.24, 8.13.3.1, 10.4.1.14, 10.7.2.7 and 10.8.1.2 across conductors, controllers, gateways and access points.</p><p>Source: <a href="https://www.securityweek.com/hpe-patches-dozens-of-critical-flaws-in-networking-products/">SecurityWeek</a></p>]]></description>
-</item>
-<item>
-<title>Denver Health Medical Plan notifies 238,000 members after vendor SquareML leaked a database access key</title>
-<link>https://www.securityweek.com/vendor-key-leak-puts-data-of-238000-denver-health-plan-members-at-risk/</link>
-<guid isPermaLink="false">denver-health-squareml-leak-20261027110701</guid>
-<pubDate>Tue, 27 Oct 2026 11:07:37 -0700</pubDate>
-<enclosure url="https://www.securityweek.com/wp-content/uploads/2025/10/bank-finance-lender-credit-union-hack.jpeg" type="image/jpeg" length="0"/>
-<description><![CDATA[<p><img src="https://www.securityweek.com/wp-content/uploads/2025/10/bank-finance-lender-credit-union-hack.jpeg" alt=""/></p><p>Denver Health Medical Plan, which administers Medicaid benefits in the Denver area, is notifying 238,083 members that their personal and health information may have been exposed. Its analytics vendor SquareML says an access key to a database holding member data was published on a public website on June 27, 2025, and was not revoked until August 18, 2026. The compromised account was read-only.</p><p>Source: <a href="https://www.securityweek.com/vendor-key-leak-puts-data-of-238000-denver-health-plan-members-at-risk/">SecurityWeek</a></p>]]></description>
-</item>
-<item>
-<title>DreamHost suspends File Manager and resets some email and FTP passwords over an unexplained incident</title>
-<link>https://www.securityweek.com/unexplained-dreamhost-incident-prompts-email-ftp-password-resets/</link>
-<guid isPermaLink="false">dreamhost-incident-resets-20261027110702</guid>
-<pubDate>Tue, 27 Oct 2026 11:07:37 -0700</pubDate>
-<enclosure url="https://www.securityweek.com/wp-content/uploads/2025/08/password-manager.jpeg" type="image/jpeg" length="0"/>
-<description><![CDATA[<p><img src="https://www.securityweek.com/wp-content/uploads/2025/08/password-manager.jpeg" alt=""/></p><p>Web host DreamHost suspended its File Manager service and reset passwords for some email and FTP/SFTP users after what it calls an issue affecting several systems, including webmail. Account owners must set new passwords for affected mailbox and FTP users and tell them to change any reused passwords elsewhere. Customers have criticized the lack of detail about whether passwords were exposed.</p><p>Source: <a href="https://www.securityweek.com/unexplained-dreamhost-incident-prompts-email-ftp-password-resets/">SecurityWeek</a></p>]]></description>
-</item>
-<item>
-<title>Apple backports fix for exploited CoreGraphics flaw CVE-2026-86950 to older iPhones and iPads</title>
-<link>https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html</link>
-<guid isPermaLink="false">apple-coregraphics-backport-20261027100425</guid>
-<pubDate>Tue, 27 Oct 2026 10:04:25 -0700</pubDate>
-<enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqZx9ghfLBFufN5Q4s1dq2U1rXwenlfzU7UsqQfLWn3AEUe5CX3krGuvC6DM4mF2T9MmscvntBNxmgU7UjNOnfJQteKvuAs-4Nq0vJ3TnTkuFy1TRO3ibdh2Ekqi_WqiInvPkXjYlnvrCuYb5mb8neOOqBbmf_034wh8MPOLPKW2Nvvezpb2LFNXPbeUa6/s1600/apple-patch.jpg" type="image/jpeg" length="0"/>
-<description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqZx9ghfLBFufN5Q4s1dq2U1rXwenlfzU7UsqQfLWn3AEUe5CX3krGuvC6DM4mF2T9MmscvntBNxmgU7UjNOnfJQteKvuAs-4Nq0vJ3TnTkuFy1TRO3ibdh2Ekqi_WqiInvPkXjYlnvrCuYb5mb8neOOqBbmf_034wh8MPOLPKW2Nvvezpb2LFNXPbeUa6/s1600/apple-patch.jpg" alt=""/></p><p>Apple released iOS 18.7.11 and iPadOS 18.7.11, extending last month's fix for CVE-2026-86950 (CVSS 8.8), an out-of-bounds write in CoreGraphics that can lead to code execution when a crafted file is processed. Apple says the flaw may have been exploited in an extremely sophisticated attack against specific targeted individuals. The update covers older devices such as the iPhone XS, XS Max and XR, and also fixes an Audio logic issue, CVE-2026-65339.</p><p>Source: <a href="https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html">The Hacker News</a></p>]]></description>
 </item>
 </channel>
 </rss>
