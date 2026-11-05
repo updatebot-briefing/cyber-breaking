@@ -7,8 +7,18 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 05 Nov 2026 14:12:49 -0800</lastBuildDate>
-      <item>
+    <lastBuildDate>Thu, 05 Nov 2026 14:13:16 -0800</lastBuildDate>
+        <item>
+    <title>Keycloak 26.8.2 fixes critical SAML HTTP-Redirect signature bypass (CVE-2026-117691)</title>
+    <link>https://www.keycloak.org/2026/11/keycloak-2682-released</link>
+    <guid isPermaLink="false">keycloak-cve-2026-117691-20261105141316</guid>
+    <pubDate>Thu, 05 Nov 2026 14:13:16 -0800</pubDate>
+    <description><![CDATA[
+<p>Keycloak 26.8.2, released Nov 5, fixes <strong>CVE-2026-117691</strong>, a SAML HTTP-Redirect binding flaw where percent-encoded parameter names (for example <code>%53AMLResponse</code>) can slip past signature checks and enable unauthenticated federated account takeover. Red Hat rates it Important with CVSS 9.1; no exploitation is reported yet.</p>
+<p>Operators running SAML identity federation should upgrade to 26.8.2 promptly. Sources: <a href="https://www.keycloak.org/2026/11/keycloak-2682-released">Keycloak 26.8.2 release notes</a>; <a href="https://access.redhat.com/security/cve/cve-2026-117691">Red Hat CVE-2026-117691</a>.</p>
+]]></description>
+  </item>
+<item>
     <title>Chainalysis says password hashes and live tokens for all users were exposed in ongoing breach</title>
     <link>https://www.chainalysis.com/blog/security-incident-october-30/</link>
     <guid isPermaLink="false">chainalysis-all-users-hashes-tokens-20261105141249</guid>
@@ -395,14 +405,6 @@
       <pubDate>Thu, 29 Oct 2026 09:06:41 -0700</pubDate>
       <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDuVB5nQJHwAnAATDQxAqD8KtWk7IpNvBqXQq6RPkqJ72joLVDp5dUDDdYmRHlrbUhJQpaQQ59p245XjotvW2DNx_fKk7cPp0wJUsK0z5IQY2jXA1oP-YcYKLtSdBXnZJDNECWOzX9tP3-12cKXJm2A1KKoBsu9CEiOYKbgJDVqvQt7YRF8Fzd706YumA/s1600/cisco-sdwan.jpg" type="image/jpeg" length="0"/>
       <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDuVB5nQJHwAnAATDQxAqD8KtWk7IpNvBqXQq6RPkqJ72joLVDp5dUDDdYmRHlrbUhJQpaQQ59p245XjotvW2DNx_fKk7cPp0wJUsK0z5IQY2jXA1oP-YcYKLtSdBXnZJDNECWOzX9tP3-12cKXJm2A1KKoBsu9CEiOYKbgJDVqvQt7YRF8Fzd706YumA/s1600/cisco-sdwan.jpg" alt=""/></p><p>Cisco Talos said on October 28 that attackers exploited a critical Catalyst SD-WAN flaw fixed in February to plant custom malware called KeyDrift inside SD-WAN controllers. KeyDrift copies the keys that encrypt traffic between sites and stores them for later use. Talos describes the attacks as historical but did not say when they happened.</p><p>Source: <a href="https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html">The Hacker News</a></p>]]></description>
-    </item>
-<item>
-      <title>Palo Alto Networks warns PHP2Shell flaws are being exploited against internet-exposed firewall management interfaces</title>
-      <link>https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html</link>
-      <guid isPermaLink="false">php2shell-palo-alto-mgmt-20261029090641</guid>
-      <pubDate>Thu, 29 Oct 2026 09:06:41 -0700</pubDate>
-      <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9wRucatO6j8IYS9drMJNn_BtgvNwY739pg33a6-50h33cCXnqi4unW5RppMfzO6TLjMdDQ-XICWN6uKTU6ai_SyLBeD8k4SdO7Kx2-QJeMbz0LSEMZkuKZls2dMSNoJmkY5nSc2SOduiSkVpKY9uFjCG0gU73hMvSyyqMANymiqb012-Z_rVUUUJtQQ5C/s1600/php-palo.jpg" type="image/jpeg" length="0"/>
-      <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9wRucatO6j8IYS9drMJNn_BtgvNwY739pg33a6-50h33cCXnqi4unW5RppMfzO6TLjMdDQ-XICWN6uKTU6ai_SyLBeD8k4SdO7Kx2-QJeMbz0LSEMZkuKZls2dMSNoJmkY5nSc2SOduiSkVpKY9uFjCG0gU73hMvSyyqMANymiqb012-Z_rVUUUJtQQ5C/s1600/php-palo.jpg" alt=""/></p><p>Palo Alto Networks updated its advisory on October 28 to say attackers are actively exploiting the recently patched PHP2Shell vulnerabilities against management interfaces exposed to the internet. Customers should patch and restrict management access to trusted internal networks.</p><p>Source: <a href="https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html">The Hacker News</a></p>]]></description>
     </item>
 </channel>
 </rss>
