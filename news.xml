@@ -7,7 +7,23 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 05 Nov 2026 11:05:00 -0800</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 12:03:08 -0800</lastBuildDate>
+    <item>
+      <title>DigiCert breach exposed customer contact data and some identity documents</title>
+      <link>https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/</link>
+      <guid isPermaLink="false">digicert-breach-20261105120308</guid>
+      <pubDate>Thu, 05 Nov 2026 12:03:08 -0800</pubDate>
+      <enclosure url="https://www.bleepstatic.com/content/hl-images/2026/11/05/digicert-header.jpg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://www.bleepstatic.com/content/hl-images/2026/11/05/digicert-header.jpg" alt=""/></p><p>Certificate authority DigiCert is notifying customers of a data breach after a February 2025 server migration exposed a formerly VPN-only internal business system to the internet. Outsiders could self-register accounts and, through an authorization flaw, read archived customer records including names, business emails, phone numbers and addresses. For some customers the exposed data also included identity documents submitted for certificate validation, such as driver's licenses, passports and utility bills.</p><p>Source: <a href="https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/">BleepingComputer</a></p>]]></description>
+    </item>
+    <item>
+      <title>CWPdoor backdoor spreads through trojanized Control Web Panel web server</title>
+      <link>https://www.bleepingcomputer.com/news/security/hackers-backdoor-linux-servers-using-trojanized-cwp-web-server/</link>
+      <guid isPermaLink="false">cwpdoor-cwp-backdoor-20261105120308</guid>
+      <pubDate>Thu, 05 Nov 2026 12:03:08 -0800</pubDate>
+      <enclosure url="https://www.bleepstatic.com/content/hl-images/2026/10/29/Linux.jpg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://www.bleepstatic.com/content/hl-images/2026/10/29/Linux.jpg" alt=""/></p><p>QiAnXin XLab found a stealthy Linux backdoor called CWPdoor delivered by a fake updater script that swaps the cwpsrv web server behind Control Web Panel (formerly CentOS Web Panel) with a malicious build. The passive backdoor waits for RSA-signed, AES-encrypted commands hidden in HTTP headers and suppresses access-log entries for those requests. XLab counts more than 340,000 internet-exposed CWP instances, so admins should verify their cwpsrv binaries.</p><p>Source: <a href="https://www.bleepingcomputer.com/news/security/hackers-backdoor-linux-servers-using-trojanized-cwp-web-server/">BleepingComputer</a></p>]]></description>
+    </item>
     <item>
 <title>OpenSSH ships emergency fix for Alpine/musl password authentication bypass</title>
 <link>https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html</link>
@@ -373,22 +389,6 @@
 <pubDate>Wed, 28 Oct 2026 10:08:12 -0700</pubDate>
 <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgl3PPkqzXf7YyMcnwdBu5XWlOwWtUonf15z0n79qMtIOVTb4LNfKdnl7tUK-45_2boP9r2ZKuHmX6e1BZLmo-LYF-rUwH8gtNrynFuaX4rlNh20UXPvtIfC85BcKcHXK1qei6uOJyImSjTfO537yljJve0Y_zMlfFfhBl0mKPfppWhkfojtGlYgxLjdSO0/s1600/php-united.jpg" type="image/jpeg" length="0"/>
 <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgl3PPkqzXf7YyMcnwdBu5XWlOwWtUonf15z0n79qMtIOVTb4LNfKdnl7tUK-45_2boP9r2ZKuHmX6e1BZLmo-LYF-rUwH8gtNrynFuaX4rlNh20UXPvtIfC85BcKcHXK1qei6uOJyImSjTfO537yljJve0Y_zMlfFfhBl0mKPfppWhkfojtGlYgxLjdSO0/s1600/php-united.jpg" alt=""/></p><p>Security firm Dream says a suspected China-nexus actor paired a custom, non-public PHP2Shell exploit with Linux kernel flaw CVE-2026-46300 on October 25 to root 25 servers running an unnamed large vendor's firewall software across the U.S., Japan, Taiwan and South Korea. Three of the servers sat in a U.S. government-affiliated environment, where the attacker moved on to Active Directory, extracting credentials and enumerating the directory. Artifacts point to AI-assisted tooling, including Claude Code and an LLM-driven offensive platform.</p><p>Source: <a href="https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html">The Hacker News</a></p>]]></description>
-</item>
-<item>
-<title>Oracle E-Business Suite unauthenticated SQLi-to-RCE flaw CVE-2026-101767 already drawing exploit probes days after patch</title>
-<link>https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html</link>
-<guid isPermaLink="false">oracle-ebs-cve-2026-101767-probes-20261028091332</guid>
-<pubDate>Wed, 28 Oct 2026 09:13:32 -0700</pubDate>
-<enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBB03AGS7veiAqQ7-xPeadzhhaRvDmhOlLgQcDN0y-r1na_us5yomWjBEXCbwbw8OW_o8SSGjjqk4VZFQ4ZxLiWKQPZxlcBkzJ5lv3OlEV0rOETUKyQzWoZ74LGpSjOjrScmk1rVf0OhRmDACHG3jwSDfBnnta75I_3s_nuoWGZmcfg7NZfHBp_PEIl8aj/s1600/oracle-hack.jpg" type="image/jpeg" length="0"/>
-<description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBB03AGS7veiAqQ7-xPeadzhhaRvDmhOlLgQcDN0y-r1na_us5yomWjBEXCbwbw8OW_o8SSGjjqk4VZFQ4ZxLiWKQPZxlcBkzJ5lv3OlEV0rOETUKyQzWoZ74LGpSjOjrScmk1rVf0OhRmDACHG3jwSDfBnnta75I_3s_nuoWGZmcfg7NZfHBp_PEIl8aj/s1600/oracle-hack.jpg" alt=""/></p><p>Defused Cyber says its Oracle E-Business Suite decoys logged exploratory exploit attempts on October 27 against CVE-2026-101767 (CVSS 9.8), an unauthenticated SQL injection in the Thin Client Framework servlet that Horizon3.ai showed chains to remote code execution. Oracle fixed it in last week's Critical Patch Update.</p><p>A successful attack runs SQL as the APPS database user and OS commands as the EBS application account, exposing financial, payroll and HR data. EBS bugs have been hot targets this year, including one used by Cl0p, so internet-facing instances should be patched now.</p><p>Source: <a href="https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html">The Hacker News</a></p>]]></description>
-</item>
-<item>
-<title>Tailscale ships fixes for "Tailworm" SSH flaws that let one compromised device gain root on other tailnet servers</title>
-<link>https://www.helpnetsecurity.com/2026/10/28/tailscale-fixes-tailworm-ssh-flaws/</link>
-<guid isPermaLink="false">tailscale-tailworm-patched-20261028091332</guid>
-<pubDate>Wed, 28 Oct 2026 09:13:32 -0700</pubDate>
-<enclosure url="https://img.helpnetsecurity.com/wp-content/uploads/2026/10/28122202/tailscale-1500.webp" type="image/jpeg" length="0"/>
-<description><![CDATA[<p><img src="https://img.helpnetsecurity.com/wp-content/uploads/2026/10/28122202/tailscale-1500.webp" alt=""/></p><p>Tailscale has released patches for several vulnerabilities, including Tailscale SSH bugs that let an attacker who already controls one device in a tailnet escalate to higher privileges on other machines. The flaws were previously reported as unpatched.</p><p>Tailscale says an attacker could only reach machines the tailnet policy file already allowed SSH connections to. Teams using Tailscale SSH should update clients and servers.</p><p>Sources: <a href="https://www.helpnetsecurity.com/2026/10/28/tailscale-fixes-tailworm-ssh-flaws/">Help Net Security</a>, <a href="https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html">The Hacker News</a></p>]]></description>
 </item>
 </channel>
 </rss>
