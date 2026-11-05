@@ -7,8 +7,44 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 05 Nov 2026 13:07:18 -0800</lastBuildDate>
-    <item>
+    <lastBuildDate>Thu, 05 Nov 2026 14:12:49 -0800</lastBuildDate>
+      <item>
+    <title>Chainalysis says password hashes and live tokens for all users were exposed in ongoing breach</title>
+    <link>https://www.chainalysis.com/blog/security-incident-october-30/</link>
+    <guid isPermaLink="false">chainalysis-all-users-hashes-tokens-20261105141249</guid>
+    <pubDate>Thu, 05 Nov 2026 14:12:49 -0800</pubDate>
+    <enclosure url="https://www.chainalysis.com/wp-content/uploads/2026/10/2026-11-security.png" type="image/png" length="0"/>
+    <description><![CDATA[
+<p><img src="https://www.chainalysis.com/wp-content/uploads/2026/10/2026-11-security.png" alt=""/></p>
+<p>Chainalysis updated its October security incident notice on Nov 4 PT to say names, usernames, password hashes, and live tokens for <strong>all</strong> users were exposed to a malicious actor. That is a material escalation from its earlier Oct 30 claim that it had found no evidence authentication credentials or session tokens were accessed.</p>
+<p>The blockchain analytics firm, which serves law enforcement and compliance customers, took KYT, address screening, and its login page offline after abnormal activity and is requiring password resets and API key rotation. It still says it has no evidence investigations or attribution data were accessed or manipulated. Source: <a href="https://www.chainalysis.com/blog/security-incident-october-30/">Chainalysis incident blog</a>; reporting also in <a href="https://therecord.media/chainalysis-all-users-hit-by-agentic-cyberattack">The Record</a>.</p>
+]]></description>
+  </item>
+<item>
+    <title>Fake OpenAI, SpaceX, and Anthropic event invites steal Microsoft and Google sessions via PhaaS kits</title>
+    <link>https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/</link>
+    <guid isPermaLink="false">fake-openai-spacex-anthropic-phaas-20261105141149</guid>
+    <pubDate>Thu, 05 Nov 2026 14:11:49 -0800</pubDate>
+    <enclosure url="https://www.bleepstatic.com/content/hl-images/2022/08/23/phishing-hook.jpg" type="image/jpeg" length="0"/>
+    <description><![CDATA[
+<p><img src="https://www.bleepstatic.com/content/hl-images/2022/08/23/phishing-hook.jpg" alt=""/></p>
+<p>Push Security reports attackers are using fake OpenAI, SpaceX, and Anthropic event registration pages to phish corporate Microsoft and Google accounts. The same pages wire two phishing-as-a-service platforms: Kali365 for Microsoft device-code phishing and VoidProxy as an adversary-in-the-middle proxy for Google (and a second-stage Microsoft) session theft.</p>
+<p>Lures promise free ChatGPT Pro, Grok Heavy, or other rewards and push victims to sign in with work accounts, often after a Cloudflare CAPTCHA. Push says it blocked visits to the malicious pages in late October 2026. Source: <a href="https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/">BleepingComputer</a>.</p>
+]]></description>
+  </item>
+<item>
+    <title>Muji operator says about 1.09 million customer records, including valid card numbers, may have leaked</title>
+    <link>https://www.bangkokpost.com/world/3349180/credit-card-numbers-may-have-leaked-in-cyberattack-on-muji</link>
+    <guid isPermaLink="false">muji-ryohin-keikaku-card-leak-20261105141049</guid>
+    <pubDate>Thu, 05 Nov 2026 14:10:49 -0800</pubDate>
+    <enclosure url="https://static.bangkokpost.com/media/content/20261105/c1_3349180_700.jpg" type="image/jpeg" length="0"/>
+    <description><![CDATA[
+<p><img src="https://static.bangkokpost.com/media/content/20261105/c1_3349180_700.jpg" alt=""/></p>
+<p>Ryohin Keikaku, operator of the Muji brand, said about 1.09 million customer records may have leaked after unauthorized access, including roughly 345,000 Muji Card records with full numbers of currently valid credit cards and dates of birth, according to Kyodo News reporting.</p>
+<p>That follows an earlier late-October notice that up to 27.26 million Muji App customer records may have been exposed. The same report notes related Japanese retail and airline email-list breaches tied to contractor Arara. Source: <a href="https://www.bangkokpost.com/world/3349180/credit-card-numbers-may-have-leaked-in-cyberattack-on-muji">Bangkok Post / Kyodo</a>.</p>
+]]></description>
+  </item>
+<item>
 <title>Iris Plaza says cloud breach may have exposed data on 7.7 million Iris Ohyama shoppers</title>
 <link>https://cyberinsider.com/iris-plaza-cloud-breach-7-7-million-people/</link>
 <guid isPermaLink="false">iris-plaza-breach-20261105130718</guid>
@@ -24,7 +60,7 @@
       <enclosure url="https://www.bleepstatic.com/content/hl-images/2026/11/05/digicert-header.jpg" type="image/jpeg" length="0"/>
       <description><![CDATA[<p><img src="https://www.bleepstatic.com/content/hl-images/2026/11/05/digicert-header.jpg" alt=""/></p><p>Certificate authority DigiCert is notifying customers of a data breach after a February 2025 server migration exposed a formerly VPN-only internal business system to the internet. Outsiders could self-register accounts and, through an authorization flaw, read archived customer records including names, business emails, phone numbers and addresses. For some customers the exposed data also included identity documents submitted for certificate validation, such as driver's licenses, passports and utility bills.</p><p>Source: <a href="https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/">BleepingComputer</a></p>]]></description>
     </item>
-    <item>
+<item>
       <title>CWPdoor backdoor spreads through trojanized Control Web Panel web server</title>
       <link>https://www.bleepingcomputer.com/news/security/hackers-backdoor-linux-servers-using-trojanized-cwp-web-server/</link>
       <guid isPermaLink="false">cwpdoor-cwp-backdoor-20261105120308</guid>
@@ -32,7 +68,7 @@
       <enclosure url="https://www.bleepstatic.com/content/hl-images/2026/10/29/Linux.jpg" type="image/jpeg" length="0"/>
       <description><![CDATA[<p><img src="https://www.bleepstatic.com/content/hl-images/2026/10/29/Linux.jpg" alt=""/></p><p>QiAnXin XLab found a stealthy Linux backdoor called CWPdoor delivered by a fake updater script that swaps the cwpsrv web server behind Control Web Panel (formerly CentOS Web Panel) with a malicious build. The passive backdoor waits for RSA-signed, AES-encrypted commands hidden in HTTP headers and suppresses access-log entries for those requests. XLab counts more than 340,000 internet-exposed CWP instances, so admins should verify their cwpsrv binaries.</p><p>Source: <a href="https://www.bleepingcomputer.com/news/security/hackers-backdoor-linux-servers-using-trojanized-cwp-web-server/">BleepingComputer</a></p>]]></description>
     </item>
-    <item>
+<item>
 <title>OpenSSH ships emergency fix for Alpine/musl password authentication bypass</title>
 <link>https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html</link>
 <guid isPermaLink="false">openssh-alpine-password-bypass-20261105110500</guid>
@@ -368,27 +404,5 @@
       <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9wRucatO6j8IYS9drMJNn_BtgvNwY739pg33a6-50h33cCXnqi4unW5RppMfzO6TLjMdDQ-XICWN6uKTU6ai_SyLBeD8k4SdO7Kx2-QJeMbz0LSEMZkuKZls2dMSNoJmkY5nSc2SOduiSkVpKY9uFjCG0gU73hMvSyyqMANymiqb012-Z_rVUUUJtQQ5C/s1600/php-palo.jpg" type="image/jpeg" length="0"/>
       <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9wRucatO6j8IYS9drMJNn_BtgvNwY739pg33a6-50h33cCXnqi4unW5RppMfzO6TLjMdDQ-XICWN6uKTU6ai_SyLBeD8k4SdO7Kx2-QJeMbz0LSEMZkuKZls2dMSNoJmkY5nSc2SOduiSkVpKY9uFjCG0gU73hMvSyyqMANymiqb012-Z_rVUUUJtQQ5C/s1600/php-palo.jpg" alt=""/></p><p>Palo Alto Networks updated its advisory on October 28 to say attackers are actively exploiting the recently patched PHP2Shell vulnerabilities against management interfaces exposed to the internet. Customers should patch and restrict management access to trusted internal networks.</p><p>Source: <a href="https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html">The Hacker News</a></p>]]></description>
     </item>
-<item>
-<title>CISA adds Fragnesia Linux kernel flaw CVE-2026-46300 to KEV with a three-day deadline after PHP2Shell root chain</title>
-<link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-46300</link>
-<guid isPermaLink="false">cisa-kev-fragnesia-cve-2026-46300-20261028130735</guid>
-<pubDate>Wed, 28 Oct 2026 13:07:35 -0700</pubDate>
-<description><![CDATA[<p>CISA added the Linux kernel privilege-escalation flaw CVE-2026-46300, known as Fragnesia, to its Known Exploited Vulnerabilities catalog on October 28 and gave federal agencies until October 31 to fix it, with forensic triage required. CISA says attackers chain it with the PHP2Shell bugs CVE-2026-109618 and CVE-2026-109619 to plant PHP webshells and run commands as root, the same chain Dream reported against 25 internet-facing firewall servers.</p><p>Sources: <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-46300">CISA KEV entry</a>, <a href="https://www.securityweek.com/china-linked-hackers-exploit-php2shell-to-root-firewalls/">SecurityWeek</a></p>]]></description>
-</item>
-<item>
-<title>CISA flags VMware ESX audit-logging gap CVE-2026-41709 as actively exploited</title>
-<link>https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/38017</link>
-<guid isPermaLink="false">cisa-kev-vmware-esx-cve-2026-41709-20261028130735</guid>
-<pubDate>Wed, 28 Oct 2026 13:07:35 -0700</pubDate>
-<description><![CDATA[<p>CISA added CVE-2026-41709 in VMware ESX to its Known Exploited Vulnerabilities catalog on October 28, with a November 11 federal deadline. The bug is rated low severity (CVSS 2.7) because it needs ESX admin access, but it lets an attacker with that access perform some operations without leaving audit-log entries, which matters for hypervisor intrusions. Broadcom fixed it in VMSA-2026-0006 for ESXi 8.0, 9.0 and 9.1 and Cloud Foundation 5.2.4; CrowdStrike reported the issue.</p><p>Sources: <a href="https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/38017">Broadcom advisory</a>, <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-41709">CISA KEV entry</a></p>]]></description>
-</item>
-<item>
-<title>Volt Typhoon tied to "Silent Train" covert network used in four zero-day campaigns against SD-WAN and management platforms</title>
-<link>https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html</link>
-<guid isPermaLink="false">volt-typhoon-silent-train-zero-days-20261028120815</guid>
-<pubDate>Wed, 28 Oct 2026 12:08:15 -0700</pubDate>
-<enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXuRyHXVM1n6S9Z49nYkM2dmJjKwuZx2RAre0CQSpB202GteLj8keMogqzR7ZVIv7YRc9udBHU7-oCpnpzL6nLaez3ypbVr9cVmiH9zFwJVApy5cev84W725y38auaUdkCQGN3zvngCivMUl-SYV1jnJu9eHduaYeBzro4cdmFHIQJfBQN4RvcC-fUTrs1/s1600/si.jpg" type="image/jpeg" length="0"/>
-<description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXuRyHXVM1n6S9Z49nYkM2dmJjKwuZx2RAre0CQSpB202GteLj8keMogqzR7ZVIv7YRc9udBHU7-oCpnpzL6nLaez3ypbVr9cVmiH9zFwJVApy5cev84W725y38auaUdkCQGN3zvngCivMUl-SYV1jnJu9eHduaYeBzro4cdmFHIQJfBQN4RvcC-fUTrs1/s1600/si.jpg" alt=""/></p><p>Lumen's Black Lotus Labs attributes a now-disrupted covert access network called Silent Train, built from rotating chains of compromised SOHO, IoT and enterprise devices, to China-linked Volt Typhoon. It was used in four confirmed zero-day campaigns: Versa Director (CVE-2024-39717), N-able N-central (CVE-2025-8875/8876), Cisco Catalyst SD-WAN Controller (CVE-2026-20127) and Arista VeloCloud Orchestrator (CVE-2026-16812), plus a suspected Quest KACE zero-day.</p><p>Hundreds of victims were identified across telecoms, government, defense contractors, satellite communications, universities and critical infrastructure, with the group favoring management and control-plane systems that give access to downstream customers.</p><p>Source: <a href="https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html">The Hacker News</a></p>]]></description>
-</item>
 </channel>
 </rss>
