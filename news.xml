@@ -6,6 +6,8 @@
     <description><![CDATA[Notable but non-breaking cybersecurity news, one finding per item: short summary plus link to the original story.]]></description>
     <language>en-us</language>
     <ttl>60</ttl>
+    <ns0:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Nov 2026 09:10:30 -0800</lastBuildDate>
     <item>
       <title>Previdian sees OpenSSH *sshole exploited within hours of disclosure, with root on an Alpine honeypot</title>
       <link>https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html</link>
