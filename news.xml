@@ -7,8 +7,23 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <ns0:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Fri, 06 Nov 2026 11:14:45 -0800</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 13:05:00 -0800</lastBuildDate>
     <item>
+      <title>CISA adds SonicWall SonicOS SSLVPN SAML/MFA bypass CVE-2026-19868 to KEV</title>
+      <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-19868</link>
+      <guid isPermaLink="false">cisa-kev-sonicwall-sslvpn-cve-2026-19868-20261106130500</guid>
+      <pubDate>Fri, 06 Nov 2026 13:05:00 -0800</pubDate>
+      <description><![CDATA[<p>CISA added CVE-2026-19868 to the Known Exploited Vulnerabilities catalog on November 6, 2026 (catalogVersion 2026.11.06; due date November 20). The flaw is in SonicWall SonicOS SSLVPN: a user with valid credentials for an alternate authentication method may bypass SAML authentication controls and SAML-enforced multi-factor authentication, reducing protection to single-factor.</p><p>CISA lists known ransomware campaign use as Unknown and does not require BOD 26-04 forensic triage for this entry. SonicWall tracks it as SNWLID-2026-0014; affected builds include SonicOS 7.3.3-7015 and earlier and 8.2.2-8015 and earlier. Organizations should apply vendor mitigations, evaluate internet exposure of SSLVPN, and follow BOD 26-04 patching guidance.</p><p>This is a KEV authentication-bypass addition, not an unauthenticated mass RCE campaign.</p><p>Sources: <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-19868">CISA KEV</a>, <a href="https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2026-0014">SonicWall PSIRT SNWLID-2026-0014</a>, <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-19868">NVD</a></p>]]></description>
+    </item>
+<item>
+      <title>Microsoft Paint RCE CVE-2026-83844 fix is in the Store, not Windows Update</title>
+      <link>https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html</link>
+      <guid isPermaLink="false">microsoft-paint-rce-store-fix-cve-2026-83844-20261106130445</guid>
+      <pubDate>Fri, 06 Nov 2026 13:04:45 -0800</pubDate>
+      <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFEFFUv1MUNRoFx03Jcw0k5NZCU0EOf5qEpbvAEQoTSTzoxHWPk1rc7XgQeG1USPP9vVB0ePI_lzQLqBU5bHdQ7-YrwEXFo8gJwayqwCvCtcDrw1JYMxKYxieV3bcQeCRAJAxt8CRfifzMzL22_ab0Z0OxwWrNckC36gPEOnubZnzagv6DkV7iY4AQJfA/s1600/paint-rce.jpg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFEFFUv1MUNRoFx03Jcw0k5NZCU0EOf5qEpbvAEQoTSTzoxHWPk1rc7XgQeG1USPP9vVB0ePI_lzQLqBU5bHdQ7-YrwEXFo8gJwayqwCvCtcDrw1JYMxKYxieV3bcQeCRAJAxt8CRfifzMzL22_ab0Z0OxwWrNckC36gPEOnubZnzagv6DkV7iY4AQJfA/s1600/paint-rce.jpg" alt=""/></p><p>The Hacker News reports that a fix for CVE-2026-83844, an Important (CVSS 8.1) out-of-bounds-read remote code execution flaw in Windows Paint, is shipping as Microsoft Store build 11.2609.401.0 rather than through Windows Update. Checks across ten countries found that build as the newest Store offering today.</p><p>Microsoft says a successful attack needs deep knowledge of the target and was not known to be exploited when disclosed on October 13. Paint installs per-user (plus a provisioned copy), so a single signed-in account check can miss older builds. Guidance is to update every copy via the Store or MDM Store scan and verify with Get-AppxPackage / Get-AppxProvisionedPackage.</p><p>CVE and NVD ranges still cite older fixed builds in places, so scanners may disagree with the advisory’s 11.2609.401.0 bar. Not in CISA KEV as of this report.</p><p>Sources: <a href="https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html">The Hacker News</a></p>]]></description>
+    </item>
+<item>
       <title>Fake GitHub security tools push AsyncRAT backdoors and infostealers to more than 2,000 Windows systems</title>
       <link>https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/</link>
       <guid isPermaLink="false">fake-github-security-tools-asyncrat-20261106111440</guid>
@@ -16,7 +31,7 @@
       <enclosure url="https://www.bleepstatic.com/content/hl-images/2026/11/06/github.jpg" type="image/jpeg" length="0"/>
       <description><![CDATA[<p><img src="https://www.bleepstatic.com/content/hl-images/2026/11/06/github.jpg" alt=""/></p><p>Dr. Web reports a long-running campaign that recently shifted from crypto/game lures to malicious GitHub repositories posing as security tooling—scanners, log parsers, and test helpers—aimed at cybersecurity professionals. More than 2,000 Windows systems have been compromised.</p><p>Malicious code is hidden in Visual Studio pre-build events, Python, and Go sources behind long whitespace stretches. An Electron-based loader ("Microsoft.exe") establishes persistence, disables security features, and delivers AsyncRAT, a crypto clipper, and an infostealer that exfiltrates browser, VPN, FTP, gaming, and Discord data via Telegram.</p><p>Defenders should treat unvetted GitHub security scripts as untrusted, review pre-build hooks, and watch for the campaign IoCs Dr. Web published.</p><p>Sources: <a href="https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/">BleepingComputer</a></p>]]></description>
     </item>
-    <item>
+<item>
       <title>Japan announces ¥10 billion emergency cybersecurity package after wave of breaches</title>
       <link>https://www.securityweek.com/japan-announces-emergency-cybersecurity-package-following-a-wave-of-attacks/</link>
       <guid isPermaLink="false">japan-emergency-cybersecurity-package-20261106111425</guid>
@@ -24,7 +39,7 @@
       <enclosure url="https://www.securityweek.com/wp-content/uploads/2025/11/Geopolitics-Cybersecurity.jpg" type="image/jpeg" length="0"/>
       <description><![CDATA[<p><img src="https://www.securityweek.com/wp-content/uploads/2025/11/Geopolitics-Cybersecurity.jpg" alt=""/></p><p>Japan announced a 10 billion yen (about $63 million) emergency cybersecurity package on November 6 after dozens of companies and government agencies suffered unauthorized access and client-data leaks. Prime Minister Sanae Takaichi called for rapid response capability against AI-era attacks and said government resources would be devoted to raising national readiness.</p><p>Measures include "active cyber defense" access to attacker servers (legalized in October), a Defense Ministry/National Police/National Cybersecurity Office support team for national-security challenges, a METI "top gun" AI-assisted expert team by end of November, and public-private cyber rescue teams for incident response and hardening at vulnerable firms.</p><p>This is a government policy response to a sustained breach wave, not a single new mass-exploitation campaign.</p><p>Sources: <a href="https://www.securityweek.com/japan-announces-emergency-cybersecurity-package-following-a-wave-of-attacks/">SecurityWeek</a></p>]]></description>
     </item>
-    <item>
+<item>
       <title>Ahold Delhaize estimates October cyberattack will cut Q4 sales by up to €250 million</title>
       <link>https://www.securityweek.com/grocery-giant-ahold-delhaize-estimates-financial-toll-of-october-cyberattack/</link>
       <guid isPermaLink="false">ahold-delhaize-q4-cyber-toll-20261106111410</guid>
@@ -393,22 +408,6 @@
       <pubDate>Sun, 01 Nov 2026 17:08:26 -0800</pubDate>
       <enclosure url="https://securityonline.info/wp-content/uploads/2026/06/ransome.jpg" type="image/jpeg" length="0" />
       <description><![CDATA[<p><img src="https://securityonline.info/wp-content/uploads/2026/06/ransome.jpg" alt=""/></p><p>A widespread ransomware campaign is encrypting volumes on internet-exposed Synology NAS appliances running outdated software. Synology says attackers are exploiting already-patched bugs, chiefly CVE-2024-10441 (CVSS 9.8 unauthenticated RCE, advisory SA-24:20), and Qihoo 360 also saw exploitation of flaws patched in September 2026; no zero-day is involved. Owners should update DSM now, and end-of-life DSM 6.x units get no fixes.</p><p>Sources: <a href="https://securityonline.info/synology-nas-ransomware-attacks/">SecurityOnline</a></p>]]></description>
-    </item>
-<item>
-      <title>Attackers probe MLflow servers for file-read flaw as PoCs go public for it and a critical RCE bug</title>
-      <link>https://securityonline.info/mlflow-vulnerability-exploited-poc/</link>
-      <guid isPermaLink="false">mlflow-cve-2026-116690-20261101130731</guid>
-      <pubDate>Sun, 01 Nov 2026 13:07:31 -0800</pubDate>
-      <enclosure url="https://securityonline.info/wp-content/uploads/2026/10/Screenshot_20261028_230548_Chrome-scaled.webp" type="image/jpeg" length="0" />
-      <description><![CDATA[<p><img src="https://securityonline.info/wp-content/uploads/2026/10/Screenshot_20261028_230548_Chrome-scaled.webp" alt=""/></p><p>Honeypots caught exploitation attempts against MLflow CVE-2026-116690 (CVSS 7.5) within a day of its October 27 CVE publication. The bug lets unauthenticated users of default MLflow servers read arbitrary files, including auth databases with admin password hashes. A companion bug, CVE-2026-116692 (CVSS 9.8), allows unauthenticated RCE and also has a public PoC, though no in-the-wild exploitation is confirmed. MLflow 3.17.0 fixes both, and about 18,000 MLflow instances are internet-indexed.</p><p>Sources: <a href="https://securityonline.info/mlflow-vulnerability-exploited-poc/">SecurityOnline</a>, <a href="https://github.com/advisories/GHSA-m65p-9j7q-6w33">GitHub advisory</a></p>]]></description>
-    </item>
-<item>
-      <title>CVSS 10 flaw in Canonical LXD and MicroCloud lets attackers impersonate trusted clients without a private key</title>
-      <link>https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html</link>
-      <guid isPermaLink="false">lxd-microcloud-cve-2026-112816-20261101090405</guid>
-      <pubDate>Sun, 01 Nov 2026 09:04:05 -0800</pubDate>
-      <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4Vibbj3miGalyf0avn_Z2WlLhFh5cC5ImXGFlOL0cisgxikHCcLzHjOVM3qO5B47V3uw62rWH6m6fP1svsH3TCG6i9sS19BIXn1CsDjKK3gnG6VQxkFwghemdeBlV4_AM5Ah-_TJ3T_5Gv-D5Pygrm-B5yzQnDqvIXmI2FyAeuzk57_l6esdhNrTMBj0/s1600/linux-vm.jpg" type="image/jpeg" length="0" />
-      <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4Vibbj3miGalyf0avn_Z2WlLhFh5cC5ImXGFlOL0cisgxikHCcLzHjOVM3qO5B47V3uw62rWH6m6fP1svsH3TCG6i9sS19BIXn1CsDjKK3gnG6VQxkFwghemdeBlV4_AM5Ah-_TJ3T_5Gv-D5Pygrm-B5yzQnDqvIXmI2FyAeuzk57_l6esdhNrTMBj0/s1600/linux-vm.jpg" alt=""/></p><p>Canonical patched CVE-2026-112816, a maximum-severity (CVSS 10.0) authentication bypass in LXD and MicroCloud. The server checked every certificate a client sent against its trust store instead of only the leaf, so anyone who can reach the HTTPS management API and has a trusted client's public certificate can pose as that client, potentially reaching root on the host. Standalone LXD doesn't expose the API by default, and no attacks have been reported yet; fixes are in LXD 4.0.15, 5.0.11, 5.21.9 and 6.10.1 and MicroCloud 2.1.5 and 3.4.1.</p><p>Source: <a href="https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html">The Hacker News</a></p>]]></description>
     </item>
   </channel>
 </rss>
