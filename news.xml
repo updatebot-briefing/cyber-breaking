@@ -55,5 +55,360 @@
       <description><![CDATA[<p><img src="https://dam.mediacorp.sg/image/upload/s--Q9oykNMg--/c_fill,g_auto,h_676,w_1200/f_auto,q_auto/v1/mediacorp/cna/image/2026/11/06/m1_da_comp.jpg?itok=L-L7tPYj" alt=""/></p><p>Singapore telehealth provider Doctor Anywhere disclosed a malicious cyber incident involving unauthorised access to its systems. Subsidiary Adept Health, a third-party healthcare administrator, notified partner Income Insurance that personal data may include names, NRIC/FIN or passport numbers, contacts, addresses, dates of birth, policy details, and bank name and account numbers. Doctor Anywhere says clinical and medical records were not affected based on investigation to date, has engaged Ensign InfoSecurity, reported to PDPC and police, and says identified vulnerabilities were secured as of October 30, 2026.</p><p>Income Insurance says its own systems were not compromised and is notifying affected customers. Separately on the same day, telco M1 also disclosed a customer PII breach from October 30 without payment-card or banking data exposure. No confirmed mass exploitation of a new zero-day is tied to these disclosures.</p><p>Sources: <a href="https://www.channelnewsasia.com/singapore/doctor-anywhere-data-breach-6530871">CNA</a>, <a href="https://www.income.com.sg/about-us/corporate-information/advisory/adept-health-cyber-incident">Income Insurance Adept Health advisory</a></p>]]></description>
       <enclosure url="https://dam.mediacorp.sg/image/upload/s--Q9oykNMg--/c_fill,g_auto,h_676,w_1200/f_auto,q_auto/v1/mediacorp/cna/image/2026/11/06/m1_da_comp.jpg?itok=L-L7tPYj" type="image/jpeg" length="0"/>
     </item>
+    <item>
+      <title>CISA adds SonicWall SonicOS SSLVPN SAML/MFA bypass CVE-2026-19868 to KEV</title>
+      <link>https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-19868</link>
+      <guid isPermaLink="false">cisa-kev-sonicwall-sslvpn-cve-2026-19868-20261106130500</guid>
+      <pubDate>Fri, 06 Nov 2026 13:05:00 -0800</pubDate>
+      <description><![CDATA[<p>CISA added CVE-2026-19868 to the Known Exploited Vulnerabilities catalog on November 6, 2026 (catalogVersion 2026.11.06; due date November 20). The flaw is in SonicWall SonicOS SSLVPN: a user with valid credentials for an alternate authentication method may bypass SAML authentication controls and SAML-enforced multi-factor authentication, reducing protection to single-factor.</p><p>CISA lists known ransomware campaign use as Unknown and does not require BOD 26-04 forensic triage for this entry. SonicWall tracks it as SNWLID-2026-0014; affected builds include SonicOS 7.3.3-7015 and earlier and 8.2.2-8015 and earlier. Organizations should apply vendor mitigations, evaluate internet exposure of SSLVPN, and follow BOD 26-04 patching guidance.</p><p>This is a KEV authentication-bypass addition, not an unauthenticated mass RCE campaign.</p><p>Sources: <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-19868">CISA KEV</a>, <a href="https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2026-0014">SonicWall PSIRT SNWLID-2026-0014</a>, <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-19868">NVD</a></p>]]></description>
+    </item>
+    <item>
+      <title>Microsoft Paint RCE CVE-2026-83844 fix is in the Store, not Windows Update</title>
+      <link>https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html</link>
+      <guid isPermaLink="false">microsoft-paint-rce-store-fix-cve-2026-83844-20261106130445</guid>
+      <pubDate>Fri, 06 Nov 2026 13:04:45 -0800</pubDate>
+      <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFEFFUv1MUNRoFx03Jcw0k5NZCU0EOf5qEpbvAEQoTSTzoxHWPk1rc7XgQeG1USPP9vVB0ePI_lzQLqBU5bHdQ7-YrwEXFo8gJwayqwCvCtcDrw1JYMxKYxieV3bcQeCRAJAxt8CRfifzMzL22_ab0Z0OxwWrNckC36gPEOnubZnzagv6DkV7iY4AQJfA/s1600/paint-rce.jpg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFEFFUv1MUNRoFx03Jcw0k5NZCU0EOf5qEpbvAEQoTSTzoxHWPk1rc7XgQeG1USPP9vVB0ePI_lzQLqBU5bHdQ7-YrwEXFo8gJwayqwCvCtcDrw1JYMxKYxieV3bcQeCRAJAxt8CRfifzMzL22_ab0Z0OxwWrNckC36gPEOnubZnzagv6DkV7iY4AQJfA/s1600/paint-rce.jpg" alt=""/></p><p>The Hacker News reports that a fix for CVE-2026-83844, an Important (CVSS 8.1) out-of-bounds-read remote code execution flaw in Windows Paint, is shipping as Microsoft Store build 11.2609.401.0 rather than through Windows Update. Checks across ten countries found that build as the newest Store offering today.</p><p>Microsoft says a successful attack needs deep knowledge of the target and was not known to be exploited when disclosed on October 13. Paint installs per-user (plus a provisioned copy), so a single signed-in account check can miss older builds. Guidance is to update every copy via the Store or MDM Store scan and verify with Get-AppxPackage / Get-AppxProvisionedPackage.</p><p>CVE and NVD ranges still cite older fixed builds in places, so scanners may disagree with the advisory’s 11.2609.401.0 bar. Not in CISA KEV as of this report.</p><p>Sources: <a href="https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html">The Hacker News</a></p>]]></description>
+    </item>
+    <item>
+      <title>Fake GitHub security tools push AsyncRAT backdoors and infostealers to more than 2,000 Windows systems</title>
+      <link>https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/</link>
+      <guid isPermaLink="false">fake-github-security-tools-asyncrat-20261106111440</guid>
+      <pubDate>Fri, 06 Nov 2026 11:14:40 -0800</pubDate>
+      <enclosure url="https://www.bleepstatic.com/content/hl-images/2026/11/06/github.jpg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://www.bleepstatic.com/content/hl-images/2026/11/06/github.jpg" alt=""/></p><p>Dr. Web reports a long-running campaign that recently shifted from crypto/game lures to malicious GitHub repositories posing as security tooling—scanners, log parsers, and test helpers—aimed at cybersecurity professionals. More than 2,000 Windows systems have been compromised.</p><p>Malicious code is hidden in Visual Studio pre-build events, Python, and Go sources behind long whitespace stretches. An Electron-based loader ("Microsoft.exe") establishes persistence, disables security features, and delivers AsyncRAT, a crypto clipper, and an infostealer that exfiltrates browser, VPN, FTP, gaming, and Discord data via Telegram.</p><p>Defenders should treat unvetted GitHub security scripts as untrusted, review pre-build hooks, and watch for the campaign IoCs Dr. Web published.</p><p>Sources: <a href="https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/">BleepingComputer</a></p>]]></description>
+    </item>
+    <item>
+      <title>Japan announces ¥10 billion emergency cybersecurity package after wave of breaches</title>
+      <link>https://www.securityweek.com/japan-announces-emergency-cybersecurity-package-following-a-wave-of-attacks/</link>
+      <guid isPermaLink="false">japan-emergency-cybersecurity-package-20261106111425</guid>
+      <pubDate>Fri, 06 Nov 2026 11:14:25 -0800</pubDate>
+      <enclosure url="https://www.securityweek.com/wp-content/uploads/2025/11/Geopolitics-Cybersecurity.jpg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://www.securityweek.com/wp-content/uploads/2025/11/Geopolitics-Cybersecurity.jpg" alt=""/></p><p>Japan announced a 10 billion yen (about $63 million) emergency cybersecurity package on November 6 after dozens of companies and government agencies suffered unauthorized access and client-data leaks. Prime Minister Sanae Takaichi called for rapid response capability against AI-era attacks and said government resources would be devoted to raising national readiness.</p><p>Measures include "active cyber defense" access to attacker servers (legalized in October), a Defense Ministry/National Police/National Cybersecurity Office support team for national-security challenges, a METI "top gun" AI-assisted expert team by end of November, and public-private cyber rescue teams for incident response and hardening at vulnerable firms.</p><p>This is a government policy response to a sustained breach wave, not a single new mass-exploitation campaign.</p><p>Sources: <a href="https://www.securityweek.com/japan-announces-emergency-cybersecurity-package-following-a-wave-of-attacks/">SecurityWeek</a></p>]]></description>
+    </item>
+    <item>
+      <title>Ahold Delhaize estimates October cyberattack will cut Q4 sales by up to €250 million</title>
+      <link>https://www.securityweek.com/grocery-giant-ahold-delhaize-estimates-financial-toll-of-october-cyberattack/</link>
+      <guid isPermaLink="false">ahold-delhaize-q4-cyber-toll-20261106111410</guid>
+      <pubDate>Fri, 06 Nov 2026 11:14:10 -0800</pubDate>
+      <enclosure url="https://www.securityweek.com/wp-content/uploads/2024/11/Ahold-Delhaize-cyberattack.jpeg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://www.securityweek.com/wp-content/uploads/2024/11/Ahold-Delhaize-cyberattack.jpeg" alt=""/></p><p>Dutch-Belgian grocery giant Ahold Delhaize (Albert Heijn, Delhaize, Food Lion, Hannaford) said its October cyberattack will reduce fourth-quarter net sales by €200–250 million ($224–280 million) and underlying/IFRS operating income by €75–100 million. It lowered 2026 diluted EPS growth guidance to low single digits and free-cash-flow expectations to about €2.1 billion.</p><p>The company took systems offline after detecting a security issue, mainly hitting Benelux and U.S. online capabilities and Benelux supply-chain operations; most disruption was contained within two weeks, with restoration continuing. It has not disclosed attack type and previously said it had no evidence of customer/associate/partner data theft at disclosure.</p><p>This updates the mid-October incident with concrete financial impact; it is not a new active mass-exploitation event.</p><p>Sources: <a href="https://www.securityweek.com/grocery-giant-ahold-delhaize-estimates-financial-toll-of-october-cyberattack/">SecurityWeek</a>, <a href="https://newsroom.aholddelhaize.com/ahold-delhaize-reports-resilient-q3-2026-results-and-updates-2026-guidance-to-reflect-business-disruption-caused-by-recent-cybersecurity-incident/">Ahold Delhaize</a></p>]]></description>
+    </item>
+    <item>
+      <title>Researchers find residential proxy exits on the White House network (AS2650)</title>
+      <link>https://www.helpnetsecurity.com/2026/11/06/white-house-residential-proxy-traffic/</link>
+      <guid isPermaLink="false">white-house-residential-proxy-as2650-20261106101245</guid>
+      <pubDate>Fri, 06 Nov 2026 10:12:45 -0800</pubDate>
+      <enclosure url="https://img.helpnetsecurity.com/wp-content/uploads/2023/07/24144037/whitehouse-design.jpg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://img.helpnetsecurity.com/wp-content/uploads/2023/07/24144037/whitehouse-design.jpg" alt=""/></p><p>Layer3 Intel reported residential proxy nodes beaconing from AS2650, the Executive Office of the President network, with 236 observed exits between October 5 and November 3 from six addresses on 26 of 30 days. Twenty-eight separate residential proxy services offered the route; traffic skewed to evenings (about 5 p.m.–midnight ET).</p><p>Synthient tied activity to Windows installs of Infatica and other proxy SDKs, with high confidence that a shared streaming app (Rave) bundling multiple proxy SDKs was involved. Krebs on Security notes Infatica’s founder previously ran King Servers, linked to 2016 election-system targeting infrastructure. Poorly secured proxy SDKs have previously enabled lateral movement into internal networks.</p><p>This is a device/SDK hygiene finding on a high-profile network, not a disclosed mass RCE campaign. Defenders elsewhere should inventory proxy SDK apps on managed devices and treat ASN reputation alone as insufficient trust.</p><p>Sources: <a href="https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/">Krebs on Security</a>, <a href="https://www.helpnetsecurity.com/2026/11/06/white-house-residential-proxy-traffic/">Help Net Security</a></p>]]></description>
+    </item>
+    <item>
+      <title>CertiK and Trust Wallet warn DarkSword/Coruna iOS kits are draining crypto wallets on unpatched iPhones</title>
+      <link>https://www.cryptotimes.io/2026/11/06/certik-warns-darksword-ios-exploit-can-target-crypto-wallets/</link>
+      <guid isPermaLink="false">darksword-ios-crypto-wallet-drains-20261106101230</guid>
+      <pubDate>Fri, 06 Nov 2026 10:12:30 -0800</pubDate>
+      <enclosure url="https://www.cryptotimes.io/wp-content/uploads/2026/11/DarkSword-iOS-Exploit-Targets-Crypto-Wallets-on-Unpatched-iPhones.jpg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://www.cryptotimes.io/wp-content/uploads/2026/11/DarkSword-iOS-Exploit-Targets-Crypto-Wallets-on-Unpatched-iPhones.jpg" alt=""/></p><p>CertiK warned on November 6 that a newer DarkSword iOS exploit-kit variant is being used against cryptocurrency wallets on unpatched iPhones. Visiting a malicious site in Safari can be enough; no wallet connect or transaction signature is required. Targeted apps reportedly include MetaMask, Trust Wallet, Phantom, Exodus, and Coinbase.</p><p>DarkSword is a full-chain kit first documented by Google Threat Intelligence, iVerify, and Lookout. Once on-device, malware can pull Keychain data and search Photos and Notes for seed phrases. Separately, The Defiant reported an iPhone wallet-theft probe tracing about $4.06 million in TRON drains, with Trust Wallet stressing the issue is older iOS, not wallet-app bugs.</p><p>Advice centers on updating iOS immediately, not storing seeds in Photos/Notes, preferring hardware wallets for large holdings, and moving funds to a new wallet on a clean device if compromise is suspected. Researchers have also reported exploit-kit source being offered for sale.</p><p>Sources: <a href="https://www.cryptotimes.io/2026/11/06/certik-warns-darksword-ios-exploit-can-target-crypto-wallets/">The Crypto Times</a>, <a href="https://thedefiant.io/news/hacks/iphone-wallet-theft-probe-traces-4-06-million-in-tron-drains">The Defiant</a></p>]]></description>
+    </item>
+    <item>
+      <title>Gnosis Pay says legacy branded-card system breach exposed customer personal and card data</title>
+      <link>https://gnosispay.com/blog/data-breach-legacy-system-gnosis-pay-branded-cards</link>
+      <guid isPermaLink="false">gnosis-pay-legacy-card-breach-20261106101215</guid>
+      <pubDate>Fri, 06 Nov 2026 10:12:15 -0800</pubDate>
+      <enclosure url="https://framerusercontent.com/images/hBzIFAA2hIccS8afsPG97qn7Jo.png?width=1592&height=893" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://framerusercontent.com/images/hBzIFAA2hIccS8afsPG97qn7Jo.png?width=1592&height=893" alt=""/></p><p>Gnosis Pay disclosed that on November 3 its monitoring detected unauthorized access to the legacy system powering Gnosis Pay-branded consumer cards, exposing certain customer information. Containment began within two hours; affected credentials were replaced and the vulnerability addressed. Funds were not affected, and the enterprise white-label card platform was not impacted.</p><p>The company emailed every affected customer with the specific data taken from their account, mandated 3D Secure for online card payments, increased monitoring, and reported the incident to partners and data-protection authorities. The B2C system was already scheduled for retirement on December 20, 2026.</p><p>Public reporting and customer statements indicate exposed data can include names, emails, phone numbers, home addresses, and in some cases wallet addresses, IBAN details, and partial or full card data. Gnosis Pay urged customers to treat unexpected contact as phishing and never share seed phrases or PINs.</p><p>Sources: <a href="https://gnosispay.com/blog/data-breach-legacy-system-gnosis-pay-branded-cards">Gnosis Pay</a>, <a href="https://decrypt.co/382718/crypto-card-provider-gnosis-pay-hackers-customer-data">Decrypt</a></p>]]></description>
+    </item>
+    <item>
+      <title>D-Link warns of multiple unpatched zero-days in DGS-3130 series switches</title>
+      <link>https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/</link>
+      <guid isPermaLink="false">dlink-dgs-3130-unpatched-zerodays-20261106101200</guid>
+      <pubDate>Fri, 06 Nov 2026 10:12:00 -0800</pubDate>
+      <enclosure url="https://www.bleepstatic.com/content/hl-images/2026/11/06/D-Link-logo.jpg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://www.bleepstatic.com/content/hl-images/2026/11/06/D-Link-logo.jpg" alt=""/></p><p>D-Link published mitigations for multiple unpatched flaws in DGS-3130 series managed Gigabit stackable switches after Spectrum Community Solutions engineer Giresh Kumar Enugu reported bugs in D-Link Discovery Protocol (DDP) authentication, access control, and information handling. No CVE IDs have been assigned yet.</p><p>Successful exploitation could let an attacker on the affected network obtain sensitive device data, change credentials or configuration, leak SNMP communities, disrupt services, or reset devices. Firmware versions on DGS-3130-30TS hardware revision B1 are confirmed affected; D-Link is still assessing other platforms.</p><p>Until patches ship, D-Link says admins should disable DDP, remove default SNMP communities, restrict management interfaces to isolated networks, keep offline config backups, and watch for unexpected changes or reboots.</p><p>Sources: <a href="https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/">BleepingComputer</a>, <a href="https://supportannouncement.us.dlink.com/security/publication.aspx?name=SAP10523">D-Link SAP10523</a></p>]]></description>
+    </item>
+    <item>
+      <title>Previdian sees OpenSSH *sshole exploited within hours of disclosure, with root on an Alpine honeypot</title>
+      <link>https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html</link>
+      <guid isPermaLink="false">openssh-sshole-exploited-honeypot-20261106091030-0</guid>
+      <pubDate>Fri, 06 Nov 2026 09:10:30 -0800</pubDate>
+      <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHbl1TAGj_ZHZDF3oQ8AfebRDiovg_d8Wk4huY5VJkSa0csE45G7k5jwdG1De-W-7l2RjnyH_ZvT3vcioykVeOooifwvViM8RiuTu0gSt2t-XgOefyYKyM5_zbsI5WFNubkIT0hOUr4inPIQMvXs6GDTLa6j7XWL3etRJYvOcDLJxa3IDXv-KtuCma5JsG/s1600/ssh.jpg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHbl1TAGj_ZHZDF3oQ8AfebRDiovg_d8Wk4huY5VJkSa0csE45G7k5jwdG1De-W-7l2RjnyH_ZvT3vcioykVeOooifwvViM8RiuTu0gSt2t-XgOefyYKyM5_zbsI5WFNubkIT0hOUr4inPIQMvXs6GDTLa6j7XWL3etRJYvOcDLJxa3IDXv-KtuCma5JsG/s1600/ssh.jpg" alt=""/></p><p>Threat intel firm Previdian reported the first exploitation attempts against CVE-2026-123158 (*sshole / SSHole) less than nine hours after the CVE was published, and confirmed successful root access on an Alpine Linux honeypot running OpenSSH without PAM. Telemetry showed eight attempts from a Japan-geolocated IP using oversized passwords and non-interactive reconnaissance commands (id, uname, hostname).</p><p>The flaw lets an unauthenticated attacker authenticate to password-disabled accounts (password hash "*") on musl Linux systems such as default Alpine sshd when PAM is off. Impact is limited to those niche configurations; OpenSSH 10.6p2 and distribution packages fix it. Alpine urges checking "Accepted password for" logs on accounts that should not accept passwords.</p><p>Sources: <a href="https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html">The Hacker News</a></p>]]></description>
+    </item>
+    <item>
+      <title>WordPress CVE-2026-119977 fix can still leave some sites exposed during the update that installs it</title>
+      <link>https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html</link>
+      <guid isPermaLink="false">wordpress-fix-exposes-one-last-time-20261106091030-1</guid>
+      <pubDate>Fri, 06 Nov 2026 09:10:30 -0800</pubDate>
+      <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4gwg9bgmxLj_anXtQvOZdeKYWN-aAZxZqlOrI7wXwZ_qW_lUZrzwYufexnbDLcC20eXBkh7TgA-dAQHm6EEmEc80i9A6GOBGkiOb8NhcR1d1CFLKDLc7VJzyC4Bv-5Ye2AEE_ApPcKmAWqJJFfbQ2AOGffKhCPNznyYyz5s0Jro-mxcTxfxPoqRe-ZoY/s1600/wp-update.jpg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4gwg9bgmxLj_anXtQvOZdeKYWN-aAZxZqlOrI7wXwZ_qW_lUZrzwYufexnbDLcC20eXBkh7TgA-dAQHm6EEmEc80i9A6GOBGkiOb8NhcR1d1CFLKDLc7VJzyC4Bv-5Ye2AEE_ApPcKmAWqJJFfbQ2AOGffKhCPNznyYyz5s0Jro-mxcTxfxPoqRe-ZoY/s1600/wp-update.jpg" alt=""/></p><p>Picus Security researcher Umut Bayram reports that installing WordPress 7.1.4 (or branch fixes) for the actively exploited upgrade-window RCE CVE-2026-119977 can still expose some sites one last time: the updater on unpatched sites unpacks using old code, so complete packages can recreate a predictable installer under wp-content/upgrade before the new code takes over.</p><p>CISA already listed the flaw in KEV with a Nov 6 due date. Bayram recommends blocking web access to /wp-content/upgrade/ before updating, or performing a manual update outside the web root. Wordfence has seen attackers probing for the update window; public exploit-shaped code has appeared on GitHub.</p><p>Sources: <a href="https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html">The Hacker News</a></p>]]></description>
+    </item>
+    <item>
+      <title>QNAP says customers' NAS devices are being breached through exploited Plex2Shell flaws</title>
+      <link>https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/</link>
+      <guid isPermaLink="false">qnap-plex2shell-nas-compromises-20261106091030-2</guid>
+      <pubDate>Fri, 06 Nov 2026 09:10:30 -0800</pubDate>
+      <enclosure url="https://www.bleepstatic.com/content/hl-images/2026/11/06/QNAP.jpg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://www.bleepstatic.com/content/hl-images/2026/11/06/QNAP.jpg" alt=""/></p><p>QNAP warned that some customers' NAS devices appear compromised through the Plex2Shell vulnerability chain (CVE-2026-96652/-96654/-96655/-96656) in Plex Media Server. CISA added all four flaws to KEV on Oct 20 after exploitation began following public technical details on Oct 16; QNAP says QTS/QuTS hero themselves are not affected—only the Plex app.</p><p>QNAP urges updating Plex via App Center to 1.43.3.10861 or later, treating internet-exposed vulnerable instances as compromised, checking IoCs, and performing a clean OS reinstall plus credential resets because patching alone will not remove already-installed payloads. Users who do not need remote Plex should close port 32400 or use VPN.</p><p>Sources: <a href="https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/">BleepingComputer</a></p>]]></description>
+    </item>
+    <item>
+      <title>Rohto Pharmaceutical says mail-order breach hit about 2.8 million customers; 9,715 had card numbers in call audio</title>
+      <link>https://www.rohto.co.jp/en/news/whatsnew/2026/1106_01/</link>
+      <guid isPermaLink="false">rohto-pharma-2-8m-breach-20261106091030-3</guid>
+      <pubDate>Fri, 06 Nov 2026 09:10:30 -0800</pubDate>
+      <enclosure url="https://www.rohto.co.jp/-/media/common/images/logo_ogp.png?sc_lang=ja-jp" type="image/png" length="0"/>
+      <description><![CDATA[<p><img src="https://www.rohto.co.jp/-/media/common/images/logo_ogp.png?sc_lang=ja-jp" alt=""/></p><p>Japanese drugmaker Rohto Pharmaceutical disclosed that unauthorized access to its mail-order telephone and customer-management systems exposed personal data for 2,797,545 customers (name, address, and/or phone). Call recordings for 9,715 customers also contained credit-card numbers and expiry dates (no CVV/passwords).</p><p>Rohto said the intrusion began via misused telephone-system account credentials reported by its provider on Sept 10, 2026; it suspended accounts, rotated passwords, stopped taking card numbers by phone, notified police and Japan's Personal Information Protection Commission, and is contacting affected customers. No secondary misuse confirmed so far.</p><p>Sources: <a href="https://www.rohto.co.jp/en/news/whatsnew/2026/1106_01/">Rohto Pharmaceutical</a></p>]]></description>
+    </item>
+    <item>
+      <title>Beget says attackers wiped cloud VPS, storage, and Kubernetes data across 1,000+ servers</title>
+      <link>https://therecord.media/russia-cyberattack-beget-cloud</link>
+      <guid isPermaLink="false">beget-cloud-wipe-20261104-20261105191613-0</guid>
+      <pubDate>Thu, 05 Nov 2026 19:16:13 -0800</pubDate>
+      <enclosure url="https://cms.therecord.media/uploads/Beget_de93fe90b7.jpg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://cms.therecord.media/uploads/Beget_de93fe90b7.jpg" alt=""/></p><p>Russian hosting/registrar Beget said attackers reached its infrastructure-management plane and ran wipe scripts that destroyed cloud VPS, object-storage, and Kubernetes data, plus binary VPS backups. File-level backups survived; shared hosting is largely recoverable but each of 1,000+ servers needs manual inspection. Beget reported no evidence of customer-data exfiltration and told customers to rotate credentials. No claim of responsibility.</p><p>Sources: <a href="https://therecord.media/russia-cyberattack-beget-cloud">The Record</a></p>]]></description>
+    </item>
+    <item>
+      <title>Crédit Mutuel Arkéa confirms sophisticated supplier-platform attack with ~$133M fraudulent transfers</title>
+      <link>https://therecord.media/french-bank-confirms-cyber-heist</link>
+      <guid isPermaLink="false">credit-mutuel-arkea-heist-20261104-20261105191613-1</guid>
+      <pubDate>Thu, 05 Nov 2026 19:16:13 -0800</pubDate>
+      <enclosure url="https://cms.therecord.media/uploads/euros_41ac60ccd6.jpg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://cms.therecord.media/uploads/euros_41ac60ccd6.jpg" alt=""/></p><p>French bank Crédit Mutuel Arkéa confirmed a sophisticated attack via a service-provider platform that let attackers use the bank's own account for fraudulent transfers, later moved toward crypto. ZachXBT estimated about $133 million; Arkéa validated the order of magnitude, said customer accounts were not accessed, some converted assets were frozen, and solvency is not threatened. The bank disputed reports that Fortuneo was the entry path.</p><p>Sources: <a href="https://therecord.media/french-bank-confirms-cyber-heist">The Record</a>, <a href="https://www.cm-arkea.com/arkea/banque/assurances/pa_38386/en/informations-complementaires-suite-a-l-attaque-dont-le-credit-mutuel-arkea-a-ete-victime">Crédit Mutuel Arkéa</a></p>]]></description>
+    </item>
+    <item><title>Queens Public Library ransomware disrupts Wi-Fi, checkouts, and digital services across 66 NYC branches</title><link>https://therecord.media/queens-library-ransomware-causes-disruptions</link><guid isPermaLink="false">queens-public-library-ransomware-20261105170900</guid><pubDate>Thu, 05 Nov 2026 17:09:00 -0800</pubDate><enclosure url="https://cms.therecord.media/uploads/queens_library_5e385910af.jpg" type="image/jpeg" length="0" /><description><![CDATA[<p><img src="https://cms.therecord.media/uploads/queens_library_5e385910af.jpg" alt=""/></p>
+<p>New York City's Queens Public Library confirmed a ransomware attack that knocked out website and app access, on-site computers, checkout and return machines, public Wi-Fi, and digital media services across its 66 branches. Branches stayed open for in-person borrowing, and late fines were waived while systems were restored; no ransomware group had publicly claimed the attack as of Thursday evening.</p>
+<p>Library CEO Dennis Walcott said QPL is working with the NYPD, FBI, City Hall, and cybersecurity experts. Officials have not yet said whether patron data was accessed. Coverage: <a href="https://therecord.media/queens-library-ransomware-causes-disruptions">The Record</a>, <a href="https://gothamist.com/news/queens-public-library-online-system-downed-by-ransomware-hack-officials-said">Gothamist</a>, <a href="https://ny1.com/nyc/all-boroughs/news/2026/11/05/ransomware-attack-disrupts-queens-public-library-services">NY1</a>.</p>]]></description>
+    </item>
+    <item><title>CERT-In warns of Crafty Falcon AI-driven campaign abusing payment APIs at Indian banks, fintech, and crypto firms</title><link>https://indianexpress.com/article/technology/tech-news-technology/cert-in-crafty-falcon-ai-driven-hacking-campaign-fintech-10951672/</link><guid isPermaLink="false">cert-in-crafty-falcon-20261105170900</guid><pubDate>Thu, 05 Nov 2026 17:09:00 -0800</pubDate><enclosure url="https://images.indianexpress.com/2024/03/What-is-APT31-the-Chinese-hacking-group-behind-global-cyber-espionage-campaign.jpg" type="image/jpeg" length="0" /><description><![CDATA[<p><img src="https://images.indianexpress.com/2024/03/What-is-APT31-the-Chinese-hacking-group-behind-global-cyber-espionage-campaign.jpg" alt=""/></p>
+<p>India's CERT-In issued a Nov 4 advisory naming Crafty Falcon, an active AI-assisted campaign against NBFCs, digital lenders, payment aggregators, and cryptocurrency exchanges. Attackers use tools such as ARTEX, PentAGI, Cairn, and CyberStrikeAI to reverse-engineer apps, abuse payment and disbursement APIs (often after ₹1 test transfers), move from non-production into production via shared credentials, and drain wallets with stolen keys.</p>
+<p>CERT-In says targets that only partially remediated an Oct 9 warning were deliberately re-hit, including during holiday low-monitoring windows, and rates the threat critical and ongoing. Coverage: <a href="https://indianexpress.com/article/technology/tech-news-technology/cert-in-crafty-falcon-ai-driven-hacking-campaign-fintech-10951672/">Indian Express</a>, <a href="https://www.indiatoday.in/technology/news/story/cert-in-warns-hackers-are-using-ai-to-target-banks-and-financial-institutions-3032622-2026-11-05">India Today</a>.</p>]]></description>
+    </item>
+    <item>
+      <title>CISA, FBI and HHS warn of ongoing cyberattacks on industrial refrigeration and cold-chain controllers</title>
+      <link>https://www.cnbc.com/2026/11/05/us-warns-of-ongoing-cyber-threat-to-industrial-refrigeration-systems.html</link>
+      <guid isPermaLink="false">cisa-fbi-refrigeration-cold-chain-csa-20261105151052</guid>
+      <pubDate>Thu, 05 Nov 2026 15:10:52 -0800</pubDate>
+      <enclosure url="https://image.cnbcfm.com/api/v1/image/107157033-1669385870581-gettyimages-1245006812-AFP_32QY396.jpeg?v=1793906862&amp;w=1920&amp;h=1080" type="image/jpeg" length="0" />
+      <description><![CDATA[<p><img src="https://image.cnbcfm.com/api/v1/image/107157033-1669385870581-gettyimages-1245006812-AFP_32QY396.jpeg?v=1793906862&amp;w=1920&amp;h=1080" alt=""/></p><p>U.S. agencies including CISA, the FBI, HHS, USDA, and DOT issued a joint advisory on Nov 5 warning of an ongoing cyber threat to internet-accessible electronic temperature and commercial refrigeration controllers used in grocery and cold-storage facilities. Attackers can alter settings to force continuous heating or defrost cycles, risking inventory loss, fire hazards, and spoiled food or medicine.</p><p>The advisory follows recent European freezer attacks that hit hundreds of stores and a French blood-bank refrigeration incident already tracked here, plus suspected August malfunctions at U.S. military base grocery units. Officials urge operators to remove controllers from the public internet, isolate OT networks, replace default passwords, apply patches, and assume they could be targeted. See the <a href="https://www.ic3.gov/CSA/2026/261105.pdf">IC3 CSA PDF</a> and <a href="https://www.theregister.com/security/2026/11/05/feds-warn-grocers-dont-chill-on-cyber-defenses-as-freezer-hacking-spree-heats-up/5307978">The Register</a>.</p>]]></description>
+    </item>
+    <item>
+      <title>Apache OFBiz 24.09.08 fixes pre-auth RCE CVE-2026-68524 and 45 other flaws; no known exploitation</title>
+      <link>https://blog.ostorlab.co/apache-ofbiz-pre-auth-rce-cve-2026-68524.html</link>
+      <guid isPermaLink="false">apache-ofbiz-240908-preauth-rce-cve-2026-68524-20261105151052</guid>
+      <pubDate>Thu, 05 Nov 2026 15:10:52 -0800</pubDate>
+      <enclosure url="https://blog.ostorlab.co/static/img/2026-11-05_apache_ofbiz_pre_auth_rce_cve_2026_68524/cover.png" type="image/png" length="0" />
+      <description><![CDATA[<p><img src="https://blog.ostorlab.co/static/img/2026-11-05_apache_ofbiz_pre_auth_rce_cve_2026_68524/cover.png" alt=""/></p><p>Apache OFBiz 24.09.08 addresses 46 CVEs announced Nov 4, including CVE-2026-68524, a pre-authentication remote code execution flaw where an unauthenticated JSON request can shadow the login-page decorator location and load attacker XML via a file-descriptor path. Several other unauthenticated code-execution and auth-bypass issues are in the same release.</p><p>All releases before 24.09.08 are affected; older 18.12 lines must move to 24.09.08. No known exploitation and not in CISA KEV as of this check. Operators should upgrade promptly and avoid exposing OFBiz login endpoints to the internet. Details: <a href="https://ofbiz.apache.org/security.html">OFBiz security page</a> and <a href="https://www.openwall.com/lists/oss-security/2026/11/04/9">oss-security announcement</a>.</p>]]></description>
+    </item>
+    <item>
+      <title>Check Point shows now-patched ChatGPT Lockdown Mode bypass enabling silent chat exfiltration</title>
+      <link>https://research.checkpoint.com/2026/chatgpt-lockdown-mode-bypass-phishing-malware-delivery-and-silent-data-exfiltration/</link>
+      <guid isPermaLink="false">chatgpt-lockdown-mode-bypass-checkpoint-20261105151052</guid>
+      <pubDate>Thu, 05 Nov 2026 15:10:52 -0800</pubDate>
+      <enclosure url="https://research.checkpoint.com/wp-content/uploads/2026/10/chatgpt_lockdown_background-1024x512.png" type="image/png" length="0" />
+      <description><![CDATA[<p><img src="https://research.checkpoint.com/wp-content/uploads/2026/10/chatgpt_lockdown_background-1024x512.png" alt=""/></p><p>Check Point Research disclosed a now-patched vulnerability that bypassed OpenAI ChatGPT Lockdown Mode by escaping the HTML-preview sandbox via nested iframes and popup permissions. The flaw could enable silent chat-history exfiltration, phishing popups, and malware lures, including zero-click exfiltration in the ChatGPT desktop app.</p><p>OpenAI fixed the issue on Sept 18, 2026 by removing allow-popups and allow-popups-to-escape-sandbox from the outer HTML-preview iframe. Distinct from the earlier Parameter Labs shared-link sandbox bypass already in this feed. Coverage: <a href="https://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html">The Hacker News</a>.</p>]]></description>
+    </item>
+    <item>
+    <title>Keycloak 26.8.2 fixes critical SAML HTTP-Redirect signature bypass (CVE-2026-117691)</title>
+    <link>https://www.keycloak.org/2026/11/keycloak-2682-released</link>
+    <guid isPermaLink="false">keycloak-cve-2026-117691-20261105141316</guid>
+    <pubDate>Thu, 05 Nov 2026 14:13:16 -0800</pubDate>
+    <description><![CDATA[
+<p>Keycloak 26.8.2, released Nov 5, fixes <strong>CVE-2026-117691</strong>, a SAML HTTP-Redirect binding flaw where percent-encoded parameter names (for example <code>%53AMLResponse</code>) can slip past signature checks and enable unauthenticated federated account takeover. Red Hat rates it Important with CVSS 9.1; no exploitation is reported yet.</p>
+<p>Operators running SAML identity federation should upgrade to 26.8.2 promptly. Sources: <a href="https://www.keycloak.org/2026/11/keycloak-2682-released">Keycloak 26.8.2 release notes</a>; <a href="https://access.redhat.com/security/cve/cve-2026-117691">Red Hat CVE-2026-117691</a>.</p>
+]]></description>
+    </item>
+    <item>
+    <title>Chainalysis says password hashes and live tokens for all users were exposed in ongoing breach</title>
+    <link>https://www.chainalysis.com/blog/security-incident-october-30/</link>
+    <guid isPermaLink="false">chainalysis-all-users-hashes-tokens-20261105141249</guid>
+    <pubDate>Thu, 05 Nov 2026 14:12:49 -0800</pubDate>
+    <enclosure url="https://www.chainalysis.com/wp-content/uploads/2026/10/2026-11-security.png" type="image/png" length="0" />
+    <description><![CDATA[
+<p><img src="https://www.chainalysis.com/wp-content/uploads/2026/10/2026-11-security.png" alt=""/></p>
+<p>Chainalysis updated its October security incident notice on Nov 4 PT to say names, usernames, password hashes, and live tokens for <strong>all</strong> users were exposed to a malicious actor. That is a material escalation from its earlier Oct 30 claim that it had found no evidence authentication credentials or session tokens were accessed.</p>
+<p>The blockchain analytics firm, which serves law enforcement and compliance customers, took KYT, address screening, and its login page offline after abnormal activity and is requiring password resets and API key rotation. It still says it has no evidence investigations or attribution data were accessed or manipulated. Source: <a href="https://www.chainalysis.com/blog/security-incident-october-30/">Chainalysis incident blog</a>; reporting also in <a href="https://therecord.media/chainalysis-all-users-hit-by-agentic-cyberattack">The Record</a>.</p>
+]]></description>
+    </item>
+    <item>
+    <title>Fake OpenAI, SpaceX, and Anthropic event invites steal Microsoft and Google sessions via PhaaS kits</title>
+    <link>https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/</link>
+    <guid isPermaLink="false">fake-openai-spacex-anthropic-phaas-20261105141149</guid>
+    <pubDate>Thu, 05 Nov 2026 14:11:49 -0800</pubDate>
+    <enclosure url="https://www.bleepstatic.com/content/hl-images/2022/08/23/phishing-hook.jpg" type="image/jpeg" length="0" />
+    <description><![CDATA[
+<p><img src="https://www.bleepstatic.com/content/hl-images/2022/08/23/phishing-hook.jpg" alt=""/></p>
+<p>Push Security reports attackers are using fake OpenAI, SpaceX, and Anthropic event registration pages to phish corporate Microsoft and Google accounts. The same pages wire two phishing-as-a-service platforms: Kali365 for Microsoft device-code phishing and VoidProxy as an adversary-in-the-middle proxy for Google (and a second-stage Microsoft) session theft.</p>
+<p>Lures promise free ChatGPT Pro, Grok Heavy, or other rewards and push victims to sign in with work accounts, often after a Cloudflare CAPTCHA. Push says it blocked visits to the malicious pages in late October 2026. Source: <a href="https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/">BleepingComputer</a>.</p>
+]]></description>
+    </item>
+    <item>
+    <title>Muji operator says about 1.09 million customer records, including valid card numbers, may have leaked</title>
+    <link>https://www.bangkokpost.com/world/3349180/credit-card-numbers-may-have-leaked-in-cyberattack-on-muji</link>
+    <guid isPermaLink="false">muji-ryohin-keikaku-card-leak-20261105141049</guid>
+    <pubDate>Thu, 05 Nov 2026 14:10:49 -0800</pubDate>
+    <enclosure url="https://static.bangkokpost.com/media/content/20261105/c1_3349180_700.jpg" type="image/jpeg" length="0" />
+    <description><![CDATA[
+<p><img src="https://static.bangkokpost.com/media/content/20261105/c1_3349180_700.jpg" alt=""/></p>
+<p>Ryohin Keikaku, operator of the Muji brand, said about 1.09 million customer records may have leaked after unauthorized access, including roughly 345,000 Muji Card records with full numbers of currently valid credit cards and dates of birth, according to Kyodo News reporting.</p>
+<p>That follows an earlier late-October notice that up to 27.26 million Muji App customer records may have been exposed. The same report notes related Japanese retail and airline email-list breaches tied to contractor Arara. Source: <a href="https://www.bangkokpost.com/world/3349180/credit-card-numbers-may-have-leaked-in-cyberattack-on-muji">Bangkok Post / Kyodo</a>.</p>
+]]></description>
+    </item>
+    <item>
+<title>Iris Plaza says cloud breach may have exposed data on 7.7 million Iris Ohyama shoppers</title>
+<link>https://cyberinsider.com/iris-plaza-cloud-breach-7-7-million-people/</link>
+<guid isPermaLink="false">iris-plaza-breach-20261105130718</guid>
+<pubDate>Thu, 05 Nov 2026 13:07:18 -0800</pubDate>
+<enclosure url="https://cyberinsider.com/wp-content/uploads/2026/11/Iris-Plaza-says-cloud-breach-exposed-data-on-7.7-million-customers.png" type="image/jpeg" length="0" />
+<description><![CDATA[<p><img src="https://cyberinsider.com/wp-content/uploads/2026/11/Iris-Plaza-says-cloud-breach-exposed-data-on-7.7-million-customers.png" alt=""/></p><p>Iris Plaza, the Japanese retailer that runs Iris Ohyama's official online store, says a breach of an external cloud service may have exposed personal data on about 7.7 million people: roughly 5.8 million members (names, addresses, phone numbers, emails, birth dates and encrypted passwords) and 1.9 million non-member shoppers. Card data was not stored there. The store has been offline since October 28, and customers who reused their password elsewhere should change it.</p><p>Sources: <a href="https://cyberinsider.com/iris-plaza-cloud-breach-7-7-million-people/">CyberInsider</a>, <a href="https://www.irisohyama.co.jp/news/2026/1105.pdf">Iris Ohyama notice (Japanese)</a></p>]]></description>
+    </item>
+    <item>
+      <title>DigiCert breach exposed customer contact data and some identity documents</title>
+      <link>https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/</link>
+      <guid isPermaLink="false">digicert-breach-20261105120308</guid>
+      <pubDate>Thu, 05 Nov 2026 12:03:08 -0800</pubDate>
+      <enclosure url="https://www.bleepstatic.com/content/hl-images/2026/11/05/digicert-header.jpg" type="image/jpeg" length="0" />
+      <description><![CDATA[<p><img src="https://www.bleepstatic.com/content/hl-images/2026/11/05/digicert-header.jpg" alt=""/></p><p>Certificate authority DigiCert is notifying customers of a data breach after a February 2025 server migration exposed a formerly VPN-only internal business system to the internet. Outsiders could self-register accounts and, through an authorization flaw, read archived customer records including names, business emails, phone numbers and addresses. For some customers the exposed data also included identity documents submitted for certificate validation, such as driver's licenses, passports and utility bills.</p><p>Source: <a href="https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/">BleepingComputer</a></p>]]></description>
+    </item>
+    <item>
+      <title>CWPdoor backdoor spreads through trojanized Control Web Panel web server</title>
+      <link>https://www.bleepingcomputer.com/news/security/hackers-backdoor-linux-servers-using-trojanized-cwp-web-server/</link>
+      <guid isPermaLink="false">cwpdoor-cwp-backdoor-20261105120308</guid>
+      <pubDate>Thu, 05 Nov 2026 12:03:08 -0800</pubDate>
+      <enclosure url="https://www.bleepstatic.com/content/hl-images/2026/10/29/Linux.jpg" type="image/jpeg" length="0" />
+      <description><![CDATA[<p><img src="https://www.bleepstatic.com/content/hl-images/2026/10/29/Linux.jpg" alt=""/></p><p>QiAnXin XLab found a stealthy Linux backdoor called CWPdoor delivered by a fake updater script that swaps the cwpsrv web server behind Control Web Panel (formerly CentOS Web Panel) with a malicious build. The passive backdoor waits for RSA-signed, AES-encrypted commands hidden in HTTP headers and suppresses access-log entries for those requests. XLab counts more than 340,000 internet-exposed CWP instances, so admins should verify their cwpsrv binaries.</p><p>Source: <a href="https://www.bleepingcomputer.com/news/security/hackers-backdoor-linux-servers-using-trojanized-cwp-web-server/">BleepingComputer</a></p>]]></description>
+    </item>
+    <item>
+<title>OpenSSH ships emergency fix for Alpine/musl password authentication bypass</title>
+<link>https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html</link>
+<guid isPermaLink="false">openssh-alpine-password-bypass-20261105110500</guid>
+<pubDate>Thu, 05 Nov 2026 11:05:00 -0800</pubDate>
+<enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieaHvS5baW_XG1eAsBsoSp9qRzV179f0WwXoj9k6rUeX4Qa4sxpi3hvpGkgkYNMPzZQH0mvvVAoTooEAgl1G3SyFksmhqNEbDEIEWM83RH47u8qvNyIYclA7z7GUdPJGx8WfJd556iCvvtvsitAYp9M-T46OvuwkaSWwnyhlynEpYax2qyTCACsPbtQLw/s1600/ssh-linux.jpg" type="image/jpeg" length="0" />
+<description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieaHvS5baW_XG1eAsBsoSp9qRzV179f0WwXoj9k6rUeX4Qa4sxpi3hvpGkgkYNMPzZQH0mvvVAoTooEAgl1G3SyFksmhqNEbDEIEWM83RH47u8qvNyIYclA7z7GUdPJGx8WfJd556iCvvtvsitAYp9M-T46OvuwkaSWwnyhlynEpYax2qyTCACsPbtQLw/s1600/ssh-linux.jpg" alt=""/></p><p>OpenSSH released 10.6p2 and Alpine issued fixed packages after a critical bug let attackers log into accounts with no password set (including key-only users) on Alpine and other musl systems running openssh-server without PAM. The attack needs network access to SSH, a target account name, PasswordAuthentication enabled, and at least one other account with a $5$/$6$ hash; a 257–1,024 byte password then matches because musl crypt() returns "*" on overlong input. No CVE yet and no exploitation reported; Damien Miller urged admins to set PasswordAuthentication=no or patch and restart sshd immediately.</p><p>Sources: <a href="https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html">The Hacker News</a>, <a href="https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/">Alpine Linux advisory</a>, <a href="https://www.openssh.org/txt/release-10.6p2">OpenSSH 10.6p2 notes</a></p>]]></description>
+    </item>
+    <item>
+<title>DreamHost confirms File Manager breach exposed FTP/SFTP logins and some webmail sessions</title>
+<link>https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/</link>
+<guid isPermaLink="false">dreamhost-file-manager-breach-20261105110400</guid>
+<pubDate>Thu, 05 Nov 2026 11:04:00 -0800</pubDate>
+<enclosure url="https://www.bleepstatic.com/content/hl-images/2026/11/04/DreamHost.jpg" type="image/jpeg" length="0" />
+<description><![CDATA[<p><img src="https://www.bleepstatic.com/content/hl-images/2026/11/04/DreamHost.jpg" alt=""/></p><p>DreamHost says an attacker exploited its web-based File Manager at files.dreamhost.com from about August 2026 through October 23 and stole FTP/SFTP usernames and passwords for customers who logged into that tool during the window. Some webmail session data, including credentials, may also have been exposed for a limited set of users; DreamHost reports no evidence of control-panel or billing access. Affected customers should reset FTP/SFTP and email passwords, check site files and forwarding rules, and rotate reused credentials elsewhere.</p><p>Source: <a href="https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/">BleepingComputer</a></p>]]></description>
+    </item>
+    <item>
+<title>Norway aid agency Norad says Grants Portal breach may have exposed data on 20,614 users</title>
+<link>https://www.helpnetsecurity.com/2026/11/05/norad-grants-portal-breach/</link>
+<guid isPermaLink="false">norad-grants-portal-breach-20261105110300</guid>
+<pubDate>Thu, 05 Nov 2026 11:03:00 -0800</pubDate>
+<enclosure url="https://img.helpnetsecurity.com/wp-content/uploads/2023/07/25122008/norway.jpg" type="image/jpeg" length="0" />
+<description><![CDATA[<p><img src="https://img.helpnetsecurity.com/wp-content/uploads/2023/07/25122008/norway.jpg" alt=""/></p><p>Norad, Norway's development aid agency, disclosed that attackers who logged in with 27 compromised accounts may have obtained names and email addresses for all 20,614 registered Grants Portal users across 12,511 organizations. The intrusion was found October 30; applications and supporting documents from at least three non-Norwegian organizations were stolen, and Norad cannot rule out exposure of applicants operating in conflict zones. The portal was taken offline; police, Datatilsynet and NSM are involved, and users are being notified.</p><p>Source: <a href="https://www.helpnetsecurity.com/2026/11/05/norad-grants-portal-breach/">Help Net Security</a></p>]]></description>
+    </item>
+    <item>
+<title>Zyxel patches GS1900 switch zero-day CVE-2026-107441 exploited to hijack nearly 1,000 devices</title>
+<link>https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/</link>
+<guid isPermaLink="false">zyxel-gs1900-zero-day-cve-2026-107441-20261104131052</guid>
+<pubDate>Wed, 04 Nov 2026 13:10:52 -0800</pubDate>
+<description><![CDATA[<p>Zyxel has fixed CVE-2026-107441, an unauthenticated out-of-bounds write in the web management interface of ten GS1900 switch models that lets attackers run OS commands. GreyNoise saw a suspected Chinese-speaking actor, Kapibala, compromise 996 switches in 48 countries since mid-August, stealing configs and hashed root credentials.</p><p>Binarly found the exploit bypassed Zyxel's earlier CVE-2026-7273 patch; fixed firmware shipped October 22 and the advisory went out November 3. Admins should update GS1900 firmware and keep management interfaces off the internet.</p><p>Source: <a href="https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/">BleepingComputer</a></p>]]></description>
+    </item>
+    <item>
+<title>CISA adds Apple pointer-authentication bypass CVE-2024-27834 to exploited list after APT29 iOS watering-hole chain</title>
+<link>https://www.bleepingcomputer.com/news/security/hackers-use-n-day-exploits-in-zero-click-attacks-on-ios-android-devices/</link>
+<guid isPermaLink="false">cisa-kev-apple-cve-2024-27834-20261104120545</guid>
+<pubDate>Wed, 04 Nov 2026 12:05:45 -0800</pubDate>
+<description><![CDATA[<p>CISA added CVE-2024-27834, a 2024 Apple WebKit flaw that lets an attacker with memory read/write bypass Pointer Authentication, to its Known Exploited Vulnerabilities catalog on November 4, with a federal patch deadline of November 18. Sekoia reported the bug as the second stage of an APT29-linked iOS 16.7 exploit chain, paired with CVE-2025-43529, used in watering-hole attacks to steal Safari cookies.</p><p>Apple fixed it in May 2024 (iOS 17.5 and iOS 16.7.8, Safari 17.5, macOS Sonoma 14.5), so only devices left on old releases are exposed.</p><p>Sources: <a href="https://www.bleepingcomputer.com/news/security/hackers-use-n-day-exploits-in-zero-click-attacks-on-ios-android-devices/">BleepingComputer</a>, <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog">CISA KEV catalog</a>, <a href="https://nvd.nist.gov/vuln/detail/CVE-2024-27834">NVD</a></p>]]></description>
+    </item>
+    <item>
+<title>Debian and Ubuntu APT flaw CVE-2026-109518 lets a man-in-the-middle swap verified packages and run code as root</title>
+<link>https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html</link>
+<guid isPermaLink="false">debian-ubuntu-apt-cve-2026-109518-20261104101000</guid>
+<pubDate>Wed, 04 Nov 2026 10:10:00 -0800</pubDate>
+<enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUPaNgRQEg3TU6-9BBgKse77CGVpbBFbn48cBnN1aanKvaMzk_mT74RxyWZA3_NbcrYe0UnRAQlELRYKGiGNrLUDcBMSKXFgRNxaND7RoaVFOs1Q7rkFFtlpoAzYQ7C8i6RAY4bNNTarEMUI-iFR4A_IfjIkFE9vpyQjG-0QFngy5cRE8f2GhGfTltkaI/s1600/linux-apt.jpg" type="image/jpeg" length="0" />
+<description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUPaNgRQEg3TU6-9BBgKse77CGVpbBFbn48cBnN1aanKvaMzk_mT74RxyWZA3_NbcrYe0UnRAQlELRYKGiGNrLUDcBMSKXFgRNxaND7RoaVFOs1Q7rkFFtlpoAzYQ7C8i6RAY4bNNTarEMUI-iFR4A_IfjIkFE9vpyQjG-0QFngy5cRE8f2GhGfTltkaI/s1600/linux-apt.jpg" alt=""/></p><p>A flaw in APT, the Debian and Ubuntu package manager, lets anyone who can tamper with package downloads (a malicious mirror, proxy or network attacker) swap a verified package for their own and get code running as root at install time. It abuses APT's download retries, which are on by default from Debian 12 and Ubuntu 22.04. Debian has shipped fixed APT versions and Ubuntu is rolling out builds; APT's developers call it critical, Ubuntu rates it high (CVSS 4.0 7.7). No exploitation reported yet.</p><p>Source: <a href="https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html">The Hacker News</a></p>]]></description>
+    </item>
+    <item>
+<title>Cyberattack on refrigeration supplier pushes French blood bank cold rooms toward spoilage temperatures</title>
+<link>https://www.helpnetsecurity.com/2026/11/04/cyberattack-hits-french-blood-banks/</link>
+<guid isPermaLink="false">efs-blood-bank-cold-rooms-20261104101000</guid>
+<pubDate>Wed, 04 Nov 2026 10:10:00 -0800</pubDate>
+<enclosure url="https://img.helpnetsecurity.com/wp-content/uploads/2026/11/04132010/blood-bag-1500.webp" type="image/jpeg" length="0" />
+<description><![CDATA[<p><img src="https://img.helpnetsecurity.com/wp-content/uploads/2026/11/04132010/blood-bag-1500.webp" alt=""/></p><p>A cyberattack on a refrigeration equipment provider used by France's national blood service (EFS) changed cold-room settings at three blood banks, setting temperature and defrost thresholds very high. EFS monitoring caught the spikes and products were moved, so no blood was lost and collection and distribution continue. EFS is working with France's cyber agency ANSSI and the Ministry of Health.</p><p>Source: <a href="https://www.helpnetsecurity.com/2026/11/04/cyberattack-hits-french-blood-banks/">Help Net Security</a></p>]]></description>
+    </item>
+    <item>
+<title>Critical Rails Active Storage flaw lets unauthenticated uploads write server files via ImageMagick</title>
+<link>https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html</link>
+<guid isPermaLink="false">rails-activestorage-imagemagick-20261104091200</guid>
+<pubDate>Wed, 04 Nov 2026 09:12:00 -0800</pubDate>
+<enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaJWnScdkMx0R5_Zt00NtYVNjNavBR7IMrLzJM_tZGMTpZtAvV7uNWt6BQbBrlUzH-aBoj_ZmMEOG__aTA8VmfTeiHUR9gfqNe2eYf9fSM-sYQkmCOg10qZ3ZaKyM_RS1QUQhm8s5NMw-xnYaWMDgDakmFyp9tbJgQ4hOZTf0cxe9E6x7uWt3JeN6bS3k/s1600/ruby-rails.jpg" type="image/jpeg" length="0" />
+<description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaJWnScdkMx0R5_Zt00NtYVNjNavBR7IMrLzJM_tZGMTpZtAvV7uNWt6BQbBrlUzH-aBoj_ZmMEOG__aTA8VmfTeiHUR9gfqNe2eYf9fSM-sYQkmCOg10qZ3ZaKyM_RS1QUQhm8s5NMw-xnYaWMDgDakmFyp9tbJgQ4hOZTf0cxe9E6x7uWt3JeN6bS3k/s1600/ruby-rails.jpg" alt=""/></p><p>Ruby on Rails fixed a 9.8-rated flaw (GHSA-f3w6-w445-fwh9) in Active Storage that lets an unauthenticated attacker write arbitrary files on the server by uploading a crafted file, such as an SVG reaching ImageMagick's MSL coder, when the app processes uploads with ImageMagick. Apps using the Disk storage service can also leak readable files like secret_key_base and credentials, which can lead to code execution. Simply attaching the upload triggers it. Fixed in Rails 8.1.4.1 and 8.0.5.2; no exploitation reported yet.</p><p>Source: <a href="https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html">The Hacker News</a></p>]]></description>
+    </item>
+    <item>
+<title>Xen hypervisor flaws (XSA-523) let a malicious guest VM read and write other VMs' memory, including dom0</title>
+<link>https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html</link>
+<guid isPermaLink="false">xen-xsa-523-guest-escape-20261104091100</guid>
+<pubDate>Wed, 04 Nov 2026 09:11:00 -0800</pubDate>
+<enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAVPXiuTBfhBnpwaZHMfSDWymKJrXbS88kOEO1Xuh5t11qAnwSKeFTHGQy6ZG9Sr2N-wRYrJg58x3lKFbybvU9p1a85lxaCHfBa61vO1DfjEhUi5Yzf6bQS1eN7Mu-s_sUwkE-JGc-UznJ1p0qfmwMDusXFzWawXKXMt6jj-vENxyQG12uAUDUe0p0gtg/s1600/xen.jpg" type="image/jpeg" length="0" />
+<description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAVPXiuTBfhBnpwaZHMfSDWymKJrXbS88kOEO1Xuh5t11qAnwSKeFTHGQy6ZG9Sr2N-wRYrJg58x3lKFbybvU9p1a85lxaCHfBa61vO1DfjEhUi5Yzf6bQS1eN7Mu-s_sUwkE-JGc-UznJ1p0qfmwMDusXFzWawXKXMt6jj-vENxyQG12uAUDUe0p0gtg/s1600/xen.jpg" alt=""/></p><p>Two grant-copy flaws in Xen 4.6 and later (CVE-2026-102703 and CVE-2026-102704) let a malicious guest VM read and write the memory of other VMs on the same host, including the privileged dom0, effectively a full host takeover. Patches are out and there is no mitigation. The bugs were found by Anthropic using Claude and independently reported by CodeAnt AI; no attacks are known.</p><p>Source: <a href="https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html">The Hacker News</a></p>]]></description>
+    </item>
+    <item>
+<title>Google's November Android bulletin fixes critical zero-click RCE CVE-2026-58868 in Android 14-17</title>
+<link>https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html</link>
+<guid isPermaLink="false">android-cve-2026-58868-nov-bulletin-20261104091000</guid>
+<pubDate>Wed, 04 Nov 2026 09:10:00 -0800</pubDate>
+<enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgm9fDI_lHL64S1r-eoB5-99WagZJBIjKDF-bEJ9egJw_EiLUomXSakGnV0vdq9Fqu2j6KVWM4upLmOwweDCKQ32f21W8CTsQHnoGMhFm-ISPNQEg1Jq5WbDujqLHVkGSEsox0Xd3Yc5Dd-v4-6rdzU4akd97y7cBhRYFO2ofmxpf3HYspJ6MkJs2RtfC4/s1600/android-patch.jpg" type="image/jpeg" length="0" />
+<description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgm9fDI_lHL64S1r-eoB5-99WagZJBIjKDF-bEJ9egJw_EiLUomXSakGnV0vdq9Fqu2j6KVWM4upLmOwweDCKQ32f21W8CTsQHnoGMhFm-ISPNQEg1Jq5WbDujqLHVkGSEsox0Xd3Yc5Dd-v4-6rdzU4akd97y7cBhRYFO2ofmxpf3HYspJ6MkJs2RtfC4/s1600/android-patch.jpg" alt=""/></p><p>Google's November 2026 Android security bulletin fixes CVE-2026-58868, a critical heap overflow in FrameDecoder.cpp that could allow remote code execution without user interaction on Android 14 through 17. Phones need patch level 2026-11-01 or later for this flaw and 2026-11-05 for the full bulletin. Google reports no exploitation so far.</p><p>Source: <a href="https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html">The Hacker News</a></p>]]></description>
+    </item>
+    <item>
+<title>APT29-linked 'Poisoned Source' watering hole hijacks Plerdy analytics script to hit iOS and Android with n-day exploit chains</title>
+<link>https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html</link>
+<guid isPermaLink="false">apt29-poisoned-source-plerdy-20261104090900</guid>
+<pubDate>Wed, 04 Nov 2026 09:09:00 -0800</pubDate>
+<enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhx1cus2o8fkYGLhQu9BfPgGtAUwnmTAMucLagfAodBuRoYnyxGIJKgpqtKFyCSV-WSG3pDqmPujhj-iwoOZB-zF8JjbQMrLzDHYtdTPA3hD3Kc3rqYQM4CQwkICwZkh8K6O8ZSt-WAA_PBoUA6lHwh_55dbDlKizsjzcTN847c9BSHsWHmrAP42JHRHIYS/s1600/ios-exploit.jpg" type="image/jpeg" length="0" />
+<description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhx1cus2o8fkYGLhQu9BfPgGtAUwnmTAMucLagfAodBuRoYnyxGIJKgpqtKFyCSV-WSG3pDqmPujhj-iwoOZB-zF8JjbQMrLzDHYtdTPA3hD3Kc3rqYQM4CQwkICwZkh8K6O8ZSt-WAA_PBoUA6lHwh_55dbDlKizsjzcTN847c9BSHsWHmrAP42JHRHIYS/s1600/ios-exploit.jpg" alt=""/></p><p>Sekoia attributes a watering-hole campaign it found in mid-October to Russia's APT29, using compromised sites, fake domains and a supply-chain compromise of the Ukrainian Plerdy SEO Tracker analytics script. Injected JavaScript fingerprints visitors and serves platform-specific n-day exploit chains for iOS or Android that steal cookies and sometimes Wi-Fi passwords or full device data. Victim sites include a US chemical-industry trade group and a Bulgarian military-related site; keeping phones updated blocks these chains.</p><p>Source: <a href="https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html">The Hacker News</a></p>]]></description>
+    </item>
+    <item>
+<title>CISA adds WordPress Core upgrade-window RCE (CVE-2026-119977) to exploited list, due Nov 6</title>
+<link>https://severitydaily.com/wordpress-core-cve-2026-119977-8-1-upgrade-window-rce-7-1-4-october-28-62969-blocked-counts-12-18-22/</link>
+<guid isPermaLink="false">wordpress-cve-2026-119977-kev-20261103130500</guid>
+<pubDate>Tue, 03 Nov 2026 13:05:00 -0800</pubDate>
+<enclosure url="https://severitydaily.com/wp-content/uploads/2026/10/wordpress-cve-2026-119977-card.png" type="image/jpeg" length="0" />
+<description><![CDATA[<p><img src="https://severitydaily.com/wp-content/uploads/2026/10/wordpress-cve-2026-119977-card.png" alt=""/></p><p>CISA added the WordPress Core upgrade-window race condition (CVE-2026-119977) to its Known Exploited Vulnerabilities catalog on November 3, with a short November 6 federal due date and forensic triage required. The flaw lets an unauthenticated attacker run code on the server if they hit the predictable staging folder during a full core upgrade, and it affects WordPress 4.7 through 7.1.3. Wordfence saw tens of thousands of polling attempts after the October 28 fix; update to 7.1.4 or your branch's backport and block web access to wp-content/upgrade before updating.</p><p>Sources: <a href="https://severitydaily.com/wordpress-core-cve-2026-119977-8-1-upgrade-window-rce-7-1-4-october-28-62969-blocked-counts-12-18-22/">Severity Daily</a>, <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog">CISA KEV catalog</a>, <a href="https://wordpress.org/news/2026/10/wordpress-7-1-4">WordPress 7.1.4 release</a>.</p>]]></description>
+    </item>
+    <item>
+<title>mSecure password manager warns users to change passwords, reset 2FA and remove passkeys after "suspicious activity"</title>
+<link>https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html</link>
+<guid isPermaLink="false">msecure-suspicious-activity-20261103121159</guid>
+<pubDate>Tue, 03 Nov 2026 12:11:59 -0800</pubDate>
+<enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtvbYhodewxI1TOMjVp0GKUmMdudVKH27My8auvMEvDbCkd_JBzdJjjBb99j2a2a9R1wgkOaTdLcM_9FEmpyweVquFetLeyfzSC5UgpukK8Ukw7keJb5HwmTnPP1qWT2QzVX3FKLtBKLDFnuMrzmfgW5dwYf6SJHZHqSDj_eYGdap3ECOMMI1Em6_oS_0/s1600/msecure.jpg" type="image/jpeg" length="0" />
+<description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtvbYhodewxI1TOMjVp0GKUmMdudVKH27My8auvMEvDbCkd_JBzdJjjBb99j2a2a9R1wgkOaTdLcM_9FEmpyweVquFetLeyfzSC5UgpukK8Ukw7keJb5HwmTnPP1qWT2QzVX3FKLtBKLDFnuMrzmfgW5dwYf6SJHZHqSDj_eYGdap3ECOMMI1Em6_oS_0/s1600/msecure.jpg" alt=""/></p><p>mSeven Software emailed current and former mSecure password manager customers on November 3 urging them to change stored passwords, reset two-factor authentication and remove passkeys after it learned of suspicious activity linked to the app. The email doesn't say what happened, which systems were involved, or whether vault data was exposed, and the company hadn't posted publicly about it as of midday. mSecure users should rotate their most important credentials now rather than wait for details.</p><p>Source: <a href="https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html">The Hacker News</a></p>]]></description>
+    </item>
+    <item>
+<title>Barracuda patches flaw chain that can give attackers root on Email Security Gateway and other appliances</title>
+<link>https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html</link>
+<guid isPermaLink="false">barracuda-esg-auth-bypass-root-chain-20261103100558</guid>
+<pubDate>Tue, 03 Nov 2026 10:05:58 -0800</pubDate>
+<enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCvGJCkYjldhAvsjMo47UqxGOTfVY1zCcjZQzgebkO8j1__fa0cFOn3CAV1jPTUpzwDDISQKPQP5eVGOl9BzRLBX7KlWuU2HMpzuHRWV2wyaItDwYgPu0X7m3qE5V1kgFzKZ1QYcRBcZyDqkUTFberiOWXBfV_-suYC1QQWq_TwBMeyme4F0FsOZnpijhC/s1600/barracuda.png" type="image/jpeg" length="0" />
+<description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCvGJCkYjldhAvsjMo47UqxGOTfVY1zCcjZQzgebkO8j1__fa0cFOn3CAV1jPTUpzwDDISQKPQP5eVGOl9BzRLBX7KlWuU2HMpzuHRWV2wyaItDwYgPu0X7m3qE5V1kgFzKZ1QYcRBcZyDqkUTFberiOWXBfV_-suYC1QQWq_TwBMeyme4F0FsOZnpijhC/s1600/barracuda.png" alt=""/></p><p>Barracuda disclosed a pre-authentication authorization bypass in Email Security Gateway (CVE-2026-116606, CVSS 9.3) and a command injection bug affecting several of its products (CVE-2026-111560, CVSS 8.6). Chained together, they let an attacker who can reach the admin interface bypass authorization and get root on the device.</p><p>No in-the-wild exploitation has been reported yet. Barracuda says devices that keep admin interfaces off the internet are less exposed, and customers should confirm they are on the latest firmware, which may take several updates on older devices.</p><p>Source: <a href="https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html">The Hacker News</a></p>]]></description>
+    </item>
+    <item>
+<title>Brazil's largest crypto exchange, Mercado Bitcoin, loses about $38-46 million in hot-wallet hack</title>
+<link>https://therecord.media/mercado-bitcoin-brazil-cryptocurrency-heist</link>
+<guid isPermaLink="false">mercado-bitcoin-hot-wallet-hack-20261103100558</guid>
+<pubDate>Tue, 03 Nov 2026 10:05:58 -0800</pubDate>
+<enclosure url="https://cms.therecord.media/uploads/mercado_bitcoin_92ae590f6f.jpg" type="image/jpeg" length="0" />
+<description><![CDATA[<p><img src="https://cms.therecord.media/uploads/mercado_bitcoin_92ae590f6f.jpg" alt=""/></p><p>Mercado Bitcoin suspended deposits and withdrawals after attackers drained its hot wallets across about 10 blockchains late Sunday into Monday (Nov 1-2). Blockchain analysts put outflows above $46 million; the exchange says about $38 million was lost and roughly $11 million has been frozen with help from Tether, Circle, Paxos, BRL1 and Chainalysis.</p><p>The exchange says it will cover all customer losses and that no customer data leaked, though some researchers point to on-chain evidence that customer deposit addresses were swept too. The attack has not been attributed.</p><p>Sources: <a href="https://therecord.media/mercado-bitcoin-brazil-cryptocurrency-heist">The Record</a>, <a href="https://www.coindesk.com/business/2026/11/03/mercado-bitcoin-pledges-to-cover-all-user-losses-after-near-usd40-million-hack">CoinDesk</a>, <a href="https://cointelegraph.com/news/mercado-bitcoin-hack">Cointelegraph</a></p>]]></description>
+    </item>
+    <item>
+      <title>Attackers hijack cPGuard's update channel to push a backdoor to customers' Linux servers</title>
+      <link>https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html</link>
+      <guid isPermaLink="false">cpguard-update-hijack-20261103091236</guid>
+      <pubDate>Tue, 03 Nov 2026 09:12:36 -0800</pubDate>
+      <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtc3HOtWwxZPk7V8yva9o6Oe5lWAPX8KZsWHG27ohycqrb04wAKSDSSdk6ta6y284N9gT6Ab6QKIWwTPss2bBK4PtS3Fm7gSI9QG5kec2AvEgQPjQnc0YlhlUQx0uZKt2ygn576BQ3aburL-IhrMRFVm1vEpTR5ol06R0BtjySvifD05Q_dQGUPvyPLxs/s1600/cpgaurd.png" type="image/jpeg" length="0" />
+      <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtc3HOtWwxZPk7V8yva9o6Oe5lWAPX8KZsWHG27ohycqrb04wAKSDSSdk6ta6y284N9gT6Ab6QKIWwTPss2bBK4PtS3Fm7gSI9QG5kec2AvEgQPjQnc0YlhlUQx0uZKt2ygn576BQ3aburL-IhrMRFVm1vEpTR5ol06R0BtjySvifD05Q_dQGUPvyPLxs/s1600/cpgaurd.png" alt=""/></p><p>An attacker broke into the update system of cPGuard, a security tool for Linux web servers, on November 2 and used it to ship a malicious script to customers. Maker OPSSHIELD says the script installed a backdoor and collected password hashes and other sensitive files from servers that ran it, and some of that data has already been taken. Admins running cPGuard should check the vendor advisory and treat affected servers as compromised.</p><p>Source: <a href="https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html">The Hacker News</a></p>]]></description>
+    </item>
+    <item>
+      <title>Critical Node-RED auth flaw CVE-2026-58115 exploited, including on Siemens SIMATIC IoT2050 devices</title>
+      <link>https://www.helpnetsecurity.com/2026/11/03/node-red-cve-2026-58115-exploitation/</link>
+      <guid isPermaLink="false">node-red-iot2050-exploited-20261103091236</guid>
+      <pubDate>Tue, 03 Nov 2026 09:12:36 -0800</pubDate>
+      <enclosure url="https://img.helpnetsecurity.com/wp-content/uploads/2026/11/03134721/node-red-1500.webp" type="image/jpeg" length="0" />
+      <description><![CDATA[<p><img src="https://img.helpnetsecurity.com/wp-content/uploads/2026/11/03134721/node-red-1500.webp" alt=""/></p><p>VulnCheck reports active exploitation of CVE-2026-58115 (CVSS 10), a missing-authentication flaw in Node-RED that lets an unauthenticated remote attacker run code. Attackers are using it to drop a Linux bot and backdoors on exposed servers, and Siemens SIMATIC IoT2050 Advanced industrial devices, which ship Node-RED, are among the targets. Node-RED is common in manufacturing, healthcare and home automation, so exposed instances should be patched or taken off the internet.</p><p>Sources: <a href="https://www.helpnetsecurity.com/2026/11/03/node-red-cve-2026-58115-exploitation/">Help Net Security</a>, <a href="https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html">The Hacker News</a></p>]]></description>
+    </item>
   </channel>
 </rss>
