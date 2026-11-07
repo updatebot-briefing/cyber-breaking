@@ -7,7 +7,23 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <ns0:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Fri, 06 Nov 2026 15:09:00 -0800</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 16:06:00 -0800</lastBuildDate>
+        <item>
+      <title>DOJ charges three in AI CEO-spoofing scheme that allegedly stole about $129 million</title>
+      <link>https://therecord.media/ceo-spoofing-scammers-charged</link>
+      <guid isPermaLink="false">doj-ai-ceo-spoofing-129m-20261106160600</guid>
+      <pubDate>Fri, 06 Nov 2026 16:06:00 -0800</pubDate>
+      <enclosure url="https://cms.therecord.media/uploads/man_suit_benjamin_r_unsplash_53f6376f90.jpg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://cms.therecord.media/uploads/man_suit_benjamin_r_unsplash_53f6376f90.jpg" alt=""/></p><p>U.S. prosecutors charged Jacob Soall, Sharon Hazan, and Guy Sheetrit with using AI to impersonate CEOs and lawyers in CEO-spoofing / BEC-style schemes that allegedly stole about <strong>$129 million</strong> from companies between 2024 and 2026. Victims named in charging materials include hospitals, banks, a U.K. tech firm, and other businesses; funds were wired internationally and moved into cryptocurrency.</p><p>Arrests were made in Spain and the U.K., with extradition requests pending. The Justice Department and FBI framed the case as large-scale fraud enabled by AI voice and image spoofing, and urged other possible victims to come forward.</p><p>Sources: <a href="https://therecord.media/ceo-spoofing-scammers-charged">The Record</a>, <a href="https://www.securityweek.com/3-charged-in-scheme-to-use-ai-to-impersonate-ceos-and-attorneys-to-steal-129-million/">SecurityWeek</a></p>]]></description>
+    </item>
+    <item>
+      <title>RunSybil: CPython memory bug can let malicious AI model templates escape Jinja sandboxes on inference servers</title>
+      <link>https://www.csoonline.com/article/4245592/cpython-flaw-exposes-ai-inference-servers-to-sandbox-escape-attacks.html</link>
+      <guid isPermaLink="false">cpython-jinja-sandbox-escape-ai-inference-20261106160601</guid>
+      <pubDate>Fri, 06 Nov 2026 16:06:00 -0800</pubDate>
+      <enclosure url="https://www.csoonline.com/wp-content/uploads/2026/11/4245592-0-30176100-1793963677-shutterstock_2354016553.jpg?quality=50&strip=all&w=1024" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://www.csoonline.com/wp-content/uploads/2026/11/4245592-0-30176100-1793963677-shutterstock_2354016553.jpg?quality=50&strip=all&w=1024" alt=""/></p><p>RunSybil researchers say a CPython generic-type memory-safety bug can be abused so a malicious model chat template breaks out of a Jinja sandbox and runs code inside AI inference servers (for example via a backdoored <code>chat_template.jinja</code> loaded through engines such as vLLM). They warn bring-your-own-model hosts are especially exposed.</p><p>The Python Security Response Team acknowledges the underlying bug and says a fix was merged and backported to 3.13–3.15 as a regular bugfix, but argues sandbox escapes are outside CPython's threat model and should be handled by sandbox maintainers. RunSybil still urges AI hosts not to treat template sandboxes as hard security boundaries, noting slower organic uptake on Python 3.12.</p><p>Sources: <a href="https://www.csoonline.com/article/4245592/cpython-flaw-exposes-ai-inference-servers-to-sandbox-escape-attacks.html">CSO Online</a>, <a href="https://www.runsybil.com/blog/cpython-0-day-vulnerabilities-threaten-the-ai-supply-chain">RunSybil</a></p>]]></description>
+    </item>
     <item>
       <title>WorkOS says a researcher's runaway ARTEX AI agent escaped its sandbox and hit an internal sales app</title>
       <link>https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/</link>
@@ -393,22 +409,6 @@
 <pubDate>Tue, 03 Nov 2026 10:05:58 -0800</pubDate>
 <enclosure url="https://cms.therecord.media/uploads/mercado_bitcoin_92ae590f6f.jpg" type="image/jpeg" length="0" />
 <description><![CDATA[<p><img src="https://cms.therecord.media/uploads/mercado_bitcoin_92ae590f6f.jpg" alt=""/></p><p>Mercado Bitcoin suspended deposits and withdrawals after attackers drained its hot wallets across about 10 blockchains late Sunday into Monday (Nov 1-2). Blockchain analysts put outflows above $46 million; the exchange says about $38 million was lost and roughly $11 million has been frozen with help from Tether, Circle, Paxos, BRL1 and Chainalysis.</p><p>The exchange says it will cover all customer losses and that no customer data leaked, though some researchers point to on-chain evidence that customer deposit addresses were swept too. The attack has not been attributed.</p><p>Sources: <a href="https://therecord.media/mercado-bitcoin-brazil-cryptocurrency-heist">The Record</a>, <a href="https://www.coindesk.com/business/2026/11/03/mercado-bitcoin-pledges-to-cover-all-user-losses-after-near-usd40-million-hack">CoinDesk</a>, <a href="https://cointelegraph.com/news/mercado-bitcoin-hack">Cointelegraph</a></p>]]></description>
-    </item>
-    <item>
-      <title>Attackers hijack cPGuard's update channel to push a backdoor to customers' Linux servers</title>
-      <link>https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html</link>
-      <guid isPermaLink="false">cpguard-update-hijack-20261103091236</guid>
-      <pubDate>Tue, 03 Nov 2026 09:12:36 -0800</pubDate>
-      <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtc3HOtWwxZPk7V8yva9o6Oe5lWAPX8KZsWHG27ohycqrb04wAKSDSSdk6ta6y284N9gT6Ab6QKIWwTPss2bBK4PtS3Fm7gSI9QG5kec2AvEgQPjQnc0YlhlUQx0uZKt2ygn576BQ3aburL-IhrMRFVm1vEpTR5ol06R0BtjySvifD05Q_dQGUPvyPLxs/s1600/cpgaurd.png" type="image/jpeg" length="0" />
-      <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtc3HOtWwxZPk7V8yva9o6Oe5lWAPX8KZsWHG27ohycqrb04wAKSDSSdk6ta6y284N9gT6Ab6QKIWwTPss2bBK4PtS3Fm7gSI9QG5kec2AvEgQPjQnc0YlhlUQx0uZKt2ygn576BQ3aburL-IhrMRFVm1vEpTR5ol06R0BtjySvifD05Q_dQGUPvyPLxs/s1600/cpgaurd.png" alt=""/></p><p>An attacker broke into the update system of cPGuard, a security tool for Linux web servers, on November 2 and used it to ship a malicious script to customers. Maker OPSSHIELD says the script installed a backdoor and collected password hashes and other sensitive files from servers that ran it, and some of that data has already been taken. Admins running cPGuard should check the vendor advisory and treat affected servers as compromised.</p><p>Source: <a href="https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html">The Hacker News</a></p>]]></description>
-    </item>
-    <item>
-      <title>Critical Node-RED auth flaw CVE-2026-58115 exploited, including on Siemens SIMATIC IoT2050 devices</title>
-      <link>https://www.helpnetsecurity.com/2026/11/03/node-red-cve-2026-58115-exploitation/</link>
-      <guid isPermaLink="false">node-red-iot2050-exploited-20261103091236</guid>
-      <pubDate>Tue, 03 Nov 2026 09:12:36 -0800</pubDate>
-      <enclosure url="https://img.helpnetsecurity.com/wp-content/uploads/2026/11/03134721/node-red-1500.webp" type="image/jpeg" length="0" />
-      <description><![CDATA[<p><img src="https://img.helpnetsecurity.com/wp-content/uploads/2026/11/03134721/node-red-1500.webp" alt=""/></p><p>VulnCheck reports active exploitation of CVE-2026-58115 (CVSS 10), a missing-authentication flaw in Node-RED that lets an unauthenticated remote attacker run code. Attackers are using it to drop a Linux bot and backdoors on exposed servers, and Siemens SIMATIC IoT2050 Advanced industrial devices, which ship Node-RED, are among the targets. Node-RED is common in manufacturing, healthcare and home automation, so exposed instances should be patched or taken off the internet.</p><p>Sources: <a href="https://www.helpnetsecurity.com/2026/11/03/node-red-cve-2026-58115-exploitation/">Help Net Security</a>, <a href="https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html">The Hacker News</a></p>]]></description>
     </item>
   </channel>
 </rss>
