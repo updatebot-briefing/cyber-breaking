@@ -7,8 +7,24 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <ns0:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Fri, 06 Nov 2026 16:06:00 -0800</lastBuildDate>
-        <item>
+    <lastBuildDate>Sat, 07 Nov 2026 09:07:00 -0800</lastBuildDate>
+            <item>
+      <title>Apiiro: Claude Code “don’t ask again” rules left passwords and keys in 1,122 public GitHub copies</title>
+      <link>https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html</link>
+      <guid isPermaLink="false">claude-code-settings-local-secrets-github-20261107090700</guid>
+      <pubDate>Sat, 07 Nov 2026 09:07:00 -0800</pubDate>
+      <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZH3vYLZb9lP7mDLqy2h-upzdComeWIfjDX5siFUO3FM2HlUs03OTwirA1R2uzOZq_clptIVBsoaJNXIuf8LlTbXHFvzBJLRl1l3mqGVesHjgdmD86S_c-k2JY_t56xZqI0bnN6jXRDr92KlMw6X5BHzm5hqogpWflsERi9zrsMHSS_abAcvZMcUGovd8/s1600/claude-code.jpg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZH3vYLZb9lP7mDLqy2h-upzdComeWIfjDX5siFUO3FM2HlUs03OTwirA1R2uzOZq_clptIVBsoaJNXIuf8LlTbXHFvzBJLRl1l3mqGVesHjgdmD86S_c-k2JY_t56xZqI0bnN6jXRDr92KlMw6X5BHzm5hqogpWflsERi9zrsMHSS_abAcvZMcUGovd8/s1600/claude-code.jpg" alt=""/></p><p>Software security firm <strong>Apiiro</strong> found that Anthropic’s Claude Code can save exact approved shell commands—including passwords and API keys—into <code>.claude/settings.local.json</code> when users choose “Yes, and don’t ask again.” A public GitHub scan turned up <strong>1,122</strong> copies of that file holding at least one secret (about 1,379 distinct secrets), including hundreds of database passwords plus SSH logins, cloud keys, and package-registry tokens.</p><p>Global git excludes do not travel with a repo, and many secrets remain in git history and forks even after the file is deleted. Apiiro’s guidance is to rotate exposed credentials first, stop tracking the local settings file, add it to project <code>.gitignore</code>, and keep secrets out of approved commands (use variables / patterns instead).</p><p>Sources: <a href="https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html">The Hacker News</a></p>]]></description>
+    </item>
+    <item>
+      <title>Mirae Asset Securities says personal data on about 39,000 customers and staff leaked</title>
+      <link>https://en.yna.co.kr/view/AEN20261107000451315</link>
+      <guid isPermaLink="false">mirae-asset-securities-breach-39000-20261107090701</guid>
+      <pubDate>Sat, 07 Nov 2026 09:07:00 -0800</pubDate>
+      <enclosure url="https://img5.yna.co.kr/etc/inner/EN/2026/11/07/AEN20261107000451315_01_i_P4.jpg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://img5.yna.co.kr/etc/inner/EN/2026/11/07/AEN20261107000451315_01_i_P4.jpg" alt=""/></p><p>South Korea’s Mirae Asset Securities said Saturday that personal information on about <strong>39,000</strong> people was leaked after unauthorized access hit its mobile web phone-authentication login and an internal system midweek. The firm said account numbers for roughly 3,800 customers were exposed, plus names, employee IDs, emails, mobile numbers, and passwords for more than 35,000 current and former employees and contractors.</p><p>Access routes were blocked after suspicious external IPs were spotted, and the incident was reported to Korean financial and privacy regulators. Yonhap notes the breach follows similar leaks at Mirae Asset sister companies and sits inside a wider month-long wave of financial-sector data leaks (regulator figures cited: 470,000+ records across 37 firms).</p><p>Sources: <a href="https://en.yna.co.kr/view/AEN20261107000451315">Yonhap News Agency</a></p>]]></description>
+    </item>
+<item>
       <title>DOJ charges three in AI CEO-spoofing scheme that allegedly stole about $129 million</title>
       <link>https://therecord.media/ceo-spoofing-scammers-charged</link>
       <guid isPermaLink="false">doj-ai-ceo-spoofing-129m-20261106160600</guid>
@@ -394,21 +410,5 @@
 <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtvbYhodewxI1TOMjVp0GKUmMdudVKH27My8auvMEvDbCkd_JBzdJjjBb99j2a2a9R1wgkOaTdLcM_9FEmpyweVquFetLeyfzSC5UgpukK8Ukw7keJb5HwmTnPP1qWT2QzVX3FKLtBKLDFnuMrzmfgW5dwYf6SJHZHqSDj_eYGdap3ECOMMI1Em6_oS_0/s1600/msecure.jpg" type="image/jpeg" length="0" />
 <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtvbYhodewxI1TOMjVp0GKUmMdudVKH27My8auvMEvDbCkd_JBzdJjjBb99j2a2a9R1wgkOaTdLcM_9FEmpyweVquFetLeyfzSC5UgpukK8Ukw7keJb5HwmTnPP1qWT2QzVX3FKLtBKLDFnuMrzmfgW5dwYf6SJHZHqSDj_eYGdap3ECOMMI1Em6_oS_0/s1600/msecure.jpg" alt=""/></p><p>mSeven Software emailed current and former mSecure password manager customers on November 3 urging them to change stored passwords, reset two-factor authentication and remove passkeys after it learned of suspicious activity linked to the app. The email doesn't say what happened, which systems were involved, or whether vault data was exposed, and the company hadn't posted publicly about it as of midday. mSecure users should rotate their most important credentials now rather than wait for details.</p><p>Source: <a href="https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html">The Hacker News</a></p>]]></description>
     </item>
-    <item>
-<title>Barracuda patches flaw chain that can give attackers root on Email Security Gateway and other appliances</title>
-<link>https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html</link>
-<guid isPermaLink="false">barracuda-esg-auth-bypass-root-chain-20261103100558</guid>
-<pubDate>Tue, 03 Nov 2026 10:05:58 -0800</pubDate>
-<enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCvGJCkYjldhAvsjMo47UqxGOTfVY1zCcjZQzgebkO8j1__fa0cFOn3CAV1jPTUpzwDDISQKPQP5eVGOl9BzRLBX7KlWuU2HMpzuHRWV2wyaItDwYgPu0X7m3qE5V1kgFzKZ1QYcRBcZyDqkUTFberiOWXBfV_-suYC1QQWq_TwBMeyme4F0FsOZnpijhC/s1600/barracuda.png" type="image/jpeg" length="0" />
-<description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCvGJCkYjldhAvsjMo47UqxGOTfVY1zCcjZQzgebkO8j1__fa0cFOn3CAV1jPTUpzwDDISQKPQP5eVGOl9BzRLBX7KlWuU2HMpzuHRWV2wyaItDwYgPu0X7m3qE5V1kgFzKZ1QYcRBcZyDqkUTFberiOWXBfV_-suYC1QQWq_TwBMeyme4F0FsOZnpijhC/s1600/barracuda.png" alt=""/></p><p>Barracuda disclosed a pre-authentication authorization bypass in Email Security Gateway (CVE-2026-116606, CVSS 9.3) and a command injection bug affecting several of its products (CVE-2026-111560, CVSS 8.6). Chained together, they let an attacker who can reach the admin interface bypass authorization and get root on the device.</p><p>No in-the-wild exploitation has been reported yet. Barracuda says devices that keep admin interfaces off the internet are less exposed, and customers should confirm they are on the latest firmware, which may take several updates on older devices.</p><p>Source: <a href="https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html">The Hacker News</a></p>]]></description>
-    </item>
-    <item>
-<title>Brazil's largest crypto exchange, Mercado Bitcoin, loses about $38-46 million in hot-wallet hack</title>
-<link>https://therecord.media/mercado-bitcoin-brazil-cryptocurrency-heist</link>
-<guid isPermaLink="false">mercado-bitcoin-hot-wallet-hack-20261103100558</guid>
-<pubDate>Tue, 03 Nov 2026 10:05:58 -0800</pubDate>
-<enclosure url="https://cms.therecord.media/uploads/mercado_bitcoin_92ae590f6f.jpg" type="image/jpeg" length="0" />
-<description><![CDATA[<p><img src="https://cms.therecord.media/uploads/mercado_bitcoin_92ae590f6f.jpg" alt=""/></p><p>Mercado Bitcoin suspended deposits and withdrawals after attackers drained its hot wallets across about 10 blockchains late Sunday into Monday (Nov 1-2). Blockchain analysts put outflows above $46 million; the exchange says about $38 million was lost and roughly $11 million has been frozen with help from Tether, Circle, Paxos, BRL1 and Chainalysis.</p><p>The exchange says it will cover all customer losses and that no customer data leaked, though some researchers point to on-chain evidence that customer deposit addresses were swept too. The attack has not been attributed.</p><p>Sources: <a href="https://therecord.media/mercado-bitcoin-brazil-cryptocurrency-heist">The Record</a>, <a href="https://www.coindesk.com/business/2026/11/03/mercado-bitcoin-pledges-to-cover-all-user-losses-after-near-usd40-million-hack">CoinDesk</a>, <a href="https://cointelegraph.com/news/mercado-bitcoin-hack">Cointelegraph</a></p>]]></description>
-    </item>
-  </channel>
+    </channel>
 </rss>
