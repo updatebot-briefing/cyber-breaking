@@ -7,8 +7,16 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <ns0:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Mon, 09 Nov 2026 09:08:45 -0800</lastBuildDate>
-                <item>
+    <lastBuildDate>Mon, 09 Nov 2026 09:09:16 -0800</lastBuildDate>
+                    <item>
+      <title>CISA adds GPUStack CVE-2026-102895 to KEV after in-the-wild exploitation</title>
+      <link>https://github.com/gpustack/gpustack/security/advisories/GHSA-gj9m-f8ph-pmhr</link>
+      <guid isPermaLink="false">cisa-kev-gpustack-cve-2026-102895-20261109090916</guid>
+      <pubDate>Mon, 09 Nov 2026 09:09:16 -0800</pubDate>
+      <enclosure url="https://opengraph.githubassets.com/0f0fcaaff803029cd541e15c84497bef47ee5f79e4b6baae9ea3d44fb56c1e2a/gpustack/gpustack/security/advisories/GHSA-gj9m-f8ph-pmhr" type="image/png" length="0"/>
+      <description><![CDATA[<p><img src="https://opengraph.githubassets.com/0f0fcaaff803029cd541e15c84497bef47ee5f79e4b6baae9ea3d44fb56c1e2a/gpustack/gpustack/security/advisories/GHSA-gj9m-f8ph-pmhr" alt=""/></p><p>CISA added GPUStack CVE-2026-102895 (CVSS 9.8) to its Known Exploited Vulnerabilities catalog on November 9, 2026, due November 12. An authentication bypass in GPUStack before 2.2.0 (default force_auth_localhost=false) can give unauthenticated attackers full admin access, persistent admin API keys, and code execution via POST /v2/inference-backends/from-yaml; same-host reverse-proxy setups are exposed. The vendor advisory reports in-the-wild exploitation of a 2.1.1 deployment where attacker backends ran reverse shells.</p><p>Fix: upgrade to 2.2.0+, or set force_auth_localhost=true, strip client X-GPUStack-Real-IP headers, and keep the API off untrusted networks. Sources: <a href="https://github.com/gpustack/gpustack/security/advisories/GHSA-gj9m-f8ph-pmhr">GPUStack advisory</a>, <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-102895">NVD</a>, <a href="https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json">CISA KEV</a>.</p>]]></description>
+    </item>
+<item>
       <title>CISA adds FreeSWITCH CVE-2026-116779 to KEV after in-the-wild exploitation</title>
       <link>https://github.com/signalwire/freeswitch/security/advisories/GHSA-mg63-h38w-8p9p</link>
       <guid isPermaLink="false">cisa-kev-freeswitch-cve-2026-116779-20261109090845</guid>
@@ -16,7 +24,7 @@
       <enclosure url="https://opengraph.githubassets.com/4e4b5000e021e0b8e3beab1fe926380d38689f853fc5e0c00201cec68788a7a7/signalwire/freeswitch/security/advisories/GHSA-mg63-h38w-8p9p" type="image/png" length="0"/>
       <description><![CDATA[<p><img src="https://opengraph.githubassets.com/4e4b5000e021e0b8e3beab1fe926380d38689f853fc5e0c00201cec68788a7a7/signalwire/freeswitch/security/advisories/GHSA-mg63-h38w-8p9p" alt=""/></p><p>CISA added FreeSWITCH CVE-2026-116779 (CVSS 9.8) to its Known Exploited Vulnerabilities catalog on November 9, 2026, due November 12, after the vendor reported in-the-wild exploitation. An inbound SIP MESSAGE can select the "api" chat proto and run arbitrary FreeSWITCH API commands, enabling command execution, config/credential disclosure, and full call control. It affects SIP profiles that accept inbound MESSAGE (on by default; vanilla config leaves it on for internal and external profiles), versions up to 1.11.2; fixed in 1.11.3+.</p><p>Fix: apply the vendor fix (new enable-chat-api-proto, off by default) or set enable-chat=false where chat is not needed, and remove directory users with no password or a1-hash. Sources: <a href="https://github.com/signalwire/freeswitch/security/advisories/GHSA-mg63-h38w-8p9p">SignalWire advisory</a>, <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-116779">NVD</a>, <a href="https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json">CISA KEV</a>.</p>]]></description>
     </item>
-    <item>
+<item>
       <title>CISA adds OpenSSH CVE-2026-123158 (SSHole) to KEV</title>
       <link>https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/</link>
       <guid isPermaLink="false">cisa-kev-openssh-cve-2026-123158-sshole-20261109090830</guid>
@@ -400,14 +408,6 @@
 <pubDate>Wed, 04 Nov 2026 09:11:00 -0800</pubDate>
 <enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAVPXiuTBfhBnpwaZHMfSDWymKJrXbS88kOEO1Xuh5t11qAnwSKeFTHGQy6ZG9Sr2N-wRYrJg58x3lKFbybvU9p1a85lxaCHfBa61vO1DfjEhUi5Yzf6bQS1eN7Mu-s_sUwkE-JGc-UznJ1p0qfmwMDusXFzWawXKXMt6jj-vENxyQG12uAUDUe0p0gtg/s1600/xen.jpg" type="image/jpeg" length="0" />
 <description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAVPXiuTBfhBnpwaZHMfSDWymKJrXbS88kOEO1Xuh5t11qAnwSKeFTHGQy6ZG9Sr2N-wRYrJg58x3lKFbybvU9p1a85lxaCHfBa61vO1DfjEhUi5Yzf6bQS1eN7Mu-s_sUwkE-JGc-UznJ1p0qfmwMDusXFzWawXKXMt6jj-vENxyQG12uAUDUe0p0gtg/s1600/xen.jpg" alt=""/></p><p>Two grant-copy flaws in Xen 4.6 and later (CVE-2026-102703 and CVE-2026-102704) let a malicious guest VM read and write the memory of other VMs on the same host, including the privileged dom0, effectively a full host takeover. Patches are out and there is no mitigation. The bugs were found by Anthropic using Claude and independently reported by CodeAnt AI; no attacks are known.</p><p>Source: <a href="https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html">The Hacker News</a></p>]]></description>
-    </item>
-<item>
-<title>Google's November Android bulletin fixes critical zero-click RCE CVE-2026-58868 in Android 14-17</title>
-<link>https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html</link>
-<guid isPermaLink="false">android-cve-2026-58868-nov-bulletin-20261104091000</guid>
-<pubDate>Wed, 04 Nov 2026 09:10:00 -0800</pubDate>
-<enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgm9fDI_lHL64S1r-eoB5-99WagZJBIjKDF-bEJ9egJw_EiLUomXSakGnV0vdq9Fqu2j6KVWM4upLmOwweDCKQ32f21W8CTsQHnoGMhFm-ISPNQEg1Jq5WbDujqLHVkGSEsox0Xd3Yc5Dd-v4-6rdzU4akd97y7cBhRYFO2ofmxpf3HYspJ6MkJs2RtfC4/s1600/android-patch.jpg" type="image/jpeg" length="0" />
-<description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgm9fDI_lHL64S1r-eoB5-99WagZJBIjKDF-bEJ9egJw_EiLUomXSakGnV0vdq9Fqu2j6KVWM4upLmOwweDCKQ32f21W8CTsQHnoGMhFm-ISPNQEg1Jq5WbDujqLHVkGSEsox0Xd3Yc5Dd-v4-6rdzU4akd97y7cBhRYFO2ofmxpf3HYspJ6MkJs2RtfC4/s1600/android-patch.jpg" alt=""/></p><p>Google's November 2026 Android security bulletin fixes CVE-2026-58868, a critical heap overflow in FrameDecoder.cpp that could allow remote code execution without user interaction on Android 14 through 17. Phones need patch level 2026-11-01 or later for this flaw and 2026-11-05 for the full bulletin. Google reports no exploitation so far.</p><p>Source: <a href="https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html">The Hacker News</a></p>]]></description>
     </item>
 </channel>
 </rss>
