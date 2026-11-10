@@ -7,8 +7,39 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <ns0:link href="https://updatebot-briefing.github.io/cyber-breaking/news.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Mon, 09 Nov 2026 09:09:16 -0800</lastBuildDate>
-                    <item>
+    <lastBuildDate>Mon, 09 Nov 2026 19:42:55 -0800</lastBuildDate>
+                        <item>
+      <title>Vanderbilt University hit in BYOD ransomware attack, data theft claimed</title>
+      <link>https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/</link>
+      <guid isPermaLink="false">vanderbilt-byod-ransomware-20261109155212</guid>
+      <pubDate>Mon, 09 Nov 2026 15:52:12 -0800</pubDate>
+      <enclosure url="https://www.bleepstatic.com/content/hl-images/2026/11/09/vanderbilt-skyline.jpg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://www.bleepstatic.com/content/hl-images/2026/11/09/vanderbilt-skyline.jpg" alt=""/></p><p>Vanderbilt University confirmed Monday that it is responding to a cybersecurity incident that may affect university devices, systems, and cloud-based services, and told students, faculty, and staff to shut down university devices and disconnect from university Wi-Fi. The BYOD ransomware group claimed on its leak site that it had encrypted Vanderbilt's databases and stolen student, employee, and research data, including more than 1 million Social Security numbers. Vanderbilt has not publicly confirmed the nature of the attack, whether any data was stolen, or BYOD's involvement. BleepingComputer reported receiving a photograph of an alleged campus computer displaying a BYOD ransom note, and said the note's link points to the group's leak site.</p><p>Source: <a href="https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/">BleepingComputer</a>.</p>]]></description>
+    </item>
+    <item>
+      <title>N-able takes hosted N-central offline after researcher publishes 30+ alleged zero-days</title>
+      <link>https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/</link>
+      <guid isPermaLink="false">n-able-ncentral-offline-able2shell-20261109132625</guid>
+      <pubDate>Mon, 09 Nov 2026 13:26:25 -0800</pubDate>
+      <enclosure url="https://www.bleepstatic.com/content/hl-images/2025/08/18/N-able.jpg" type="image/jpeg" length="0"/>
+      <description><![CDATA[<p><img src="https://www.bleepstatic.com/content/hl-images/2025/08/18/N-able.jpg" alt=""/></p><p>N-able has taken its hosted N-central environments offline worldwide and told on-premises customers to shut their servers down after security researcher Sean Bales on November 8 published a GitHub repository, Able2Shell, with proof-of-concept exploits for more than 30 alleged N-central zero-days. Bales says the flaws were tested against N-central Appliance 2026.4.0.31 and include authentication bypasses, credential disclosure, and remote code execution; one unauthenticated XXE chain can lead to command execution as the nable user and creation of an administrator account. N-able told BleepingComputer it is developing a hotfix and has not observed active exploitation or unauthorized data access, and it has not said when the hosted platform will return.</p><p>Source: <a href="https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/">BleepingComputer</a>.</p>]]></description>
+    </item>
+    <item>
+      <title>Hostinger: LiteSpeed zero-day on a Phoenix shared server hit about 400 accounts</title>
+      <link>https://www.hostinger.com/blog/phoenix-server-incident-2026/</link>
+      <guid isPermaLink="false">hostinger-phoenix-litespeed-zeroday-20261109124956</guid>
+      <pubDate>Mon, 09 Nov 2026 12:49:56 -0800</pubDate>
+      <enclosure url="https://imagedelivery.net/LqiWLm-3MGbYHtFuUbcBtA/wp-content/uploads/sites/4/2026/11/fi-e3516f7e-9b2a-4e24-bf7a-d95c243bd598.png/public" type="image/png" length="0"/>
+      <description><![CDATA[<p><img src="https://imagedelivery.net/LqiWLm-3MGbYHtFuUbcBtA/wp-content/uploads/sites/4/2026/11/fi-e3516f7e-9b2a-4e24-bf7a-d95c243bd598.png/public" alt=""/></p><p>Hostinger said it detected unauthorized access on November 9 to one shared-hosting server in Phoenix after an attacker used a previously unknown LiteSpeed Web Server vulnerability to break out of CloudLinux CageFS isolation and obtain root-level access. The attacker first entered on November 5 through a vulnerable content management system on a customer website, then spent three days finding the LiteSpeed flaw, and ran code or read credentials on about 400 accounts, including database credentials and access tokens. Hostinger said it found no evidence that its management, backup, or account-login systems were compromised; it moved accounts to other servers, restored affected sites from pre-attack backups, and is working with LiteSpeed on a permanent fix.</p><p>Source: <a href="https://www.hostinger.com/blog/phoenix-server-incident-2026/">Hostinger incident report</a>.</p>]]></description>
+    </item>
+    <item>
+      <title>CISA adds IBM Aspera Faspex CVE-2026-123218 to KEV</title>
+      <link>https://www.ibm.com/support/pages/node/7295921</link>
+      <guid isPermaLink="false">cisa-kev-ibm-aspera-faspex-cve-2026-123218-20261109115437</guid>
+      <pubDate>Mon, 09 Nov 2026 11:54:37 -0800</pubDate>
+      <description><![CDATA[<p>CISA added IBM Aspera Faspex CVE-2026-123218 (CVSS 9.8) to its Known Exploited Vulnerabilities catalog on November 9, 2026, due November 12, with forensic triage required under BOD 26-04. IBM says an authenticated user can craft a message to bypass authorization and gain full administrative privileges in Faspex 5.0.0 through 5.0.19 (CWE-863). Fix: upgrade to 5.0.19 PL1 and confirm the faspex-core container image is 5.0.19 (1ce4b13, Fix Pack 1).</p><p>Sources: <a href="https://www.ibm.com/support/pages/node/7295921">IBM bulletin</a>, <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-123218">NVD</a>, <a href="https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json">CISA KEV</a>.</p>]]></description>
+    </item>
+<item>
       <title>CISA adds GPUStack CVE-2026-102895 to KEV after in-the-wild exploitation</title>
       <link>https://github.com/gpustack/gpustack/security/advisories/GHSA-gj9m-f8ph-pmhr</link>
       <guid isPermaLink="false">cisa-kev-gpustack-cve-2026-102895-20261109090916</guid>
@@ -30,6 +61,22 @@
       <guid isPermaLink="false">cisa-kev-openssh-cve-2026-123158-sshole-20261109090830</guid>
       <pubDate>Mon, 09 Nov 2026 09:08:30 -0800</pubDate>
       <description><![CDATA[<p>CISA added OpenSSH CVE-2026-123158 ("SSHole," CVSS 8.1) to its Known Exploited Vulnerabilities catalog on November 9, 2026, with a due date of November 12. Portable OpenSSH before 10.6p2 on musl-based Linux without PAM can let attackers log in to accounts that have no password set, including Alpine Linux's default server configuration. GreyNoise saw the first successful sensor exploitation on November 7; The Hacker News counted 20 attempts from 13 unique IPs as of November 9.</p><p>Fix: upgrade to OpenSSH 10.6p2 or apply vendor/Alpine backports, and ensure accounts have passwords set or use PAM-based authentication. Sources: <a href="https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/">Alpine advisory</a>, <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-123158">NVD</a>, <a href="https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json">CISA KEV</a>.</p>]]></description>
+    </item>
+    <item>
+      <title>Attackers abused Qubole AWS roles to steal customer secrets and S3 data</title>
+      <link>https://www.wiz.io/blog/qubole-cross-account-access-abused-in-the-wild</link>
+      <guid isPermaLink="false">qubole-aws-cross-account-breach-20261109065632</guid>
+      <pubDate>Mon, 09 Nov 2026 06:56:32 -0800</pubDate>
+      <enclosure url="https://www.datocms-assets.com/75231/1794234152-2.png?fm=webp" type="image/webp" length="0"/>
+      <description><![CDATA[<p><img src="https://www.datocms-assets.com/75231/1794234152-2.png?fm=webp" alt=""/></p><p>Wiz, working with Sentra and Mandiant, said a threat actor used IAM credentials from an AWS account associated with the Qubole data platform between October 14 and October 26, 2026, to assume customer-created integration roles and enter multiple customer AWS environments. Once inside, the actor enumerated resources, collected secrets from Lambda, Secrets Manager, and SSM Parameter Store, accessed S3 data, and validated discovered credentials, including with TruffleHog. Every AssumeRole request Wiz attributed to the actor included a valid External ID and succeeded. Organizations that have integrated with Qubole should review CloudTrail from October 1 onward for AssumeRole events from AWS account 805246085872, especially those from non-AWS source addresses, and rotate exposed secrets.</p><p>Sources: <a href="https://www.wiz.io/blog/qubole-cross-account-access-abused-in-the-wild">Wiz</a>, <a href="https://sentra.io/blog/breaches/inside-the-qubole-supply-chain-attack">Sentra</a>.</p>]]></description>
+    </item>
+    <item>
+      <title>Compromised Ethersphere releases of bee-js and Swarm Desktop steal node wallets and install a backdoor</title>
+      <link>https://socket.dev/blog/bee-js-compromise</link>
+      <guid isPermaLink="false">ethersphere-bee-js-swarm-desktop-compromise-20261109065215</guid>
+      <pubDate>Mon, 09 Nov 2026 06:52:15 -0800</pubDate>
+      <enclosure url="https://cdn.sanity.io/images/cgdhsj6q/production/e683ad203add28a49ebbfc2e0909e63eb152edaf-2356x1402.png?w=1000&amp;q=95&amp;fit=max&amp;auto=format" type="image/png" length="0"/>
+      <description><![CDATA[<p><img src="https://cdn.sanity.io/images/cgdhsj6q/production/e683ad203add28a49ebbfc2e0909e63eb152edaf-2356x1402.png?w=1000&amp;q=95&amp;fit=max&amp;auto=format" alt=""/></p><p>Socket said a threat actor used Ethersphere's own GitHub release automation on November 9, 2026, to publish a malicious @ethersphere/bee-js 13.3.0 package to npm and a trojanized Swarm Desktop 0.56.2 release. Both drop a loader that fetches and runs JavaScript, then looks for Swarm Desktop's config.yaml and swarm.key wallet files and can install a backdoor on Windows, macOS, and Linux; later stages reuse SleepyDuck / EtherDuck command-and-control infrastructure. npm removed 13.3.0 about 75 minutes after publication; the Swarm Desktop release remained available for about eight and a half hours, including via auto-update on some platforms. Anyone who installed those versions should treat the host as potentially compromised and rotate exposed wallet credentials.</p><p>Source: <a href="https://socket.dev/blog/bee-js-compromise">Socket</a>.</p>]]></description>
     </item>
 <item>
       <title>Web3Auth infrastructure flaw exposed Keplr social-login keys; Bitquery counts about $6 million drained from 44,000+ wallets</title>
@@ -362,52 +409,6 @@
 <pubDate>Thu, 05 Nov 2026 11:03:00 -0800</pubDate>
 <enclosure url="https://img.helpnetsecurity.com/wp-content/uploads/2023/07/25122008/norway.jpg" type="image/jpeg" length="0" />
 <description><![CDATA[<p><img src="https://img.helpnetsecurity.com/wp-content/uploads/2023/07/25122008/norway.jpg" alt=""/></p><p>Norad, Norway's development aid agency, disclosed that attackers who logged in with 27 compromised accounts may have obtained names and email addresses for all 20,614 registered Grants Portal users across 12,511 organizations. The intrusion was found October 30; applications and supporting documents from at least three non-Norwegian organizations were stolen, and Norad cannot rule out exposure of applicants operating in conflict zones. The portal was taken offline; police, Datatilsynet and NSM are involved, and users are being notified.</p><p>Source: <a href="https://www.helpnetsecurity.com/2026/11/05/norad-grants-portal-breach/">Help Net Security</a></p>]]></description>
-    </item>
-<item>
-<title>Zyxel patches GS1900 switch zero-day CVE-2026-107441 exploited to hijack nearly 1,000 devices</title>
-<link>https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/</link>
-<guid isPermaLink="false">zyxel-gs1900-zero-day-cve-2026-107441-20261104131052</guid>
-<pubDate>Wed, 04 Nov 2026 13:10:52 -0800</pubDate>
-<description><![CDATA[<p>Zyxel has fixed CVE-2026-107441, an unauthenticated out-of-bounds write in the web management interface of ten GS1900 switch models that lets attackers run OS commands. GreyNoise saw a suspected Chinese-speaking actor, Kapibala, compromise 996 switches in 48 countries since mid-August, stealing configs and hashed root credentials.</p><p>Binarly found the exploit bypassed Zyxel's earlier CVE-2026-7273 patch; fixed firmware shipped October 22 and the advisory went out November 3. Admins should update GS1900 firmware and keep management interfaces off the internet.</p><p>Source: <a href="https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/">BleepingComputer</a></p>]]></description>
-    </item>
-<item>
-<title>CISA adds Apple pointer-authentication bypass CVE-2024-27834 to exploited list after APT29 iOS watering-hole chain</title>
-<link>https://www.bleepingcomputer.com/news/security/hackers-use-n-day-exploits-in-zero-click-attacks-on-ios-android-devices/</link>
-<guid isPermaLink="false">cisa-kev-apple-cve-2024-27834-20261104120545</guid>
-<pubDate>Wed, 04 Nov 2026 12:05:45 -0800</pubDate>
-<description><![CDATA[<p>CISA added CVE-2024-27834, a 2024 Apple WebKit flaw that lets an attacker with memory read/write bypass Pointer Authentication, to its Known Exploited Vulnerabilities catalog on November 4, with a federal patch deadline of November 18. Sekoia reported the bug as the second stage of an APT29-linked iOS 16.7 exploit chain, paired with CVE-2025-43529, used in watering-hole attacks to steal Safari cookies.</p><p>Apple fixed it in May 2024 (iOS 17.5 and iOS 16.7.8, Safari 17.5, macOS Sonoma 14.5), so only devices left on old releases are exposed.</p><p>Sources: <a href="https://www.bleepingcomputer.com/news/security/hackers-use-n-day-exploits-in-zero-click-attacks-on-ios-android-devices/">BleepingComputer</a>, <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog">CISA KEV catalog</a>, <a href="https://nvd.nist.gov/vuln/detail/CVE-2024-27834">NVD</a></p>]]></description>
-    </item>
-<item>
-<title>Debian and Ubuntu APT flaw CVE-2026-109518 lets a man-in-the-middle swap verified packages and run code as root</title>
-<link>https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html</link>
-<guid isPermaLink="false">debian-ubuntu-apt-cve-2026-109518-20261104101000</guid>
-<pubDate>Wed, 04 Nov 2026 10:10:00 -0800</pubDate>
-<enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUPaNgRQEg3TU6-9BBgKse77CGVpbBFbn48cBnN1aanKvaMzk_mT74RxyWZA3_NbcrYe0UnRAQlELRYKGiGNrLUDcBMSKXFgRNxaND7RoaVFOs1Q7rkFFtlpoAzYQ7C8i6RAY4bNNTarEMUI-iFR4A_IfjIkFE9vpyQjG-0QFngy5cRE8f2GhGfTltkaI/s1600/linux-apt.jpg" type="image/jpeg" length="0" />
-<description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUPaNgRQEg3TU6-9BBgKse77CGVpbBFbn48cBnN1aanKvaMzk_mT74RxyWZA3_NbcrYe0UnRAQlELRYKGiGNrLUDcBMSKXFgRNxaND7RoaVFOs1Q7rkFFtlpoAzYQ7C8i6RAY4bNNTarEMUI-iFR4A_IfjIkFE9vpyQjG-0QFngy5cRE8f2GhGfTltkaI/s1600/linux-apt.jpg" alt=""/></p><p>A flaw in APT, the Debian and Ubuntu package manager, lets anyone who can tamper with package downloads (a malicious mirror, proxy or network attacker) swap a verified package for their own and get code running as root at install time. It abuses APT's download retries, which are on by default from Debian 12 and Ubuntu 22.04. Debian has shipped fixed APT versions and Ubuntu is rolling out builds; APT's developers call it critical, Ubuntu rates it high (CVSS 4.0 7.7). No exploitation reported yet.</p><p>Source: <a href="https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html">The Hacker News</a></p>]]></description>
-    </item>
-<item>
-<title>Cyberattack on refrigeration supplier pushes French blood bank cold rooms toward spoilage temperatures</title>
-<link>https://www.helpnetsecurity.com/2026/11/04/cyberattack-hits-french-blood-banks/</link>
-<guid isPermaLink="false">efs-blood-bank-cold-rooms-20261104101000</guid>
-<pubDate>Wed, 04 Nov 2026 10:10:00 -0800</pubDate>
-<enclosure url="https://img.helpnetsecurity.com/wp-content/uploads/2026/11/04132010/blood-bag-1500.webp" type="image/jpeg" length="0" />
-<description><![CDATA[<p><img src="https://img.helpnetsecurity.com/wp-content/uploads/2026/11/04132010/blood-bag-1500.webp" alt=""/></p><p>A cyberattack on a refrigeration equipment provider used by France's national blood service (EFS) changed cold-room settings at three blood banks, setting temperature and defrost thresholds very high. EFS monitoring caught the spikes and products were moved, so no blood was lost and collection and distribution continue. EFS is working with France's cyber agency ANSSI and the Ministry of Health.</p><p>Source: <a href="https://www.helpnetsecurity.com/2026/11/04/cyberattack-hits-french-blood-banks/">Help Net Security</a></p>]]></description>
-    </item>
-<item>
-<title>Critical Rails Active Storage flaw lets unauthenticated uploads write server files via ImageMagick</title>
-<link>https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html</link>
-<guid isPermaLink="false">rails-activestorage-imagemagick-20261104091200</guid>
-<pubDate>Wed, 04 Nov 2026 09:12:00 -0800</pubDate>
-<enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaJWnScdkMx0R5_Zt00NtYVNjNavBR7IMrLzJM_tZGMTpZtAvV7uNWt6BQbBrlUzH-aBoj_ZmMEOG__aTA8VmfTeiHUR9gfqNe2eYf9fSM-sYQkmCOg10qZ3ZaKyM_RS1QUQhm8s5NMw-xnYaWMDgDakmFyp9tbJgQ4hOZTf0cxe9E6x7uWt3JeN6bS3k/s1600/ruby-rails.jpg" type="image/jpeg" length="0" />
-<description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaJWnScdkMx0R5_Zt00NtYVNjNavBR7IMrLzJM_tZGMTpZtAvV7uNWt6BQbBrlUzH-aBoj_ZmMEOG__aTA8VmfTeiHUR9gfqNe2eYf9fSM-sYQkmCOg10qZ3ZaKyM_RS1QUQhm8s5NMw-xnYaWMDgDakmFyp9tbJgQ4hOZTf0cxe9E6x7uWt3JeN6bS3k/s1600/ruby-rails.jpg" alt=""/></p><p>Ruby on Rails fixed a 9.8-rated flaw (GHSA-f3w6-w445-fwh9) in Active Storage that lets an unauthenticated attacker write arbitrary files on the server by uploading a crafted file, such as an SVG reaching ImageMagick's MSL coder, when the app processes uploads with ImageMagick. Apps using the Disk storage service can also leak readable files like secret_key_base and credentials, which can lead to code execution. Simply attaching the upload triggers it. Fixed in Rails 8.1.4.1 and 8.0.5.2; no exploitation reported yet.</p><p>Source: <a href="https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html">The Hacker News</a></p>]]></description>
-    </item>
-<item>
-<title>Xen hypervisor flaws (XSA-523) let a malicious guest VM read and write other VMs' memory, including dom0</title>
-<link>https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html</link>
-<guid isPermaLink="false">xen-xsa-523-guest-escape-20261104091100</guid>
-<pubDate>Wed, 04 Nov 2026 09:11:00 -0800</pubDate>
-<enclosure url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAVPXiuTBfhBnpwaZHMfSDWymKJrXbS88kOEO1Xuh5t11qAnwSKeFTHGQy6ZG9Sr2N-wRYrJg58x3lKFbybvU9p1a85lxaCHfBa61vO1DfjEhUi5Yzf6bQS1eN7Mu-s_sUwkE-JGc-UznJ1p0qfmwMDusXFzWawXKXMt6jj-vENxyQG12uAUDUe0p0gtg/s1600/xen.jpg" type="image/jpeg" length="0" />
-<description><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAVPXiuTBfhBnpwaZHMfSDWymKJrXbS88kOEO1Xuh5t11qAnwSKeFTHGQy6ZG9Sr2N-wRYrJg58x3lKFbybvU9p1a85lxaCHfBa61vO1DfjEhUi5Yzf6bQS1eN7Mu-s_sUwkE-JGc-UznJ1p0qfmwMDusXFzWawXKXMt6jj-vENxyQG12uAUDUe0p0gtg/s1600/xen.jpg" alt=""/></p><p>Two grant-copy flaws in Xen 4.6 and later (CVE-2026-102703 and CVE-2026-102704) let a malicious guest VM read and write the memory of other VMs on the same host, including the privileged dom0, effectively a full host takeover. Patches are out and there is no mitigation. The bugs were found by Anthropic using Claude and independently reported by CodeAnt AI; no attacks are known.</p><p>Source: <a href="https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html">The Hacker News</a></p>]]></description>
     </item>
 </channel>
 </rss>
