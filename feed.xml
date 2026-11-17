@@ -7,7 +7,14 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Mon, 26 Oct 2026 16:10:00 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 13:44:55 -0800</lastBuildDate>
+<item>
+      <title><![CDATA[Java4Shell: unauthenticated memory-corruption/RCE bug in OpenJDK 17+ (CVE-2026-114938) disclosed after leak, with Oracle patch out]]></title>
+      <link>https://calif.io/java4shell/</link>
+      <guid isPermaLink="false">java4shell-cve-2026-114938-20261117</guid>
+      <pubDate>Tue, 17 Nov 2026 13:44:55 -0800</pubDate>
+      <description><![CDATA[<p><img src="https://calif.io/java4shell/poster.jpg" alt="Java4Shell" style="max-width:100%"/></p><p><b>Breaking:</b> Calif published technical details on Tuesday, Nov 17, 2026 (around 1 PM PT) for Java4Shell (CVE-2026-114938, CVSS 4.0 score 9.2), an unauthenticated memory-corruption bug in OpenJDK HotSpot's AVX-512 VBMI Base64 decode intrinsic. The details had leaked earlier that morning. Any Java service that Base64-decodes attacker input (auth headers, tokens, uploads, messages) can hit it: a string of 'A' characters plus '=' triggers an out-of-bounds heap write. Calif shows Heartbleed-style memory disclosure and a path to remote code execution.</p><p>Affected: OpenJDK/Java SE 17.0.6 and later (Oracle lists 17, 21, 25 and 27 builds, plus GraalVM) on x86-64 CPUs with AVX-512 VBMI. Java 8 and 11 and ARM hosts are reportedly not affected. Oracle's Nov 17 Critical Patch Update fixes it. Temurin, Corretto and Zulu builds follow on their own schedules.</p><p><b>Exploitation status:</b> Upwind says it reproduced exploitation privately. As of ~1:45 PM PT, no in-the-wild exploitation and no CISA KEV listing are reported. Unverified "exploits" on GitHub may be malware.</p><p><b>Do now:</b> Patch Java runtimes, starting with internet-facing services and containers. Where you can't patch yet, set -XX:-UseBASE64Intrinsics (or -XX:UseAVX=2) and restart.</p><p>Sources: <a href="https://calif.io/java4shell/">Calif write-up</a>, <a href="https://securitylabs.datadoghq.com/articles/java4shell-remote-code-execution-in-openjdk-cve-2026-114938/">Datadog Security Labs</a>, <a href="https://www.upwind.io/blog/java4shell-what-we-know-now-and-what-comes-next">Upwind</a>, <a href="https://x.com/calif_io/status/2122724367654334810">Calif on X</a></p>]]></description>
+    </item>
 <item>
       <title><![CDATA[PHP2Shell update: CISA adds CVE-2026-109618/-109619 to KEV with an Oct 29 deadline after confirmed in-the-wild RCE]]></title>
       <link>https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching</link>
