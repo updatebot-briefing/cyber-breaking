@@ -7,7 +7,14 @@
     <language>en-us</language>
     <ttl>60</ttl>
     <atom:link href="https://updatebot-briefing.github.io/cyber-breaking/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 17 Nov 2026 13:44:55 -0800</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 09:42:06 -0800</lastBuildDate>
+<item>
+      <title><![CDATA[nginx2root: pre-auth RCE in NGINX HTTP/2 (CVE-2026-123007, CVE-2026-123633) hits default configs; patches and public PoC out]]></title>
+      <link>https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities</link>
+      <guid isPermaLink="false">nginx2root-cve-2026-123007-20261118</guid>
+      <pubDate>Wed, 18 Nov 2026 09:42:06 -0800</pubDate>
+      <description><![CDATA[<p><img src="https://www.datocms-assets.com/75231/1794936719-img_7875.png?fm=webp" alt="NGINX HTTP/2 RCE" style="max-width:100%"/></p><p><b>Breaking:</b> On Wednesday, Nov 18, 2026 (~7 AM PT), F5/nginx shipped NGINX 1.31.9 and 1.30.7, which fix 10 CVEs. At the same time, Xint, Wiz, Rapid7, Metnir AI and Ikotas Labs disclosed "nginx2root". Several of these teams found the bugs independently. The two critical bugs are pre-auth remote code execution flaws in the HTTP/2 module (CVSS 9.2). CVE-2026-123007 is memory corruption (an integer underflow) in HTTP/2 flow control, present since 1.9.5 (2015). It hits the default config, even on servers that only serve static files. CVE-2026-123633 is an HTTP/2 use-after-free, mostly in reverse-proxy (proxy_pass) setups. Xint chained the nginx bugs with an unpatched Linux SCTP kernel zero-day to get from a container to host root. Researchers estimate millions of public servers are exposed (one estimate is 11.8M).</p><p><b>Exploitation status:</b> Rapid7 has published a working RCE PoC for CVE-2026-123007. It needs ~128 GB of HTTP/2 traffic on one connection and lands as the nginx worker. That slows mass exploitation, but scanning is expected. As of ~9:45 AM PT, no in-the-wild exploitation is reported. Kubernetes ingress-nginx is reportedly still unpatched and has HTTP/2 on by default.</p><p><b>Do now:</b> Upgrade to NGINX 1.31.9 / 1.30.7 (NGINX Plus 37.0.8.1 / 37.3.0.1). A full restart is required; a reload is not enough. Until you patch, set "http2 off;" on listeners. Block the sctp kernel module where you can.</p><p>Sources: <a href="https://nginx.org/en/security_advisories.html">nginx security advisories</a>, <a href="https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities">Wiz Research</a>, <a href="https://x.com/brian_pak/status/2123071121553854545">Xint (Brian Pak) on X</a>, <a href="https://x.com/wiz_io/status/2123072693042082117">Wiz on X</a></p>]]></description>
+    </item>
 <item>
       <title><![CDATA[Java4Shell: unauthenticated memory-corruption/RCE bug in OpenJDK 17+ (CVE-2026-114938) disclosed after leak, with Oracle patch out]]></title>
       <link>https://calif.io/java4shell/</link>
